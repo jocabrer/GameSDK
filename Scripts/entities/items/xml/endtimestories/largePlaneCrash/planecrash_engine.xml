@@ -1,0 +1,18 @@
+<item name="planecrash_engine" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2000.0"/>
+		<param name="display_name" value="planecrash_engine"/>
+		<param name="description" value="planecrash_engine"/>
+        <param name="no_icon" value="1"/>
+		<param name="physics" value="0"/> 
+		<param name="view_dist_min" value="4500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/endtimestories/largeplanecrash/plane_engine.cgf"/>
+	</geometry>
+
+
+</item>

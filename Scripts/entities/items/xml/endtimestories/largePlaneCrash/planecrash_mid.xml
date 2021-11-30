@@ -1,0 +1,18 @@
+<item name="planecrash_mid" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="7000.0"/>
+		<param name="display_name" value="planecrash_mid"/>
+		<param name="description" value="planecrash_mid"/>
+        <param name="no_icon" value="1"/>
+		<param name="physics" value="0"/> 
+		<param name="view_dist_min" value="4500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/endtimestories/largeplanecrash/plane_mid.cgf"/>
+	</geometry>
+
+
+</item>

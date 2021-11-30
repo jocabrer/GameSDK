@@ -1,0 +1,18 @@
+<item name="debris_01" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1000.0"/>
+		<param name="display_name" value="debris_01"/>
+		<param name="description" value="debris_01"/>
+        <param name="no_icon" value="1"/>
+		<param name="physics" value="0"/> 
+		<param name="view_dist_min" value="4500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/endtimestories/largeplanecrash/debris_01.cgf"/>
+	</geometry>
+
+
+</item>
