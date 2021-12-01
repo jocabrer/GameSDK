@@ -1,0 +1,43 @@
+<item name="ElectricalParts" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="25" />
+		<param name="display_name" value="Electrical Parts"/>
+		<param name="description" value="Various electrical parts that can be used with crafting"/>
+		<param name="vendor_cost" value="5"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/electrical_wires/electrical_wires.cgf"/>
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Scrap Metal"/>
+        <param name="action" value="convert"/>
+        <param name="param" value="ScrapMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Equipment"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/ElectricalParts_200.png?crc=B2C0637C"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="70009"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Equipment"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/ElectricalParts_2048.png?crc=B2C0637C"/>
+	</steam>
+</item>

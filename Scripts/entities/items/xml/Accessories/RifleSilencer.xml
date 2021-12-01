@@ -18,7 +18,7 @@
 	<usable>
 		<uses>
 			<use>
-				<param name="title" value="Salvage to Sheet Metal"/>
+				<param name="title" value="Convertir en 1 Sheet Metal"/>
 				<param name="action" value="convert"/>
 				<param name="param" value="SheetMetal"/>
 				<param name="soundUsed" value=""/>

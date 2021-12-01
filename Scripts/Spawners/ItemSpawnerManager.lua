@@ -272,9 +272,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{category = "Map", percent = 9 },
 				{category = "RandomConsumable", percent = 74, min = 1, max = 2 },
 				{category = "RandomCraftedTools", percent = 11, min = 1, max = 2 },
-				{category = "RandomMedical", percent = 2 },
-				{category = "RandomCrafting", percent = 1 },
-				{category = "RandomAccessory", percent = 3 },
+				{category = "RandomMedical", percent = 25 },
+				{category = "RandomCrafting", percent = 15 },
+				{category = "RandomAccessory", percent = 35 },
 			},
 		},
 
