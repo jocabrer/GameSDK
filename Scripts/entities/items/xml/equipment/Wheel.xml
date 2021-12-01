@@ -13,10 +13,10 @@
 	</geometry>
 
 	<usable>
-		<param name="title" value="Convertir en sheet metal"/>
+		<param name="title" value="Convertir en 1 Sheet Metal"/>
 		<param name="action" value="craft"/>
 		<param name="param" value="SheetMetal"/>
-		<param name="soundUsed" value=""/>
+		<param name="soundUsed" value="Play_chemlight_use"/>
 	</usable>
 
 

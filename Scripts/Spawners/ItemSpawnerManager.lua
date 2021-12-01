@@ -164,6 +164,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Jackal", percent = 10 },
 				{ class = "RocketLauncherNew", percent = 1 },
 				{ class = "Mk18Reaver", percent = 1 },
+				{ class = "GoldenCudgel1", percent = 10 }, 
 			},
 		},
 		
@@ -503,6 +504,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AmcoinLedger", percent = 5, min = 1, max = 5},
 				--{ class = "SAPOCBriefcaseClosed", percent = 1 },
 				--{ category = "RandomEggs", percent = 25 }, -- Easter event
+				{ class = "GoldenCudgel2", percent = 25 }, 
 				--{ class = "HalloweenBagBrute", percent = 30 }, -- Halloween event.
 				{ class = "ChristmasPresentRare", percent = 30 }, -- Christmas event
 			},
@@ -2642,6 +2644,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "ShoulderPadOneSideLeft", percent = 10 },
 				{ class = "NecklaceCrossGold", percent = 10 },
 				{ class = "NecklaceCrossSilver", percent = 15 },
+				{ class = "GoldenCudgel2", percent = 10 }, 
 			},
 		},
 

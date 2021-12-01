@@ -41,7 +41,7 @@
 <onground name="Objects/weapons/asval/asval_onground.cgf"/>
 </geometry>
 <usable>
-        <param name="title" value="Convertir en 1 Sheetmetal"/>
+        <param name="title" value="Convertir en 1 Sheet Metal"/>
         <param name="action" value="craft"/>
         <param name="param" value="SheetMetal"/>
         <param name="soundUsed" value=""/>

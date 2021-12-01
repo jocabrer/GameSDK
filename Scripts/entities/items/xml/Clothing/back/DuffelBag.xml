@@ -9,7 +9,7 @@
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="@DuffelBag"/>
-		<param name="description" value="Mochila negra bkn"/>
+		<param name="description" value="@DuffelBagDescription"/>
 		<param name="vendor_cost" value="4"/>
 	</params>
 	<wearable>
