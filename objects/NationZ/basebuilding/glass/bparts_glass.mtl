@@ -1,0 +1,31 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.46778381,0.46778381,0.46778381" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/shop_doors/shopdoor_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetV="0.001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/shop_doors/shopdoor_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/shop_doors/shopdoor_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="524450" Shader="Illum" GenMask="60000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="0.99000001" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/graham_wip/glass/glassdirty_.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="1.5"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/glass/glass_dirty_highspec_tint.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524450" Shader="Illum" GenMask="60000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="0.5" Shininess="255" AlphaTest="0.28" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/graham_wip/glass/glassdirty_.tif"/>
+    <Texture Map="Specular" File="textures/glass/glass_dirty_highspec_tint.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

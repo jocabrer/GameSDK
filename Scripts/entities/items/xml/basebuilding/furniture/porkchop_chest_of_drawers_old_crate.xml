@@ -1,0 +1,19 @@
+<item name="porkchop_chest_of_drawers_old_crate" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Chest of Drawers"/>
+		<param name="description" value="A Chest of Drawers"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/furniture/porkchop_chest_of_drawers_old.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="50"/>
+		</types>
+	</storage>
+</item>

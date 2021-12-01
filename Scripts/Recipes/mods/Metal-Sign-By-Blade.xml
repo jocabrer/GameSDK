@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- By https://steamcommunity.com/id/BLADE97930/ -->
+<recipes>
+   <guide name="default" id="0">
+      <cats>
+         <cat name="Base Building Expansion">
+            <subcats>
+               <subcat name="Sign for Boxes">
+                  <types>
+                     <type name="Sign">
+                        <items>                       
+                           <item class="ammo_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="carparts_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="clothing_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="components_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="explosiv_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="food_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="medical_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="metal_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="stones_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="tools_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="weapons_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                           <item class="wood_Blade" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                  </types>
+               </subcat>
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>
+ 

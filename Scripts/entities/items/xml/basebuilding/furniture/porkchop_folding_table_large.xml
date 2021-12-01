@@ -1,0 +1,24 @@
+<item name="porkchop_folding_table_large" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Folding Table"/>
+		<param name="description" value="A Folding Table"/>
+	</params>
+
+	<base_part class="static" type="8108" name="porkchop_folding_table_large" max_health="15000" repair_with="DuctTape">
+		<static filename="objects/basebuilding/furniture/porkchop_folding_table_large.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

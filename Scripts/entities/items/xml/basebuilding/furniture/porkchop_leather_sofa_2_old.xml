@@ -1,0 +1,24 @@
+<item name="porkchop_leather_sofa_2_old" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Leather Loveseat"/>
+		<param name="description" value="A Leather Loveseat"/>
+	</params>
+
+	<base_part class="static" type="8122" name="porkchop_leather_sofa_2_old" max_health="15000" repair_with="RK_Leather">
+		<static filename="objects/basebuilding/furniture/porkchop_leather_sofa_2_old.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,24 @@
+<item name="porkchop_couch_bunker" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Bunker Couch"/>
+		<param name="description" value="The Bunker Couch"/>
+	</params>
+
+	<base_part class="static" type="8110" name="porkchop_couch_bunker" max_health="15000" repair_with="RK_Leather">
+		<static filename="objects/basebuilding/furniture/porkchop_couch_bunker.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

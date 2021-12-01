@@ -1,0 +1,24 @@
+<item name="porkchop_elegant_chair_2_ottoman_old" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="White Leather Ottoman"/>
+		<param name="description" value="A White Leather Ottoman"/>
+	</params>
+
+	<base_part class="static" type="8117" name="porkchop_elegant_chair_2_ottoman_old" max_health="15000" repair_with="RK_Leather">
+		<static filename="objects/basebuilding/furniture/porkchop_elegant_chair_2_ottoman_old.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

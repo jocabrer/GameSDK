@@ -1,0 +1,24 @@
+<item name="porkchop_table_2" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="4"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Wood Table"/>
+		<param name="description" value="A Wood Table"/>
+	</params>
+
+	<base_part class="static" type="8132" name="porkchop_table_2" max_health="15000" repair_with="Lumber">
+		<static filename="objects/basebuilding/furniture/porkchop_table_2.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

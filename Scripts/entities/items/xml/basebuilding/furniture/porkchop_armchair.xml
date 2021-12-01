@@ -1,0 +1,24 @@
+<item name="porkchop_armchair" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Red Leather Armchair"/>
+		<param name="description" value="A Red Leather Armchair"/>
+	</params>
+
+	<base_part class="static" type="8131" name="porkchop_armchair" max_health="15000" repair_with="RK_Leather">
+		<static filename="objects/basebuilding/furniture/porkchop_armchair.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>
