@@ -1,0 +1,21 @@
+<item name="SCAAMEncryptedFloppyDisk" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Floppy disk"/>
+		<param name="description" value="A floppy disk with no label, what it contains is unknown"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/SCAAMCuartas/FloppyDiskEncrypted/floppydiskencrypted.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="floppy_disk"/>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

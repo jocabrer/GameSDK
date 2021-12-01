@@ -1,0 +1,21 @@
+<item name="SCAAMAmalgamatedTerminalManager" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="view_dist_min" value="8192"/>
+		<param name="display_name" value="Amalgamated terminal manager"/>
+		<param name="description" value="Manager for the amalgamated terminal mod"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/SCAAMCuartas/AmalgamatedTerminalManager/spectator.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

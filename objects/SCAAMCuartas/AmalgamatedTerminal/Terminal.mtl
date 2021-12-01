@@ -1,0 +1,24 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Terminal" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.70110202,0.70110202,0.70110202" Specular="1,1,1" Opacity="1" Shininess="50" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/scaamcuartas/amalgamatedterminal/terminal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/scaamcuartas/amalgamatedterminal/terminal_ddna.tif"/>
+    <Texture Map="Specular" File="objects/scaamcuartas/amalgamatedterminal/terminal_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Screen" MtlFlags="526468" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.60382748,0.60382748,0.60382748" Specular="0,0,0" Emittance="0.3467041,0.3467041,0.3467041,7" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/scaamcuartas/amalgamatedterminal/terminal_screen.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="1.6" OffsetV="-0.64999998"/>
+    </Texture>
+   </Textures>
+   <PublicParams GrainAmount="0.117" DeformAmount="0" DeformTillingY="1" GrainTilling="0.99000001" ResolutionX="768" ResolutionY="1360" InterlacingTilling="4.0900002" Contrast="1.01" Saturation="0.81999999" DeformTillingX="1" GrainSaturation="0" FresnelScale="1.05" InterlacingAmount="0.153" VSyncFreq="16" PixelVisibility="0.072999999" FresnelBias="1" ChromaShift="0" ViewAngle="180" DeformFreq="0"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.80000001,0.80000001,0.80000001" Specular="1,1,1" Opacity="1" Shininess="50" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

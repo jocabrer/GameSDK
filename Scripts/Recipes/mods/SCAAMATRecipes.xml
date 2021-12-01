@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="workbench">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Utilities">
+						<items>
+							<item class="SCAAMAmalgamatedTerminal_packed" time="25">
+								<materials>
+									<material class="SheetMetal" count="20" />
+									<material class="CarBattery" count="2" />
+									<material class="Amalgaduino" count="10" />
+									<material class="Nails" count="10" />
+								</materials>
+							</item>
+							<item class="SCAAMCCTVCamera" time="15">
+								<materials>
+									<material class="SheetMetal" count="2" />
+									<material class="Amalgaduino" count="3" />
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

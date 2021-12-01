@@ -1,0 +1,145 @@
+<UIElements name="mod_SCAAMAmalgamatedTerminalUI">
+  <UIElement name="mod_SCAAMAmalgamatedTerminalUI" mouseevents="1" keyevents="1" cursor="1" controller_input="0" render_lockless="1">
+    <GFx file="SCAAMAmalgamatedTerminal/SCAAMAmalgamatedTerminal.gfx" layer="1">
+      <Constraints>
+        <Align mode="dynamic" valign="center" halign="center" scale="1" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="showModal" funcname="showModal">
+        <param name="title" desc="" type="string" />
+        <param name="content" desc="" type="string" />
+      </function>
+      <function name="InitializeTerminal" funcname="InitializeTerminal">
+        <param name="rawData" desc="" type="string" />
+      </function>
+      <function name="UpdateTerminal" funcname="UpdateTerminal">
+        <param name="rawData" desc="" type="string" />
+      </function>
+      <function name="FireChildMCFunction" funcname="FireChildMCFunction">
+        <param name="functionName" desc="" type="string" />
+        <param name="data" desc="" type="string" />
+      </function>
+      <function name="FillSelectionData" funcname="FillSelectionData"></function>
+      <function name="FillCamData" funcname="FillCamData">
+        <param name="rawData" desc="" type="string" />
+        <param name="selectedCamera" desc="" type="int" />
+      </function>
+      <function name="SetCameraFound" funcname="SetCameraFound"></function>
+      <function name="SetCameraNotFound" funcname="SetCameraNotFound"></function>
+    </functions>
+    <events>
+      <event name="DisplayMessage" fscommand="DisplayMessage" desc="">
+        <param name="message" desc="the traced message" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <!-- Main Menu Events -->
+      <event name="CloseTerminal" fscommand="CloseTerminal" desc=""></event>
+      <event name="MoveApplications" fscommand="MoveApplications" desc="">
+        <param name="appOneInstance" desc="app one instance name" type="string" /> <!-- int, string, bool, float -->
+        <param name="appOneSlot" desc="app one slot destiny" type="int" />
+        <param name="appTwoInstance" desc="app two instance name" type="string" />
+        <param name="appTwoSlot" desc="app two slot destiny" type="int" />
+      </event>
+      <!-- Trade Events -->
+      <event name="GetMarketData" fscommand="GetMarketData" desc="">
+        <param name="page" desc="page number of the trade list" type="int" /> <!-- int, string, bool, float -->
+        <param name="itemFilter" desc="item classname to filter" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetMarketItemData" fscommand="GetMarketItemData" desc="">
+        <param name="itemId" desc="market item id" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="AttemptTrade" fscommand="AttemptTrade" desc="">
+        <param name="itemId" desc="the trade item Id in the market" type="int" /> <!-- int, string, bool, float -->
+        <param name="itemIndex" desc="the last known index for this item in the table" type="int" /> <!-- int, string, bool, float -->
+        <param name="tradeAmount" desc="the amount the player wants to trade" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetMyMarketData" fscommand="GetMyMarketData" desc=""></event>
+      <event name="GetMyMarketItemData" fscommand="GetMyMarketItemData" desc="">
+        <param name="myItemId" desc="my market item id" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetStorageItemData" fscommand="GetStorageItemData" desc="">
+        <param name="storageItemId" desc="storage item id" type="int" /> <!-- int, string, bool, float -->
+        <param name="storageItemName" desc="storage classname" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetMyOffersData" fscommand="GetMyOffersData" desc=""></event>
+      <event name="GetStorageData" fscommand="GetStorageData" desc=""></event>
+      <event name="AttemptItemRemoval" fscommand="AttemptItemRemoval" desc="">
+        <param name="myItemId" desc="my market item id" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="AttemptStorageItemClaim" fscommand="AttemptStorageItemClaim" desc="">
+        <param name="storageItemId" desc="storage item id" type="int" /> <!-- int, string, bool, float -->
+        <param name="storageItemName" desc="storage classname" type="string" /> <!-- int, string, bool, float -->
+        <param name="claimAmount" desc="the amount the player wants to claim" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetItemData" fscommand="GetItemData" desc="">
+        <param name="grabSelectorData" desc="flag to bring the item selector data" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="AttemptAddingItem" fscommand="AttemptAddingItem" desc="">
+        <param name="addItemId" desc="item entity id" type="int" /> <!-- int, string, bool, float -->
+        <param name="addItemName" desc="item classname" type="string" /> <!-- int, string, bool, float -->
+        <param name="selectedItem" desc="item classname the player wants in exchange" type="string" /> <!-- int, string, bool, float -->
+        <param name="addAmount" desc="the amount the player wants to add from their item" type="int" /> <!-- int, string, bool, float -->
+        <param name="addAmountToTrade" desc="the amount the player wants from the item selected for exchange" type="int" /> <!-- int, string, bool, float -->
+        <param name="addComment" desc="the comment from the player for this trade" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <!-- Message Events -->
+      <event name="GetMessagesData" fscommand="GetMessagesData" desc=""></event>
+      <event name="OpenMessage" fscommand="OpenMessage" desc="">
+        <param name="messageId" desc="id of the message" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="RemoveMessage" fscommand="RemoveMessage" desc="">
+        <param name="messageId" desc="id of the message" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="AttemptSendMessage" fscommand="AttemptSendMessage" desc="">
+        <param name="terminalId" desc="terminal id" type="int" /> <!-- int, string, bool, float -->
+        <param name="messageTitle" desc="message title" type="string" /> <!-- int, string, bool, float -->
+        <param name="messageContent" desc="message content" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <!-- Installer Events -->
+      <event name="ReadDisk" fscommand="ReadDisk" desc="">
+        <param name="diskSlot" desc="slot number of the floppy disk on inventory" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="InstallApp" fscommand="InstallApp" desc="">
+        <param name="appName" desc="app/game to be installed" type="string" /> <!-- int, string, bool, float -->
+        <param name="appType" desc="app/game type to installed" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <!-- Camera Events -->
+      <event name="GetCamerasData" fscommand="GetCamerasData" desc=""></event>
+      <event name="ChangeCamera" fscommand="ChangeCamera" desc="">
+        <param name="cameraPos" desc="camera string position" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="StopCameras" fscommand="StopCameras" desc=""></event>
+      <event name="ChangeCameraDirection" fscommand="ChangeCameraDirection" desc="">
+        <param name="cameraDir" desc="camera direction" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <!-- Iron Sons Events -->
+      <event name="ReadConsoleDisk" fscommand="ReadConsoleDisk" desc="">
+        <param name="diskSlot" desc="slot number of the floppy disk on inventory" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="GetEncryptedDiskData" fscommand="GetEncryptedDiskData" desc=""></event>
+      <!-- Settings Events -->
+      <event name="SelectPermission" fscommand="SelectPermission" desc="">
+        <param name="appName" desc="name of the application being edited" type="string" /> <!-- int, string, bool, float -->
+        <param name="permission" desc="permission level" type="int" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="ChangeBackground" fscommand="ChangeBackground" desc="">
+        <param name="background" desc="selected background name" type="string" /> <!-- int, string, bool, float -->
+      </event>
+      <event name="MoveApplications" fscommand="MoveApplications" desc="">
+        <param name="appName" desc="name of the application being edited" type="string" /> <!-- int, string, bool, float -->
+        <param name="newSlot" desc="new slot for the application" type="int" /> <!-- int, string, bool, float -->
+        <param name="appName2" desc="name of the second application being edited" type="string" /> <!-- int, string, bool, float -->
+        <param name="newSlot2" desc="new slot for the second application" type="int" /> <!-- int, string, bool, float -->
+      </event>
+    </events>
+    <variables>
+      <variable name="CurrentFrame" varname="CurrentFrame"/>
+      <variable name="MessageContent" varname="MessageContent"/>
+    </variables>
+    <arrays>
+      <array name="ItemArray" varname="ItemArray"/>
+    </arrays>
+    <MovieClips>
+    </MovieClips>
+  </UIElement>
+</UIElements>

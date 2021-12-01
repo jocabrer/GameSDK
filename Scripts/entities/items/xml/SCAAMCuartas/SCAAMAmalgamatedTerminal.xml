@@ -1,0 +1,19 @@
+<item name="SCAAMAmalgamatedTerminal" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Amalgamated terminal"/>
+		<param name="description" value="A terminal device to manage various things in your base."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/SCAAMCuartas/AmalgamatedTerminal/terminal.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="2"/>
+		</types>
+	</storage>
+</item>

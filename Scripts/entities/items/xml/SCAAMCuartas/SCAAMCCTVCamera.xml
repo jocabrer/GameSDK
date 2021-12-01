@@ -1,0 +1,25 @@
+<item name="SCAAMCCTVCamera" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="display_name" value="CCTV Camera"/>
+		<param name="description" value="A placeable surveillance camera"/>
+		
+		<param name="place_restrict_snap" value="sticky"/>
+	</params>
+
+	<base_part class="static" type="7635" name="SCAAMCCTVCamera" max_health="3000" repair_with="SheetMetal">
+		<static filename="objects/SCAAMCuartas/CCTVCamera/camera1.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

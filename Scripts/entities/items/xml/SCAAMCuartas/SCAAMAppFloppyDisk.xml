@@ -1,0 +1,21 @@
+<item name="SCAAMAppFloppyDisk" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Floppy disk app"/>
+		<param name="description" value="A floppy disk containing an application stored"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/SCAAMCuartas/FloppyDiskApp/floppydiskapp.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="floppy_disk"/>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>
