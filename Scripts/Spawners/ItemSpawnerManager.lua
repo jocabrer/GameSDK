@@ -155,10 +155,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "M50Skins", percent = 1 },
 				{ class = "ArmoredGhillieHood", percent = 7 },
 				{ class = "ArmoredGhillieSuit", percent = 7 },
-				{ class = "L1AR", percent = 10 },
 				{ class = "Deagle", percent = 10 },
 				{ class = "Subjugator", percent = 5 },
-				{ class = "SCAR-H", percent = 15 },
 				{ class = "Model1873", percent = 12 },
 				{ class = "Peacemaker", percent = 10 },
 				{ class = "Jackal", percent = 10 },
@@ -174,7 +172,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ category = "Mk18ReaverWithMagazines", percent = 50 },
 				{ category = "SubjugatorWithMagazines", percent = 2 },
-				{ category = "L1ARWithMagazines", percent = 10 },
 				{ category = "AKMGoldWithMagazines", percent = 30 },
 				{ category = "ColtPythonGrimeyRickWithRounds", percent = 25 },
 				{ category = "M4A1WithMagazines", percent = 15 },
@@ -182,7 +179,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "VSSWithMagazines", percent = 5 },
 				{ category = "RPKWithMagazines", percent = 5 },
 				{ category = "M4V5WithMagazines", percent = 5 },
-				{ category = "G36CWithMagazines", percent = 20 },
 				{ category = "HK416WithRounds", percent = 20 },
 				{ category = "SCARWithMagazines", percent = 20 },
 				{ category = "PeacemakerWithMagazines", percent = 3 },
@@ -658,7 +654,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "GrenadeGasSleepPickup", percent = 1 },
 				{ class = "MagliteSmall", percent = 5 },
 				{ class = "PistolSilencer", percent = 3 },
-				{ category = "CamoSilencer", percent = 2 },
 				{ class = "Megaphone", percent = 2 },
 				{ class = "PoliceBaton", percent = 1 },
 				{ class = "StunBaton", percent = 1 },
@@ -705,7 +700,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "M4A1WithMagazines", percent = 30 },
 				{ category = "MP5WithMagazines", percent = 30 },
 				{ category = "SCARWithMagazines", percent = 3 },
-				{ category = "G36CWithMagazines", percent = 9 },
 				{ category = "ScorpionWithMagazines", percent = 11 },
 				--{ category = "MAC10WithMagazines", percent = 20 }, -- Disabled for new MAK10
 				{ category = "UZIWithMagazines", percent = 11 },
@@ -740,7 +734,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "GasMask", percent = 1 },
 				{ class = "FlashlightPistol", percent = 30 },
 				{ class = "PistolSilencer", percent = 3 },
-				{ category = "CamoSilencer", percent = 2 },
 				{ class = "Maglite", percent = 2 },
 				{ class = "MagliteSmall", percent = 3 },
 				{ class = "MilitaryCanteenPlastic", percent = 4 },
@@ -778,7 +771,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "AKMGoldWithMagazines", percent = 30 },
 				{ category = "M4A1WithMagazines", percent = 15 },
 				{ category = "SCARWithMagazines", percent = 15 },
-				{ category = "G36CWithMagazines", percent = 12 },
 				{ category = "AkValWithMagazines", percent = 15 },
 				{ category = "AK5DWithMagazines", percent = 15 },
 				{ category = "M97WithRounds", percent = 2 },			
@@ -897,8 +889,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "EggNog", percent = 0.5 },
 				{ class = "GingerBreadMan", percent = 0.5 },
 				{ class = "M4A1", percent = 2 },
-				{ class = "L1AR", percent = 2 },
-				{ class = "L1AR", percent = 2 },
 				{ class = "RPK", percent = 2 },
 				{ class = "AKMGold", percent = 2 },
 				{ class = "MK18Reaver", percent = 2 },
@@ -1004,8 +994,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "SkullMask", percent = 10 },
 				{ class = "SkullMaskGold", percent = 5 },
 				{ class = "M4A1", percent = 4 },
-				{ class = "L1AR", percent = 4 },
-				{ class = "L1AR", percent = 4 },
 				{ class = "RPK", percent = 2 },
 				{ class = "AKMGold", percent = 2 },
 				{ class = "MK18Reaver", percent = 2 },
@@ -1049,12 +1037,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RuggedPackGreenCamo2", contents="RandomBackpackContents", percent = 20 },
 				{ class = "RuggedPackGreenCamo3", contents="RandomBackpackContents", percent = 20 },
 				{ class = "RuggedPackGreenCamo4", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackBlue", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackOGreen", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackPink", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackPurple", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackRed", contents="RandomBackpackContents", percent = 20 },
-				{ class = "RuggedPackYellow", contents="RandomBackpackContents", percent = 20 },
 			},
 		},
 
@@ -1074,12 +1056,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RuggedPackGreenCamo2", contents="RandomBackpackAirPlaneContents", percent = 15 },
 				{ class = "RuggedPackGreenCamo3", contents="RandomBackpackAirPlaneContents", percent = 15 },
 				{ class = "RuggedPackGreenCamo4", contents="RandomBackpackAirPlaneContents", percent = 15 },
-				{ class = "RuggedPackBlue", contents="RandomBackpackContents", percent = 15 },
-				{ class = "RuggedPackOGreen", contents="RandomBackpackContents", percent = 15 },
-				{ class = "RuggedPackPink", contents="RandomBackpackContents", percent = 15 },
-				{ class = "RuggedPackPurple", contents="RandomBackpackContents", percent = 15 },
-				{ class = "RuggedPackRed", contents="RandomBackpackContents", percent = 15 },
-				{ class = "RuggedPackYellow", contents="RandomBackpackContents", percent = 15 },
 			},
 		},
 
@@ -1118,14 +1094,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "DuffelBagUrbanCamo2", contents="RandomBackpackContents", percent = 15 },
 				{ class = "DuffelBagUrbanCamo3", contents="RandomBackpackContents", percent = 15 },
 				{ class = "DuffelBagUrbanCamo4", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagBlue", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagLightBlue", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagOGreen", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagPink", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagPurple", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagRed", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagWhite", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagYellow", contents="RandomBackpackContents", percent = 15 },
+
 			},
 		},
 
@@ -1148,14 +1117,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "DuffelBagUrbanCamo2", contents="RandomBackpackAirPlaneContents", percent = 15 },
 				{ class = "DuffelBagUrbanCamo3", contents="RandomBackpackAirPlaneContents", percent = 15 },
 				{ class = "DuffelBagUrbanCamo4", contents="RandomBackpackAirPlaneContents", percent = 15 },
-				{ class = "DuffelBagBlue", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagLightBlue", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagOGreen", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagPink", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagPurple", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagRed", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagWhite", contents="RandomBackpackContents", percent = 15 },
-				{ class = "DuffelBagYellow", contents="RandomBackpackContents", percent = 15 },
 			},
 		},
 
@@ -3287,16 +3248,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "scorpion_mag" },
 			},
 		},
-		
-		{
-			category = "G36CWithMagazines",
-			group =
-			{
-				{ class = "G36C" },
-				{ class = "g36c_mag" },
-			},
-		},
-		
 		{
 			category = "PeacemakerWithMagazines",
 			group =
@@ -3315,15 +3266,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			},
 		},
 				
-		{
-			category = "L1ARWithMagazines",
-			group =
-			{
-				{ class = "L1AR" },
-				{ class = "l1ar_mag" },
-			},
-		},
-		
 		{
 			category = "SubjugatorWithMagazines",
 			group =
@@ -3352,15 +3294,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			},
 		},
 		
-		{
-			category = "SCARWithMagazines",
-			group =
-			{
-				{ class = "SCAR-H" },
-				{ class = "STANAGx30" },
-			},
-		},
-
 		{
 			category = "M4A1WithMagazines",
 			group =
@@ -4151,8 +4084,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "ColtPythonGrimeyRick", percent = 1 },
 				{ class = "Mk18Reaver", percent = 1 },
 				{ class = "M4A1", percent = 6 },
-				{ class = "SCAR-H", percent = 4 },
-				{ class = "G36C", percent = 6 },
 				{ class = "AKVal", percent = 5 },
 				{ class = "SAS12", percent = 5 },
 				{ class = "AK5D", percent = 5 },
@@ -4183,7 +4114,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AK74U", percent = 5 },
 				{ class = "ColtPythonGrimeyRick", percent = 5 },
 				{ class = "Mk18Reaver", percent = 5 },
-				{ class = "G36C", percent = 2 },
 				--{ class = "mac10", percent = 6 }, -- Disabled for new MAK10
 				{ class = "uzi", percent = 7 },
 				{ class = "MAK10", percent = 6 },
@@ -4260,13 +4190,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "LaserSight", percent = 9 },
 				{ class = "LaserSightGreen", percent = 5 },
 				{ class = "LaserSightBlue", percent = 5 },
-				{ category = "CamoOpticScope", percent = 9 },
 				{ class = "OpticScopeBow", percent = 5 },
 				{ class = "PistolSilencer", percent = 3 },
 				{ class = "ReflexSight", percent = 9 },
 				{ class = "T1Micro", percent = 9 },
 				{ class = "ReflexSightBow", percent = 4 },
-				{ category = "CamoSilencer", percent = 2 },
 				{ class = "ForegripVertical", percent = 4 },
 				{ class = "BayonetRifle", percent = 6 },
 				{ class = "IronsightKit", percent = 6 },
@@ -4279,8 +4207,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "ext_556x75", percent = 1 },
 				{ class = "ext_762x75", percent = 1 },
 				{ class = "akval_drummag_75rnd", percent = 1 },
-				{ class = "g36c_drummag_100rnd", percent = 2 },
-				{ class = "l1ar_drummag_50rnd", percent = 2 },
 				{ class = "m14_drummag_50rnd", percent = 1 },
 			},
 		},
@@ -4340,10 +4266,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Pile_Flare", percent = 1 },
 				{ class = "Pile_TranquilizerDart", percent = 5 },
 				{ class = "STANAGx30", percent = 40 },
-				{ class = "STANAGx40", percent = 60 },
 				{ class = "50calx7", percent = 3 },
-				{ class = "l1ar_mag", percent = 12 },
-				{ class = "g36c_mag", percent = 10 },
 				{ class = "Pile_50cal", percent = 3 },
 				{ class = "mag_m14", percent = 8 },
 				{ class = "762x40", percent = 60 },
@@ -4362,9 +4285,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Pile_40mmIncendiaryGrenade", percent = 0.75, min = 1, max = 1 },
 				{ category = "Random40mmTacticalGrenades", percent = 1.5, min = 1, max = 1 },
 				{ category = "Random40mmSmokeGrenades", percent = 2, min = 1, max = 1 },
-				{ class = "l1ar_mag_30rnd", percent = 6 },
 				{ class = "mag_m14_30rnd", percent = 4 },
-				{ class = "g36c_mag_40rnd", percent = 4 },
 				{ class = "556x40_ak5d", percent = 7 },
 				{ class = "762x30_Akval", percent = 2 },
 				{ class = "9x19_mac10_40rnd", percent = 10 },
@@ -4372,8 +4293,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "ext_556x75", percent = 2 },
 				{ class = "ext_762x75", percent = 2 },
 				{ class = "akval_drummag_75rnd", percent = 3 },
-				{ class = "g36c_drummag_100rnd", percent = 2 },
-				{ class = "l1ar_drummag_50rnd", percent = 2 },
 				{ class = "m14_drummag_50rnd", percent = 2 },
 				{ class = "Mk18Reaver", percent = 2 },
 				{ class = "SalazarSkull", percent = 1 },
@@ -4457,8 +4376,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "Wasteland22WithRounds", percent = 6 },
 				{ category = "M4A1WithMagazines", percent = 8 },
 				{ category = "SCARWithMagazines", percent = 8 },
-				{ category = "G36CWithMagazines", percent = 6 },
-				{ category = "L1ARWithMagazines", percent = 8 },
 				{ category = "AkValWithMagazines", percent = 5 },
 				{ category = "SAS12WithRounds", percent = 5 },
 				{ category = "AK5DWithMagazines", percent = 5 },
@@ -5104,28 +5021,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomSilencer",
 			classes =
 			{
-				{ class = "RifleSilencer", percent = 10 },
-				{ class = "PistolSilencer", percent = 90 },
-			},
-		},
-		
-		{
-			category = "CamoSilencer",
-			classes =
-			{
-				{ class = "RifleSilencer", percent = 80 },
-				{ class = "RifleSilencerRealCamo", percent = 10 },
-				{ class = "RifleSilencerRealCamoDesert", percent = 10 },
-			},
-		},
-		
-		{
-			category = "CamoOpticScope",
-			classes =
-			{
-				{ class = "OpticScope", percent = 34 },
-				{ class = "OpticScopeRealCamo", percent = 33 },
-				{ class = "OpticScopeRealCamoDesert", percent = 33 },
+				{ class = "RifleSilencer", percent = 15 },
+				{ class = "PistolSilencer", percent = 85 },
 			},
 		},
 		
@@ -5573,7 +5470,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Mk18Reaver", percent = 2 },
 				{ category = "RandomMetalParts", percent = 6 },
 				{ category = "RandomMetalParts", percent = 3 },
-				{ class = "SCAR-H", percent = 15 },
 				{ category = "ACAWSkins", percent = 50 },
 				{ class = "AKM", percent = 50 },
 				{ class = "762x40", percent = 100 },
@@ -5626,7 +5522,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "MushroomAntiRad", percent = 100, min = 5, max = 5 },
 				{ class = "PotassiumIodidePills", percent = 100, min = 3, max = 3 },
 				{ class = "WaterPurificationTablets", percent = 100, min = 3, max = 3 },
-				{ class = "SCAR-H", percent = 15 },
 				{ class = "Mk18Reaver", percent = 2 },
 				{ category = "RandomMetalParts", percent = 6 },
 				{ category = "RandomMetalParts", percent = 3 },
@@ -5752,7 +5647,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomMetalParts", percent = 3 },
 				{ class = "DuffelBagBlack", percent = 100 },
 				{ class = "DuffelBagBlack", percent = 100 },
-				{ class = "SCAR-H", percent = 15 },
 				{ class = "M4A1", percent = 20 },
 				{ class = "Subjugator", percent = 5 },
 				{ class = "AmcoinLedger", percent = 50, min = 10, max = 58 },
@@ -5761,7 +5655,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAmmo", percent = 60 },
 				{ category = "RandomAmmo", percent = 60 },
 				{ category = "RandomAmmo", percent = 60 },
-				{ category = "CamoOpticScope", percent = 100 },
 				{ class = "ForegripVertical", percent = 100 },
 				{ class = "Pile_12GaugePellet", percent = 100 },
 				{ class = "Pile_12GaugeSlug", percent = 100 },
@@ -5953,15 +5846,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAmmoBox", percent = 100 },
 				{ category = "RandomAmmoBox", percent = 100 },
 				{ category = "RandomAccessory", percent = 100 },
-				{ class = "SCAR-H", percent = 15 },
 				{ category = "RandomMilitaryClothing", percent = 100 },
 				{ category = "RandomMilitaryClothing", percent = 100 },
 				{ category = "RandomMilitaryClothing", percent = 100 },
 				{ category = "M50Skins", percent = 2 },
-				{ class = "G36C", percent = 20 },
 				{ class = "M4A1", percent = 20 },
-				{ class = "L1AR", percent = 20 },
-				{ class = "l1ar_mag", percent = 20 },
 				{ class = "T1MicroJackal", percent = 20 },
 				{ class = "Jackal", percent = 20 },
 				{ class = "SAPOCBriefcaseClosed", percent = 1 },
@@ -5985,7 +5874,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "ArmoredGhillieSuit", percent = 10 },
 				{ class = "ArmoredGhillieHood", percent = 10 },
 				{ class = "AmcoinLedger", percent = 1, min = 5, max = 25 },
-				{ category = "CamoOpticScope", percent = 30 },
 				{ class = "FlashbangPickup", percent = 100 },
 				{ category = "RandomMilitaryBodyArmor", percent = 80 },
 				{ category = "RandomMilitaryBodyArmor", percent = 80 },
@@ -6362,9 +6250,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RPK", percent = 10 },
 				{ class = "M4V5", percent = 10 },
 				{ class = "AKMGold", percent = 10 },
-				{ class = "G36C", percent = 10 },
-				{ class = "SCAR-H", percent = 10 },
-				{ class = "L1AR", percent = 10 },
 			},
 		},
 
@@ -6447,7 +6332,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "LaserSight", percent = 9 },
 				{ class = "LaserSightGreen", percent = 8 },
 				{ class = "LaserSightBlue", percent = 9 },
-				{ category = "CamoOpticScope", percent = 8 },
 				{ category = "CamoHuntingScope", percent = 8 },
 				{ class = "PistolSilencer", percent = 8 },
 				{ class = "ReflexSight", percent = 8 },

@@ -35,7 +35,6 @@
 
 	<magazines>
 		<magazine name="STANAGx30"/>
-		<magazine name="STANAGx40"/>
 		<magazine name="ext_556x75"/>		
 	</magazines>
 
@@ -354,11 +353,7 @@
 			<detach/>
 			<show helper="mag_stanag"/>
 		</accessory>
-		<accessory name="STANAGx40" category="magazine" exclusive="1">
-			<attach helper="mag_stanag"/>
-			<detach/>
-			<show helper="mag_stanag"/>
-		</accessory>
+	
 		<accessory name="ext_556x75" category="magazine" exclusive="1">
 			<attach helper="mag_ext_556_cmag"/>
 			<detach/>

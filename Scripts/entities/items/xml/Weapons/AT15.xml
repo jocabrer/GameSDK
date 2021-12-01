@@ -35,7 +35,6 @@
 
 	<magazines>
 		<magazine name="STANAGx30"/>
-		<magazine name="STANAGx40"/>
 		<magazine name="ext_556x75"/>		
 	</magazines>
 
@@ -46,7 +45,7 @@
 	</geometry>
 
 	<usable>
-        <param name="title" value="Conmver to Sheet Metal"/>
+        <param name="title" value="Convertir en 1 Sheet Metal"/>
         <param name="action" value="craft"/>
         <param name="param" value="SheetMetal"/>
         <param name="soundUsed" value=""/>
@@ -409,11 +408,6 @@
 	<accessories>
 		<!-- MAGAZINE -->
 		<accessory name="STANAGx30" category="magazine" exclusive="1">
-			<attach helper="mag_stanag"/>
-			<detach/>
-			<show helper="mag_stanag"/>
-		</accessory>
-		<accessory name="STANAGx40" category="magazine" exclusive="1">
 			<attach helper="mag_stanag"/>
 			<detach/>
 			<show helper="mag_stanag"/>
