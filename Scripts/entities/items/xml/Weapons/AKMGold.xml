@@ -415,6 +415,41 @@
 			<detach/>
 			<show helper="mag_ext_762x75"/>
 		</accessory>
+		<!-- BARREL END -->
+		<accessory name="RifleSilencer" category="barrelend" exclusive="1">
+			<attach helper="silencer"/>
+			<detach/>
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<fire>
+							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
+							<param name="sound_radius" value="10.0"/>
+						</fire>
+						<muzzleflash>
+							<thirdperson effect="" helper="muzzleflash_effect"/>
+						</muzzleflash>
+					</firemode>
+				</firemodes>
+			</params>
+		</accessory>
+		<accessory name="CraftedSilencer" category="barrelend" exclusive="1" health_reduction_per_shot="24.0"> <!-- CraftedSilencer has 50 HP -->
+			<attach helper="silencer"/>
+			<detach/>
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<fire>
+							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
+							<param name="sound_radius" value="10.0"/>
+						</fire>
+						<muzzleflash>
+							<thirdperson effect="" helper="muzzleflash_effect"/>
+						</muzzleflash>
+					</firemode>
+				</firemodes>
+			</params>
+		</accessory>
 		<!-- SCOPES -->
 		<accessory name="IronsightKit" zoommode="ironsight" category="scope" exclusive="1">
 			<attach helper="iron_sight"/>
