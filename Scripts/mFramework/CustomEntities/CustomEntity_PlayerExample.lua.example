@@ -1,0 +1,47 @@
+-- mFramework CustomPlayer Example
+-- ────────────────────────────────────────────────────────────────────────────────
+-- CheckOrCreate the Base CustomEntity Table
+-- These Must all Exist.
+--[[
+    [table].Methods = {
+        Server = {},
+        Client = {}
+    },
+    [table].Expose = {
+        ServerProperties = {},
+        ServerMethods = {},
+        ClientMethods = {}
+    }
+]]
+--[[    Example     ]]
+-- Define our CustomEntity
+-- for info on possible values read the doc here
+-- http://tiny.cc/tbbuhz
+--
+--[[
+    local CustomPlayer = {
+        Methods = {
+            Client = {
+                Cl_WriteToClientLog = function (self,msg)
+                    if msg then
+                        Log(msg)
+                    end
+                end
+            },
+            Server = {
+            },
+        },
+        Expose = {
+            ServerProperties = {},
+            ClientMethods = {
+                Cl_WriteToClientLog = {RELIABLE_ORDERED, PRE_ATTACH, STRING}
+            },
+            ServerMethods = {}
+        }
+    }
+]]
+-- ReExpose the Class an Log the Result
+--[[
+    local e_status, e_result = mReExpose(Player, CustomPlayer.Methods, CustomPlayer.Expose)
+    Log(" ReEposing Player Result: " .. tostring(e_status or "Failed") .. " " .. tostring(e_result or ""))
+]]
