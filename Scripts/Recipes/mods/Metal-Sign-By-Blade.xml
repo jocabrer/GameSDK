@@ -3,11 +3,11 @@
 <recipes>
    <guide name="default" id="0">
       <cats>
-         <cat name="Base Building Expansion">
+         <cat name="Base Building">
             <subcats>
-               <subcat name="Sign for Boxes">
+               <subcat name="Decorations">
                   <types>
-                     <type name="Sign">
+                     <type name="Sign by Blade">
                         <items>                       
                            <item class="ammo_Blade" time="1">
                               <materials>

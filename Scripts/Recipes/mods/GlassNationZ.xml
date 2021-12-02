@@ -3,11 +3,11 @@
 <recipes>
 	<guide name="default" id="0">
 		<cats>
-			<cat name="Base Building Expansion">
+			<cat name="Base Building">
 				<subcats>
-					<subcat name="Structures">
+					<subcat name="Glass">
 						<types>
-							<type name="Glass Walls">
+							<type name="Walls">
 								<items>
 									<item class="glass_doorway_3m_2m" time="3">
 										<materials>
@@ -151,7 +151,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="Glass Doors">
+							<type name="Doors">
 								<items>	
 									<item class="glass_door_2m_1m" time="3">
 										<materials>

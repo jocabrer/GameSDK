@@ -1,0 +1,14 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.14995982,0.14995982,0.14995982" Opacity="1" Shininess="134" CloakAmount="0" vertModifType="12" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/structures/dock/textures/tileconcrete_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.40000001" OffsetU="-0.40000001" TileV="0.34999999" OffsetV="0.40000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/structures/dock/textures/tileconcrete_ddna.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.30000001" OffsetU="-0.1" TileV="0.30000001" OffsetV="0.2"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="12" DividerX="9.9999997e-006" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.001" Level="1e-006" Phase="0" Freq="0"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,27 @@
+<Material MtlFlags="524544" vertModifType="12">
+ <VertexDeform Type="12" DividerX="0.00015000001" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0" Level="0.00022" Phase="0" Freq="0"/>
+ </VertexDeform>
+ <SubMaterials>
+  <Material Name="tileconcrete_white9" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.010960096,0.010960096,0.010960096" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="219" CloakAmount="0" vertModifType="12" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fallout_shelter/textures/cracked_concrete_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.30000001" OffsetV="-0.40000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/structures/dock/textures/tileconcrete_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="12" DividerX="0.00015000001" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0" Level="0.00022" Phase="0" Freq="0"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="40400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/architecture/fallout_shelter/textures/cracked_concrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fallout_shelter/textures/cracked_concrete_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.375" DecalFalloff="50.099998" DecalAlphaMult="4.75" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

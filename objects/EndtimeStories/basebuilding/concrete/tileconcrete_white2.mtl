@@ -1,0 +1,45 @@
+<Material MtlFlags="524544" vertModifType="12">
+ <VertexDeform Type="12" DividerX="9.9999997e-005" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0" Level="0.00019999999" Phase="0" Freq="0"/>
+ </VertexDeform>
+ <SubMaterials>
+  <Material Name="tileconcrete_white2" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,0,0" Specular="0.027320893,0.027320893,0.027320893" Emittance="1,1,1,0.1" Opacity="1" Shininess="244" CloakAmount="0" vertModifType="12" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/dock/textures/concrete_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/structures/dock/textures/tileconcrete_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="12" DividerX="9.9999997e-005" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0" Level="0.00019999999" Phase="0" Freq="0"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,0,0" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="12" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/dock/textures/tileconcrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/dock/textures/tileconcrete_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="12" DividerX="9.9999997e-005" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="1" Level="1.9999999e-005" Phase="1" Freq="0.1"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="20" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/endtimestories/billboard/esposter2.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.059999999" OffsetU="-0.5" TileV="0.25" OffsetV="-0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.26225069,0.2383976,0.03954624" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="12" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/dock/textures/tileconcrete_diff.tif"/>
+   </Textures>
+   <VertexDeform Type="12" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.1" Level="9.9999997e-005" Phase="0.1" Freq="0.1"/>
+   </VertexDeform>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

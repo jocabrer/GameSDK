@@ -1,0 +1,26 @@
+<item name="guide_ammunition" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="display_name" value="Amunnition Guide"/>
+		<param name="description" value="A guide on advanced ammunition crafting"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/crafting_guides/guide_advanced.cgf"/>
+	</geometry>
+
+	<usable>
+		<param name="action" value="guide"/>
+		<param name="param" value="43"/>
+		<param name="soundUsed" value="Play_book_page_turn"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

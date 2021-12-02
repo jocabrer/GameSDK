@@ -1,0 +1,9 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0,0,0" Specular="0.16513222,0.13843164,0.029556841" Opacity="1" Shininess="240" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/structures/dock/textures/tileconcrete_diff.tif">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/structures/dock/textures/tileconcrete_ddna.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

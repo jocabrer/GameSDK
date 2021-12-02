@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <guide name="guide_concrete" id="52">
+        <cats>
+            <cat name="Base Building">
+                <subcats>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Walls">
+                                <items>
+                                    <item class="concrete_wall_3m_2m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_16m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_door_3m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_window_3m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_2m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3x3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_2m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_16m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_door_3m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_window_3m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_2m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3x3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_2m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_16m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_door_3m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_window_3m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_2m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3x3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_2m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_3m_16m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_door_3m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_wall_window_3m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_2m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_halfwall1_3x3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Platforms">
+                                <items>
+                                    <item class="concrete_platform_3m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_4m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_16m_16m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_3m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_4m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_16m_16m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_3m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_4m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_16m_16m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_3m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_4m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_platform_16m_16m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Foundation">
+                                <items>
+                                    <item class="concrete_foundation_4m_4m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_foundation_4m_4m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_foundation_4m_4m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_foundation_4m_4m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Columns">
+                                <items>
+                                    <item class="concrete_column_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_column_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_column_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_column_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Stairs">
+                                <items>
+                                    <item class="concrete_stairs_1m_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_1m_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_1m_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_1m_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_2m_1_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_2m_1_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_2m_1_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_stairs_2m_1_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs2_3m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs2_3m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs2_3m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_block_stairs2_3m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Ramps">                       
+                                <items>
+                                    <item class="concrete_ramp_3x4" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_ramp_3x4_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_ramp_3x4_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_ramp_3x4_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+                    </subcat>
+                    <subcat name="Concrete">   
+                        <types>
+                            <type name="Roofs">       
+                                <items>
+                                    <item class="concrete_roof" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_roof_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_roof_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_roof_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Rooms">
+                                <items>
+                                    <item class="concrete_room_c_shape_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_corner_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_column_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					                <item class="concrete_room_c_shape_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_corner_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_column_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					                <item class="concrete_room_c_shape" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_corner" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_column" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					                <item class="concrete_room_c_shape_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_corner_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_room_column_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                    <subcat name="Concrete">
+                        <types>
+                            <type name="Gatehouse">
+                                <items>
+                                    <item class="concrete_gatehouse_gate" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gatehouse_gate_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gatehouse_gate_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gatehouse_gate_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_z" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_z_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_z_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_z_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_down" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_down_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_down_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_gate_down_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                            <type name="Bridges">
+                                <items>
+                                    <item class="concrete_es_drawbridge_gate" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_gate_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_gate_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_gate_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_8m" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_8m_gold" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_8m_white" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_es_drawbridge_8m_black" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                            <type name="Other">
+                                <items>
+                                    <item class="concrete_slideplatform_4x4" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_slidewall_x_3x4" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_slidewall_y_3x4" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="concrete_spinwall_3x4" time="1">
+                                        <materials>
+                                           <material class="ConcreteBag" count="1" />
+                                        </materials>
+                                    </item>
+					            </items>
+                            </type>
+                        </types>
+			        </subcat>
+                </subcats>
+            </cat>
+            <cat name="Concrete">
+                <subcats>
+                    <subcat name="Components">
+                        <items>
+					        <item class="ConcreteBag" time="10">
+					            <materials>
+					                <material class="Rocks" count="5" />
+					                <material class="Charcoal" count="10" />
+					                <material class="sandbag_crafted_single" count="1" />
+					            </materials>
+				            </item>
+			            </items>
+		            </subcat>
+                </subcats>
+            </cat>
+        </cats>
+    </guide>
+</recipes>

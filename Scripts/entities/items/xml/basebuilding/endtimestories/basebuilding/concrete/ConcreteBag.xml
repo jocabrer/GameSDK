@@ -1,0 +1,31 @@
+<item name="ConcreteBag" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5.0"/>
+		<param name="stack_size" value="10"/>
+		<param name="display_name" value="Bag of cement"/>
+		<param name="description" value="Bag of cement. Can be used to make concrete structures."/>
+	</params>
+
+	<geometry>
+	<thirdperson name="Objects/EndtimeStories/basebuilding/concrete/cementbagNew.cgf" material="objects/endtimestories/basebuilding/concrete/concrete_bag"/>
+	</geometry>
+
+	<usable>
+		<uses>
+		<use>
+			<param name="title" value="Add cement"/>
+			<param name="action" value="fertilize"/>
+			<param name="soundUsed" value="Play_apply_fertilizer"/>
+			<param name="targetClassNames" value="concrete_mixer"/>
+		</use>
+		</uses>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,18 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.26225069,0.2383976,0.03954624" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="12" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/structures/dock/textures/tileconcrete_diff.tif"/>
+ </Textures>
+ <VertexDeform Type="12" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.1" Level="9.9999997e-005" Phase="0.1" Freq="0.1"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+ <MaterialLayers>
+  <Layer Name="Illum" NoDraw="0" FadeOut="0">
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Layer>
+  <Layer Name="Monitor" NoDraw="0" FadeOut="0">
+   <PublicParams GrainAmount="0.1" DeformAmount="0" DeformTillingY="1" GrainTilling="1" ResolutionX="512" ResolutionY="512" InterlacingTilling="0.25" Contrast="1" Saturation="1" DeformTillingX="1" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.5" FresnelBias="1" ChromaShift="0" ViewAngle="155" DeformFreq="0"/>
+  </Layer>
+  <Layer />
+ </MaterialLayers>
+</Material>

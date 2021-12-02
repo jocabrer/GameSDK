@@ -1,0 +1,18 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="524416" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_sand" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="sandbag" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_sand" MatTemplate="" Diffuse="0.21952623,0.16513222,0.14995982" Specular="0.068478175,0.035601322,0.017641956" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/medcan/cementbag_texture.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.80000001" OffsetU="-1.2" OffsetV="0.11" RotateW="90"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/patterns/christmas/crumpled_paper_detail.dds"/>
+    <Texture Map="Heightmap" File="textures/patterns/christmas/crumpled_paper_detail.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

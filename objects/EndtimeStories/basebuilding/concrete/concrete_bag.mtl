@@ -1,0 +1,27 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21223079,0.21223079,0.21223079" Specular="0.14995982,0.14995982,0.14995982" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/medcan/cementbag_texture.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sandbag" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_sand" MatTemplate="" Diffuse="0.18782079,0.1559265,0.12743771" Specular="0.059511244,0.046665091,0.018500222" Opacity="1" Shininess="149" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/medcan/cementbag_texture.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetV="0.40000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/patterns/christmas/crumpled_paper_detail.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rope" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.19806935,0.19806935,0.19806935" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/dock/textures/rope_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/structures/dock/textures/rope_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
