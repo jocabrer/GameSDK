@@ -14,6 +14,13 @@
 		<firstperson name="objects/weapons/attachments/laser_sight/laser_sight.cgf"/>
 		<thirdperson name="objects/weapons/attachments/laser_sight/laser_sight.cgf"/>
 	</geometry>
+	
+	<usable>
+        <param name="title" value="Convertir en 1 Scrap Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
 
 	<laser>
 		<firstperson laser_dot="weapon_fx.laser_sight.aimdot_tp_green" laser_range="150" laser_thickness="15"/>

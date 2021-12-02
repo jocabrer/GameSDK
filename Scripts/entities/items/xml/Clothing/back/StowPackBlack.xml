@@ -21,6 +21,12 @@
 		<thirdperson name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_black"/>
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_black"/>
 	</geometry>
+	<usable>
+        <param name="title" value="Convertir en Zapatos de Lona"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="CanvasShoes"/>
+        <param name="soundUsed" value=""/>
+    </usable>
 	<storage>
 		<locations>
 			<location category="any"/>		
