@@ -1,0 +1,24 @@
+<item name="wood_wall_shutter_3m_4m_orange" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="3m x 4m Orange Shutter Wall"/>
+		<param name="description" value="A 3m high x 4m long orange wooden shutter wall."/>
+	</params>
+
+	<base_part class="static" type="6852" name="wood_wall_shutter_3m_4m_orange" max_health="10000">
+		<static filename="objects/basebuilding/wood/wall_shutter_3m_4m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_orange"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_orange"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

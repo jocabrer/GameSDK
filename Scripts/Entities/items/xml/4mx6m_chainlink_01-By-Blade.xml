@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="4mx6m_chainlink_01" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="5" />
+    <param name="display_name" value="Chainlink Wall" />
+    <param name="description" value="Wall 4m x 6m" />
+  </params>
+  <base_part class="static" type="7060" name="4mx6m_chainlink_01" max_health="25000">
+    <static filename="objects/structures/outpost/4mx6m_chainlink_01.cgf" />
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/basebuilding/wood/wood_part.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

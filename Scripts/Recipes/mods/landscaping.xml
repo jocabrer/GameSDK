@@ -2,9 +2,9 @@
 <recipes>
     <guide name="default" id="0">
         <cats>
-            <cat name="Landscaping">
+            <cat name="Base Building">
                 <subcats>
-                    <subcat name="Forest">
+                    <subcat name="Landscaping">
                         <types>
                             <type name="Bushes">
                                 <items>
@@ -162,7 +162,7 @@
                             </type>
                         </types>
                     </subcat>
-                    <subcat name="Desert">
+                    <subcat name="Landscaping">
                         <types>
                             <type name="Cholla Cacti">
                                 <items>

@@ -1,0 +1,29 @@
+<item name="wood_shutter_1_6m_0_9m_pink" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Pink Shutters"/>
+		<param name="description" value="1.6m x 0.9m pink shutters."/>
+	</params>
+
+    <base_part class="door" type="6732" name="wood_shutter_1_6m_0_9m_pink" max_health="10000">
+		<door filename="objects/basebuilding/wood/shutter_1_6m_0_9m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_pink" rotate_base="-90" rotate_range="90" rotate_speed="90" rotate_axis="z" rotate_axis_front="y" sound_open="Play_door_wood_open" sound_opened="" sound_close="Play_door_wood_close" sound_closed="Play_door_wood_closed"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock"/>
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_pink"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,33 @@
+<item name="wood_gate_lockable_red_6m_4m" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="6m Red Wood Gate"/>
+		<param name="description" value="I see a red door and I want it painted bla-ack!"/>
+	</params>
+
+	<base_part class="door" type="6968" name="wood_gate_lockable_red_6m_4m">
+		<door filename="objects/mnewrath/basebuilding/wood/wood_gate_lockable_6m_4m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_red" rotate_base="-90" rotate_range="90" rotate_speed="30" rotate_axis="z" rotate_axis_front="y" sound_open="Play_door_wood_open" sound_opened="" sound_close="Play_door_wood_close" sound_closed="Play_door_wood_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock"/>
+			</base_action>
+			<base_action class="toggle_lock">
+				<toggle_lock/>
+			</base_action>
+		</base_actions>
+	</base_part>
+	
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_red"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

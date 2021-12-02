@@ -1,0 +1,25 @@
+<item name="wood_walkroof_3m_4m_4m_green" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Green Angled Walk Roof"/>
+		<param name="description" value="A green 3m high x 4m wide x 4m long angled walk roof"/>
+	</params>
+
+	<base_part class="static" type="6715" name="wood_walkroof_3m_4m_4m_green" max_health="15000">
+		<static filename="objects/basebuilding/wood/walkroof_wood_3m_4m_4m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_green"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_green"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

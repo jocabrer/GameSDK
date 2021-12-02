@@ -1,0 +1,24 @@
+<item name="wood_walkway_1_3m_1m_1m_yellow" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="1.3m x 1m x 1m Yellow Platform"/>
+		<param name="description" value="A 1.3m high x 1m wide x 1m long yellow wooden platform."/>
+	</params>
+
+	<base_part class="static" type="6718" name="wood_walkway_1_3m_1m_1m_yellow" max_health="10000">
+		<static filename="objects/basebuilding/wood/walkway_1_3m_1m_1m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_yellow"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_yellow"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

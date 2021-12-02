@@ -1,0 +1,24 @@
+<item name="wood_wall_2m_2m_purple" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="2m x 2m Purple Wood Wall"/>
+		<param name="description" value="A 2m high x 2m long purple wooden wall."/>
+	</params>
+
+	<base_part class="static" type="6922" name="wood_wall_2m_2m_purple" max_health="10000">
+		<static filename="objects/basebuilding/wood/wall_2m_2m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_purple"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_purple"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

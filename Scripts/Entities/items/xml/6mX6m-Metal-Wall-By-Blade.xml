@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="6mx6m_corrugated_metal_02" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="3" />
+    <param name="display_name" value="Metal Wall 6m x 6m" />
+    <param name="description" value="Big Wall" />
+  </params>
+  <base_part class="static" type="7063" name="6mx6m_corrugated_metal_02" max_health="25000">
+    <static filename="objects/structures/outpost/6mx6m_corrugated_metal_02.cgf" />
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/basebuilding/wood/wood_part.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

@@ -1,0 +1,24 @@
+<item name="wood_wall_window_3m_4m_purple" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="3m x 4m Purple Window Wall"/>
+		<param name="description" value="A 3m high x 4m long purple wooden window wall."/>
+	</params>
+
+	<base_part class="static" type="6877" name="wood_wall_window_3m_4m_purple" max_health="10000">
+		<static filename="objects/basebuilding/wood/wall_window_3m_4m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_purple"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_purple"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

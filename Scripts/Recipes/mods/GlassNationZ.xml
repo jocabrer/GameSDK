@@ -4,7 +4,7 @@
 		<cats>
 			<cat name="Base Building">
 				<subcats>
-					<subcat name="Glass">
+					<subcat name="Glass Parts ZN">
 						<types>
 							<type name="Walls">
 								<items>

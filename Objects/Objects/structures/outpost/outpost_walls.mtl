@@ -1,0 +1,82 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/mine_wood_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/mine_wood_01_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.3467041,0.3467041,0.3467041" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/mine_metal_01_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/mine_metal_01_ddna.tif"/>
+    <Texture Map="Specular" File="objects/structures/desert_mine/texturers/mine_metal_01_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rail_track" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.3185468,0.3185468,0.3185468" Specular="0.30498734,0.30498734,0.30498734" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/rail_track_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/rail_track_ddna.tif"/>
+    <Texture Map="Specular" File="objects/structures/desert_mine/texturers/rail_track_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl4" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.64447981,0.64447981,0.64447981" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="32" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/wood_painted_panel_wall_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/wood_painted_panel_wall_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.68668544,0.68668544,0.68668544" Specular="0.033104774,0.033104774,0.033104774" Opacity="1" Shininess="198" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/desert_lumber_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/desert_lumber_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl6" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.69999999" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/desert_mine/texturers/desert_lumber_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/desert_mine/texturers/desert_lumber_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_sheet" MtlFlags="524418" Shader="Illum" GenMask="68400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.2269659,0.2269659,0.2269659" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/galvanized_metal_tileable/galvanized_metal_sheet_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/corrugated_metal_sheet/corrugated_metal_sheet_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/galvanized_metal_tileable/galvanized_metal_sheet_spec.tif"/>
+    <Texture Map="Heightmap" File="textures/metal/corrugated_metal_sheet/corrugated_metal_sheet_displ.tif"/>
+    <Texture Map="SubSurface" File="textures/metal/corrugated_metal_sheet/corrugated_metal_sheet_displ.tif"/>
+    <Texture Map="Custom" File="textures/generic/metal/rust_metal_tileable/rust_metal_sheet_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/metal/corrugated_metal_sheet/corrugated_metal_sheet_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/dirt_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.40000001" EmittanceMapGamma="1" BlendLayer2Tiling="1" PomDisplacement="0.023499999" SSSIndex="0" BlendMaskTiling="1.84" SelfShadowStrength="3.5409999" HeightBias="1" BlendFactor="6.6599998" BlendLayer2Specular="0.0254" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="blockout" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.099898733,0.099898733,0.099898733" Opacity="1" Shininess="84" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/grey_128_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl9" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.85499275,0.85499275,0.85499275" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/fences/desert_fence/desert_fence_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/fences/desert_fence/desert_fence_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/fences/desert_fence/desert_fence_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
