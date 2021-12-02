@@ -21,6 +21,14 @@
 		<thirdperson name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_purple"/>
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_purple"/>
 	</geometry>
+
+	<usable>
+        <param name="title" value="Convertir en Camisa Hawaiana Púrpura"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="ButtonUpShirtPurpleHawaiian"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
 	<storage>
 		<locations>
 			<location category="any"/>

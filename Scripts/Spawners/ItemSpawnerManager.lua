@@ -2186,8 +2186,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomFireStarter",
 			classes =
 			{
-				{ class = "Matches", percent = 90 },
-				{ class = "Lighter", percent = 90 },
+				{ class = "Matches", percent = 80 },
+				{ class = "Lighter", percent = 80 },
 			},
 		},
 

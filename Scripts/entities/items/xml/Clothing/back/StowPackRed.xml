@@ -21,6 +21,12 @@
 		<thirdperson name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_red"/>
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_red"/>
 	</geometry>
+	<usable>
+        <param name="title" value="Convertir en Bufanda Roja"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="ScarfRed"/>
+        <param name="soundUsed" value=""/>
+    </usable>
 	<storage>
 		<locations>
 			<location category="any"/>
