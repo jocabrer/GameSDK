@@ -1,0 +1,21 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="saguaro" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.3467041,0.3467041,0.3467041" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="70" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/desert_plants/saguaro/textures/saguaro_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/vegetation/desert_plants/saguaro/textures/saguaro_ddn.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_billboards" MtlFlags="524448" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.20863689,0.3185468,0.18116426" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="70" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/desert_plants/saguaro/textures/saguaro_billboard_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

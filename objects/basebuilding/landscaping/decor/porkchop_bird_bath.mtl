@@ -1,0 +1,42 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_marble" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.5" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="mesh" MtlFlags="524416" Shader="Illum" GenMask="40400402" StringGenMask="%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_marble" MatTemplate="" Diffuse="1,1,1" Specular="0.038204372,0.038204372,0.038204372" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/basebuilding/landscaping/decor/textures/marble/marble_rough_a_diff.tif" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="Objects/basebuilding/landscaping/decor/textures/marble/marble_rough_a_ddna.tif"/>
+    <Texture Map="Detail" File="Objects/basebuilding/landscaping/decor/textures/ro_bird_bath_a_detail.tif"/>
+    <Texture Map="Custom" File="Objects/basebuilding/landscaping/decor/textures/dirt/dirt_generic_b_diff.tif"/>
+    <Texture Map="Opacity" File="Objects/basebuilding/landscaping/decor/textures/dirt/dirt_generic_b_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.40000001" EmittanceMapGamma="1" BlendLayer2Tiling="2" DetailDiffuseScale="0.80000001" SSSIndex="0" DetailBumpScale="2" BlendMaskTiling="1" BlendFactor="7.2800002" DetailGlossScale="0.5" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ro_bird_bath_a_lod1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_marble" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/basebuilding/landscaping/decor/textures/ro_bird_bath_a_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="Objects/basebuilding/landscaping/decor/textures/ro_bird_bath_a_lod1_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="water" MtlFlags="526496" Shader="Waterfall" GenMask="3" StringGenMask="" SurfaceType="mat_water" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="0.63999999" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/basebuilding/other/fishbowl/water_ddna.tif"/>
+    <Texture Map="Environment" File="textures/cubemaps/islands/l_probe_city_night_cm.tif">
+     <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+    </Texture>
+   </Textures>
+   <PublicParams SunMultiplier="0.039999999" TillingLayer0="1.5" SpeedLayer0="0.5" SpeedLayer1="0.5" TillingLayer1="0.5" FoamMultiplier="0" FresnelBias="0.54299998" RefractionBumpScale="0.025" ReflectionAmount="1" BumpScaleLayer1="0.059999999" FoamDeform="0" AlphaBlendMul="1" BumpScaleLayer0="0.059999999"/>
+  </Material>
+  <Material Name="caustic" MtlFlags="524448" Shader="Illum" GenMask="40000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_sand" MatTemplate="" Diffuse="0.96468639,0.76052463,0.46778381" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="227" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/fishbowl/caustic_diff.tif">
+     <TexMod TexMod_RotateType="2" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_URotateCenter="0.1" TileU="3" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.1" TexMod_UOscillatorAmplitude="0.2" TexMod_VRotateCenter="0.1" TileV="3" TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.1" TexMod_VOscillatorAmplitude="0.2"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.12" DecalFalloff="9.9999997e-005" DecalAlphaMult="10" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

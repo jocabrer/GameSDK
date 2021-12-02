@@ -4,7 +4,6 @@
       <cats>
          <cat name="Base Building">
             <subcats>
-               
                <subcat name="Decorations">
                   <types>
                      <type name="Lights">
@@ -255,141 +254,6 @@
                      </type>
                   </types>
                </subcat>
-
-               <subcat name="Metal Parts">
-               <items>
-                  <item class="metal_gate_lockable_6m_5_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="24" />
-                        <material class="ScrapMetal" count="12" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_gatehouse_8m_8m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="30" />
-                        <material class="ScrapMetal" count="15" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="wood_gatehouse_double" time="5">
-                     <materials>
-                        <material class="Lumber" count="30" />
-                        <material class="Hammer" count="1" />
-                        <material class="tire_3m" />
-                     </materials>
-                  </item>
-                  <item class="wood_gate_lockable_6m_4m" time="5">
-                     <materials>
-                        <material class="Lumber" count="24" />
-                        <material class="ScrapMetal" count="4" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_aframe_3m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="12" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_door_lockable_1m_2m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="1" />
-                        <material class="ScrapMetal" count="6" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_gatehouse_4m_8m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="16" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_gate_lockable_3m_5_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="12" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_steam_stand" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="2" />
-                        <material class="ScrapMetal" count="8" />
-                        <material class="Hammer" count="1" />
-                        <material class="Amalgaduino" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_1_3m_2m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="1" />
-                        <material class="ScrapMetal" count="6" />
-                        <material class="Hammer" count="1" />
-                        <material class="Nails" count="10
-                        " />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_1_3m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="2" />
-                        <material class="ScrapMetal" count="12" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_2m_2m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="2" />
-                        <material class="ScrapMetal" count="8" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_2m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="3" />
-                        <material class="ScrapMetal" count="10" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_3m_2m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="2" />
-                        <material class="ScrapMetal" count="6" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_3m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="12" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_door_3m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="10" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_window_3m_2m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="2" />
-                        <material class="ScrapMetal" count="5" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="metal_wall_window_3m_4m" time="5">
-                     <materials>
-                        <material class="SheetMetal" count="4" />
-                        <material class="ScrapMetal" count="10" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-               </items>
-               </subcat>
-
                <subcat name="Structures">
                   <types>
                         <type name="Platforms">
@@ -565,7 +429,7 @@
                                  </materials>
                               </item>
                            </items>
-                        </type
+                        </type>
                         <type name="Walls Rock">
                            <items>
                               <item class="rock_doorway_3m_4m" time="5">
@@ -653,6 +517,139 @@
                                  </materials>
                               </item>
                              
+                           </items>
+                        </type>
+                        <type name="Metal Parts">
+                        <items>
+                              <item class="metal_gate_lockable_6m_5_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="24" />
+                                    <material class="ScrapMetal" count="12" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_gatehouse_8m_8m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="30" />
+                                    <material class="ScrapMetal" count="15" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="wood_gatehouse_double" time="5">
+                                 <materials>
+                                    <material class="Lumber" count="30" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="tire_3m" />
+                                 </materials>
+                              </item>
+                              <item class="wood_gate_lockable_6m_4m" time="5">
+                                 <materials>
+                                    <material class="Lumber" count="24" />
+                                    <material class="ScrapMetal" count="4" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_aframe_3m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="12" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_door_lockable_1m_2m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="1" />
+                                    <material class="ScrapMetal" count="6" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_gatehouse_4m_8m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="16" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_gate_lockable_3m_5_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="12" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_steam_stand" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="2" />
+                                    <material class="ScrapMetal" count="8" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="Amalgaduino" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_1_3m_2m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="1" />
+                                    <material class="ScrapMetal" count="6" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="Nails" count="10
+                                    " />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_1_3m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="2" />
+                                    <material class="ScrapMetal" count="12" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_2m_2m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="2" />
+                                    <material class="ScrapMetal" count="8" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_2m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="3" />
+                                    <material class="ScrapMetal" count="10" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_3m_2m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="2" />
+                                    <material class="ScrapMetal" count="6" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_3m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="12" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_door_3m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="10" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_window_3m_2m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="2" />
+                                    <material class="ScrapMetal" count="5" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <item class="metal_wall_window_3m_4m" time="5">
+                                 <materials>
+                                    <material class="SheetMetal" count="4" />
+                                    <material class="ScrapMetal" count="10" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
                            </items>
                         </type>
                   </types>

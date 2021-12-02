@@ -1,0 +1,33 @@
+<item name="porkchop_celldoor_lockable" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5.0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Lockable Cell Door"/>
+		<param name="description" value="An approximately 1m wide x 2m high lockable cell door"/>
+	</params>
+
+	<base_part class="door" type="8191" name="porkchop_celldoor_lockable" max_health="30000">
+		<door filename="Objects/props/Doors/dws_celldoor.cgf" rotate_speed="90" rotate_range="90" rotate_base="-180" rotate_axis="z" rotate_axis_front="y" sound_open="Play_door_metal_open" sound_opened="Play_door_metal_opened" sound_close="Play_door_metal_close" sound_closed="Play_door_metal_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_metal_knock" />
+			</base_action>
+			<base_action class="toggle_lock">
+				<toggle_lock/>
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

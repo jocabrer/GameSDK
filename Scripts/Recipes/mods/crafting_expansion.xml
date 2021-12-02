@@ -26,11 +26,30 @@
 								</type>
 								<type name="X50">
 									<items>
-									<item class="SheetMetal" time="25" amount="50">
-										<materials>
-											<material class="IronIngot" count="100"/>
-										</materials>
-									</item>
+										<item class="SheetMetal" time="25" amount="50">
+											<materials>
+												<material class="IronIngot" count="100"/>
+											</materials>
+										</item>
+									</items>
+								</type>
+								<type name="X75">
+									<items>
+										<item class="SheetMetal" time="25" amount="75">
+											<materials>
+												<material class="IronIngot" count="150"/>
+											</materials>
+										</item>
+									</items>
+								</type>
+								<type name="X125">
+									<items>
+										<item class="SheetMetal" time="25" amount="125">
+											<materials>
+												<material class="IronIngot" count="250"/>
+											</materials>
+
+										</item>
 									</items>
 								</type>
 						</types>
@@ -294,6 +313,148 @@
 							</type>
 						</types>
 					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Attachments">
+						<types>
+							<type name="Lights">
+								<items>
+									<item class="FlashlightRifle" time="5">
+										<materials>
+											<material class="MagliteSmall" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 01">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="CokeCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="CokeCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 02">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="PepsiCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="PepsiCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 03">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="SpriteCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="SpriteCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 04">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="TomatoJuiceCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="TomatoJuiceCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 05">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="BeerCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="BeerCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Crafted Silencer 06">
+								<items>
+									<item class="CraftedPistolSilencer" time="5">
+										<materials>
+											<material class="DrPepperCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+									<item class="CraftedSilencer" time="5">
+										<materials>
+											<material class="DrPepperCan" />
+											<material class="ScrapMetal" />
+											<material class="PipeMetal" />
+											<material class="DuctTape" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+			<cat name="Equipment">
+				<subcats>
 					<subcat name="Repair Kits">
 						<types>
 							<type name="Bear Pelt">
@@ -328,5 +489,6 @@
 				</subcats>
 			</cat>
 		</cats>
+		
 	</guide>
 </recipes>

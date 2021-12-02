@@ -1,0 +1,29 @@
+<item name="porkchop_bird_bath" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="mass" value="2"/>
+		<param name="display_name" value="Bird Bath"/>
+		<param name="description" value="A Bird Bath"/>
+	</params>
+
+	<base_part class="water_barrel" type="8107" name="porkchop_bird_bath">
+		<water_barrel filename="objects/basebuilding/landscaping/decor/porkchop_bird_bath.cgf"/>
+		<base_actions>
+			<base_action class="water_collector">
+				<water_collector fluid_capacity="4800"/>
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

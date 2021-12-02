@@ -1,0 +1,22 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="cholla" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.52099562,0.52099562,0.52099562" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="68" AlphaTest="0.16" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/desert_plants/cholla/textures/cholla_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/vegetation/desert_plants/cholla/textures/cholla_ddn.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="-0" DividerY="0.0099999998" NoiseScale="0,0,0"/>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.1" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.62396049,0.5332765,0.28314877" CapOpacityFalloff="1" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_billboards" MtlFlags="525472" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.20863689,0.3185468,0.18116426" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="28" AlphaTest="0.37" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="cholla_2" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

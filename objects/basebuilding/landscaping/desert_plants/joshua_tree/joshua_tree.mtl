@@ -1,0 +1,25 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="joshua_tree" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood_harvest" MatTemplate="" Diffuse="0.3467041,0.3467041,0.3467041" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="68" AlphaTest="0.31" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/desert_plants/joshua_tree/textures/joshuatree_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/vegetation/desert_plants/joshua_tree/textures/joshuatree_ddn.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BackDiffuseMultiplier="0.5" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lod_billboards" MtlFlags="524448" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.29177067,0.39675525,0.26225069" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="28" AlphaTest="0.88" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/vegetation/desert_plants/joshua_tree/textures/joshuatree_billboard_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="joshua_tree2" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
