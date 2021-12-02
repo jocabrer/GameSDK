@@ -12,24 +12,24 @@
                         <material class="Lumber" count="10" />
                      </materials>
                   </item>
-                  <item class="dws_outpost_gate" time="1">
+                  <!--<item class="dws_outpost_gate" time="1">
                      <materials>
                         <material class="SheetMetal" count="10" />
                         <material class="Hammer" count="1" />
                      </materials>
-                  </item>
+                  </item>-->
                   <item class="outpost_container" time="1">
                      <materials>
                         <material class="SheetMetal" count="20" />
                         <material class="Hammer" count="1" />
                      </materials>
                   </item>
-                  <!--<item class="outpost_container_gate" time="1">
+                  <item class="outpost_container_gate" time="1">
                      <materials>
                         <material class="SheetMetal" count="20" />
                         <material class="Hammer" count="1" />
                      </materials>
-                  </item>                       -->
+                  </item>                      
                   <item class="4mx6m_chainlink_01" time="1">
                      <materials>
                         <material class="SheetMetal" count="20" />

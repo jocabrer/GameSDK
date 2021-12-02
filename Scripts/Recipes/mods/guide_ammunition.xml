@@ -236,8 +236,9 @@
 							</item>
 							<item class="ext_556x75" time="5" amount="1">
 								<materials>
-									<material class="SheetMetal" count="5" />
-									<material class="ScrapMetal" count="6" />
+									<material class="NecklaceCrossGold" count="1" />
+									<material class="NecklaceCrossSilver" count="2" />
+									<material class="NecklaceCrossChrome" count="3" />
 								</materials>
 							</item>
 							<item class="556x100" time="5" amount="1">
@@ -254,8 +255,9 @@
 							</item>
 							<item class="ext_762x75" time="5" amount="1">
 								<materials>
-									<material class="SheetMetal" count="5" />
-									<material class="ScrapMetal" count="6" />
+									<material class="NecklaceCrossGold" count="1" />
+									<material class="NecklaceCrossSilver" count="2" />
+									<material class="NecklaceCrossChrome" count="3" />
 								</materials>
 							</item>
 							<item class="762x20_Akval" time="5" amount="1">
