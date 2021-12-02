@@ -14,9 +14,9 @@
 	</geometry>
 	
 	<usable>
-		<param name="title" value="Convertir en Electrical Parts"/>
+		<param name="title" value="Convertir en Linterna de Camping"/>
 		<param name="action" value="convert"/>
-		<param name="param" value="ElectricalParts"/>
+		<param name="param" value="camping_lantern"/>
 		<param name="soundUsed" value=""/>
 	</usable>
 
