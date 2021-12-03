@@ -9,7 +9,7 @@
                   <item class="6mx6m_corrugated_metal_02" time="1">
                      <materials>
                         <material class="SheetMetal" count="15" />
-                        <material class="Hammer" count="10" />
+                        <material class="Hammer" count="1" />
                      </materials>
                   </item>
                   <item class="dws_outpost_gate" time="1">
