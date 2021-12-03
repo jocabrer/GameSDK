@@ -1224,16 +1224,6 @@
 									</item>
 								</items>
 							</type>
-							<type name="Storage">
-								<items>
-									<item class="wood_crate_small_packed" time="7">
-										<materials>
-											<material class="WoodPile" count="2" />
-											<material class="Lumber" count="4" />
-										</materials>
-									</item>
-								</items>
-							</type>
 							<type name="Platforms">
 								<items>
 									<item class="wood_walkway_1_3m_1m_1m" time="5">

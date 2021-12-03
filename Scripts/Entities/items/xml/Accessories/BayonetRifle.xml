@@ -15,7 +15,7 @@
 	<usable>
         <param name="title" value="Convertir en 1 Scrap Metal"/>
         <param name="action" value="craft"/>
-        <param name="param" value="SheetMetal"/>
+        <param name="param" value="ScrapMetal"/>
         <param name="soundUsed" value=""/>
     </usable>
 	<storage>

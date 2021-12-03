@@ -1,0 +1,21 @@
+<UIElements name="mod_BIOHZMarkersUI">
+  <UIElement name="mod_BIOHZMarkersUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="BIOHZMarkers/BIOHZMarkers.gfx" layer="1">
+      <Constraints>
+        <Align mode="fixed" />
+        <Position top="0" left="0" width="200" height="65" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="setMarkerInfo" funcname="setMarkerInfo">
+        <param name="name" desc="" type="String" />
+        <param name="type" desc="" type="Int" />
+        <param name="distance" desc="" type="String" />
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

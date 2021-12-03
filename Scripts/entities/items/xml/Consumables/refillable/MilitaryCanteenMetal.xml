@@ -21,6 +21,12 @@
 
 	<usable>
 		<uses>
+            <use>
+                <param name="title" value="Convertir en Scrap Metal"/>
+                <param name="action" value="craft"/>
+                <param name="param" value="ScrapMetal"/>
+                <param name="soundUsed" value=""/>
+            </use>
 			<use>
 				<param name="title" value="@MilitaryCanteenMetalWaterPlanter"/>
 				<param name="action" value="water"/>

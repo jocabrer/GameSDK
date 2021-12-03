@@ -4,39 +4,46 @@
       <cats>
          <cat name="Base Building"> 
             <subcats>
-               <subcat name="ZafeZone parts Blade">
-               <items>                       
-                  <item class="6mx6m_corrugated_metal_02" time="1">
-                     <materials>
-                        <material class="SheetMetal" count="15" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="dws_outpost_gate" time="1">
-                     <materials>
-                        <material class="SheetMetal" count="10" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <item class="outpost_container" time="1">
-                     <materials>
-                        <material class="SheetMetal" count="20" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-                  <!--<item class="outpost_container_gate" time="1">
-                     <materials>
-                        <material class="SheetMetal" count="20" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>                       -->
-                  <item class="4mx6m_chainlink_01" time="1">
-                     <materials>
-                        <material class="SheetMetal" count="20" />
-                        <material class="Hammer" count="1" />
-                     </materials>
-                  </item>
-               </items>
+               <subcat name="Structures">
+                  <types>
+                        <type name = "ZafeZone parts Blade">
+                        <items>                       
+                              <item class="6mx6m_corrugated_metal_02" time="1">
+                                 <materials>
+                                    <material class="SheetMetal" count="15" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>
+                              <!--<item class="dws_outpost_gate" time="1">
+                                 <materials>
+                                    <material class="SheetMetal" count="10" />
+                                    <material class="Hammer" count="1" />
+                                 </materials>
+                              </item>-->
+                              <item class="outpost_container" time="1">
+                                 <materials>
+                                    <material class="SheetMetal" count="20" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="WoodPile" count="9" />
+                                 </materials>
+                              </item>
+                              <item class="outpost_container_gate" time="1">
+                                 <materials>
+                                    <material class="SheetMetal" count="20" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="WoodPile" count="9" />
+                                 </materials>
+                              </item>                      
+                              <item class="4mx6m_chainlink_01" time="1">
+                                 <materials>
+                                    <material class="SheetMetal" count="20" />
+                                    <material class="Hammer" count="1" />
+                                    <material class="Lumber" count="4" />
+                                 </materials>
+                              </item>
+                           </items>                       
+                        </type>
+                  </types>
                </subcat>
             </subcats>
          </cat>
