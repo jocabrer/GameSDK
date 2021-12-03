@@ -19,3 +19,4 @@ g_mEventHandlers['APOCCompassToggleUI'] = function(playerId, event, source_id, t
     player.APOCIsDead = event.isDead;
     APOCCompassUIFunctions:ToggleTheCompass(event.toggle);
 end
+

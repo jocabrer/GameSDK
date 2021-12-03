@@ -1,0 +1,15 @@
+<UIElements name="mod_BIOHZMarkersDummyUI">
+  <UIElement name="mod_BIOHZMarkersDummyUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="BIOHZMarkers/BIOHZMarkersDummy.gfx" layer="1">
+      <Constraints>
+        <Align mode="fixed" />
+        <Position top="0" left="0" width="200" height="65" />
+      </Constraints>
+    </GFx>
+    <functions />
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>
