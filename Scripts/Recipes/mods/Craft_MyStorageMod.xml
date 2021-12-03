@@ -24,9 +24,10 @@
 									</item>
 									<item class="UFOStorage_Crate_packed" time="1" amount="1">
 											<materials>
-												<material class="ScrapMetal" count="125"/>
-												<material class="SheetMetal" count="80"/>
+												<material class="SheetMetal" count="50"/>
 												<material class="Nails" count="25"/>
+                                                <material class="DuctTape" count="10"/>
+                                                
 											</materials>
 									</item>
 									<item class="metal_safe" time="1" amount="1">

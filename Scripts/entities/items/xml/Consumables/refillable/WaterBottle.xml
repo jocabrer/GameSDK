@@ -20,6 +20,12 @@
 
 	<usable>
 		<uses>
+            <use>
+                <param name="title" value="Convertir en Tarp"/>
+                <param name="action" value="craft"/>
+                <param name="param" value="Tarp"/>
+                <param name="soundUsed" value=""/>
+            </use>
 			<use>
 				<param name="title" value="@WaterBottleWaterPlanter"/>
 				<param name="action" value="water"/>

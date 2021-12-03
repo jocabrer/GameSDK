@@ -3406,7 +3406,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomRottenVeggie", percent = 1 }, 
 				{ category = "RandomSeeds", percent = 2 }, 
 				{ category = "RandomAlcohol", percent = 2},
-				{ class = "WaterPurificationTablets", percent = 6 },
+				{ class = "WaterPurificationTablets", percent = 7 },
 				{ class = "CivCanteen01", percent = 4 },
 				{ class = "CokeCan", percent = 7 },
 				{ class = "DrPepperCan", percent = 7 },
@@ -3679,26 +3679,26 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "halloweenBagCommon", percent = 2 }, -- Halloween event
 				{ category = "RandomEggs", percent = 2 }, -- Easter event
 				{ category = "RandomIncapacition", percent = 5 },
-				{ category = "RandomPaintCan", percent = 4 },
+				{ category = "RandomPaintCan", percent = 7 },
 				{ category = "RandomFireStarter", percent = 4 },
 				{ class = "Amalgaduino", percent = 5 },
 				{ class = "BarbedWireCoil", percent = 10 },
 				{ class = "CamoNetting", percent = 7 },
-				{ class = "DuctTape", percent = 6.9 },
-				{ class = "ElectricalParts", percent = 25 },
+				{ class = "DuctTape", percent = 5 },
+				{ class = "ElectricalParts", percent = 15 },
 				{ class = "EmptyBottle", percent = 6 },
 				{ class = "Nails", percent = 20 },
-				{ class = "PipeMetal", percent = 5 },
+				{ class = "PipeMetal", percent = 3 },
 				{ class = "Rags", percent = 30 },
-				{ class = "PropaneHeaterTop", percent = 7 },
+				{ class = "PropaneHeaterTop", percent = 3 },
 				{ class = "Rope", percent = 15 },
-				{ class = "SawBlade", percent = 15 },
+				{ class = "SawBlade", percent = 7 },
 				-- Waiting on https://entrada.atlassian.net/browse/MIS-3150
 				-- { class = "SolarPanelPiece", percent = 4 },
 				{ class = "TargetPaper", percent = 3 },
-				{ class = "Tarp", percent = 15 },
-				{ class = "WorkLight", percent = 15 },
-				{ class = "Hacksaw", percent = 15 },
+				{ class = "Tarp", percent = 7 },
+				{ class = "WorkLight", percent = 7 },
+				{ class = "Hacksaw", percent = 7 },
 				{ class = "guide_civilian", percent = 3 },
 			},
 		},
@@ -6352,7 +6352,15 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "PepsiCan", percent = 80 },
 			},
 		},
-		
+        {
+            category = "WoodsAndStick",
+            classes =
+            {
+                { class = "WoodPile", percent = 95 },
+                { class = "StickPile", percent = 5 },
+            },
+        },
+
 		{
             category = "RocksAndPyrite",
             classes =
