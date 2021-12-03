@@ -981,7 +981,7 @@
 				<subcats>
 					<subcat name="Structures">
 						<types>
-							<type name="Ramps">
+							<type name="Roofs">
 								<items>
 									<item class="wood_walkroof_3m_4m_4m" time="5">
 										<materials>
