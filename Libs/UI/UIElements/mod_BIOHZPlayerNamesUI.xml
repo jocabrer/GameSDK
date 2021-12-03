@@ -1,0 +1,20 @@
+<UIElements name="mod_BIOHZPlayerNamesUI">
+  <UIElement name="mod_BIOHZPlayerNamesUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="BIOHZPlayerNames/BIOHZPlayerNames.gfx" layer="1">
+      <Constraints>
+        <Align mode="fixed" />
+        <Position top="0" left="0" width="400" height="50" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="setPlayerInfo" funcname="setPlayerInfo">
+        <param name="info" desc="" type="String" />
+        <param name="isAdmin" desc="" type="Bool" />
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>
