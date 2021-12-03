@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>		
+	
+	<guide name="default" id="0">
+		<cats>		
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Structures">
+						<types>
+							<type name="Storage">
+								<items>
+									<item class="Wood_BigBox_Crate_packed" time="1" amount="1">
+										<materials>
+											<material class="Lumber" count="10"/>
+											<material class="Nails" count="10"/>
+										</materials>
+									</item>
+									<item class="display_counter_Crate_packed" time="1" amount="1">
+											<materials>
+												<material class="Lumber" count="15"/>
+												<material class="SheetMetal" count="25"/>
+												<material class="Nails" count="15"/>
+											</materials>
+									</item>
+									<item class="UFOStorage_Crate_packed" time="1" amount="1">
+											<materials>
+												<material class="ScrapMetal" count="125"/>
+												<material class="SheetMetal" count="80"/>
+												<material class="Nails" count="25"/>
+											</materials>
+									</item>
+									<item class="metal_safe" time="1" amount="1">
+											<materials>
+												<material class="ScrapMetal" count="125"/>
+												<material class="SheetMetal" count="80"/>
+												<material class="Nails" count="25"/>
+											</materials>
+									</item>								
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+	
+</recipes>

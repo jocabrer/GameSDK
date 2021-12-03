@@ -2,7 +2,7 @@
 
 local newItem = {
   class = "guide_concrete", 
-  percent = 3, 
+  percent = 25, 
 }
 
 local categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomCraftingGuide")
