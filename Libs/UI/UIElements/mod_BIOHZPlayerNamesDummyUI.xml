@@ -1,0 +1,15 @@
+<UIElements name="mod_BIOHZPlayerNamesDummyUI">
+  <UIElement name="mod_BIOHZPlayerNamesDummyUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="BIOHZPlayerNames/BIOHZPlayerNamesDummy.gfx" layer="1">
+      <Constraints>
+        <Align mode="fixed" />
+        <Position top="0" left="0" width="400" height="50" />
+      </Constraints>
+    </GFx>
+    <functions />
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

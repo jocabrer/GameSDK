@@ -6,7 +6,7 @@
             <subcats>
                <subcat name="Structures">
                   <types>
-                        <type name = "ZafeZone parts Blade">
+                        <type name = "Walls">
                         <items>                       
                               <item class="6mx6m_corrugated_metal_02" time="1">
                                  <materials>
@@ -20,7 +20,7 @@
                                     <material class="Hammer" count="1" />
                                  </materials>
                               </item>-->
-                              <item class="outpost_container" time="1">
+                              <!--<item class="outpost_container" time="1">
                                  <materials>
                                     <material class="SheetMetal" count="20" />
                                     <material class="Hammer" count="1" />
@@ -33,7 +33,7 @@
                                     <material class="Hammer" count="1" />
                                     <material class="WoodPile" count="9" />
                                  </materials>
-                              </item>                      
+                              </item>-->                      
                               <item class="4mx6m_chainlink_01" time="1">
                                  <materials>
                                     <material class="SheetMetal" count="20" />

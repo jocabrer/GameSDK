@@ -35,7 +35,7 @@
 	</geometry>
 
 	<usable>
-		<param name="title" value="Convertir en Clavos"/>
+		<param name="title" value="Convertir en Nails"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="Nails"/>
 		<param name="soundUsed" value=""/>

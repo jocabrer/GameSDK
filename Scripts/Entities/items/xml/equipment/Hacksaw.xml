@@ -1,0 +1,42 @@
+<item name="Hacksaw" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.5"/>
+		<param name="display_name" value="@Hacksaw"/>
+		<param name="description" value="@HacksawDescription"/>
+		<param name="vendor_cost" value="4"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/equipment/hacksaw/hacksaw.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+                
+    <usable>
+        <param name="title" value="Convertir en Scrap Metal"/>
+        <param name="action" value="convert"/>
+        <param name="param" value="ScrapMetal"/>
+        <param name="soundUsed" value="Play_chemlight_use"/>
+    </usable>                
+
+	<steam>
+		<param name="tags" value="Category:Equipment"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/Hacksaw_200.png?crc=4BF7FE4B"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="70029"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Equipment"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/Hacksaw_2048.png?crc=4BF7FE4B"/>
+	</steam>
+</item>

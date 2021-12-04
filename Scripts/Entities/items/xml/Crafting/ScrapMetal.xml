@@ -1,0 +1,21 @@
+<item name="ScrapMetal" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.5"/>
+		<param name="stack_size" value="250"/>
+		<param name="display_name" value="@ScrapMetal"/>
+		<param name="description" value="@ScrapMetalDescription"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/scrapMetal/scrap_metal_1.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>
