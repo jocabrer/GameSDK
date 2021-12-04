@@ -462,7 +462,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMutantLoot",
 			group =
 			{
-				{ category = "RandomEggs", percent = 5 }, easter event
+				{ category = "RandomEggs", percent = 5 }, -- easter event
 				{ class = "AmcoinLedger", percent = 25, min = 1, max = 5},
 				{ category = "RandomAmmo", percent = 100 },
 				{ category = "RandomConsumable", percent = 100 },
@@ -501,7 +501,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				--{ class = "SAPOCBriefcaseClosed", percent = 1 },
 				{ category = "RandomEggs", percent = 25 }, -- Easter event
 				{ class = "GoldenCudgel2", percent = 25 }, 
-				{ class = "HalloweenBagBrute", percent = 30 }, Halloween event.
+				{ class = "HalloweenBagBrute", percent = 30 }, --Halloween event.
 				{ class = "ChristmasPresentRare", percent = 30 }, -- Christmas event
 			},
 		},
@@ -533,7 +533,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomZombieGuide", percent = 10 },
 				{ category = "RandomEggs", percent = 40 }, -- Easter event
 				--{ class = "HalloweenBagSpider", percent = 30 }, -- Halloween event
-				{ class = "ChristmasPresentRare", percent = 30 }, Christmas event
+				{ class = "ChristmasPresentRare", percent = 30 }, --Christmas event
 				{ class = "guide_hazmat", percent = 1 },
 				{ class = "guide_military", percent = 1 },
 				{ class = "guide_special", percent = 1 },
@@ -588,9 +588,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBackpackContents",
 			classes =
 			{
-				{ category = "RandomEggs", percent = 2 }, Easter event
-				{ category = "RandomChristmasPresent", percent = 2 }, Christmas event
-				{ category = "halloweenBagCommon", percent = 2 }, Halloween event
+				{ category = "RandomEggs", percent = 2 }, --Easter event
+				{ category = "RandomChristmasPresent", percent = 2 }, --Christmas event
+				{ category = "halloweenBagCommon", percent = 2 }, --Halloween event
 				{ category = "Map", percent = 2 },
 				{ category = "RandomCraftingGuide", percent = 2 },
 				{ category = "RandomClothes", percent = 3 },
@@ -4666,7 +4666,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ category = "RandomChristmasPresent", percent = 2 }, -- Christmas event
 				{ category = "halloweenBagCommon", percent = 2 }, -- Halloween event
-				{ category = "RandomEggs", percent = 2 }, Easter event
+				{ category = "RandomEggs", percent = 2 }, -- Easter event
 				{ category = "RandomRangedPolicePure", percent = 10 },
 				{ category = "RandomMilitaryClothing", percent = 10 },
 				{ category = "RandomWeaponRepairKit", percent = 3 },
