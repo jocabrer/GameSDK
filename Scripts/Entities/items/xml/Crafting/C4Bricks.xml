@@ -1,0 +1,21 @@
+<item name="C4Bricks" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.25"/>
+		<param name="stack_size" value="10"/>
+		<param name="display_name" value="@C4Bricks"/>
+		<param name="description" value="@C4BricksDescription"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/c4_bricks/c4_bricks.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

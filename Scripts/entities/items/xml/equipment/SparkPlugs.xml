@@ -14,6 +14,13 @@
 		<thirdperson name="Objects/equipment/Spark_Plug/spark_plug.cgf"/>
 	</geometry>
 
+    <usable>
+        <param name="title" value="Convertir en Sheet Metal"/>
+        <param name="action" value="convert"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+    
 	<storage>
 		<locations>
 			<location category="any"/>

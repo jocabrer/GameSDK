@@ -2107,6 +2107,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ class = "guide_medical_bandages", percent = 5 },
+                { class = "guide_concrete", percent = 5 },
 				{ class = "guide_weapons_melee", percent = 5 },
 				{ class = "guide_structures_tire_stacks", percent = 5 },
 				{ class = "guide_structures_wood_bridges_1", percent = 4 },
@@ -4490,6 +4491,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomTrashContent", percent = 1 },
 				{ category = "RandomAccessory", percent = 25 },
 				{ class = "guide_medical_bandages", percent = 25 },
+                { class = "guide_concrete", percent = 25 },
 				{ class = "guide_weapons_melee", percent = 25 },
 				{ class = "guide_structures_tire_stacks", percent = 25 },
 				--{ class = "guide_structures_wood_storage", percent = 25 },
@@ -4529,6 +4531,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAccessory", percent = 25 },
 				{ category = "RandomPistol", percent = 10 },
 				{ class = "guide_medical_bandages", percent = 25 },
+                { class = "guide_concrete", percent = 25 },
 				{ class = "guide_weapons_melee", percent = 25 },
 				{ class = "guide_structures_tire_stacks", percent = 25 },
 				--{ class = "guide_structures_wood_storage", percent = 25 },
@@ -4898,6 +4901,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomMedical", percent = 75 },
 				{ category = "RandomHospitalBandage", percent = 20 },
 				{ class = "guide_medical_bandages", percent = 2 },
+                { class = "guide_concrete", percent = 2 },
 				{ class = "guide_hazmat", percent = 3 },
 			},
 		},
@@ -5276,7 +5280,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomCrateGuideContents",
 			group =
 			{
-				{ class = "guide_medical_bandages", percent = 100 },
+                
+                { class = "guide_medical_bandages", percent = 100 },
+				{ class = "guide_concrete", percent = 100 },
 				{ class = "guide_weapons_melee", percent = 100 },
 				{ class = "guide_structures_tire_stacks", percent = 100 },
 				--{ class = "guide_structures_wood_storage", percent = 100 },
@@ -6258,6 +6264,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ class = "guide_medical_bandages", percent = 5 },
+                { class = "guide_concrete", percent = 5 },
 				{ class = "guide_weapons_melee", percent = 5 },
 				{ class = "guide_structures_tire_stacks", percent = 5 },
 				--{ class = "guide_structures_wood_storage", percent = 4 }, -- Disabled
