@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1.0"/>
-		<param name="stack_size" value="2"/>
+		<param name="stack_size" value="6"/>
 		<param name="display_name" value="@PaintCan_Gold"/>
 		<param name="description" value="@PaintCan_GoldDescription"/>
-		<param name="vendor_cost" value="1"/>
+		<param name="vendor_cost" value="3"/>
 	</params>
 
 	<geometry>

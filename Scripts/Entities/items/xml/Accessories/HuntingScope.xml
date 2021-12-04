@@ -4,10 +4,11 @@
 		<param name="description" value="@HuntingScopeDescription"/>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.25"/>
+		<param name="stack_size" value="5"/>
 		<param name="scopeAttachment" value="1"/>
 		<param name="hide_as_attachment" value="0"/>
 		<param name="dontRotateOnSpawn" value="1"/>
-		<param name="vendor_cost" value="8"/>
+		<param name="vendor_cost" value="35"/>
 	</params>
 
 	<geometry>

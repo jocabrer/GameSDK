@@ -3,9 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="3"/>
 		<param name="display_name" value="@TargetPaper"/>
 		<param name="description" value="@TargetPaperDescription"/>
-		<param name="vendor_cost" value="1"/>
+		<param name="vendor_cost" value="3"/>
 	</params>
 
 	<geometry>
