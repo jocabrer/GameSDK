@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="-1"/>
 		<param name="display_name" value="UFO Storage Crate"/>
-		<param name="description" value="Amalgamated Storage Solutions"/>
+		<param name="description" value="Amalgamated Storage Solutions, usar con cuidado, ubicar sólo sobre partes de base."/>
 	</params>
 
 	<geometry>
