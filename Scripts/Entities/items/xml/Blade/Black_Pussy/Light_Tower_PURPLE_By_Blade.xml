@@ -1,0 +1,51 @@
+<item name="light_tower_tall_purple" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="5" />
+    <param name="display_name" value="Light Tower Purple" />
+    <param name="description" value="Nice Light Tower Purple" />
+  </params>
+  <base_part class="static" type="7053" name="light_tower_tall_purple" max_health="20000" repair_with="Hammer">
+    <static filename="objects/props/biohazard_assets/light_tower_tall_purple.cgf" />
+    <base_parts>
+      <base_part class="light">
+        <light helper="light" light_radius="90" light_color="0.75,0.0,0.75" light_diff_mul="20" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,0.40,3" light_rotation="-30,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="1" light_bulb_size="1" light_view_dist_ratio="30" light_material="materials/lights/lens_flares/generic/lens_optics" light_project_fov="120" light_project_texture="textures/lights/flashlight_projector.tif" fog_volume_enabled="1" fog_volume_helper="light" fog_volume_color="0.75,0.0,0.75" fog_volume_radius="7" fog_volume_size="30" fog_volume_density="0.0004" lens_flare_name="miscreated.bpart.worklight" lens_flare_fov="140" sound_on="" sound_off="" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="0.44" light_color="0.75,0.0,0.75" light_diff_mul="2" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,0.40,3" light_rotation="-30,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="250" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="90" light_color="0.75,0.0,0.75" light_diff_mul="20" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,0.40,3.5" light_rotation="-20,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="1" light_bulb_size="1" light_view_dist_ratio="30" light_material="materials/lights/lens_flares/generic/lens_optics" light_project_fov="120" light_project_texture="textures/lights/flashlight_projector.tif" fog_volume_enabled="1" fog_volume_helper="light" fog_volume_color="0.75,0.0,0.75" fog_volume_radius="7" fog_volume_size="30" fog_volume_density="0.0004" lens_flare_name="miscreated.bpart.worklight" lens_flare_fov="140" sound_on="" sound_off="" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="0.44" light_color="0.75,0.0,0.75" light_diff_mul="2" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,0.40,3.5" light_rotation="-20,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="250" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="90" light_color="0.75,0.0,0.75" light_diff_mul="20" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,-0.40,3" light_rotation="-30,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="1" light_bulb_size="1" light_view_dist_ratio="30" light_material="materials/lights/lens_flares/generic/lens_optics" light_project_fov="120" light_project_texture="textures/lights/flashlight_projector.tif" fog_volume_enabled="1" fog_volume_helper="light" fog_volume_color="0.75,0.0,0.75" fog_volume_radius="7" fog_volume_size="30" fog_volume_density="0.0004" lens_flare_name="miscreated.bpart.worklight" lens_flare_fov="140" sound_on="" sound_off="" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="0.44" light_color="0.75,0.0,0.75" light_diff_mul="2" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,-0.40,3" light_rotation="-30,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="250" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="90" light_color="0.75,0.0,0.75" light_diff_mul="20" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,-0.40,3.5" light_rotation="-20,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="1" light_bulb_size="1" light_view_dist_ratio="30" light_material="materials/lights/lens_flares/generic/lens_optics" light_project_fov="120" light_project_texture="textures/lights/flashlight_projector.tif" fog_volume_enabled="1" fog_volume_helper="light" fog_volume_color="0.75,0.0,0.75" fog_volume_radius="7" fog_volume_size="30" fog_volume_density="0.0004" lens_flare_name="miscreated.bpart.worklight" lens_flare_fov="140" sound_on="" sound_off="" />
+      </base_part>
+      <base_part class="light">
+        <light helper="light" light_radius="0.44" light_color="0.75,0.0,0.75" light_diff_mul="2" light_spec_mul="1" light_hdr_dyn="0" light_offset="0.15,-0.40,3.5" light_rotation="-20,0,180" light_style="39" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="250" />
+      </base_part>
+    </base_parts>
+    <base_actions>
+      <base_action class="toggle_light">
+        <toggle_light sound_on="" sound_off="" />
+      </base_action>
+    </base_actions>
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/props/biohazard_assets/light_tower_tall_purple.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>
