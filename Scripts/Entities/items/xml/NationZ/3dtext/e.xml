@@ -9,7 +9,7 @@
 		<param name="description" value="A Placeable Letter E."/>
 	</params>
 
-	<base_part class="static" type="6477" name="e" max_health="30000" repair_with="SheetMetal">
+	<base_part class="static" type="7654" name="e" max_health="30000" repair_with="SheetMetal">
 		<static filename="Objects/NationZ/3dtext/e.cgf" material="Objects/NationZ/3dtext/3dtext.mtl" />
 		
 		<damage_multipliers>
