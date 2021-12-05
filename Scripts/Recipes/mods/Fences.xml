@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Prefabs">
+						<types>
+							<type name="Doors">
+								<items>								
+                                    <item class="rangertower_door" time="1">
+										<materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="Nails" count="8" />
+                                            <material class="SheetMetal" count="4" />											
+										</materials>
+									</item>
+								</items>
+							</type>
+
+							<type name= "Defensive structures">
+								<items>
+									<item class="RangerTower_Packed" time="1">
+										<materials>
+                                            <material class="Lumber" count="128" />
+                                            <material class="Nails" count="64" />
+                                            <material class="SheetMetal" count="32" />
+                                            <material class="CamoNetting" count="5" />
+                                            <material class="BarbedWireCoil" count="10" />											
+										</materials>
+									</item>
+								</items>
+							</type>
+							
+							<type name="Fences">
+								<items>							
+									<item class="farmfence_nz" time="3">
+										<materials>
+											<material class="Lumber" count="16" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="4" />
+										</materials>
+									</item>	
+									<item class="postonly_nz" time="3">
+										<materials>
+											<material class="Lumber" count="4" />
+											<material class="Nails" count="2" />
+											<material class="ScrapMetal" count="1" />
+										</materials>
+									</item>
+									<item class="Clean_Fence_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="16" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="4" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="Clean_Doorway_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="6" />
+										</materials>
+									</item>
+									<item class="Broken_Doorway_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="6" />
+										</materials>
+									</item>
+									<item class="Left_Clean_Fence_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="Right_Clean_fence_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="Clean_Door_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="16" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="4" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="Clean_Fence_Corner_Mesh_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="4" />
+										</materials>
+									</item>									
+								</items>
+							</type>									
+						</types>
+					</subcat>
+				</subcats>	
+			</cat>
+		</cats>
+	</guide>
+</recipes>

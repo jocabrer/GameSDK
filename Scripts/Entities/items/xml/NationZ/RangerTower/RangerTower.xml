@@ -1,0 +1,15 @@
+<item name="RangerTower" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/> <!-- infinite mass so can't be moved -->
+		<param name="display_name" value="Ranger Tower"/>
+		<param name="description" value="A Ranger Tower."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/basebuilding/RangerTower/ranger_tower.cgf" material="Objects/NationZ/basebuilding/RangerTower/RangerTower.mtl" />
+	</geometry>
+	
+
+</item>
