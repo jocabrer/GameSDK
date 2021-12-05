@@ -237,7 +237,7 @@ AISpawnerManager = {
 
 		{
 			category = "wolf_pack_large",
-			pack = true, min = 6, max = 12,
+			pack = true, min = 5, max = 9,
 			classes =
 			{
 				{ 

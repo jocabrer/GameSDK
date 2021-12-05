@@ -68,9 +68,8 @@ function BIOHZPNGetAdminState(playerId, targetId)
     player = System.GetEntity(targetId);
     local steamId = player.player:GetSteam64Id();
 
-
     if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
-     
+        
         mSendEvent(
             playerId,
             {
@@ -89,6 +88,7 @@ end
 -- Checks for players at 3m around the player and displays their name if there's nothing
 -- in between them
 function BIOHZPNShowPlayerNames()
+    
     local myPlayer = System.GetEntity(g_localActorId);
 
     if (not myPlayer:IsDead()) then
@@ -105,7 +105,7 @@ function BIOHZPNShowPlayerNames()
                     playerPos.z = playerPos.z + 1;
                     local moveToDirection = {x=0, y=0, z=0};
                     local isAdmin = false;
-                    local MaxDistance = 15;
+                    local MaxDistance = 100;
 
                     if (player.BIOHZIsAdmin) then
                         isAdmin = true;

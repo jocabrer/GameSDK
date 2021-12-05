@@ -2109,11 +2109,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "guide_medical_bandages", percent = 5 },
                 { class = "guide_concrete", percent = 5 },
 				{ class = "guide_weapons_melee", percent = 5 },
-				{ class = "guide_structures_tire_stacks", percent = 5 },
-				{ class = "guide_structures_wood_bridges_1", percent = 4 },
-				{ class = "guide_structures_wood_ramps_1", percent = 4 },
-				{ class = "guide_structures_wood_stairs_1", percent = 4 },
-				{ class = "guide_structures_wood_traps_2", percent = 4 },
+				{ class = "guide_structures_tire_stacks", percent = 4},
+				{ class = "guide_structures_wood_bridges_1", percent = 3 },
+				{ class = "guide_structures_wood_ramps_1", percent = 3 },
+				{ class = "guide_structures_wood_stairs_1", percent = 3 },
+				{ class = "guide_structures_wood_traps_2", percent = 3 },
 				{ class = "guide_structures_wood_walkways_1", percent = 4 },
 				{ class = "guide_structures_wood_walls_1", percent = 4 },
 				{ class = "guide_structures_wood_roofs", percent = 4 },
@@ -3672,15 +3672,15 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomCrafting",
 			classes =
 			{
-				{ class = "CupidArrowx8", percent = 3 }, -- Valentines event
-				{ class = "flower_vase", percent = 3 }, -- Valentines event
-				{ class = "heart_candle", percent = 3 }, -- Valentines event
-				{ class = "heart_balloon", percent = 2 }, -- Valentines event
+				{ class = "CupidArrowx8", percent = 1 }, -- Valentines event
+				{ class = "flower_vase", percent = 1 }, -- Valentines event
+				{ class = "heart_candle", percent = 1 }, -- Valentines event
+				{ class = "heart_balloon", percent = 1 }, -- Valentines event
 				{ category = "RandomChristmasPresent", percent = 2 }, -- Christmas event
 				{ category = "halloweenBagCommon", percent = 2 }, -- Halloween event
 				{ category = "RandomEggs", percent = 2 }, -- Easter event
 				{ category = "RandomIncapacition", percent = 5 },
-				{ category = "RandomPaintCan", percent = 7 },
+				{ category = "RandomPaintCan", percent = 8 },
 				{ category = "RandomFireStarter", percent = 4 },
 				{ class = "Amalgaduino", percent = 5 },
 				{ class = "BarbedWireCoil", percent = 10 },
@@ -3846,13 +3846,21 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomCampingBPart", 
 			classes =
 			{
-				{ class = "camping_chair", percent = 20 },
-				{ class = "propane_heater", percent = 20 },
-				{ class = "camping_lantern", percent = 30 },
-				{ class = "HeatPack", percent = 20 },
-				{ class = "camping_pop_up_canopy", percent = 15 },
-				{ class = "camping_table", percent = 15 },
-				{ class = "camping_water_jug", percent = 14 },
+				{ class = "camping_chair", percent = 3 },
+				{ class = "propane_heater", percent = 5 },
+				{ class = "camping_lantern", percent = 11.5 },
+                { class = "camping_lantern_pink", percent = 11.5 },
+                { class = "camping_lantern_red", percent = 11.5 },
+                { class = "camping_lantern_aqua", percent = 11.5 },
+                { class = "camping_lantern_blue", percent = 11.5 },
+                { class = "camping_lantern_green", percent = 11.5 },
+                { class = "camping_lantern_orange", percent = 11.5 },
+                { class = "camping_lantern_yellow", percent = 11.5 },
+                { class = "camping_lantern_purple", percent = 11.5 },
+				{ class = "HeatPack", percent = 10 },
+				{ class = "camping_pop_up_canopy", percent = 3 },
+				{ class = "camping_table", percent = 3 },
+				{ class = "camping_water_jug", percent = 6 },
 				{ category = "RandomTent", percent = 1 },
 			},
 		},
@@ -4491,7 +4499,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomTrashContent", percent = 1 },
 				{ category = "RandomAccessory", percent = 25 },
 				{ class = "guide_medical_bandages", percent = 25 },
-                { class = "guide_concrete", percent = 25 },
+                { class = "guide_concrete", percent = 30 },
 				{ class = "guide_weapons_melee", percent = 25 },
 				{ class = "guide_structures_tire_stacks", percent = 25 },
 				--{ class = "guide_structures_wood_storage", percent = 25 },
@@ -4898,7 +4906,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomHospitalMedical",
 			classes =
 			{
-				{ category = "RandomMedical", percent = 75 },
+				{ category = "RandomMedical", percent = 73 },
 				{ category = "RandomHospitalBandage", percent = 20 },
 				{ class = "guide_medical_bandages", percent = 2 },
                 { class = "guide_concrete", percent = 2 },
@@ -4927,11 +4935,19 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomHospitalContentMedium",
 			classes =
 			{
-				{ category = "RandomHospitalContentSmall", percent = 50 },
-				{ category = "RandomHospitalClothes", percent = 25 },
+				{ category = "RandomHospitalContentSmall", percent = 40 },
+				{ category = "RandomHospitalClothes", percent = 19 },
 				{ class = "guide_hazmat", percent = 2 },
 				{ class = "WaterBottle", percent = 8 },
 				{ class = "camping_lantern", percent = 2 },
+                { class = "camping_lantern_pink", percent = 2 },
+                { class = "camping_lantern_red", percent = 2 },
+                { class = "camping_lantern_aqua", percent = 2 },
+                { class = "camping_lantern_blue", percent = 2 },
+                { class = "camping_lantern_green", percent = 2 },
+                { class = "camping_lantern_orange", percent = 2 },
+                { class = "camping_lantern_yellow", percent = 2 },
+                { class = "camping_lantern_purple", percent = 2 },
 				{ class = "camping_water_jug", percent = 3 },
 				{ class = "Hammer", percent = 3 },
 				{ class = "Hatchet", percent = 2 },
