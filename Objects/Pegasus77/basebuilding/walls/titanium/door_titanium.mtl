@@ -1,0 +1,40 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.33716366,0.33716366,0.33716366" Opacity="1" Shininess="182" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/black_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fallout_shelter/textures/scratched_wall_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Opacity="1" Shininess="128" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/black_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_misc" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/residential_assets/safe/safe_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/residential_assets/safe/safe_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/residential_assets/safe/safe_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bpart_plated" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/plated/textures/bparts_plated_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/plated/textures/bparts_plated_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/plated/textures/bparts_plated_spec.tif"/>
+   </Textures>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0.0030352699,0.0030352699,0.0030352699" Opacity="1" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/black_diff.tif" Filter="1" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="1.1" DividerY="0.0099999998" NoiseScale="1,1,1"/>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -762,7 +762,7 @@
                 <subcats>
                     <subcat name="Components">
                         <items>
-					        <item class="ConcreteBag" time="10">
+					        <item class="ConcreteBag" time="1">
 					            <materials>
 					                <material class="Rocks" count="5" />
 					                <material class="Charcoal" count="5" />

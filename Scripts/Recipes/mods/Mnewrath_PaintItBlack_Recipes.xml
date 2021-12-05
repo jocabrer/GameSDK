@@ -1066,6 +1066,13 @@
 						<types>
 							<type name="Doors">
 								<items>
+									<item class="door_titanium" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>						
 									<item class="wood_door_1m_2m" time="5">
 										<materials>
 											<material class="Lumber" count="2" />

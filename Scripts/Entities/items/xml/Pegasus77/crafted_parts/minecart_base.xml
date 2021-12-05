@@ -1,0 +1,20 @@
+<item name="minecart_base" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/> <!-- infinite mass so can't be moved -->
+		<param name="display_name" value="Storage Minecart"/>
+		<param name="description" value="Ideal storage for ores and metals, but can store any item. Limit: 3."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects\Pegasus77\basebuilding\storage\minecart.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="15"/>
+		</types>
+	</storage>	
+
+</item>

@@ -1,0 +1,23 @@
+<item name="SalazarSkull" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="1"/>
+		<param name="stack_size_spawned" value="1"/>
+		<param name="display_name" value="Skull of Salazar"/>
+		<param name="description" value="Can be Traded in the Kiosk for His Weapon, or Sold in Safezone"/>
+		<param name="vendor_cost" value="500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/lekka/skullofsalazar/skullofsalazar.cgf"/>  
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

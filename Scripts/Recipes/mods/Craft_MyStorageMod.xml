@@ -30,6 +30,20 @@
                                                 
 											</materials>
 									</item>
+                                    <item class="minecart_base_packed" time="1">
+                                        <materials>
+                                         <material class="ScrapMetal" count="500" />
+										 <material class="SheetMetal" count="500" />
+										 <material class="Lumber" count="500" />
+                                        </materials>
+                                    </item>
+                                    <item class="epic_gold_crate_packed" time="1">
+                                        <materials>
+                                         <material class="ScrapMetal" count="500" />
+										 <material class="SheetMetal" count="500" />
+										 <material class="Lumber" count="500" />
+                                        </materials>
+                                    </item>
 									<item class="metal_safe" time="1" amount="1">
 											<materials>
 												<material class="ScrapMetal" count="125"/>

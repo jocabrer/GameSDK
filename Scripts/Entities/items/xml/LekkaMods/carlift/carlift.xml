@@ -1,0 +1,78 @@
+<item name="carlift" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="4"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Car Lift Elevator"/>
+		<param name="description" value="Limit: 2 Per Base"/>
+		<param name="place_restrict_snap" value="carliftbase_snap"/>
+	</params>
+
+	<base_part class="door" type="7931" name="carlift" max_health="25000" repair_sound="Play_wall_repair" repair_with="SheetMetal" limit="2">
+		<door filename="objects/Lekka/baseparts/carlift/carlift_ramp4.cgf" rotate_base="0" move_range="2.9" move_speed="1.5" move_axis="z" move_axis_dir="-" sound_open="Play_industrial_garage_door_open" sound_opened="" sound_close="Play_industrial_garage_door_close" sound_closed="Play_door_wood_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock"/>
+			</base_action>
+			<base_action class="toggle_lock">
+				<toggle_lock/>
+			</base_action>
+		</base_actions>
+		
+		<damage_multipliers>
+			<damage_multiplier damage_type="collision" multiplier="0.1"/>
+			<damage_multiplier damage_type="explosion" multiplier="10"/>
+			<damage_multiplier damage_type="frag" multiplier="4"/>
+			<damage_multiplier damage_type="fire" multiplier="1.0"/>
+			<damage_multiplier damage_type="melee" multiplier="0.0"/>
+			<damage_multiplier damage_type="repair" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_10mm" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_12_gauge_beanbag" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_12_gauge_pellet" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_12_gauge_slug" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_22" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_223" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_308" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_357" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_5_45x39" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_5_56x45" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_5_70x28" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_7_62x39" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_7_62x51" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_9mm" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_acp_45" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_rock_lge" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_rock_sml" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_rock_player" multiplier="0.0"/>
+			<damage_multiplier damage_type="ammo_tranquilizer_dart" multiplier="0.0"/>
+			<damage_multiplier damage_type="arrow" multiplier="0.0"/>
+			<damage_multiplier damage_type="blunt" multiplier="0.0"/>
+			<damage_multiplier damage_type="flare" multiplier="0.0"/>
+			<damage_multiplier damage_type="hammer" multiplier="0.0"/>
+			<damage_multiplier damage_type="hatchet" multiplier="0.0"/>
+			<damage_multiplier damage_type="knife" multiplier="0.0"/>
+			<damage_multiplier damage_type="pickaxe" multiplier="0."/>
+			<damage_multiplier damage_type="torch" multiplier="0.0"/>
+			<damage_multiplier damage_type="sledgehammer" multiplier="3.34"/>
+		</damage_multipliers>
+	</base_part>
+
+	<explosion>
+		<param name="sound_radius" value="50"/> <!-- max radius the AI will react to the explosion sound -->
+		<param name="hole_size" value="3"/> <!-- radius to remove entities within -->
+		<param name="effect" value="misc.basebuilding.plated_wall_destroyed"/>
+		<param name="effect_scale" value="1"/>
+	</explosion>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/plated/plated_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

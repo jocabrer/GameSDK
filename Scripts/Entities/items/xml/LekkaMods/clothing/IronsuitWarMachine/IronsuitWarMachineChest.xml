@@ -1,0 +1,87 @@
+<item name="IronsuitWarMachineChest" class="Item" category="any">
+	<params>
+		<param name="colorable" value="1"/>
+		<param name="droppable" value="1"/>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="275.0"/>
+		<param name="damage_scale" value="0.1"/>
+		<param name="display_name" value="Warmachine Chest"/>
+		<param name="description" value="Warmachine Chest"/>
+	</params>
+
+	<wearable>
+		<param name="skin" value="objects/Lekka/clothing/Ironsuit/ironsuitchest.skin"/>
+		<param name="mtl" value="objects/Lekka/clothing/Ironsuit/ironsuitwarmachine.mtl"/>
+		<param name="slot" value="vest"/>
+		<param name="length" value="1"/>
+	</wearable>
+	
+	<geometry>
+		<onground name="objects/Lekka/clothing/Ironsuit/ironsuitchest_onground.cgf" material="objects/Lekka/clothing/Ironsuit/ironsuitwarmachine.mtl"/>
+	</geometry>
+
+	<protection level="4">
+        <environmental>
+            <protection_amount type="explosion" percentage="25.0"/>
+			<protection_amount type="fire" percentage="40.0"/>
+			<protection_amount type="rain" percentage="95.0"/>
+			<protection_amount type="humidity" percentage="95.0"/>
+			<protection_amount type="rain_acid" percentage="95.0"/>
+			<protection_amount type="pool_acid" percentage="95.0"/>
+			<protection_amount type="rain_radiation" percentage="95.0"/>
+			<protection_amount type="electricity" percentage="95.0"/>
+			<protection_amount type="cold" percentage="95.0"/>
+			<protection_amount type="heat" percentage="95.0"/>
+			<protection_amount type="physical" percentage="95.0"/>
+        </environmental>
+		<protectBodyPart name="torso"> <!-- Use valid bodyparts defined in Libs/BodyDamage/BodyParts_*.xml -->
+			<protection_amount hit_type="blunt" percentage="75.0"/>
+			<protection_amount hit_type="melee" percentage="75.0"/>
+			<protection_amount hit_type="ammo_357" percentage="20.0"/>
+			<protection_amount hit_type="ammo_9mm" percentage="40.0"/>
+			<protection_amount hit_type="ammo_10mm" percentage="37.5"/>
+			<protection_amount hit_type="ammo_acp_45" percentage="35.0"/>
+			<protection_amount hit_type="ammo_308" percentage="15.0"/>
+			<protection_amount hit_type="ammo_7_62x39" percentage="15.0"/>
+			<protection_amount hit_type="ammo_7_62x51" percentage="15.0"/>
+			<protection_amount hit_type="ammo_5_45x39" percentage="22.5"/>
+			<protection_amount hit_type="ammo_5_56x45" percentage="20.0"/>
+			<protection_amount hit_type="ammo_223" percentage="20.0"/>
+			<protection_amount hit_type="ammo_5_70x28" percentage="45.0"/> 
+		</protectBodyPart>
+	</protection>
+	
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="vest"/>
+		</locations>
+		<types>
+			<type category="any" capacity="10"/>
+		</types>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Clothing;Slot:Jacket"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/FlakVestGreen_200.png?crc=43E36EB2"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="5"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="40321"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Clothing;Slot:Jacket"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/FlakVestGreen_2048.png?crc=43E36EB2"/>
+	</steam>
+</item>

@@ -254,6 +254,387 @@
                             </type>
                         </types>
                     </subcat>
+                    <subcat name="Prefabs">
+                        <types>
+                            <type name="Cabin">
+                                <items>                       
+						            <item class="cabin_wood" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						            <item class="cabin_wood_black" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+									
+									<item class="cabin_wood_simple" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+									<item class="cabin_wood_simple_black" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						            <item class="cabin_wood_simple_red" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+									
+						        </items>
+                            </type>
+                            <type name="Story">
+                                <items>                       
+                                    <item class="one_story_green" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						            <item class="one_story_red" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						            <item class="one_story_white" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+									  <item class="one_story_black" time="1">
+                                         <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						        
+						        </items>
+                            </type>
+                            <type name="Villa">
+                                <items>                       
+                                   
+						            <item class="villa_black" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+									<item class="villa_red" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						            <item class="villa_white" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1000" />
+										 <material class="ScrapMetal" count="1000" />
+										 <material class="SheetMetal" count="1000" />
+										 <material class="Rocks" count="1000" />
+                                        </materials>
+                                    </item>
+						           
+						        </items>
+                            </type>
+                            <type name="Car Lift">
+                                <items>
+                                    <item class="carliftbase" time="1">
+                                        <materials>
+                                            <material class="ElectricalParts" count="20" />
+                                            <material class="ScrapMetal" count="100" />
+                                            <material class="SheetMetal" count="120" />
+                                        </materials>
+                                    </item>
+                                    <item class="carlift" time="1">
+                                        <materials>
+                                            <material class="ElectricalParts" count="20" />
+                                            <material class="ScrapMetal" count="100" />
+                                            <material class="SheetMetal" count="120" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                        </types>
+                    </subcat>
+                    <subcat name="Ladrillo">
+                        <items>
+                            <item class="brick_angled_roof_3x4x4" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_ceiling_4m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_ceiling_8m_8m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_ceiling_16m_16m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_column_3m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_crenelation" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_platform_3m_4m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_platform_3m_4m_4m_stairs" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_platform_3m_8m_8m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_wall_3m_2m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_wall_3m_2m_window" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_wall_3m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_wall_3m_4m_door" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                            <item class="brick_wall_3m_4m_window" time="5">
+                                <materials>
+                                    <material class="Rocks" count="350"/>
+                                </materials>
+                            </item>
+                        </items>
+					</subcat>
+                    <subcat name="Roca Piedra">
+                        <items>
+                            <item class="cobblestone_angled_roof_3x4x4" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_ceiling_4m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_ceiling_8m_8m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_ceiling_16m_16m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_column_3m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_crenelation" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_platform_3m_4m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_platform_3m_4m_4m_stairs" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item> 
+                            <item class="cobblestone_platform_3m_8m_8m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_wall_3m_2m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_wall_3m_2m_window" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_wall_3m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_wall_3m_4m_door" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="cobblestone_wall_3m_4m_window" time="5">
+                                <materials>
+                                    <material class="Rocks" count="250"/>
+                                    <material class="Lumber" count="150"/>
+                                </materials>
+                            </item>
+                            <item class="rock_doorway_3m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_3m_2m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_3m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_4m_2m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_4m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_window_3m_2m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_window_3m_4m" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_doorway_3m_4m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_3m_2m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_3m_4m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_4m_2m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_4m_4m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_window_3m_2m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="10" />
+                                    <material class="Lumber" count="2" />
+                                </materials>
+                            </item>
+                            <item class="rock_wall_window_3m_4m_beamless" time="5">
+                                <materials>
+                                    <material class="Rocks" count="20" />
+                                    <material class="Lumber" count="4" />
+                                </materials>
+                            </item>
+                        </items>
+					</subcat>	
                     <subcat name="Structures">
                         <types>
                             <type name="Platforms XL">
@@ -425,94 +806,6 @@
                                     </item>
                                 </items>
                             </type>
-                            <type name="Walls Rock">
-                                <items>
-                                    <item class="rock_doorway_3m_4m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_3m_2m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_3m_4m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_4m_2m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_4m_4m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_window_3m_2m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_window_3m_4m" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_doorway_3m_4m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_3m_2m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_3m_4m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_4m_2m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_4m_4m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_window_3m_2m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                            <material class="Lumber" count="2" />
-                                        </materials>
-                                    </item>
-                                    <item class="rock_wall_window_3m_4m_beamless" time="5">
-                                        <materials>
-                                            <material class="Rocks" count="20" />
-                                            <material class="Lumber" count="4" />
-                                        </materials>
-                                    </item>
-                                </items>
-                            </type>
                             <type name="Metal Parts">
                                 <items>
                                     <item class="metal_gate_lockable_6m_5_4m" time="5">
@@ -648,6 +941,1115 @@
                             </type>
                         </types>
                     </subcat>
+                    <subcat name="Plastered">
+						<types>
+							<type name="Wall">
+								<items>
+									<item class="plastered_wall_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_black_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_black_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_black_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_black_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_black_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation_black" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_blue_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_blue_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_blue_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_blue_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_blue_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation_blue" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_green_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_green_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_green_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_green_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_green_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation_green" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_purple_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_purple_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_purple_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_purple_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_purple_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation_purple" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_red_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_red_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_red_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_red_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_wall_red_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_crenelation_red" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Column">
+								<items>
+									<item class="plastered_column_3m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_column_3m_black" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_column_3m_blue" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_column_3m_green" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_column_3m_purple" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_column_3m_red" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Platform">
+								<items>
+									<item class="plastered_platform_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_black_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_black_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_black_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_blue_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_blue_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_blue_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_green_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_green_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_green_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_purple_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_purple_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_purple_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_red_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_red_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_platform_red_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Ceiling">
+								<items>
+									<item class="plastered_ceiling_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_4m_4m_black" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_4m_4m_blue" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_4m_4m_green" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_4m_4m_purple" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_4m_4m_red" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m_black" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m_blue" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m_green" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m_purple" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_8m_8m_red" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m_black" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m_blue" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m_green" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m_purple" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_ceiling_16m_16m_red" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Roof">
+								<items>
+									<item class="plastered_angled_roof_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_angled_roof_black_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_angled_roof_blue_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_angled_roof_green_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_angled_roof_purple_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+									<item class="plastered_angled_roof_red_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="Rocks" count="500" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+                    <subcat name="Titanium">
+						<types>
+							<type name="Wall">
+								<items>
+									<item class="titanium_wall_3m_2m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_wall_3m_2m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_wall_3m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_wall_3m_4m_door" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_wall_3m_4m_window" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_crenelation" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Platform">
+								<items>									
+									<item class="titanium_platform_3m_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_platform_3m_4m_4m_stairs" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_platform_3m_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Ceiling">
+								<items>
+									<item class="titanium_ceiling_4m_4m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_ceiling_8m_8m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									<item class="titanium_ceiling_16m_16m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+									</items>
+							</type>
+							<type name="Column">
+								<items>
+									<item class="titanium_column_3m" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Roof">
+								<items>
+									<item class="titanium_angled_roof_3x4x4" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Door">
+								<items>
+									<item class="door_titanium" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+											<material class="Rocks" count="1000" />
+										</materials>
+									</item>						
+								</items>
+							</type>
+						</types>
+					</subcat>
+                    <subcat name="Marble">
+                        <types>
+                            <type name="Foundation">
+                                <items>
+                                    <item class="marble_foundation_4m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_foundation_black_4m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_foundation_blue_4m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_foundation_green_4m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Wall">
+                                <items>
+                                    <item class="marble_wall_3m_2m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_3m_2m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_3m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_3m_4m_door" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_3m_4m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_crenelation" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_black_3m_2m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_black_3m_2m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_black_3m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_black_3m_4m_door" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_black_3m_4m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_crenelation_black" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_blue_3m_2m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_blue_3m_2m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_blue_3m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_blue_3m_4m_door" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_blue_3m_4m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_crenelation_blue" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_green_3m_2m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_green_3m_2m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_green_3m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_green_3m_4m_door" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_wall_green_3m_4m_window" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_crenelation_green" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Platform">
+                                <items>
+                                    <item class="marble_platform_3m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_3m_4m_4m_stairs" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_3m_8m_8m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_black_3m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_black_3m_4m_4m_stairs" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_black_3m_8m_8m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_blue_3m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_blue_3m_4m_4m_stairs" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_blue_3m_8m_8m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_green_3m_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_green_3m_4m_4m_stairs" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_platform_green_3m_8m_8m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Ceiling">
+                                <items>
+                                    <item class="marble_ceiling_4m_4m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>>
+                                    </item>
+                                    <item class="marble_ceiling_4m_4m_black" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_4m_4m_blue" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_4m_4m_green" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_8m_8m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_8m_8m_black" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_8m_8m_blue" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_8m_8m_green" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_16m_16m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_16m_16m_black" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_16m_16m_blue" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_ceiling_16m_16m_green" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Column">
+                                <items>
+                                    <item class="marble_column_3m" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_column_3m_black" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_column_3m_blue" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_column_3m_green" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Roof">
+                                <items>
+                                    <item class="marble_angled_roof_3x4x4" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_angled_roof_black_3x4x4" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_angled_roof_blue_3x4x4" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="marble_angled_roof_green_3x4x4" time="1">
+                                        <materials>
+                                            <material class="Lumber" count="500" />
+                                            <material class="Rocks" count="500" />
+                                            <material class="SheetMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                        </types>
+					</subcat>
                 </subcats>
             </cat>
         </cats>

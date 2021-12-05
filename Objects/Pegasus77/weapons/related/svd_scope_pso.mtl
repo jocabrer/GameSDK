@@ -1,0 +1,21 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thin" MatTemplate="" Diffuse="0.084376216,0.084376216,0.084376216" Specular="0.025186861,0.025186861,0.025186861" Opacity="1" Shininess="143" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/pegasus77/weapons/related/pso_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/pegasus77/weapons/related/pso_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.080219828,0.080219828,0.080219828" Opacity="1" Shininess="255" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/glass/glass_flat_dirty_ddna.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.1169707,0.1169707,0.1169707" TintCloudiness="0" BackLightScale="0" BumpScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thin" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
