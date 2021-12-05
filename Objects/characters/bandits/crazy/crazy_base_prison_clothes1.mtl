@@ -1,0 +1,21 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="clothes" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.001214108,0.00030352699,0" Specular="0.63075727,0.63075727,0.63075727" Opacity="1" Shininess="255" AlphaTest="0.50999999" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/mutants/crazymutant/texture/clothes_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/mutants/crazymutant/texture/clothes_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/mutants/crazymutant/texture/clothes_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.064999998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="clotheslod1" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.93868583,0.34191445,0.093058966" Specular="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="clotheslod2" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.93868583,0.34191445,0.093058966" Specular="0,0,0" Opacity="1" Shininess="9.999999" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

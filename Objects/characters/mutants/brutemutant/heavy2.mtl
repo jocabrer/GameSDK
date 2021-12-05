@@ -1,0 +1,78 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="metal" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="plate_1" MtlFlags="524448" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.50543249,0.50543249,0.50543249" Opacity="1" Shininess="255" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/trashedsteel/metal_trashedsteel_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/trashedsteel/metal_trashedsteel_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/trashedsteel/metal_trashedsteel_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_2" MtlFlags="524448" Shader="Illum" GenMask="60000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0024282159,0.0024282159,0.0024282159" Specular="1,1,1" Opacity="1" Shininess="255" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/trashedsteel/metal_trashedsteel_diff.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/trashedsteel/metal_trashedsteel_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="eyes" MtlFlags="524448" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.097587354,0.0091340598,0.0056053922" Specular="0,0,0" Emittance="0.24620135,0,0,200" Opacity="1" Shininess="10" HeatAmountScaled="64" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="jelly" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="phys_armor" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.72941202,1,0" Specular="0.89999998,0.89999998,0.89999998" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="phys_jelly" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0.72941202,1" Specular="0.89999998,0.89999998,0.89999998" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="nodraw_nophys" MtlFlags="524448" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,1,0" Specular="0.89999998,0.89999998,0.89999998" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="guts" MtlFlags="541856" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.5174014,0.5174014,0.5174014" Specular="0,0,0" Opacity="1" Shininess="100" HeatAmountScaled="64" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="plate_glow" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal_noshadow" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_1_noshadow" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plate_2_noshadow" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="eyes_jelly" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="weapons_alive" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="weapons_dead" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" HeatAmountScaled="13" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

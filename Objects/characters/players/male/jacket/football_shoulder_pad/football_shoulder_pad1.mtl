@@ -1,0 +1,84 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="chest_plate" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thin" MatTemplate="" Diffuse="0.040915202,0.059511244,0.03954624" Specular="0.040915202,0.040915202,0.040915202" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.13843164,0.13843164,0.13843164" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoulder_cap" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thin" MatTemplate="" Diffuse="0.040915202,0.059511244,0.03954624" Specular="0.019382363,0.019382363,0.019382363" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cushion" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.07618539,0.11193243,0.063010022" DirtGlossFactor="0.53200001" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0.021" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="belt" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.033104774,0.033104774,0.033104774" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0.085000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="buckles" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lace" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.0097212186,0.0097212186,0.0097212186" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0.17900001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="plastic" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/male/jacket/football_shoulder_pad/textures/football_shoulder_pad_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.019382363,0.019382363,0.019382363" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0.082000002" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="logo_1" MtlFlags="524448" Shader="Illum" GenMask="40000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="182" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/branding/hoodie_branding_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" TileV="0.80000001" OffsetV="0.25"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1.2" DecalAlphaMult="0.87" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="logo_2" MtlFlags="524448" Shader="Illum" GenMask="40000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.13843164,0.13843164,0.13843164" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="182" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/branding/hoodie_branding_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" OffsetU="0.25" TileV="0.80000001" OffsetV="0.25"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1.2" DecalAlphaMult="0.87" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

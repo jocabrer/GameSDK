@@ -1,0 +1,50 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body_M" MtlFlags="524416" Shader="HumanSkin" GenMask="800400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.83077002,0.83077002,0.83077002" Specular="0.0033465358,0.0085681258,0.0030352699" Opacity="1" Shininess="170" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Characters/bandits/spiker/tx/body_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/bandits/spiker/tx/spiker_pbr_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/concrete/concrete_a_detail.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="40" TileV="40"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/characters/bandits/spiker/tx/spiker_pbr_opacity.tif"/>
+   </Textures>
+   <PublicParams Melanin="0.792" SSSIndex="1.2" DetailBumpScale="1" TranslucencyMultiplier="0.73799998" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="eyes_M" MtlFlags="524448" Shader="Illum" GenMask="2040000000" StringGenMask="%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.52099562,0,0" Specular="0,0,0" Emittance="0.61720669,0.001517635,0.001517635,2" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/bandits/spiker/tx/eye_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="0.69999999" OffsetV="0.2"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shirt" MtlFlags="524418" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" AlphaTest="0.31999999" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/mutants/humanzombie/textures/clothing_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/mutants/humanzombie/textures/clothing_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/mutants/humanzombie/textures/clothing_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/mutants/humanzombie/textures/clothing_dirt.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.064803272,0.064803272,0.064803272" DirtGlossFactor="0.1" DirtTiling="1" DirtStrength="0.99800003" DirtMapAlphaInfluence="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="pants" MtlFlags="524418" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" AlphaTest="0.31999999" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="objects/characters/mutants/humanzombie/textures/clothing_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/mutants/humanzombie/textures/clothing_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/mutants/humanzombie/textures/clothing_dirt.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.010960096,0.010960096,0.010960096" DirtGlossFactor="1" DirtTiling="1" DirtStrength="0.78799999" DirtMapAlphaInfluence="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoes" MtlFlags="524416" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0,0,0" Specular="0.78353792,0.78353792,0.78353792" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/mutants/humanzombie/textures/clothing_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/mutants/humanzombie/textures/clothing_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/mutants/humanzombie/textures/clothing_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/mutants/humanzombie/textures/clothing_dirt.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.059511244,0.46207702,0.088655591" DirtGlossFactor="0.99299997" DirtTiling="1" DirtStrength="0.96200001" DirtMapAlphaInfluence="0.31" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

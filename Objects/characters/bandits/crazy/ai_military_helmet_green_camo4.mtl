@@ -1,0 +1,45 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="helmet_top" MtlFlags="524416" Shader="Illum" GenMask="60400600" StringGenMask="%DETAIL_MAPPING%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.58407855,0.58407855,0.58407855" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_fabric_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_spec.tif"/>
+    <Texture Map="Detail" File="objects/characters/players/male/back/backpack/rugged/camo_4.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Custom" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.20507877,0.24620135,0.14126332" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DetailDiffuseScale="1" DetailBumpScale="0" DetailGlossScale="0" DirtMapAlphaInfluence="0.229" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="straps" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_fabric_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_head" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="straps2" MtlFlags="524448" Shader="Illum" GenMask="60400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.42326769,0.42326769,0.42326769" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_fabric_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_spec.tif"/>
+    <Texture Map="Custom" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.1559265,0.20507877,0.11443538" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="strap3" MtlFlags="524448" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.084376216,0.097587354,0.042311415" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_fabric_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/generic/hat/swat_helmet/swat_helmet_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

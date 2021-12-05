@@ -4,9 +4,9 @@
 		<param name="selectable" value="0"/>
 		<param name="itemClass" value="RK_Teflon"/>
 		<param name="mass" value="1.0"/>
-		<param name="stack_size" value="25" />
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.25"/>
+        <param name="stack_size" value="25" />
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="@RK_Teflon"/>
 		<param name="description" value="@RK_TeflonDescription"/>
@@ -19,6 +19,35 @@
 	<repair>
 		<item name="RK_Teflon" percentage="100"/> <!-- Allow self-repairs -->
 		<item name="GasCanisterPack" percentage="100"/>
+		<item name="GasMask" percentage="100"/>
+		<item name="HazmatMask" percentage="100"/>
+		<item name="HazmatSuitBlue" percentage="100"/>
+		<item name="HazmatSuitGreen" percentage="100"/>
+		<item name="HazmatSuitOrange" percentage="100"/>
+		<item name="HazmatSuitPink" percentage="100"/>
+		<item name="HazmatSuitWhite" percentage="100"/>
+		<item name="HazmatSuitYellow" percentage="100"/>
+		<item name="RainJacketBlack" percentage="100"/>
+		<item name="RainJacketBlue" percentage="100"/>
+		<item name="RainJacketBlueGrey" percentage="100"/>
+		<item name="RainJacketCamo1" percentage="100"/>
+		<item name="RainJacketCamo2" percentage="100"/>
+		<item name="RainJacketCamo3" percentage="100"/>
+		<item name="RainJacketDarkGrey" percentage="100"/>
+		<item name="RainJacketGreen" percentage="100"/>
+		<item name="RainJacketGreenGrey" percentage="100"/>
+		<item name="RainJacketGrey" percentage="100"/>
+		<item name="RainJacketGreyBlack" percentage="100"/>
+		<item name="RainJacketKaki" percentage="100"/>
+		<item name="RainJacketLightDarkGrey" percentage="100"/>
+		<item name="RainJacketMarine" percentage="100"/>
+		<item name="RainJacketOrangeBlue" percentage="100"/>
+		<item name="RainJacketPinkPurple" percentage="100"/>
+		<item name="RainJacketRed" percentage="100"/>
+		<item name="RainJacketRedBlue" percentage="100"/>
+		<item name="RainJacketRedGrey" percentage="100"/>
+		<item name="RainJacketYellow" percentage="100"/>
+		<item name="HazmatSuitBlack" percentage="100"/>
 		<item name="GasCanisterPackBlack" percentage="100"/>
 		<item name="GasCanisterPackBlue" percentage="100"/>
 		<item name="GasCanisterPackGreen" percentage="100"/>
@@ -26,8 +55,6 @@
 		<item name="GasCanisterPackPink" percentage="100"/>
 		<item name="GasCanisterPackWhite" percentage="100"/>
 		<item name="GasCanisterPackYellow" percentage="100"/>
-		<item name="GasMask" percentage="100"/>
-		<item name="HazmatMask" percentage="100"/>
 		<item name="HazmatMaskBlack" percentage="100"/>
 		<item name="HazmatMaskBlue" percentage="100"/>
 		<item name="HazmatMaskGreen" percentage="100"/>
@@ -35,66 +62,6 @@
 		<item name="HazmatMaskPink" percentage="100"/>
 		<item name="HazmatMaskWhite" percentage="100"/>
 		<item name="HazmatMaskYellow" percentage="100"/>
-		<item name="HazmatSuitBlack" percentage="100"/>
-		<item name="HazmatSuitBlackUp" percentage="100"/>
-		<item name="HazmatSuitBlue" percentage="100"/>
-		<item name="HazmatSuitBlueUp" percentage="100"/>
-		<item name="HazmatSuitGreen" percentage="100"/>
-		<item name="HazmatSuitGreenUp" percentage="100"/>
-		<item name="HazmatSuitOrange" percentage="100"/>
-		<item name="HazmatSuitOrangeUp" percentage="100"/>
-		<item name="HazmatSuitPink" percentage="100"/>
-		<item name="HazmatSuitPinkUp" percentage="100"/>
-		<item name="HazmatSuitPurple" percentage="100"/>
-		<item name="HazmatSuitRed" percentage="100"/>
-		<item name="HazmatSuitRedUp" percentage="100"/>
-		<item name="HazmatSuitWhite" percentage="100"/>
-		<item name="HazmatSuitWhiteUp" percentage="100"/>
-		<item name="HazmatSuitYellow" percentage="100"/>
-		<item name="HazmatSuitYellowUp" percentage="100"/>
-		<item name="RainJacketBlack" percentage="100"/>
-		<item name="RainJacketBlackUp" percentage="100"/>
-		<item name="RainJacketBlue" percentage="100"/>
-		<item name="RainJacketBlueUp" percentage="100"/>
-		<item name="RainJacketBlueGrey" percentage="100"/>
-		<item name="RainJacketBlueGreyUp" percentage="100"/>
-		<item name="RainJacketCamo1" percentage="100"/>
-		<item name="RainJacketCamo1Up" percentage="100"/>
-		<item name="RainJacketCamo2" percentage="100"/>
-		<item name="RainJacketCamo2Up" percentage="100"/>
-		<item name="RainJacketCamo3" percentage="100"/>
-		<item name="RainJacketCamo3Up" percentage="100"/>
-		<item name="RainJacketDarkGrey" percentage="100"/>
-		<item name="RainJacketDarkGreyUp" percentage="100"/>
-		<item name="RainJacketGreen" percentage="100"/>
-		<item name="RainJacketGreenUp" percentage="100"/>
-		<item name="RainJacketGreenGrey" percentage="100"/>
-		<item name="RainJacketGreenGreyUp" percentage="100"/>
-		<item name="RainJacketGrey" percentage="100"/>
-		<item name="RainJacketGreyUp" percentage="100"/>
-		<item name="RainJacketGreyBlack" percentage="100"/>
-		<item name="RainJacketGreyBlackUp" percentage="100"/>
-		<item name="RainJacketKaki" percentage="100"/>
-		<item name="RainJacketKakiUp" percentage="100"/>
-		<item name="RainJacketLightDarkGrey" percentage="100"/>
-		<item name="RainJacketLightDarkGreyUp" percentage="100"/>
-		<item name="RainJacketMarine" percentage="100"/>
-		<item name="RainJacketMarineUp" percentage="100"/>
-		<item name="RainJacketOrangeBlue" percentage="100"/>
-		<item name="RainJacketOrangeBlueUp" percentage="100"/>
-		<item name="RainJacketPinkPurple" percentage="100"/>
-		<item name="RainJacketPinkPurpleUp" percentage="100"/>
-		<item name="RainJacketRed" percentage="100"/>
-		<item name="RainJacketRedUp" percentage="100"/>
-		<item name="RainJacketRedBlue" percentage="100"/>
-		<item name="RainJacketRedBlueUp" percentage="100"/>
-		<item name="RainJacketRedGrey" percentage="100"/>
-		<item name="RainJacketRedGreyUp" percentage="100"/>
-		<item name="RainJacketYellow" percentage="100"/>
-		<item name="RainJacketYellowUp" percentage="100"/>
-		<item name="SkullMask" percentage="100"/>
-		<item name="SkullMaskSilver" percentage="100"/>
-		<item name="SkullMaskGold" percentage="100"/>
 	</repair>
 
 	<storage>

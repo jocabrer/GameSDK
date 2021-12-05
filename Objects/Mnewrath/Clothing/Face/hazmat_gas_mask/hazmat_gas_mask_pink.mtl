@@ -1,0 +1,24 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="gas_mask" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="1,1,1" Specular="0.32777813,0.32777813,0.32777813" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/mnewrath/clothing/face/hazmat_gas_mask/textures/gas_mask_pink_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/face/hazmat_gas_mask/textures/gas_mask_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/face/hazmat_gas_mask/textures/gas_mask_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526464" Shader="Glass" GenMask="20000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="229" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/face/hazmat_gas_mask/textures/gas_mask_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/face/hazmat_gas_mask/textures/gas_mask_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/face/hazmat_gas_mask/textures/gas_mask_spec.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.3185468,0.3185468,0.3185468" TintCloudiness="0" BackLightScale="0.37400001" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

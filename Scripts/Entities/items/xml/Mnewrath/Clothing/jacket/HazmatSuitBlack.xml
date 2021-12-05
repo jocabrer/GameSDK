@@ -1,0 +1,49 @@
+<item name="HazmatSuitBlack" class="Item" category="any">
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="500.000"/>
+		<param name="damage_scale" value="0.001"/>
+		<param name="display_name" value="Black Hazmat Suit"/>
+		<param name="description" value="NBC protection at it's finest - Mnewrath style."/>
+	</params>
+
+	<wearable>
+		<param name="skin" value="objects/characters/players/male/jacket/hazmat_suit/hazmat_suit_hooddown.skin"/>
+		<param name="mtl" value="objects/mnewrath/clothing/jackets/hazmat_suit_black.mtl"/>
+		<param name="slot" value="vest"/>
+		<param name="length" value="3"/> <!-- 0 normal, 1=torso,arms, 2=1+legs, 3=2+hands,feet -->
+	</wearable>
+
+	<geometry>
+		<onground name="objects/characters/players/male/jacket/hazmat_suit/hazmat_suit_onground.cgf" material="objects/mnewrath/clothing/jackets/hazmat_suit_black"/>
+	</geometry>
+	
+	<protection level="3"> <!-- Only used for the UI tool tip protection amount -->
+		<environmental>
+			<protection_amount type="fire" percentage="100.0"/>
+			<protection_amount type="rain" percentage="100.0"/>
+			<protection_amount type="humidity" percentage="100.0"/>
+			<protection_amount type="rain_acid" percentage="100.0"/>
+			<protection_amount type="pool_acid" percentage="100.0"/>
+			<protection_amount type="rain_radiation" percentage="100.0"/>
+			<protection_amount type="feet_sharp" percentage="100.0"/>
+			<protection_amount type="feet_blunt" percentage="100.0"/>
+			<protection_amount type="electricity" percentage="100.0"/>
+			<protection_amount type="cold" percentage="100.0"/>
+			<protection_amount type="heat" percentage="100.0"/>
+		</environmental>
+	</protection>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="vest"/>
+		</locations>
+		<types>
+			<type category="any" capacity="15"/>
+		</types>
+	</storage>
+
+</item>
