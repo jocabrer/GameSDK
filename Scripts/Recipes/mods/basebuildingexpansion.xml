@@ -1602,36 +1602,36 @@
 							</type>
 						</types>
 					</subcat>
-                    <subcat name="Marble">
+                    <subcat name="Mármol">
                         <types>
                             <type name="Foundation">
                                 <items>
                                     <item class="marble_foundation_4m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="20" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_foundation_black_4m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="20" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_foundation_blue_4m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="20" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_foundation_green_4m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="20" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                 </items>
@@ -1640,170 +1640,170 @@
                                 <items>
                                     <item class="marble_wall_3m_2m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_3m_2m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_3m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_3m_4m_door" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_3m_4m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_crenelation" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_black_3m_2m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_black_3m_2m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_black_3m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_black_3m_4m_door" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_black_3m_4m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_crenelation_black" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_blue_3m_2m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_blue_3m_2m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_blue_3m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_blue_3m_4m_door" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_blue_3m_4m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_crenelation_blue" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_green_3m_2m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_green_3m_2m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="14" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_green_3m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_green_3m_4m_door" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_wall_green_3m_4m_window" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_crenelation_green" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                 </items>
@@ -1812,86 +1812,86 @@
                                 <items>
                                     <item class="marble_platform_3m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_3m_4m_4m_stairs" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_3m_8m_8m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="24" />
+                                            <material class="Pyrite" count="12" />
+                                            <material class="SheetMetal" count="12" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_black_3m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_black_3m_4m_4m_stairs" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_black_3m_8m_8m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="24" />
+                                            <material class="Pyrite" count="12" />
+                                            <material class="SheetMetal" count="12" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_blue_3m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_blue_3m_4m_4m_stairs" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_blue_3m_8m_8m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="24" />
+                                            <material class="Pyrite" count="12" />
+                                            <material class="SheetMetal" count="12" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_green_3m_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_green_3m_4m_4m_stairs" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="10" />
+                                            <material class="SheetMetal" count="10" />
                                         </materials>
                                     </item>
                                     <item class="marble_platform_green_3m_8m_8m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="24" />
+                                            <material class="Pyrite" count="12" />
+                                            <material class="SheetMetal" count="12" />
                                         </materials>
                                     </item>
                                 </items>
@@ -1900,86 +1900,86 @@
                                 <items>
                                     <item class="marble_ceiling_4m_4m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="8" />
+                                            <material class="Pyrite" count="4" />
+                                            <material class="SheetMetal" count="4" />
                                         </materials>>
                                     </item>
                                     <item class="marble_ceiling_4m_4m_black" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="8" />
+                                            <material class="Pyrite" count="4" />
+                                            <material class="SheetMetal" count="4" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_4m_4m_blue" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="8" />
+                                            <material class="Pyrite" count="4" />
+                                            <material class="SheetMetal" count="4" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_4m_4m_green" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="8" />
+                                            <material class="Pyrite" count="4" />
+                                            <material class="SheetMetal" count="4" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_8m_8m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="10" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_8m_8m_black" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="10" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_8m_8m_blue" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="10" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_8m_8m_green" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="10" />
+                                            <material class="Pyrite" count="6" />
+                                            <material class="SheetMetal" count="6" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_16m_16m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="12" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_16m_16m_black" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="12" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_16m_16m_blue" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="12" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_ceiling_16m_16m_green" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="12" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                 </items>
@@ -1988,30 +1988,30 @@
                                 <items>
                                     <item class="marble_column_3m" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="6" />
+                                            <material class="Pyrite" count="2" />
+                                            <material class="SheetMetal" count="2" />
                                         </materials>
                                     </item>
                                     <item class="marble_column_3m_black" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="6" />
+                                            <material class="Pyrite" count="2" />
+                                            <material class="SheetMetal" count="2" />
                                         </materials>
                                     </item>
                                     <item class="marble_column_3m_blue" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="6" />
+                                            <material class="Pyrite" count="2" />
+                                            <material class="SheetMetal" count="2" />
                                         </materials>
                                     </item>
                                     <item class="marble_column_3m_green" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="6" />
+                                            <material class="Pyrite" count="2" />
+                                            <material class="SheetMetal" count="2" />
                                         </materials>
                                     </item>
                                 </items>
@@ -2020,30 +2020,30 @@
                                 <items>
                                     <item class="marble_angled_roof_3x4x4" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_angled_roof_black_3x4x4" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_angled_roof_blue_3x4x4" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                     <item class="marble_angled_roof_green_3x4x4" time="1">
                                         <materials>
-                                            <material class="Lumber" count="500" />
-                                            <material class="Rocks" count="500" />
-                                            <material class="SheetMetal" count="100" />
+                                            <material class="Lumber" count="20" />
+                                            <material class="Pyrite" count="8" />
+                                            <material class="SheetMetal" count="8" />
                                         </materials>
                                     </item>
                                 </items>
