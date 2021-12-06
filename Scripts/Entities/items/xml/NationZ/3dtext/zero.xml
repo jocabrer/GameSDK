@@ -9,7 +9,7 @@
 		<param name="description" value="A Placeable Number 0."/>
 	</params>
 
-	<base_part class="static" type="6463" name="zero" max_health="30000" repair_with="SheetMetal">
+	<base_part class="static" type="7685" name="zero" max_health="30000" repair_with="SheetMetal">
 		<static filename="Objects/NationZ/3dtext/zero.cgf" material="Objects/NationZ/3dtext/3dtext.mtl" />
 		
 		<damage_multipliers>
