@@ -4,13 +4,13 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5" />
 		<param name="stack_size" value="25"/>
-		<param name="display_name" value="UFO Storage Crate_Packed"/>
-		<param name="description" value="Amalgamated Wall Mountable Storage Solutions" />
+		<param name="display_name" value="UFO Storage Crate Packed"/>
+		<param name="description" value="UFO Storage Crate para colgar en paredes. Máx.3 x base" />
 		
 		<param name="place_restrict_snap" value="sticky"/>
 	</params>
 
-	<base_part class="entity" type="5156" name="UFOStorage_Crate_packed" max_health="100000" repair_with="Amalgaduino">
+	<base_part class="entity" type="5156" name="UFOStorage_Crate_packed" max_health="100000" repair_with="Amalgaduino"  limit="3">
 		<entity class="UFOStorage_Crate"/>
 
 		<damage_multipliers>
