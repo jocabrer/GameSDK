@@ -1055,11 +1055,11 @@
 					</subcat>
 				</subcats>
 			</cat>
-		</cats>
+    </cats>
 	</guide>
 	
 	<guide name="default" id="0">
-		<cats>
+    <cats>
 			<cat name="Base Building Color">
 				<subcats>
 					<subcat name="Structures">
