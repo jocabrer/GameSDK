@@ -6,7 +6,7 @@
 		<param name="stack_size" value="5"/>
 		<param name="display_name" value="Brick 3x4x4 Angled Roof"/>
 		<param name="description" value="Brick 3m high x 4m wide x 4m long angled roof."/>
-		
+		<param name="vendor_cost" value="10"/>
 		<param name="place_roof" value="1"/>
 	</params>
 
