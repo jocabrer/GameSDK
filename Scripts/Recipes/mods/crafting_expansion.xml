@@ -63,9 +63,9 @@
 		<cats>
 			<cat name="Base Building">
 				<subcats>
-					<subcat name="MultiComponents">
+					<subcat name="Components">
 						<types>
-							<type name="X10">
+							<type name="a. Componentes X10">
 								<items>
 									<item class="Lumber" time="5" amount="10">
 										<materials>
@@ -85,7 +85,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="X25">
+							<type name="b. Componentes X25">
 								<items>
 									<item class="Lumber" time="12.5" amount="25">
 										<materials>
@@ -105,7 +105,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="X50">
+							<type name="c. Componentes X50">
 								<items>		
 									<item class="Lumber" time="25" amount="50">
 										<materials>
@@ -125,7 +125,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="X75">
+							<type name="d. Componentes X75">
 								<items>				
 									
 									<item class="Lumber" time="37.5" amount="75">
@@ -149,7 +149,7 @@
 								</items>
 							
 							</type>
-							<type name="X125">
+							<type name="e. Componentes X125">
 								<items>
 									<item class="Lumber" time="62.5" amount="125">
 										<materials>
