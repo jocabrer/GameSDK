@@ -36,7 +36,6 @@
 		<magazine name="762x20_Akval"/>
 		<magazine name="762x30_Akval"/>
 		<magazine name="ext_762x30"/>
-		<magazine name="akval_drummag_75rnd"/>
 	</magazines>
 
 	<geometry>
@@ -346,11 +345,7 @@
 			<detach/>
 			<show helper="mag_762x39x30"/>
 		</accessory>
-		<accessory name="akval_drummag_75rnd" category="magazine" exclusive="1">
-			<attach helper="mag_ext_762x75"/>
-			<detach/>
-			<show helper="mag_ext_762x75"/>
-		</accessory>
+	
 		<!-- SCOPES -->
 		<accessory name="PSOScope" zoommode="huntingscope" category="scope" exclusive="1">
 			<attach helper="scope_rifle"/>

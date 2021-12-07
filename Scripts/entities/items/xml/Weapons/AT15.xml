@@ -482,14 +482,6 @@
 			<attach helper="optic_scope"/>
 			<detach/>
 		</accessory>
-		<accessory name="OpticScopeRealCamo" zoommode="opticscope" category="scope" exclusive="1">
-			<attach helper="optic_scope"/>
-			<detach/>
-		</accessory>
-		<accessory name="OpticScopeRealCamoDesert" zoommode="opticscope" category="scope" exclusive="1">
-			<attach helper="optic_scope"/>
-			<detach/>
-		</accessory>
 		<!-- BARREL LEFT -->
 		<accessory name="LaserSight" category="barrelleft" exclusive="1">
 			<attach helper="laser_sight"/>

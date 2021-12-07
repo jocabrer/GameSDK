@@ -374,6 +374,8 @@
                                     <item class="carliftbase" time="1">
                                         <materials>
                                             <material class="ElectricalParts" count="20" />
+                                            <material class="Amalgaduino" count="3" />
+                                            <material class="DuctTape" count="10" />
                                             <material class="ScrapMetal" count="100" />
                                             <material class="SheetMetal" count="120" />
                                         </materials>

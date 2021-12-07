@@ -81,9 +81,7 @@ ELPAmmoTable = {
     ['Wasteland22'] = {'Pile_22'},
     ['m14ebr'] = {'mag_m14', 'Pile_762x51'},
     ['m14'] = {'mag_m14', 'Pile_762x51'},
-    ['Deagle_old'] = {'50calx7', 'Pile_50cal'},
     ['G36C'] = {'g36c_mag', 'Pile_556x45'},
-    ['M50'] = {'50calx7', '50calx7x', 'Pile_50cal', 'Pile_50calx'},
     ['SCAR-H'] = {'STANAGx30', 'ext_556x75', 'Pile_556x45'},
     ['Subjugator'] = {'mag_m14', 'Pile_762x51'}
 };
