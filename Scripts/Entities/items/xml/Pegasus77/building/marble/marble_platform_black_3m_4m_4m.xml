@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_platform_black_3m_4m_4m"/>
-		<param name="description" value="marble_platform_black_3m_4m_4m"/>
+		<param name="display_name" value="Plataforma negro 3m 4m 4m"/>
+		<param name="description" value="Plataforma de mármol negro de 3m x4m x4m"/>
 	</params>
 
 	<base_part class="static" type="6267" name="marble_platform_black_3m_4m_4m" max_health="70000" repair_with="SheetMetal">

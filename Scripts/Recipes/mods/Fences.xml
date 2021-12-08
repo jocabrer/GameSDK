@@ -17,8 +17,7 @@
 									</item>
 								</items>
 							</type>
-
-							<type name= "Defensive structures">
+							<type name="Defensive structures">
 								<items>
 									<item class="RangerTower_Packed" time="1">
 										<materials>
@@ -31,7 +30,6 @@
 									</item>
 								</items>
 							</type>
-							
 							<type name="Fences">
 								<items>							
 									<item class="farmfence_nz" time="3">

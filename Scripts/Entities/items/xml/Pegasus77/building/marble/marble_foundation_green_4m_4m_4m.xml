@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_foundation_green_4m_4m_4m"/>
-		<param name="description" value="marble_foundation_green_4m_4m_4m"/>
+		<param name="display_name" value="Fundación verde 4m 4m 4m"/>
+		<param name="description" value="Fundación de mármol verde de 4m 4m 4m"/>
 		<param name="place_terrain_only" value="1"/>
 		<param name="place_force_lower" value="1"/>
 		<param name="place_offset" value="-2.7"/>

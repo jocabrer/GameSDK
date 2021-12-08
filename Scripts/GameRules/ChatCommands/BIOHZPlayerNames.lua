@@ -9,11 +9,10 @@ if not (Miscreated.RevivePlayer) then
     end
 end
 
-BIOHZPNMaxDistance = 15;
+BIOHZPNMaxDistance = 100;
 BIOHZPNMaxDistanceAdmin = 200;
-BIOHZLogoServerCap = 100;
-BIOHZLogoPlayerCounterStarted = false;
-BIOHZLogoPlayerCounter = 0;
+
+
 
 -- Client player tag counter
 BIOHZPNPlayerTagsLength = 0;
@@ -105,14 +104,14 @@ function BIOHZPNShowPlayerNames()
                     playerPos.z = playerPos.z + 1;
                     local moveToDirection = {x=0, y=0, z=0};
                     local isAdmin = false;
-                    local MaxDistance = 100;
+                    local MaxDistance = BIOHZPNMaxDistance;
 
                     if (player.BIOHZIsAdmin) then
                         isAdmin = true;
                     end
 
                     if (player.BIOHZIsAdmin or myPlayer.BIOHZIsAdmin) then
-                        MaxDistance = 200;
+                        MaxDistance = BIOHZPNMaxDistanceAdmin;
                     end
 
                     SubVectors(moveToDirection, playerPos, myPlayerPos);
@@ -120,7 +119,7 @@ function BIOHZPNShowPlayerNames()
 
                     local distanceBetweenPlayers = DistanceVectors(myPlayerPos, playerPos);
 
-                    if (((isAdmin == true or myPlayer.BIOHZIsAdmin) and distanceBetweenPlayers <= 200) or distanceBetweenPlayers <= 15) then
+                    if (((isAdmin == true or myPlayer.BIOHZIsAdmin) and distanceBetweenPlayers <= BIOHZPNMaxDistanceAdmin) or distanceBetweenPlayers <= 15) then
                         moveToDirection = vecScale(moveToDirection, distanceBetweenPlayers);
                         distanceBetweenPlayers = distanceBetweenPlayers - 0.5;
 
@@ -138,7 +137,8 @@ function BIOHZPNShowPlayerNames()
                                     UIAction.ShowElement('mod_BIOHZPlayerNamesUI', index);
                                 end
 
-                                if (MaxDistance > 15) then
+                                -- if (MaxDistance > 100) then
+                                if (1 > 1) then
                                     if (pos.z > 200) then
                                         pos.z = 200;
                                     end
