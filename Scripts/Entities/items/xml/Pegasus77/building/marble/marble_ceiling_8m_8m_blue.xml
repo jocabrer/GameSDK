@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_ceiling_8m_8m_blue"/>
-		<param name="description" value="marble_ceiling_8m_8m_blue"/>
+		<param name="display_name" value="Techo angular azul 8m x 8m"/>
+		<param name="description" value="Techo de mármol azul de 8m x 8m"/>
 	</params>
 
 	<base_part class="static" type="6499" name="marble_ceiling_8m_8m_blue" max_health="70000" repair_with="SheetMetal">

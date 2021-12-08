@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_angled_roof_3x4x4"/>
-		<param name="description" value="marble_angled_roof_3x4x4"/>
+		<param name="display_name" value="Techo angular 3x4x4"/>
+		<param name="description" value="Techo de mármol en ángulo de 3x4x4"/>
 		
 		<param name="place_roof" value="1"/>
 	</params>

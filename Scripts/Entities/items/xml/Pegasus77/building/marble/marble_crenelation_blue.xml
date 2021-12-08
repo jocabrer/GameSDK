@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_crenelation_blue"/>
-		<param name="description" value="marble_crenelation_blue"/>
+		<param name="display_name" value="Pared castillo azul"/>
+		<param name="description" value="Pared de mármol estilo castillo azul"/>
 	</params>
 
 	<base_part class="static" type="6379" name="marble_crenelation_blue" max_health="70000" repair_with="SheetMetal">

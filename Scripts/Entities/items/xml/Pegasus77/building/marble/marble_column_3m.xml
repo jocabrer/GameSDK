@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="4"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="marble_column_3m"/>
-		<param name="description" value="marble_column_3m"/>
+		<param name="display_name" value="Columna 3m"/>
+		<param name="description" value="Columna de mármol de 3m"/>
 	</params>
 
 	<base_part class="static" type="6490" name="marble_column_3m" max_health="70000" repair_with="SheetMetal">
