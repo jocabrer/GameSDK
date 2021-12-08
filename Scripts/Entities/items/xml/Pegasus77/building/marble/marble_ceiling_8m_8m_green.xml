@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Techo angular verde 8m x 8m"/>
+		<param name="display_name" value="Techo verde 8m x 8m"/>
 		<param name="description" value="Techo de mármol verde de 8m x 8m"/>
 	</params>
 
