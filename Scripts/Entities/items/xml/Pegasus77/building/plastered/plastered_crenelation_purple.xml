@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_crenelation_purple"/>
-		<param name="description" value="plastered_crenelation_purple"/>
+		<param name="display_name" value="Pared Castillo Púrpura"/>
+		<param name="description" value="Pared Castillo Púrpura"/>
 	</params>
 
 	<base_part class="static" type="6384" name="plastered_crenelation_purple" max_health="40000" repair_with="SheetMetal">

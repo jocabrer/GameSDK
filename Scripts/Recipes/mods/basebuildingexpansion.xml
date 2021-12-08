@@ -943,224 +943,224 @@
                             </type>
                         </types>
                     </subcat>
-                    <subcat name="Plastered">
+                    <subcat name="Estuco">
 						<types>
 							<type name="Wall">
 								<items>
 									<item class="plastered_wall_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="500" />
 										</materials>
 									</item>
 									<item class="plastered_wall_black_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_black_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_black_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_black_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_black_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation_black" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_blue_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_blue_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_blue_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_blue_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_blue_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation_blue" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_green_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_green_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_green_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_green_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_green_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation_green" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_purple_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_purple_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_purple_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_purple_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_purple_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation_purple" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_red_3m_2m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_red_3m_2m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="8" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_red_3m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_red_3m_4m_door" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_wall_red_3m_4m_window" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_crenelation_red" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 								</items>
@@ -1169,38 +1169,38 @@
 								<items>
 									<item class="plastered_column_3m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_column_3m_black" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_column_3m_blue" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_column_3m_green" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_column_3m_purple" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_column_3m_red" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="4" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 								</items>
@@ -1209,110 +1209,110 @@
 								<items>
 									<item class="plastered_platform_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_black_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_black_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_black_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_blue_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_blue_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_blue_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_green_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_green_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_green_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_purple_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_purple_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_purple_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_red_3m_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_red_3m_4m_4m_stairs" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_platform_red_3m_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 								</items>
@@ -1321,110 +1321,110 @@
 								<items>
 									<item class="plastered_ceiling_4m_4m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_4m_4m_black" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_4m_4m_blue" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_4m_4m_green" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_4m_4m_purple" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_4m_4m_red" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m_black" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m_blue" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m_green" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m_purple" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_8m_8m_red" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="12" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m_black" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m_blue" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m_green" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m_purple" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_ceiling_16m_16m_red" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="14" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 								</items>
@@ -1433,38 +1433,38 @@
 								<items>
 									<item class="plastered_angled_roof_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_angled_roof_black_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_angled_roof_blue_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_angled_roof_green_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_angled_roof_purple_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 									<item class="plastered_angled_roof_red_3x4x4" time="1">
 										<materials>
-											<material class="ScrapMetal" count="500" />
-											<material class="Rocks" count="500" />
+											<material class="ScrapMetal" count="10" />
+											<material class="ConcreteBag" count="1" />
 										</materials>
 									</item>
 								</items>

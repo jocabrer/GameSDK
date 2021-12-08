@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_wall_black_3m_2m"/>
-		<param name="description" value="plastered_wall_black_3m_2m"/>
+		<param name="display_name" value="Pared Estuco Negro 3mx2m"/>
+		<param name="description" value="Pared Estuco Negro 3mx2m"/>
 	</params>
 
 	<base_part class="static" type="6197" name="plastered_wall_black_3m_2m" max_health="40000" repair_with="SheetMetal">

@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_angled_roof_blue_3x4x4"/>
-		<param name="description" value="plastered_angled_roof_blue_3x4x4"/>
+		<param name="display_name" value="Techo Angular Estuco Azul 3x4x4"/>
+		<param name="description" value="Techo Angular Estuco Azul 3x4x4"/>
 		
 		<param name="place_roof" value="1"/>
 	</params>

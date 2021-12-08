@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_platform_purple_3m_4m_4m"/>
-		<param name="description" value="plastered_platform_purple_3m_4m_4m"/>
+		<param name="display_name" value="Plataforma Estuco Púrpura 3mx4mx4m"/>
+		<param name="description" value="Plataforma Estuco Púrpura 3mx4mx4m"/>
 	</params>
 
 	<base_part class="static" type="6229" name="plastered_platform_purple_3m_4m_4m" max_health="40000" repair_with="SheetMetal">

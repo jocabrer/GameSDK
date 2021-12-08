@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="4"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_column_3m_black"/>
-		<param name="description" value="plastered_column_3m_black"/>
+		<param name="display_name" value="Columna Estuco Negro 3m"/>
+		<param name="description" value="Columna Estuco Negro 3m"/>
 	</params>
 
 	<base_part class="static" type="6461" name="plastered_column_3m_black" max_health="40000" repair_with="SheetMetal">

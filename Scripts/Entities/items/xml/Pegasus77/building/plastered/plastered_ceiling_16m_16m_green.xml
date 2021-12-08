@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="plastered_ceiling_16m_16m_green"/>
-		<param name="description" value="plastered_ceiling_16m_16m_green"/>
+		<param name="display_name" value="Techo Estuco Verde 16mx16m"/>
+		<param name="description" value="Techo Estuco Verde 16mx16m"/>
 	</params>
 
 	<base_part class="static" type="6470" name="plastered_ceiling_16m_16m_green" max_health="40000" repair_with="SheetMetal">
