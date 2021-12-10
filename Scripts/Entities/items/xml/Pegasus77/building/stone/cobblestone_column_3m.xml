@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="4"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Cobblestone 3m Column"/>
-		<param name="description" value="Cobblestone 3m high column."/>
+		<param name="display_name" value="Columna 3m"/>
+		<param name="description" value="Columna 3m"/>
 	</params>
 
 	<base_part class="static" type="7083" name="cobblestone_column_3m" max_health="30000" repair_with="Rocks">

@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="door_titanium"/>
-		<param name="description" value="door_titanium"/>
+		<param name="display_name" value="Puerta titanium"/>
+		<param name="description" value="Puerta Titanium"/>
 	</params>
 
 	<base_part class="door" type="6367" name="door_titanium" max_health="95000" repair_with="SheetMetal">

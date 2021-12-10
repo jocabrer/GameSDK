@@ -3,8 +3,8 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="-1"/> <!-- infinite mass so can't be moved -->
-		<param name="display_name" value="Storage Minecart"/>
-		<param name="description" value="Ideal storage for ores and metals, but can store any item. Limit: 3."/>
+		<param name="display_name" value="Carro Almacenamiento Minero"/>
+		<param name="description" value="Almacenamiento ideal para minerales y metales, pero puede almacenar cualquier artículo. Límite: 3."/>
 	</params>
 
 	<geometry>

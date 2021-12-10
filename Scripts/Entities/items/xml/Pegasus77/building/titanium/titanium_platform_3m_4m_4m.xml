@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="titanium_platform_3m_4m_4m"/>
-		<param name="description" value="titanium_platform_3m_4m_4m"/>
+		<param name="display_name" value="Plataforma Titanium 3mx4mx4m"/>
+		<param name="description" value="Plataforma Titanium  3mx4mx4m"/>
 	</params>
 
 	<base_part class="static" type="6289" name="titanium_platform_3m_4m_4m" max_health="95000" repair_with="SheetMetal">

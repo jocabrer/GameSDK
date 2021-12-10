@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Cobblestone 3x4x4 Platform"/>
-		<param name="description" value="Cobblestone 3m high x 4m wide x 4m long platform."/>
+		<param name="display_name" value="Plataforma 3x4x4"/>
+		<param name="description" value="Plataforma 3mx4mx4m"/>
 	</params>
 
 	<base_part class="static" type="7084" name="cobblestone_platform_3m_4m_4m" max_health="30000" repair_with="Rocks">
