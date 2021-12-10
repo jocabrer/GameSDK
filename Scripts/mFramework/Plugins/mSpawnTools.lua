@@ -190,15 +190,15 @@ function SpawnTools:GiveItem(playerId, Item, stackSize, itemParent)
             ' ---> Gave Item: ' .. Item .. ' x' .. stackSize .. ' to Player: ' .. player:GetName() .. '[' ..
                 player.player:GetSteam64Id() .. ']'
         )
-        g_gameRules.game:SendTextMessage(4, playerId, ' You have been Given: ' .. Item .. ' x' .. tostring((stackSize)))
+        g_gameRules.game:SendTextMessage(4, playerId, ' Se te ha dado: ' .. Item .. ' x' .. tostring((stackSize)))
         return true, thisItem
     else
         -- Couldnt give item
         Log(
-            'Failed to Give item: ' .. Item .. ' x' .. stackSize .. ' to Player: ' .. player:GetName() .. '[' ..
+            'No se pudo entregar el artículo: ' .. Item .. ' x' .. stackSize .. ' to Player: ' .. player:GetName() .. '[' ..
                 player.player:GetSteam64Id() .. ']'
         )
-        return nil, 'Failed to Give item to player'
+        return nil, 'Fallo al entregar el artículo'
     end
 end
 

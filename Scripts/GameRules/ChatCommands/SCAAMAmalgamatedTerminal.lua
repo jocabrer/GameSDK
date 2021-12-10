@@ -794,7 +794,7 @@ function SCAAMATGetFloppyData(itemId, playerId)
         end
     end
 
-    g_gameRules.game:SendTextMessage(0, playerId, 'The label reads: ' .. labelName);
+    g_gameRules.game:SendTextMessage(0, playerId, 'La etiqueta dice: ' .. labelName);
 end
 
 -- SCAAMATGetRandomApp
@@ -973,7 +973,7 @@ function SCAAMATAccessTerminal(itemId, playerId)
             -- Sends the formed terminal data to the client
             SCAAMATSendClientData(terminalFinalData, 'AccessTerminal', playerId);
         else
-            g_gameRules.game:SendTextMessage(0, playerId, 'This terminal is in use');
+            g_gameRules.game:SendTextMessage(0, playerId, 'Terminal en uso');
         end
     end
 end
@@ -2413,10 +2413,10 @@ function SCAAMATDigPatch(itemId, playerId)
                     end
                 end
             else
-                g_gameRules.game:SendTextMessage(0, playerId, "This shovel is broken and can't be used");
+                g_gameRules.game:SendTextMessage(0, playerId, "Esta pala está rota y no se puede usar.");
             end
         else
-            g_gameRules.game:SendTextMessage(0, playerId, "You have found nothing");
+            g_gameRules.game:SendTextMessage(0, playerId, "No has encontrado nada");
         end
 
         SCAAMATIsSomeoneDigging = false;

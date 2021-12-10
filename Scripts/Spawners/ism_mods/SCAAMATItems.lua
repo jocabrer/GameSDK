@@ -103,7 +103,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 -- Floppy disk game
 newItem = {
     class = "SCAAMGameFloppyDisk",
-    percent = 1,
+    percent = 10,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")

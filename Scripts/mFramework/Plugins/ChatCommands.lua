@@ -43,10 +43,10 @@ end
 function mChatCommand:ShowUsage(player)
     if (self.Usage) then
         if (g_gameRules) then
-            g_gameRules.game:SendTextMessage(4, player.id, 'Usage for Command: ' .. self.Name .. ' \n ' .. self.Usage)
+            g_gameRules.game:SendTextMessage(4, player.id, 'Uso para comando: ' .. self.Name .. ' \n ' .. self.Usage)
         else
             -- DEBUG
-            g_gameRules.game:SendTextMessage(4, player.id, 'No Registered Helptext for Command: ' .. self.Name)
+            g_gameRules.game:SendTextMessage(4, player.id, 'No hay texto de ayuda registrado para el comando: ' .. self.Name)
         end
     end
 end
