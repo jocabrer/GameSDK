@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="3x4 Cobblestone Wall Window"/>
-		<param name="description" value="Cobblestone 3m high x 4m long wall with window opening."/>
+		<param name="display_name" value="Pared ventana 3x4"/>
+		<param name="description" value="Pared Ventana 3mx4m"/>
 	</params>
 
 	<base_part class="static" type="7092" name="cobblestone_wall_3m_4m_window" max_health="30000" repair_with="Rocks">

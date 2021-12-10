@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Cobblestone 16x16 Roof"/>
-		<param name="description" value="Cobblestone 16m wide x 16m long roof."/>
+		<param name="display_name" value="Techo 16x16"/>
+		<param name="description" value="Techo 16mx16m."/>
 	</params>
 
 	<base_part class="static" type="7093" name="cobblestone_ceiling_16m_16m" max_health="30000" repair_with="Rocks">

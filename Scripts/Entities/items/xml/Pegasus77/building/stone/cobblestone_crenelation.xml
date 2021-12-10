@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="2x4 Cobblestone Crenelation"/>
-		<param name="description" value="Cobblestone 2m high x 4m long crenelation."/>
+		<param name="display_name" value="Pared Corona 2x4"/>
+		<param name="description" value="Pared Corona 2mx4m"/>
 	</params>
 
 	<base_part class="static" type="7082" name="cobblestone_crenelation" max_health="30000" repair_with="Rocks">
