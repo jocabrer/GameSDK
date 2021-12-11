@@ -1,0 +1,98 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="human_spider_mat" MtlFlags="524416" Shader="HumanSkin" GenMask="820400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="172" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/mutants/brutemutant/textures/armor_brute_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/mutants/brutemutant/textures/armor_brute_ddna.dds"/>
+    <Texture Map="Specular" File="objects/characters/mutants/brutemutant/textures/armor_brute_displ.dds"/>
+    <Texture Map="Opacity" File="objects/characters/mutants/human_spider/textures/human_spider_sss.tif"/>
+   </Textures>
+   <PublicParams Melanin="0.49200001" SSSIndex="1" TranslucencyMultiplier="0.96700001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="HS_hip_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_torso" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_spine1_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_torso" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_spine2_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_torso" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_spine3_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_torso" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_Head_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_head" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_L_Armupper_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_arm_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_L_Armlower_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_arm_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_L_wrist_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_hand_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_L_hand_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_hand_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_R_Armupper_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_arm_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_R_Armlower_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_arm_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_R_wrist_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_hand_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_R_hand_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_hand_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_L_1_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_L_2_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_L_3_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_R_1_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_R_2_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_small_R_3_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_L_1_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_L_2_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_L_3_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_L_4_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_R_1_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_R_2_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_R_3_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_leg_R_4_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_leg_right" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="HS_tail_proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_foot_left" MatTemplate="" Diffuse="0.41100001,0,0" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

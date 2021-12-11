@@ -1,0 +1,77 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body_mat" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21223079,0.21223079,0.21223079" Specular="0.0056053922,0.0056053922,0.0056053922" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/animals/bear/bear_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/animals/bear/bear_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fur" MtlFlags="2623650" Shader="Hair" GenMask="5000080008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%THIN_HAIR%WIND_BENDING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.063010022,0.04518621,0.034339812" Specular="0.001517635,0.001517635,0.00060705398" Opacity="0.99000001" Shininess="255" AlphaTest="0.98000002" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/hairs/default/hair_diff.dds" IsTileV="0">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+   </Textures>
+   <PublicParams AnimAmplitudeWav0="0.60000002" SecondaryHighlightShiftAmount="0" SoftIntersection="2" ShiftVariation="0.033" DiffuseWrap="0.42500001" SecondaryHighlightColor="0.18447502,0.12477184,0.043735035" SecondaryHighlightWidth="1.775" ThinHairThreshold="0.167" AlphaBlendMultiplier="1.625" AnimFrequency="0.67000002" AnimAmplitudeWav2="0.60000002" AnimPhase="9.8800001" IndirectColor="0.3467041,0.3185468,0.1620294"/>
+  </Material>
+  <Material Name="bear_hips_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_spine_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_spine01_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_spine02_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_neck_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_head_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_upper_jaw_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_thigh_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_knee_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_foot_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_shoulder_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_elbow_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_r_wrist_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_thigh_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_knee_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_foot_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_shoulder_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_elbow_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bear_l_wrist_jnt_Phys_proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.76470602,0.029988,0.029988" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

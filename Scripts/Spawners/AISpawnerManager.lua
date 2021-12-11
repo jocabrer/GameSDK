@@ -17,10 +17,22 @@ AISpawnerManager = {
 				{
 					class = "BruteMutant", percent = 100,
 					models =
-					{
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf", percent = 50.0 },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf", percent = 50.0 },
-					},
+                    {
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf", percent = 5.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf", percent = 5.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf", percent = 8.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf", percent = 12.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_es_armored_dark.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es1.cdf", percent = 7.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es2.cdf", percent = 7.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_humanoid1.cdf", percent = 5.0 },
+                        { name = "objects/characters/mutants/brutemutant/brute_humanoid2.cdf", percent = 5.0 },
+                    },
 				},
 			},
 		},
@@ -54,19 +66,25 @@ AISpawnerManager = {
 					class = "HumanZombie", percent = 100,
 					models =
 					{
-						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf", percent = 10.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_dark.cdf", percent = 10.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 8.0 },
-					},
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_es_02_dark.cdf", percent = 11.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_es_03_dark.cdf", percent = 11.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_es_04_dark.cdf", percent = 11.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_es_01_dark.cdf", percent = 11.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombiespace.cdf", percent = 11.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04.cdf", percent = 3.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_dark.cdf", percent = 5.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01_dark.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02_dark.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03_dark.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04_dark.cdf", percent = 4.0 },
+                        { name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 4.0 },
+                    
+                    },
 				},
 			},
 		},
@@ -79,18 +97,24 @@ AISpawnerManager = {
 					class = "Spiker", percent = 100,
 					models =
 					{
-						{ name = "objects/characters/bandits/spiker/spiker.cdf", percent = 10.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_01.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_02.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_03.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_04.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_05.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_dark.cdf", percent = 10.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_01_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_02_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_03_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_04_dark.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_05_dark.cdf", percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_01.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_02.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_03.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_04.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_05.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_01_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_02_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_03_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_04_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_05_dark.cdf", percent = 2.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_es_dark2.cdf", percent = 15.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_es_dark1.cdf", percent = 15.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_es_clothed6.cdf", percent = 15.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_es_clothed05.cdf", percent = 15.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_scrap.cdf", percent = 11.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_scrap2.cdf", percent = 5.0 },
 					},
 				},
 			},
@@ -102,13 +126,24 @@ AISpawnerManager = {
 			{
 				-- add model variations
 				{ class = "Crazy", percent = 100,
-					models =
-					{
-						{ name = "objects/characters/bandits/crazy/crazy.cdf", percent = 25.0 },
-						{ name = "objects/characters/bandits/crazy/crazy_prison.cdf", percent = 25.0 },
-						{ name = "objects/characters/bandits/crazy/crazy_dark.cdf", percent = 25.0 },
-						{ name = "objects/characters/bandits/crazy/crazy_prison_dark.cdf", percent = 25.0 },
-					},
+                models =
+                    {	
+                    { name = "objects/characters/bandits/crazy/crazy_prison2.cdf", percent = 6.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_prison2_dark.cdf", percent = 6.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_gang.cdf", percent = 6.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_gang2.cdf", percent = 7.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_gang3.cdf", percent = 7.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_gang4.cdf", percent = 7.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_prison.cdf", percent = 5.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_dark.cdf", percent = 5.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_prison_dark.cdf", percent = 5.0 },			
+                    { name = "objects/characters/bandits/crazy/crazy_es_dark1.cdf", percent = 8.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_dark2.cdf", percent = 8.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_dark3.cdf", percent = 6.0 },										
+                    { name = "objects/characters/bandits/crazy/crazy_military.cdf", percent = 6.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es_hazmat.cdf", percent = 8.0 },
+                    { name = "objects/characters/bandits/crazy/crazy_es1.cdf", percent = 6.0 },
+                    },
 				},
 			},
 		},
@@ -135,10 +170,19 @@ AISpawnerManager = {
 				{
 					class = "HumanSpider", percent = 100,
 					models =
-					{
-						{ name = "objects/characters/mutants/human_spider/human_spider.cdf", percent = 50.0 },
-						{ name = "objects/characters/mutants/human_spider/human_spider_dark.cdf", percent = 50.0 },
-					},
+                    {
+                        { name = "objects/characters/mutants/human_spider/human_spider.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_dark.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_es1.cdf", percent = 20.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_es2.cdf", percent = 10.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_alien1.cdf", percent = 15.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_alien2.cdf", percent = 15.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_space.cdf", percent = 20.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_halloween.cdf", percent = 0.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_halloween2.cdf", percent = 0.0 },
+                        { name = "objects/characters/mutants/human_spider/human_spider_etha.cdf", percent = 0.0 },
+                                
+                    },
 				},
 			},
 		},
@@ -176,15 +220,22 @@ AISpawnerManager = {
 				},
 			},
 		},
-
 		{
 			category = "Bear",
-			classes =
-			{
-				{ class = "Bear", percent = 100 },
-			},
-		},
-
+            classes =
+            {
+                {
+                    class = "Bear", percent = 100,
+                    models =
+                    {
+                                { name = "objects/characters/animals/Bear/Bear.cdf", percent = 25.0 },
+                                { name = "objects/characters/animals/Bear/Bear1.cdf", percent = 25.0 },
+                                { name = "objects/characters/animals/Bear/Bear2.cdf", percent = 25.0 },
+                                { name = "objects/characters/animals/Bear/Bear3.cdf", percent = 25.0 },	
+                    },
+                },
+            },
+        },
 		{
 			category = "Donkey",
 			classes =

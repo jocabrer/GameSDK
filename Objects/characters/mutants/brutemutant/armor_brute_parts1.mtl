@@ -1,6 +1,6 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="rendermesh" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.049706571,0.049706571,0.049706571" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+  <Material Name="rendermesh" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.049706571,0.049706571,0.049706571" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="159" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/characters/mutants/brutemutant/textures/armor_brute_diff.tif"/>
     <Texture Map="Bumpmap" File="objects/characters/mutants/brutemutant/textures/armor_brute_ddna.tif"/>
