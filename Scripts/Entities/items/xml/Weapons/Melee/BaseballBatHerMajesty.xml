@@ -64,6 +64,7 @@
 	<storage>
 		<locations>
 			<location category="primary"/>
+            <location category="any"/>
 		</locations>
 	</storage>
 

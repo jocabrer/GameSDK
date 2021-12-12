@@ -24,85 +24,107 @@
 											<material class="Charcoal" count="10"/>
 										</materials>
 									</item>
+                                    <item class="SheetMetal" time="5" amount="10">
+                                        <materials>
+                                            <material class="IronIngot" count="20" />
+                                        </materials>
+                                    </item>
 								</items>
 							</type>
 							<type name="b. Componentes X25">
 								<items>
-									<item class="Lumber" time="12.5" amount="25">
+									<item class="Lumber" time="5" amount="25">
 										<materials>
 											<material class="WoodPile" count="50"/>
 										</materials>
 									</item>
-									<item class="StickPile" time="12.5" amount="20">
+									<item class="StickPile" time="5" amount="20">
 										<materials>
 											<material class="WoodPile" count="10"/>
 										</materials>
 									</item>
-									<item class="Gunpowder" time="12.5" amount="25">
+									<item class="Gunpowder" time="5" amount="25">
 										<materials>
 											<material class="Sulphur" count="25"/>
 											<material class="Charcoal" count="25"/>
 										</materials>
 									</item>
+                                    <item class="SheetMetal" time="5" amount="25">
+                                        <materials>
+                                            <material class="IronIngot" count="50" />
+                                        </materials>
+                                    </item>
 								</items>
 							</type>
 							<type name="c. Componentes X50">
 								<items>		
-									<item class="Lumber" time="25" amount="50">
+									<item class="Lumber" time="5" amount="50">
 										<materials>
 											<material class="WoodPile" count="100"/>
 										</materials>
 									</item>
-									<item class="StickPile" time="25" amount="50">
+									<item class="StickPile" time="5" amount="50">
 										<materials>
 											<material class="WoodPile" count="25"/>
 										</materials>
 									</item>
-									<item class="Gunpowder" time="25" amount="50">
+									<item class="Gunpowder" time="5" amount="50">
 										<materials>
 											<material class="Sulphur" count="50"/>
 											<material class="Charcoal" count="50"/>
 										</materials>
 									</item>
+                                    <item class="SheetMetal" time="5" amount="50">
+                                        <materials>
+                                            <material class="IronIngot" count="100" />
+                                        </materials>
+                                    </item>
 								</items>
 							</type>
 							<type name="d. Componentes X75">
 								<items>				
 									
-									<item class="Lumber" time="37.5" amount="75">
+									<item class="Lumber" time="5" amount="75">
 										<materials>
 											<material class="WoodPile" count="150"/>
 										</materials>
 									</item>
-									<item class="StickPile" time="50" amount="75">
+									<item class="StickPile" time="5" amount="75">
 										<materials>
 											<material class="WoodPile" count="37"/>
 										</materials>
 									</item>
-									<item class="Gunpowder" time="37.5" amount="75">
+									<item class="Gunpowder" time="5" amount="75">
 										<materials>
 											<material class="Sulphur" count="75"/>
 											<material class="Charcoal" count="75"/>
 										</materials>
 									</item>
-
-									
+                                    <item class="SheetMetal" time="5" amount="75">
+                                        <materials>
+                                            <material class="IronIngot" count="150" />
+                                        </materials>
+                                    </item>
 								</items>
-							
 							</type>
 							<type name="e. Componentes X125">
 								<items>
-									<item class="Lumber" time="62.5" amount="125">
+									<item class="Lumber" time="5" amount="125">
 										<materials>
 											<material class="WoodPile" count="250"/>
 										</materials>
 									</item>
-									<item class="Gunpowder" time="62.5" amount="125">
+									<item class="Gunpowder" time="5" amount="125">
 										<materials>
 											<material class="Sulphur" count="125"/>
 											<material class="Charcoal" count="125"/>
 										</materials>
 									</item>
+                                    <item class="SheetMetal" time="5" amount="125">
+                                        <materials>
+                                            <material class="IronIngot" count="250" />
+                                        </materials>
+                                    </item>
 								</items>
 							</type>
 						</types>
