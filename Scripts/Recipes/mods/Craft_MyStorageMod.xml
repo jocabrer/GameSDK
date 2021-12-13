@@ -15,13 +15,13 @@
 											<material class="Nails" count="10"/>
 										</materials>
 									</item>
-									<item class="display_counter_Crate_packed" time="1" amount="1">
+									<!--<item class="display_counter_Crate_packed" time="1" amount="1">
 											<materials>
 												<material class="Lumber" count="15"/>
 												<material class="SheetMetal" count="25"/>
 												<material class="Nails" count="15"/>
 											</materials>
-									</item>
+									</item>-->
 									<item class="UFOStorage_Crate_packed" time="1" amount="1">
 											<materials>
 												<material class="SheetMetal" count="50"/>

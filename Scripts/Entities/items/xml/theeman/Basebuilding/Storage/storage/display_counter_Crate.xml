@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
         <param name="mass" value="-1" />
 		<param name="display_name" value="Storage Display"/>		
-		<param name="description" value="Vitrina de almacenamiento"/>
+		<param name="description" value="Vitrina de almacenamiento. 1 x base"/>
 	</params>
 
   <geometry>

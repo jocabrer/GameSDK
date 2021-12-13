@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="sliding_gate_door_wall_2x4" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="5" />
+    <param name="display_name" value="Red Wall 2 x 4" />
+    <param name="description" value="Red Wall" />
+  </params>
+  <base_part class="static" type="7059" name="sliding_gate_door_wall_2x4" max_health="25000">
+    <static filename="objects/props/Zone_52/sliding_gate_door_wall_2x4.cgf" />
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/basebuilding/wood/wood_part.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

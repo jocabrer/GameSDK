@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="sliding_gate_frame_double" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="5" />
+    <param name="display_name" value="Gate Frame" />
+    <param name="description" value="Gate Frame" />
+  </params>
+  <base_part class="static" type="7057" name="sliding_gate_frame_double" max_health="25000">
+    <static filename="objects/props/Zone_52/sliding_gate_frame_double.cgf" />
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/basebuilding/wood/wood_part.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

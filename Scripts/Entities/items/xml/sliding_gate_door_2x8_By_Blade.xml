@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="sliding_gate_door_double" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="1" />
+    <param name="stack_size" value="5" />
+    <param name="display_name" value="Red Sliding Gate 2 x 8" />
+    <param name="description" value="sliding_gate_door" />
+  </params>
+  <base_part class="door" type="7056" name="sliding_gate_door_double">
+    <door filename="objects/props/Zone_52/sliding_gate_door_double.cgf" rotate_base="0" move_range="8" move_speed="2" move_axis="x" move_axis_dir="-" sound_open="Play_industrial_garage_door_open" sound_opened="" sound_close="Play_industrial_garage_door_close" sound_closed="" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"></door>
+    <base_actions>
+      <base_action class="toggle_door">
+        <toggle_door sound_knock="Play_door_wood_knock" />
+      </base_action>
+      <base_action class="toggle_lock">
+        <toggle_lock />
+      </base_action>
+    </base_actions>
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/basebuilding/wood/wood_part.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

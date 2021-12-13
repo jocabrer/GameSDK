@@ -3,7 +3,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5.0"/>
-		<param name="stack_size" value="10"/>
+		<param name="stack_size" value="125"/>
 		<param name="display_name" value="Bag of cement"/>
 		<param name="description" value="Bag of cement. Can be used to make concrete structures."/>
 	</params>
