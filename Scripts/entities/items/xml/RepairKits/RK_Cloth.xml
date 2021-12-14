@@ -525,6 +525,37 @@
 		<item name="GhillieHood5" percentage="100"/>
 		<item name="ScavangerPants" percentage="100"/>
 		<item name="ScavangerShirt" percentage="100"/>
+
+        <item name="MxShirtsBlue" percentage="100"/>
+        <item name="MxPantsBlue" percentage="100"/>
+        <item name="MxBootsBlue" percentage="100"/>
+        <item name="MxGlovesBlue" percentage="100"/>
+        <item name="MxShirtsRed" percentage="100"/>
+        <item name="MxPantsRed" percentage="100"/>
+        <item name="MxBootsRed" percentage="100"/>
+        <item name="MxGlovesRed" percentage="100"/>
+        <item name="MxShirtsGreen" percentage="100"/>
+        <item name="MxPantsGreen" percentage="100"/>
+        <item name="MxBootsGreen" percentage="100"/>
+        <item name="MxGlovesGreen" percentage="100"/>
+        <item name="MxShirtsOrange" percentage="100"/>
+        <item name="MxPantsOrange" percentage="100"/>
+        <item name="MxBootsOrange" percentage="100"/>
+        <item name="MxGlovesOrange" percentage="100"/>
+        <item name="MxShirtsYellow" percentage="100"/>
+        <item name="MxPantsYellow" percentage="100"/>
+        <item name="MxBootsYellow" percentage="100"/>
+        <item name="MxGlovesYellow" percentage="100"/>
+        <item name="MxShirtsPink" percentage="100"/>
+        <item name="MxPantsPink" percentage="100"/>
+        <item name="MxBootsPink" percentage="100"/>
+        <item name="MxGlovesPink" percentage="100"/>
+        <item name="MxShirtsWhite" percentage="100"/>
+        <item name="MxPantsWhite" percentage="100"/>
+        <item name="MxBootsWhite" percentage="100"/>
+        <item name="MxGlovesWhite" percentage="100"/>
+
+
 	</repair>
 
 	<storage>

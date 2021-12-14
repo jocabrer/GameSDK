@@ -62,6 +62,14 @@
 		<item name="HazmatMaskPink" percentage="100"/>
 		<item name="HazmatMaskWhite" percentage="100"/>
 		<item name="HazmatMaskYellow" percentage="100"/>
+
+        <item name="TronSuitBlue" percentage="100"/>
+        <item name="TronSuitGreen" percentage="100"/>
+        <item name="TronSuitOrange" percentage="100"/>
+        <item name="TronSuitPurple" percentage="100"/>
+        <item name="TronSuitRed" percentage="100"/>
+        <item name="TronSuitYellow" percentage="100"/>
+        
 	</repair>
 
 	<storage>

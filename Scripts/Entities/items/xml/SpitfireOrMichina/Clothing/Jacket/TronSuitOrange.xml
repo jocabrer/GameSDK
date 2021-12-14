@@ -7,6 +7,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Orange Tron Suit"/>
 		<param name="description" value="A glowing futuristic suit."/>
+        <param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>
@@ -42,7 +43,7 @@
 			<location category="vest"/>
 		</locations>
 		<types>
-			<type category="any" capacity="4"/>
+			<type category="any" capacity="15"/>
 		</types>
 	</storage>
 
