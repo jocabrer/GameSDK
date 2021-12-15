@@ -57,6 +57,15 @@
         <item name="MotorcycleHelmetSpitfire" percentage="100"/>
         <item name="MotorcycleHelmetSkull" percentage="100"/>
         <item name="MotorcycleHelmetChinese" percentage="100"/>
+
+        <item name="TronHelmetBlue" percentage="100"/>
+        <item name="TronHelmetGreen" percentage="100"/>
+        <item name="TronHelmetOrange" percentage="100"/>
+        <item name="TronHelmetPurple" percentage="100"/>
+        <item name="TronHelmetRed" percentage="100"/>
+        <item name="TronHelmetYellow" percentage="100"/>
+
+        
 	</repair>
 
 	<storage>

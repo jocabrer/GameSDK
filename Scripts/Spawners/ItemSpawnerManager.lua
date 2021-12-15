@@ -452,7 +452,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomMedical", percent = 15 },
 				{ category = "RandomMelee", percent = 15 },
 				{ category = "RandomAccessory", percent = 25 },
-                { category = "RandomMXCloth", percent = 10 },
 			},
 		},
 
@@ -482,6 +481,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "GoldenCudgel2", percent = 30 }, 
 				{ class = "HalloweenBagBrute", percent = 30 }, --Halloween event.
 				{ class = "ChristmasPresentRare", percent = 30 }, -- Christmas event
+                { category = "RandomMXCloth", percent = 5 },
 			},
 		},
 
@@ -3283,9 +3283,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "PotassiumIodidePills", percent = 20 },
 				{ class = "Antibiotics", percent = 20 },
 				{ class = "Aspirin", percent = 1 },
-				{ class = "Bandage", percent = 45 },
-				{ class = "HeatPack", percent = 10 },
-				{ class = "WaterPurificationTablets", percent = 1 },
+				{ class = "Bandage", percent = 25 },
+				{ class = "HeatPack", percent = 20 },
+				{ class = "WaterPurificationTablets", percent = 10 },
 				{ class = "Rags", percent = 10 },
 				{ class = "RubbingAlcohol", percent = 1 },
 				{ class = "Salt", percent = 1 },

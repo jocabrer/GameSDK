@@ -30,11 +30,13 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 5 then
+	if rnd <= 4 then
 		eventName = "AirDropPlane"
-	elseif rnd <= 9 then
+	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
-	else
+    elseif rnd <= 9 then
+        eventName = "AirDropChristmas"	 
+    else
 		eventName = "UFOCrash"	
 	end
 
