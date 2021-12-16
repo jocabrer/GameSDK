@@ -22,7 +22,7 @@
 	</storage>
 
 	<usable>
-		<param name="title" value="Convertir en 1 Rope"/>
+		<param name="title" value="Transformar en 1 Rope"/>
 		<param name="action" value="craft"/>
 		<param name="param" value="Rope"/>
 		<param name="soundUsed" value=""/>

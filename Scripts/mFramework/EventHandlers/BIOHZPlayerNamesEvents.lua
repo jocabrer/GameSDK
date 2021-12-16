@@ -1,7 +1,7 @@
 Log('BIOHZPlayerNames >> Registering events');
 
 -- CLIENT EVENTS
-g_mEventHandlers['BIOHZPNInitUI'] = function(playerId, data, source_id, target_id)
+g_mEventHandlers['BIOHZPNInitUI'] = function()
     local player = System.GetEntity(g_localActorId);
     UIAction.ShowElement('mod_BIOHZPlayerNamesDummyUI', 200);
     Script.SetTimerForFunction(5000, 'BIOHZPNShowPlayerNamesAfterDelay', {});

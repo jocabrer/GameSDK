@@ -33,7 +33,7 @@
 	</geometry>
 
 	<usable>
-		<param name="title" value="Convertir en Nails"/>
+		<param name="title" value="Transformar en Nails"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="Nails"/>
 		<param name="soundUsed" value=""/>

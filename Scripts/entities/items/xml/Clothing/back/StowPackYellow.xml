@@ -22,7 +22,7 @@
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_yellow"/>
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en Pantalones Cortos"/>
+        <param name="title" value="Transformar en Pantalones Cortos"/>
         <param name="action" value="craft"/>
         <param name="param" value="CargoShortsYellow"/>
         <param name="soundUsed" value=""/>

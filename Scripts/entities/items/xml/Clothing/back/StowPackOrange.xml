@@ -22,7 +22,7 @@
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_orange"/>
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en Pasamontañas"/>
+        <param name="title" value="Transformar en Pasamontañas"/>
         <param name="action" value="craft"/>
         <param name="param" value="BalaclavaBlack"/>
         <param name="soundUsed" value=""/>

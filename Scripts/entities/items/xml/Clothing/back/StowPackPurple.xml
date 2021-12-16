@@ -23,7 +23,7 @@
 	</geometry>
 
 	<usable>
-        <param name="title" value="Convertir en Camisa Hawaiana Púrpura"/>
+        <param name="title" value="Transformar en Camisa Hawaiana Púrpura"/>
         <param name="action" value="craft"/>
         <param name="param" value="ButtonUpShirtPurpleHawaiian"/>
         <param name="soundUsed" value=""/>

@@ -39,7 +39,7 @@
 	</magazines>
 
     <usable>
-		<param name="title" value="Convertir Sheet Metal"/>
+		<param name="title" value="Transformar Sheet Metal"/>
 		<param name="action" value="craft"/>
 		<param name="param" value="SheetMetal"/>
 		<param name="soundUsed" value="Play_chemlight_use"/>

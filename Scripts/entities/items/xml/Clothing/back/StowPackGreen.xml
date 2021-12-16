@@ -22,7 +22,7 @@
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_green"/>
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en Riñonera Camo"/>
+        <param name="title" value="Transformar en Riñonera Camo"/>
         <param name="action" value="craft"/>
         <param name="param" value="FannyPackCamo1"/>
         <param name="soundUsed" value=""/>

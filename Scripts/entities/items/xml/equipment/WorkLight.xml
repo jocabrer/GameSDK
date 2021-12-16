@@ -14,7 +14,7 @@
 	</geometry>
 
 	<usable>
-        <param name="title" value="Convertir en 1 ScrapMetal"/>
+        <param name="title" value="Transformar en 1 ScrapMetal"/>
         <param name="action" value="convert"/>
         <param name="param" value="ScrapMetal"/>
         <param name="soundUsed" value="Play_chemlight_use"/>

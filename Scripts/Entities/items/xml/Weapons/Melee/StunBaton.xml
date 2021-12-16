@@ -36,7 +36,7 @@
 		<onground name="Objects/weapons/stunbaton/stunbaton_onground.cgf"/>
 	</geometry>
 	<usable>
-		<param name="title" value="Convertir en Chaleco Policial Negro"/>
+		<param name="title" value="Transformar en Chaleco Policial Negro"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="PoliceVestBlack"/>
 		<param name="soundUsed" value=""/>

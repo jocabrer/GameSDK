@@ -166,7 +166,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "BaseballBatHerMajesty", percent = 15 },
 				{ class = "KatanaBlackWidow", percent = 15 },
 				{ class = "Mk18Reaver", percent = 2 },
-                { class = "GoldenCudgel1", percent = 2}, 
+                { class = "GoldenCudgel", percent = 2}, 
 			},
 		},
 		
@@ -185,7 +185,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AxePatrick", percent = 15 },
 				{ class = "BaseballBatHerMajesty", percent = 15 },
 				{ class = "KatanaBlackWidow", percent = 15 },
-				{ class = "GoldenCudgel1", percent = 4}, 
+				{ class = "GoldenCudgel", percent = 4}, 
 			},
 		},
 
@@ -867,6 +867,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "MK18Reaver", percent = 2 },
 				{ class = "SpaceHelmet", percent = 3 },
                 { class = "MotorcycleHelmetSkull", percent = 1 },
+                { class = "GoldenCudgel2", percent = 2 }, 
 			},
 		},
 		
@@ -921,14 +922,15 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "HalloweenLootUFO",
 			classes =
 			{
-				{ category = "RandomPumpkins", percent = 12.5 },
-				{ class = "halloween_light_string", percent = 12.5 },
+				{ category = "RandomPumpkins", percent = 10.5 },
+				{ class = "halloween_light_string", percent = 10.5 },
 				{ class = "halloween_creepy_bunny", percent = 12.5 },
 				{ class = "halloween_creepy_bear", percent = 12.5 },
 				{ class = "SkullMask", percent = 12.5 },
 				{ class = "SkullMaskSilver", percent = 12.5 },
 				{ class = "SkullMaskGold", percent = 12.5 },
-				{ class = "wood_coffin", percent = 12.5 },
+				{ class = "wood_coffin", percent = 6.5 },
+                { class = "GoldenCudgel2", percent = 10 }, 
 			},
 		},
 		
@@ -939,13 +941,14 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomPumpkins", percent = 15 },
 				{ class = "halloween_candle", percent = 20 },
 				{ class = "halloween_creepy_bear", percent = 20 },
-				{ class = "SkullMask", percent = 10 },
+				{ class = "SkullMask", percent = 8 },
 				{ class = "SkullMaskGold", percent = 5 },
 				{ category = "RandomEpicAttachmentTrader", percent = 5 },
 				{ class = "AK5D", percent = 5 },
 				{ category = "RandomEpicWeaponTrader", percent = 0.5 },
 				{ class = "SpaceHelmet", percent = 0.5 },
 				{ class = "wood_coffin", percent = 9.6 },
+                { class = "GoldenCudgel2", percent = 2 }, 
 			},
 		},
 		
@@ -3184,10 +3187,10 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RavioliCan", percent = 3 },
 				{ class = "SoupCan", percent = 2 },
 				{ class = "TunaCan", percent = 2 },
-				{ category = "RandomEggs", percent = 3 }, -- Easter event event
-				{ class = "ChocolateBox", percent = 3 }, -- Valentines event
-				{ class = "Champagne", percent = 3 }, -- Valentines event
-				{ class = "heart_balloon", percent = 3 }, -- Valentines event
+				{ category = "RandomEggs", percent = 1 }, -- Easter event event
+				{ class = "ChocolateBox", percent = 1 }, -- Valentines event
+				{ class = "Champagne", percent = 1 }, -- Valentines event
+				{ class = "heart_balloon", percent = 1 }, -- Valentines event
 				{ category = "halloweenBagCommon", percent = 1 }, -- Halloween event
 				{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
 			},
@@ -4739,12 +4742,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ category = "RandomAirDropCratePolice", percent = 22 },
-				{ category = "RandomAirDropCrateMilitary", percent = 23 },
-				{ category = "RandomAirDropCrateCivilian", percent = 18 },
+				{ category = "RandomAirDropCrateMilitary", percent = 22 },
+				{ category = "RandomAirDropCrateCivilian", percent = 20 },
 				--{ category = "RandomAirDropCrateExplosives", percent = 2 }, no explosives
 				{ category = "RandomAirDropCrateBaseBuilding", percent = 15 },
-				{ category = "RandomAirDropCrateRadiation", percent = 18 },
-				{ category = "AirDropSantaCrate", percent = 4 },
+				{ category = "RandomAirDropCrateRadiation", percent = 4 },
+				{ category = "AirDropSantaCrate", percent = 18 },
 			},
 		},
 
@@ -4795,6 +4798,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomRangedMilitaryPure", percent = 100 },
 				{ class = "AmcoinLedger", percent = 1, min = 5, max = 25 },
                 { category = "RandomTron", percent = 5 },
+                { class = "GoldenCudgel2", percent = 100 }, 
+                { class = "GoldenCudgel", percent = 50}, 
 			},
 		},
 		
@@ -4851,6 +4856,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "EggGreen", percent = 100, min = 1, max = 5 }, -- Easter event
 				{ class = "EggPink", percent = 100, min = 1, max = 5 }, -- Easter event
                 { category = "RandomTron", percent = 10 },
+                { class = "GoldenCudgel2", percent = 40 }, 
 			},
 		},
 		

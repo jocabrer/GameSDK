@@ -22,7 +22,7 @@
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_white"/>
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en Suéter"/>
+        <param name="title" value="Transformar en Suéter"/>
         <param name="action" value="craft"/>
         <param name="param" value="Sweater"/>
         <param name="soundUsed" value=""/>

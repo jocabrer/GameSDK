@@ -34,7 +34,7 @@
 	</geometry>
 
 	<usable>
-		<param name="title" value="Convertir en Lumber"/>
+		<param name="title" value="Transformar en Lumber"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="Lumber"/>
 		<param name="soundUsed" value=""/>

@@ -13,7 +13,7 @@
 		<onground name="Objects/weapons/bayonet/bayonet.cgf"/> <!-- We only display onground model. TP model controlled in Script -->
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en 1 Scrap Metal"/>
+        <param name="title" value="Transformar en 1 Scrap Metal"/>
         <param name="action" value="craft"/>
         <param name="param" value="ScrapMetal"/>
         <param name="soundUsed" value=""/>

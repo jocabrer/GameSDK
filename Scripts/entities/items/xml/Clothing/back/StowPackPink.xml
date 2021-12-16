@@ -22,7 +22,7 @@
 		<onground name="objects/characters/players/male/back/backpack/stowpack/stowpack_tp.cgf" material="objects/characters/players/male/back/backpack/stowpack/stowpack_pink"/>
 	</geometry>
 	<usable>
-        <param name="title" value="Convertir en Zapatillas Negro/Rosado"/>
+        <param name="title" value="Transformar en Zapatillas Negro/Rosado"/>
         <param name="action" value="craft"/>
         <param name="param" value="SneakersBlackPink"/>
         <param name="soundUsed" value=""/>

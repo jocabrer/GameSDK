@@ -7,6 +7,5 @@
   <Attachment Type="CA_SKIN" AName="tshirt" Binding="objects/characters/players/male/torso/long/leather_jacket/leather_jacket.skin" Material="objects/characters/players/male/torso/long/leather_jacket/leather_jacket_mj.mtl" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="trackpants" Binding="objects/characters/players/male/legs/long/track_pants/trackpants.skin" Material="objects/characters/players/male/legs/long/track_pants/trackpants_black.mtl" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="sneakers" Binding="objects/characters/players/male/feet/sneakers/sneakers.skin" Flags="0"/>
-  <Attachment Type="CA_SKIN" AName="helmet" Binding="objects/characters/players/generic/hat/helmet_a/helmet.skin" Flags="0"/>
  </AttachmentList>
 </CharacterDefinition>

@@ -14,7 +14,7 @@
 	</geometry>
 	
 	<usable>
-		<param name="title" value="Convertir en Linterna de Camping"/>
+		<param name="title" value="Transformar en Linterna de Camping"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="camping_lantern"/>
 		<param name="soundUsed" value=""/>

@@ -1,16 +1,16 @@
-<item name="RK_Icepickaxe" class="Item" category="any">
+<item name="RK_MeleeSecondary" class="Item" category="any">
 
 	<params>
 		<param name="selectable" value="0"/>
-		<param name="itemClass" value="RK_Icepickaxe"/>
+		<param name="itemClass" value="RK_MeleeSecondary"/>
 		<param name="mass" value="1.0"/>
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.25"/>
 		<param name="destroyWhenDegraded" value="1"/>		
-		<param name="display_name" value="Icepickaxe Repair Kit"/>
-		<param name="description" value="Repair Kit para Icepickaxe."/>
-		<param name="vendor_cost" value="30"/>
-        <param name="stack_size" value="10" />
+		<param name="display_name" value="@RK_MeleeSecondary"/>
+		<param name="description" value="@RK_MeleeSecondaryDescription"/>
+		<param name="vendor_cost" value="25"/>
+        <param name="stack_size" value="25" />
 	</params>
 
 	<geometry>
@@ -18,8 +18,20 @@
 	</geometry>
 
 	<repair>
-		<item name="RK_Icepickaxe" percentage="100"/>
-		<item name="Icepickaxe" percentage="100"/>
+		<item name="RK_MeleeSecondary" percentage="100"/>
+		<item name="Cleaver" percentage="100"/>
+		<item name="Hammer" percentage="100"/>
+		<item name="Hatchet" percentage="100"/>
+		<item name="HuntingKnife" percentage="100"/>
+		<item name="LugWrench" percentage="100"/>
+		<item name="Machete" percentage="100"/>
+		<item name="Pickaxe" percentage="100"/>
+		<item name="PoliceBaton" percentage="100"/>
+		<item name="StunBaton" percentage="100"/>
+		<item name="Squeegee" percentage="100"/>
+		<item name="SurvivalKnife" percentage="100"/>
+		<item name="PipeWrench" percentage="100"/>
+		<item name="Crowbar" percentage="100"/>
 	</repair>
 
 	<storage>

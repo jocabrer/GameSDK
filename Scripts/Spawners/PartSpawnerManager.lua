@@ -39,7 +39,7 @@ PartSpawnerManager = {
 				{ class = "arcade_cabinet", percent = 4 },
 				{ class = "christmas_tree", percent = 11 }, -- disabled until christmas
 			},
-		},
+		},   
 	},
 }
 

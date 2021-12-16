@@ -9,6 +9,8 @@
 		<param name="destroyWhenDegraded" value="1"/>		
 		<param name="display_name" value="@RK_ClothingHelmet"/>
 		<param name="description" value="@RK_ClothingHelmetDescription"/>
+        <param name="vendor_cost" value="25"/>
+        <param name="stack_size" value="25" />
 	</params>
 
 	<geometry>

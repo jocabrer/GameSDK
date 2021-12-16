@@ -67,7 +67,7 @@ end
 function BIOHZPNGetAdminState(playerId, targetId)
     player = System.GetEntity(targetId);
 
-    if (player.BIOHZPNIsAdmin) then
+    if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
         mSendEvent(
             playerId,
             {
@@ -211,11 +211,7 @@ RegisterCallbackReturnAware(
         mSendEvent(
             playerId,
             {
-                Type = 'BIOHZPNInitUI',
-                Data = {
-                    playerCount = 0,
-                    playerTotal = 0
-                }
+                Type = 'BIOHZPNInitUI'
             },
             false,
             false

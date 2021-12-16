@@ -33,7 +33,7 @@
 		<onground name="objects/weapons/policebaton/policebaton_onground.cgf"/>
 	</geometry>
 	<usable>
-		<param name="title" value="Convertir en Chaleco Policial Azul"/>
+		<param name="title" value="Transformar en Chaleco Policial Azul"/>
 		<param name="action" value="convert"/>
 		<param name="param" value="PoliceVestBlue"/>
 		<param name="soundUsed" value=""/>
