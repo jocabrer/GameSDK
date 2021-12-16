@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 900, -- min time to spawn an event (in seconds)
-			fMaxTime = 1800, -- max time to spawn an event (in seconds)
+			fMinTime = 1000, -- min time to spawn an event (in seconds)
+			fMaxTime = 2000, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -30,9 +30,9 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 4 then
+	if rnd <= 6 then
 		eventName = "AirDropPlane"
-	elseif rnd <= 7 then
+	elseif rnd <= 8 then
 		eventName = "AirPlaneCrash"
     elseif rnd <= 9 then
         eventName = "AirDropChristmas"	 
