@@ -1,0 +1,49 @@
+<item name="STANAGx50" class="Magazine" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.25"/> <!-- 4.1g per bullet /2 + 200g for magazine -->
+		<param name="display_name" value="Cargador 5.56 STANAG-50"/>
+		<param name="description" value="50 Balas 5.56-STANAG"/>
+		<param name="tag" value="stanagx50"/>
+        <param name="vendor_cost" value="20"/>
+	</params>
+
+	<magazine>
+		<!-- must only be one magazine element in this section-->
+		<magazine capacity="50"/> <!-- max number of rounds this magazine can hold -->
+
+		<!-- Ammo block -->
+		<!-- A magazine can support one or more types of ammo. For every ammo type, we add a <ammo ... /> line -->
+		<!-- We have to specify at least the ammo name (must be a registered projectile in the weapon system)  -->
+		<!-- amount indicates that the magazine will give the player that many rounds when initially spawned -->
+		<ammos>
+			<ammo name="ammo_5_56x45" amount="50" pile="Pile_556x45"/>
+			<!-- ** right now only the first ammo item is used ** -->
+			<!-- rounds in the magazine when you first pick it up by default -->
+			<!-- insert other ammo types that can be used in this magazine as well -->
+		</ammos>
+		<param name="sound_load" value="Play_magazine_load"/>
+		<param name="sound_unload" value="Play_magazine_unload"/>
+	</magazine>
+
+	<geometry>
+		<onground name="Objects/magazines/stanagx30/stanagx30_tp.cgf"/> <!-- We only display onground model. TP model controlled in Mannequin -->
+	</geometry>
+
+	<usable>
+        <param name="title" value="Transformar en SheetMetal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="stanag_mag"/>
+		</locations>
+	</storage>
+
+
+</item>

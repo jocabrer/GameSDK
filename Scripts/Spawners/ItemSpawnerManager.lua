@@ -3976,10 +3976,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				-- { class = "CupidArrowx8", percent = 2.5 }, -- valentines
 				{ class = "Boltx5_0000", percent = 3 },
 				{ class = "M40x5", percent = 7 },
-				{ class = "556x150", percent = 15 },
 				{ class = "Pile_10mm", percent = 7 },
 				{ class = "Pile_22", percent = 2 },
-				{ class = "Pile_545x39", percent = 2 },
+				{ class = "Pile_545x39", percent = 8 },
 				{ class = "Pile_57x28", percent = 7 },
 				{ class = "Pile_223", percent = 2 },
 				{ class = "Pile_308", percent = 7 },
@@ -3992,12 +3991,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Pile_Flare", percent = 1 },
 				{ class = "Pile_TranquilizerDart", percent = 5 },
 				{ class = "STANAGx30", percent = 40 },
+                { class = "STANAGx50", percent = 10 },
 				{ class = "762x40", percent = 60 },
-				{ class = "GrenadePickup", percent = 10 },
+				--{ class = "GrenadePickup", percent = 10 },
 				{ class = "guide_explosives_1", percent = 1 },
-				{ class = "guide_explosives_2", percent = 1 },
+				--{ class = "guide_explosives_2", percent = 1 },
                 { class = "guide_ammunition", percent = 5 },
-                { class = "guide_ammunition", percent = 5 },
+                --{ class = "guide_ammunition", percent = 5 },
 				{ class = "C4TimedPickup", percent = 0.75, min = 1, max = 1 },
 				{ class = "BioFuel", percent = 7, min = 20, max = 40 },
 				{ class = "556x30_ak5d", percent = 15 },
@@ -4165,6 +4165,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AmcoinLedger", percent = 1 },
 				{ category = "RandomTrashContent", percent = 1 },
 				{ category = "RandomAccessory", percent = 25 },
+                { category = "RandomSilencer", percent = 25 },
 				{ class = "guide_medical_bandages", percent = 25 },
                 { class = "guide_concrete", percent = 30 },
                 { class = "guide_ammunition", percent = 20 },
@@ -4194,6 +4195,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "guide_structures_wood_gallows", percent = 15 },
 				{ class = "guide_structures_wood_watchtower", percent = 15 },
 				{ class = "guide_structures_wood_gatehouse", percent = 15 },
+                
 			},
 		},
 
@@ -4234,6 +4236,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "guide_structures_wood_gallows", percent = 15 },
 				{ class = "guide_structures_wood_watchtower", percent = 15 },
 				{ class = "guide_structures_wood_gatehouse", percent = 15 },
+                { category = "RandomSilencer", percent = 25 },
 			},
 		},
 
@@ -4253,6 +4256,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RK_Sledgehammer", percent = 1 },
 				{ class = "Icepickaxe", percent = 15 },
                 { class = "guide_concrete", percent = 5 },
+                { category = "RandomSilencer", percent = 1 },
 			},
 		},
 
@@ -4690,8 +4694,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomSilencer",
 			classes =
 			{
-				{ class = "RifleSilencer", percent = 15 },
-				{ class = "PistolSilencer", percent = 85 },
+				{ class = "RifleSilencer", percent = 25 },
+				{ class = "PistolSilencer", percent = 75 },
 			},
 		},
 		
@@ -4811,6 +4815,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "M16", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
+                { class = "STANAGx50", percent = 10 },
 				{ category = "RandomAmmoBox", percent = 100 },
 				{ category = "RandomAmmoBox", percent = 100 },
 				{ category = "RandomAmmoBox", percent = 100 },
@@ -4989,6 +4994,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AT15", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
+                { class = "STANAGx50", percent = 10 },
 				{ class = "PX4", percent = 100 },
 				{ class = "acp_45x10_hk", percent = 100 },
 				{ class = "Pile_9mm", percent = 100 },
@@ -5239,6 +5245,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "IronsuitWarMachineHelmet", percent = 5 },
 				{ class = "IronsuitWarMachinePants", percent = 5 },
                 { category = "RandomTron", percent = 50 },
+                { category = "RandomSilencer", percent = 100 },
 			},
 		},
 		
@@ -5279,6 +5286,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomAmmoBox", percent = 9 },
                 { category = "RandomAmmoBox", percent = 9 },
                 { category = "RandomAmmoBox", percent = 9 },
+                { category = "RandomSilencer", percent = 100 },
                 
 
             },
@@ -5447,6 +5455,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "M16", percent = 100 },
 				{ class = "Mk18", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
+                { class = "STANAGx50", percent = 50 },
 				{ class = "Pile_556x45", percent = 100 },
 				{ class = "AmmoBox_5_56x45", percent = 75 },
 				{ class = "IronsightKit", percent = 100 },
@@ -5550,6 +5559,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Pile_545x39", percent = 100 },
 				{ class = "556x100", percent = 100 },
 				{ class = "STANAGx30", percent = 100 },
+                { class = "STANAGx50", percent = 50 },
 				{ category = "RandomAccessoryTrader", percent = 100 },
 				{ class = "M249", percent = 5 },
 				{ class = "M97", percent = 5 },
