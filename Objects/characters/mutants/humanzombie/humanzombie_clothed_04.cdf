@@ -7,5 +7,5 @@
   <Attachment Type="CA_SKIN" AName="rain_jacket_hood_up" Binding="objects/characters/players/male/jacket/rain_jacket/rain_jacket_hood_down.skin" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="converses" Binding="objects/characters/players/male/feet/converses/converses.skin" Flags="0"/>
   <Attachment Type="CA_SKIN" AName="arms" Binding="objects/characters/players/male/eyes/eyepatch/eyepatch_left.skin" Flags="0"/>
-  /AttachmentList>
+</AttachmentList>
 </CharacterDefinition>
