@@ -1,0 +1,137 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="doors" MtlFlags="524416" Shader="Illum" GenMask="2060400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/modern_family_house_1/textures/door_mat_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/modern_family_house_1/textures/door_mat_ddna.tif"/>
+    <Texture Map="Specular" File="objects/structures/residential/modern_family_house_1/textures/door_mat_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="carpet" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/carpet/carpet001_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.5" TileV="1.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/carpet/carpet001_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wall_plaster" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.93011099,0.9046613,0.59061897" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/grey_187_diff.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" OffsetU="4" TileV="4"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/walls/white_wall_paint_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="windows" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.040915202,0.040915202,0.040915202" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="524450" Shader="Illum" GenMask="60000000" StringGenMask="%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.1169707,0.1169707,0.1169707" Specular="0,0,0" Opacity="0.75" Shininess="255" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/graham_wip/glass/glassdirty_.tif"/>
+    <Texture Map="Specular" File="textures/glass/glass_dirty_highspec_tint.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt1" MtlFlags="524448" Shader="Illum" GenMask="2040400800" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.057805438,0.057805438,0.057805438" Specular="0.017641956,0.017641956,0.017641956" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt_on_wall/dirt_on_wall.tif"/>
+    <Texture Map="Bumpmap" File="textures/decals/dirt_on_wall/dirt_on_wall_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1.6" DecalAlphaMult="0.88" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt2" MtlFlags="524448" Shader="Illum" GenMask="2040000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.07618539,0.07618539,0.07618539" Specular="0.0085681258,0.0085681258,0.0085681258" Opacity="1" Shininess="10" AlphaTest="0.090000004" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt_on_wall/dirt_edge_decals_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.65399998" DecalFalloff="1" DecalAlphaMult="0.80000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="doorframe_skirting" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/street_town_house/inside_textures/oak_woodwork_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/street_town_house/inside_textures/oak_woodwork_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="tile_floor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.70110202,0.70110202,0.70110202" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/tiles/marable_tiles/marbale_tile_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/tiles/marable_tiles/marbale_tile_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="artex_ceiling" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.06124606,0.06124606,0.06124606" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/plaster/artex_ceiling/artex_ceiling_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/plaster/artex_ceiling/artex_ceiling_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wall_tiles_colour" MtlFlags="524416" Shader="Illum" GenMask="40400200" StringGenMask="%DIRTLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.4793202,0.4793202,0.4793202" Specular="0.046665091,0.046665091,0.046665091" Opacity="1" Shininess="248" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/street_town_house/inside_textures/tintable_small_wall_tiles_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetU="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/structures/street_town_house/inside_textures/tintable_small_wall_tiles_ddna.tif"/>
+    <Texture Map="Custom" File="objects/structures/street_town_house/inside_textures/tintable_small_wall_tiles_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.52711523,0.45641103,0.25415212" DirtGlossFactor="0.303" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dirt3" MtlFlags="524448" Shader="Illum" GenMask="2040000000" StringGenMask="%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.07618539,0.07618539,0.07618539" Specular="0.0085681258,0.0085681258,0.0085681258" Opacity="0.83999997" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt_on_wall/dirt_edge_decals_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="blending_wood_paint" MtlFlags="524416" Shader="Illum" GenMask="2040400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.040915202,0.040915202,0.040915202" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_wood_ddna.tif"/>
+    <Texture Map="Custom" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/residential/modern_family_house_1/textures/modern_window_parts_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.40000001" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="16" BlendLayer2Specular="0.027000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="laminated _floor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/carpet/laminated_wood_floor/laminated_wood_floor_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/carpet/laminated_wood_floor/laminated_wood_floor_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_fabric" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="family_house_inside01_lod1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/modern_family_house_1/textures/family_house_inside01_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/modern_family_house_1/textures/family_house_inside01_lod1_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="family_house_inside01_bake2_lod1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.035,0.035,0.035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/modern_family_house_1/textures/family_house_inside01_lod2_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/modern_family_house_1/textures/family_house_inside01_lod2_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

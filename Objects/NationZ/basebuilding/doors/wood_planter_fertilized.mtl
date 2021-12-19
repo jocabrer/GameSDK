@@ -1,0 +1,37 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="2060400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38642946,0.38642946,0.38642946" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/wood/textures/planter_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/wood/textures/planter_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/wood/textures/planter_spec.tif"/>
+    <Texture Map="Custom" File="objects/props/jaw_boat/textures/rotten_wood_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/props/jaw_boat/textures/rotten_wood_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/sat_dish/rust_mask_diff.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.89999998" EmittanceMapGamma="1" BlendLayer2Tiling="0.44999999" SSSIndex="0" BlendMaskTiling="1.4299999" BlendFactor="2.97" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="soil" MtlFlags="524416" Shader="Illum" GenMask="48400000" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/city_planter/textures/soil_fertilized_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/city_planter/textures/soil_fertilized_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/props/city_planter/textures/soil_fertilized_displ.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" PomDisplacement="0.050000001" SSSIndex="0" SelfShadowStrength="3.5" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bolts" MtlFlags="524448" Shader="Illum" GenMask="60400800" StringGenMask="%DECAL%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/wood/textures/planter_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/wood/textures/planter_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/wood/textures/planter_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

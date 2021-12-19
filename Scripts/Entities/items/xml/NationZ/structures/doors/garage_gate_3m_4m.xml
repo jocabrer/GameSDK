@@ -1,0 +1,34 @@
+<item name="garage_gate_3m_4m" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Portón de 3m x 4m"/>
+		<param name="description" value="Portón de 3m x 4m"/>
+	</params>
+
+	<base_part class="door" type="7015" name="garage_gate_3m_4m" max_health="55000">
+		<door filename="Objects/NationZ/basebuilding/doors/garage_gate_3m_4m.cgf" rotate_base="0" move_range="2.95" move_speed="2" move_axis="z" move_axis_dir="+" 
+			sound_open="Play_industrial_garage_door_open" sound_opened="" sound_close="Play_industrial_garage_door_close" sound_closed="" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door/>
+			</base_action>
+			<base_action class="toggle_lock">
+				<toggle_lock/>
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

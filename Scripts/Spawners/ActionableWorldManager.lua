@@ -71,8 +71,8 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			fail = "@harvest_scrap_metal_failed",
 			surface = { "mat_metal_harvest" },
 			sound = "Play_pickup_metal",
-			minUses = 2, -- this is one basepart upgrade
-			uses = 20, -- this is 5 basepart upgrades
+			minUses = 10, -- this is one basepart upgrade
+			uses = 40, -- this is 5 basepart upgrades
 			minRefDiameter = 2, -- smallest (bike is 2, f100/sedan about 6, bus is 13)
 			maxRefDiameter = 13, -- 
 			regenerate = 90,

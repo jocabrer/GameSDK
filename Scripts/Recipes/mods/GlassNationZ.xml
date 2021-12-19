@@ -173,6 +173,14 @@
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>	
+                                    <item class="door_glass_white" time="1">
+										<materials>
+											<material class="Lumber" count="8" />
+											<material class="ScrapMetal" count="1" />
+											<material class="SheetMetal" count="8" />
+										</materials>
+									</item>
+                                    
 								</items>
 							</type>
 						</types>
@@ -182,3 +190,5 @@
 		</cats>
 	</guide>
 </recipes>
+
+

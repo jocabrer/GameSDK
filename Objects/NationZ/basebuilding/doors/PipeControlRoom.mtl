@@ -1,0 +1,49 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Brickwall" MtlFlags="524416" Shader="Illum" GenMask="40400402" StringGenMask="%BLENDLAYER%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.42869052,0.42869052,0.42869052" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sawmill/pipecontrolroom/birckwall_d.tif"/>
+    <Texture Map="Bumpmap" File="objects/sawmill/pipecontrolroom/birckwall_ddna.tif"/>
+    <Texture Map="Detail" File="objects/sawmill/pipecontrolroom/brickwall_detail.tif"/>
+    <Texture Map="Custom" File="objects/sawmill/pipecontrolroom/brickwall_blend.tif"/>
+    <Texture Map="[1] Custom" File="objects/sawmill/pipecontrolroom/birckwall_ddna.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="4" EmittanceMapGamma="1" BlendLayer2Tiling="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" BlendMaskTiling="1" BlendFactor="1" DetailGlossScale="0.5" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ConcreteWall" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sawmill/pipecontrolroom/concretewall_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/sawmill/pipecontrolroom/concretewall_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ConcreteFloor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.71569365,0.71569365,0.71569365" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sawmill/pipecontrolroom/concretefloor_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/sawmill/pipecontrolroom/concretefloor_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="MetalDoor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sawmill/pipecontrolroom/metaldoor_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/sawmill/pipecontrolroom/metaldoor_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="WindowFrame" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/sawmill/pipecontrolroom/windowsframe_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/sawmill/pipecontrolroom/windowsframe_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

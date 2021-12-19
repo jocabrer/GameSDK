@@ -1,0 +1,102 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="metal_beam" MtlFlags="524418" Shader="Illum" GenMask="2040400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/warehouse_metalwork_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/warehouse_metalwork_ddna.tif"/>
+    <Texture Map="Detail" File="objects/structures/industrial/warehouse1/textures/metal01_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="20" TileV="20"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.25" SSSIndex="0" DetailBumpScale="0.34999999" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="rusted_metal" MtlFlags="524418" Shader="Illum" GenMask="2042400000" StringGenMask="%NORMAL_MAP%OFFSET_BUMP_MAPPING%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/metal_corrogated_rusted_diffuse.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/metal_corrogated_rusted_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/structures/industrial/warehouse1/textures/metal_corrogated_rusted_displ.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" SelfShadowStrength="2" ObmDisplacement="0.0099999998" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="brick" MtlFlags="524418" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/brick/warehouse_brick/brick_warehouse_dif.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/brick/warehouse_brick/brick_warehouse_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="Decal" MtlFlags="524448" Shader="Illum" GenMask="2040000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.37626216,0.21586053,0.16826943" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/dirt/decal_plasterdamage_diffuse.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="0.25" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="RollerDoor" MtlFlags="524418" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.04518621,0.04518621,0.04518621" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/metalwork_dif.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="0.40000001" OffsetV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/metalwork_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_metal" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="window" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.37626216,0.37626216,0.37626216" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/windows/wh_window_diffuse.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/windows/wh_windowtest_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="base_concrete" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/cracked_concrte/cracked_wall_plaster_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/cracked_concrte/cracked_wall_plaster_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="painted_plaster" MtlFlags="524416" Shader="Illum" GenMask="2040400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.20507877,0.20507877,0.20507877" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/industrial/warehouse1/textures/inside textures/paintedwall_diffuse.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.1" TileV="1.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/structures/industrial/warehouse1/textures/inside textures/paintedwall_ddn.tif"/>
+    <Texture Map="Custom" File="objects/structures/industrial/warehouse1/textures/inside textures/bareplaster_diffuse.tif"/>
+    <Texture Map="Opacity" File="objects/structures/industrial/warehouse1/textures/inside textures/paintedwall_mask.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.89999998" EmittanceMapGamma="1" BlendLayer2Tiling="1.2" SSSIndex="0" BlendMaskTiling="0.44" BlendFactor="1.3" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_glass" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="concrete_floor" MtlFlags="524416" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/concreteold_floor_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/concrete/concreteold_floor_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chain_hole" MtlFlags="524416" Shader="Illum" GenMask="2060400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/metal/painted metal_tileable01/painted_metal_tileable01_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/metal/painted metal_tileable01/painted_metal_tileable01_ddna.tif"/>
+    <Texture Map="Specular" File="textures/generic/metal/painted metal_tileable01/painted_metal_tileable01_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chain" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40197781,0.40197781,0.40197781" Specular="0.52099562,0.52099562,0.52099562" Opacity="1" Shininess="103" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/dock/textures/misc_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/dock/textures/misc_ddna.tif"/>
+    <Texture Map="Specular" File="objects/structures/dock/textures/misc_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

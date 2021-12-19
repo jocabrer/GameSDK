@@ -15,15 +15,15 @@ PartSpawnerManager = {
 				{ class = "metal_door_lockable_1m_2m", percent = 5 },
 
 				-- walls (55.99)
-				{ class = "metal_aframe_3m_4m", percent = 6 },
-				{ class = "metal_wall_1_3m_2m", percent = 4 },
-				{ class = "metal_wall_1_3m_4m", percent = 5 }, 
-				{ class = "metal_wall_2m_2m", percent = 4 },
-				{ class = "metal_wall_2m_4m", percent = 5 },
-				{ class = "metal_wall_3m_2m", percent = 4 },
-				{ class = "metal_wall_3m_4m", percent = 5 },
-				{ class = "metal_safe", percent = 5 },
-				{ class = "metal_platform_3m_4m_4m", percent = 5 },
+				{ class = "metal_aframe_3m_4m", percent = 2 },
+				{ class = "metal_wall_1_3m_2m", percent = 2 },
+				{ class = "metal_wall_1_3m_4m", percent = 2 }, 
+				{ class = "metal_wall_2m_2m", percent = 2 },
+				{ class = "metal_wall_2m_4m", percent = 2 },
+				{ class = "metal_wall_3m_2m", percent = 2 },
+				{ class = "metal_wall_3m_4m", percent = 2 },
+				--{ class = "metal_safe", percent = 1 },
+				--{ class = "metal_platform_3m_4m_4m", percent = 5 },
 
 				-- special walls (24)
 				{ class = "metal_wall_door_3m_4m", percent = 5 }, 
@@ -37,7 +37,7 @@ PartSpawnerManager = {
 				-- misc (4.01)
 				{ class = "gnome_giant_c", percent = 10 },
 				{ class = "arcade_cabinet", percent = 15 },
-				{ class = "christmas_tree", percent = 15 }, -- disabled until christmas
+				{ class = "christmas_tree", percent = 30 }, -- disabled until christmas
 			},
 		},   
 	},

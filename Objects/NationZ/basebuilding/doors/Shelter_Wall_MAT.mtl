@@ -1,0 +1,44 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Wall_1m" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.027320893,0.027320893,0.027320893" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/misc/leanto/stick_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/misc/leanto/stick_ddna.tif"/>
+    <Texture Map="Custom" File="objects/basebuilding/misc/leanto/ground_blend_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/basebuilding/misc/leanto/ground_blend_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/wood_fine_a_mask.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.75" EmittanceMapGamma="1" BlendLayer2Tiling="2.25" SSSIndex="0" BlendMaskTiling="1.5" BlendFactor="10" BlendLayer2Specular="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Wall_2m" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.027320893,0.027320893,0.027320893" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/misc/leanto/stick_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/misc/leanto/stick_ddna.tif"/>
+    <Texture Map="Custom" File="objects/basebuilding/misc/leanto/ground_blend_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/basebuilding/misc/leanto/ground_blend_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/wood_fine_a_mask.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.75" EmittanceMapGamma="1" BlendLayer2Tiling="3.05" SSSIndex="0" BlendMaskTiling="2" BlendFactor="10" BlendLayer2Specular="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Wall_4m" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.027320893,0.027320893,0.027320893" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/misc/leanto/stick_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/misc/leanto/stick_ddna.tif"/>
+    <Texture Map="Custom" File="objects/basebuilding/misc/leanto/ground_blend_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/basebuilding/misc/leanto/ground_blend_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/wood_fine_a_mask.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.75" EmittanceMapGamma="2" BlendLayer2Tiling="6.46" SSSIndex="0" BlendMaskTiling="6" BlendFactor="10" BlendLayer2Specular="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
