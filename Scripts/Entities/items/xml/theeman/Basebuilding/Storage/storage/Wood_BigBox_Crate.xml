@@ -3,8 +3,8 @@
 	<params>
 		<param name="selectable" value="0"/>
         <param name="mass" value="-1" />
-		<param name="display_name" value="Wood Big Box"/>
-		<param name="description" value="Wood BIG Box System storage" />
+		<param name="display_name" value="Gran Caja vieja"/>
+		<param name="description" value="Una caja vieja sin seguro" />
 	</params>
 
   <geometry>

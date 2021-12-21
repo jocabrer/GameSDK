@@ -12,31 +12,31 @@ PartSpawnerManager = {
 			classes =
 			{
 				-- doors (7)
-				{ class = "metal_door_lockable_1m_2m", percent = 5 },
+				--{ class = "metal_door_lockable_1m_2m", percent = 5 },
 
 				-- walls (55.99)
-				{ class = "metal_aframe_3m_4m", percent = 2 },
-				{ class = "metal_wall_1_3m_2m", percent = 2 },
-				{ class = "metal_wall_1_3m_4m", percent = 2 }, 
-				{ class = "metal_wall_2m_2m", percent = 2 },
-				{ class = "metal_wall_2m_4m", percent = 2 },
-				{ class = "metal_wall_3m_2m", percent = 2 },
-				{ class = "metal_wall_3m_4m", percent = 2 },
-				--{ class = "metal_safe", percent = 1 },
+				--{ class = "metal_aframe_3m_4m", percent = 2 },
+				--{ class = "metal_wall_1_3m_2m", percent = 2 },
+				--{ class = "metal_wall_1_3m_4m", percent = 2 }, 
+				--{ class = "metal_wall_2m_2m", percent = 2 },
+				--{ class = "metal_wall_2m_4m", percent = 2 },
+				--{ class = "metal_wall_3m_2m", percent = 2 },
+				--{ class = "metal_wall_3m_4m", percent = 2 },
+				{ class = "metal_safe", percent = 10 },
 				--{ class = "metal_platform_3m_4m_4m", percent = 5 },
 
 				-- special walls (24)
-				{ class = "metal_wall_door_3m_4m", percent = 5 }, 
-				{ class = "metal_wall_window_3m_2m", percent = 2 },
-				{ class = "metal_wall_window_3m_4m", percent = 2 },
+				--{ class = "metal_wall_door_3m_4m", percent = 5 }, 
+				--{ class = "metal_wall_window_3m_2m", percent = 2 },
+				--{ class = "metal_wall_window_3m_4m", percent = 2 },
 
 				-- gatehouse (9)
-				{ class = "metal_gatehouse_4m_8m", percent = 2 },
-				{ class = "metal_gate_lockable_3m_5_4m", percent = 2 },
+				--{ class = "metal_gatehouse_4m_8m", percent = 2 },
+				--{ class = "metal_gate_lockable_3m_5_4m", percent = 2 },
 
 				-- misc (4.01)
-				{ class = "gnome_giant_c", percent = 10 },
-				{ class = "arcade_cabinet", percent = 15 },
+				{ class = "gnome_giant_c", percent = 30 },
+				{ class = "arcade_cabinet", percent = 30 },
 				{ class = "christmas_tree", percent = 30 }, -- disabled until christmas
 			},
 		},   

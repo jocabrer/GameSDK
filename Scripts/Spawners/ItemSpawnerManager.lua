@@ -3694,7 +3694,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomCamoClothes", percent = 6 },
 				{ category = "RandomFlashlight", percent = 5 },
 				{ class = "Axe", percent = 30 },
-				{ class = "AxePatrick", percent = 10 },
+				{ class = "AxePatrick", percent = 5 },
 				{ class = "BaseballBat", percent = 10 },
 				{ class = "BaseballBatNails", percent = 7 },
 				{ class = "BaseballBatSawBlade", percent = 5 },
@@ -3703,9 +3703,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "BaseballBatHerMajesty", percent = 5 },
 				{ class = "Cleaver", percent = 7 },
 				{ class = "Crowbar", percent = 7 },
-				{ class = "Guitar", percent = 10 },
+				{ class = "Guitar", percent = 8 },
 				{ class = "Hammer", percent = 15 },
-				{ class = "Hatchet", percent = 30 },
+				{ class = "Hatchet", percent = 20 },
 				{ class = "HuntingKnife", percent = 10 },
 				{ class = "Katana", percent = 7 },
 				{ class = "KatanaBlackWidow", percent = 3 },
@@ -3720,7 +3720,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "SurvivalKnife", percent = 10 },
 				--{ class = "TrapBearTrapPacked", percent = 5 },
 				{ class = "Icepickaxe", percent = 8 },
-                { class = "SCAAMShovel", percent = 6 },
+                { class = "SCAAMShovel", percent = 15 },
                 
 			},
 		},
@@ -4883,6 +4883,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomTron", percent = 5 },
                 { class = "GoldenCudgel2", percent = 100 }, 
                 { class = "GoldenCudgel", percent = 50}, 
+                { class = "SCAAMShovel", percent = 15 },
 			},
 		},
 		
@@ -4941,6 +4942,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "EggPink", percent = 100, min = 1, max = 5 }, -- Easter event
                 { category = "RandomTron", percent = 10 },
                 { class = "GoldenCudgel2", percent = 40 }, 
+                { class = "SCAAMShovel", percent = 15 },
 			},
 		},
 		
@@ -5004,6 +5006,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomHazmatSuitWrath", percent = 100 },
                 { category = "RandomGasCanisterPackWrath", percent = 100 },
                 { category = "RandomTron", percent = 5 },
+                { class = "SCAAMShovel", percent = 15 },
 				--{ class = "EggBlue", percent = 100, min = 1, max = 5 }, -- Easter event
 				--{ class = "EggGreen", percent = 100, min = 1, max = 5 }, -- Easter event
 				--{ class = "EggPink", percent = 100, min = 1, max = 5 }, -- Easter event
@@ -5053,6 +5056,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Hammer", percent = 100 },
 				{ class = "Icepickaxe", percent = 25 },
 				{ category = "RandomTent", percent = 50 },
+                { class = "SCAAMShovel", percent = 15 },
 			},
 		},
 		
