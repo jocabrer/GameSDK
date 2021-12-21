@@ -22,22 +22,23 @@ PartSpawnerManager = {
 				--{ class = "metal_wall_2m_4m", percent = 2 },
 				--{ class = "metal_wall_3m_2m", percent = 2 },
 				--{ class = "metal_wall_3m_4m", percent = 2 },
-				{ class = "metal_safe", percent = 10 },
+				{ class = "metal_safe", percent = 5 },
 				--{ class = "metal_platform_3m_4m_4m", percent = 5 },
 
 				-- special walls (24)
 				--{ class = "metal_wall_door_3m_4m", percent = 5 }, 
 				--{ class = "metal_wall_window_3m_2m", percent = 2 },
-				--{ class = "metal_wall_window_3m_4m", percent = 2 },
+				{ class = "metal_wall_window_3m_4m", percent = 10 },
 
 				-- gatehouse (9)
-				--{ class = "metal_gatehouse_4m_8m", percent = 2 },
-				--{ class = "metal_gate_lockable_3m_5_4m", percent = 2 },
+				{ class = "metal_gatehouse_4m_8m", percent = 5 },
+				{ class = "metal_gate_lockable_3m_5_4m", percent = 5 },
 
 				-- misc (4.01)
-				{ class = "gnome_giant_c", percent = 30 },
-				{ class = "arcade_cabinet", percent = 30 },
-				{ class = "christmas_tree", percent = 30 }, -- disabled until christmas
+				{ class = "gnome_giant_c", percent = 20 },
+				{ class = "arcade_cabinet", percent = 20 },
+				{ class = "christmas_tree", percent = 15 }, 
+                { class = "titanium_wall_3m_4m", percent = 20 }, 
 			},
 		},   
 	},

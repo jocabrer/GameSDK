@@ -247,7 +247,7 @@ AISpawnerManager = {
 
 		{
 			category = "wolf_pack",
-			pack = true, min = 5, max = 8,
+			pack = true, min = 2, max = 5,
 			classes =
 			{
 				{ 
@@ -265,7 +265,7 @@ AISpawnerManager = {
 
 		{
 			category = "wolf_pack_large",
-			pack = true, min = 5, max = 9,
+			pack = true, min = 4, max = 7,
 			classes =
 			{
 				{ 
@@ -289,11 +289,11 @@ AISpawnerManager = {
 			category = "Spiker",
 			classes =
 			{
-				{ category = "CrazySingle", percent = 40 },
-				{ category = "SpikerSingle", percent = 30 },
+				{ category = "CrazySingle", percent = 30 },
+				{ category = "SpikerSingle", percent = 25 },
 				{ category = "HumanZombieSingle", percent = 20 },
-				{ category = "BruteMutantSingle", percent = 5 },
-				{ category = "spiker_pack", percent = 5 },
+				{ category = "BruteMutantSingle", percent = 10 },
+				{ category = "spiker_pack", percent = 15 },
 			},
 		},
 
@@ -378,26 +378,26 @@ AISpawnerManager = {
 
 		{
 			category = "horde",
-			min = 15, max = 30,
+			min = 10, max = 20,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnHorde() to spawn at least 1 brute per horde as a psuedo leader
-				{ category = "CrazySingle", percent = 30 },
-				{ category = "SpikerSingle", percent = 30 },
-				{ category = "HumanZombieSingle", percent = 20 },
-				{ category = "BruteMutantSingle", percent = 20 },
+				{ category = "CrazySingle", percent = 25 },
+				{ category = "SpikerSingle", percent = 25 },
+				{ category = "HumanZombieSingle", percent = 25 },
+				{ category = "BruteMutantSingle", percent = 25 },
 			},
 		},
 
 		{
 			-- Essentially the same as a horde, but no brutes
 			category = "mutant_invasion",
-			min = 15, max = 30,
+			min = 10, max = 20,
 			classes =
 			{
-				{ category = "CrazySingle", percent = 45 },
+				{ category = "CrazySingle", percent = 40 },
 				{ category = "SpikerSingle", percent = 30 },
-				{ category = "HumanZombieSingle", percent = 25 },
+				{ category = "HumanZombieSingle", percent = 30 },
 			},
 		},
 
