@@ -103,7 +103,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 -- Floppy disk game
 newItem = {
     class = "SCAAMGameFloppyDisk",
-    percent = 15,
+    percent = 35,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")
@@ -167,7 +167,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 
 newItem = {
     class = "SCAAMGameFloppyDisk",
-    percent = 3,
+    percent = 15,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomDeskContent")
@@ -232,7 +232,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 -- Floppy disk app
 newItem = {
     class = "SCAAMAppFloppyDisk",
-    percent = 3,
+    percent = 15,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")
@@ -296,7 +296,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 
 newItem = {
     class = "SCAAMAppFloppyDisk",
-    percent = 5,
+    percent = 25,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomDeskContent")
@@ -361,7 +361,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 -- Floppy disk encrypted
 newItem = {
     class = "SCAAMEncryptedFloppyDisk",
-    percent = 2,
+    percent = 10,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")
@@ -425,7 +425,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 
 newItem = {
     class = "SCAAMEncryptedFloppyDisk",
-    percent = 2,
+    percent = 10,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomDeskContent")
@@ -484,5 +484,3 @@ if FindInTable(itemtype, "category", highpercentname) then
 elseif FindInTable(itemtype, "class", highpercentname) then
     categoryItemToAdjust = FindInTable(itemtype, "class", highpercentname)
 end
-
-categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
