@@ -161,115 +161,115 @@ SCAAMATConsoleDialogs = {
     message = {
         {
             'HighTierGuns',
-            "I think I won the lottery friend. In one of my runs I found the best hardware ever. It's kinda weird though, it was in one of these random cars stuck in a traffic jam, no logos nor identifying colors, is like it's been there since the infection started. Anyways, I stashed them in one of these special boxes, you know the drill, coordinates",
-            ". I'll leave them there until we find a safer place, where we know we're not gonna get assaulted again by one of these crazy fuckers. Talk to you later tomorrow."
+            "Creo que me gané la lotería amigo. En una de mis carreras encontré el mejor hardware de todos los tiempos. Sin embargo, es un poco extraño, estaba en uno de estos autos al azar atascados en un atasco, sin logotipos ni colores identificativos, es como si hubiera estado allí desde que comenzó la infección. De todos modos, los escondí en una de estas cajas especiales, ya sabes como hacerlo, debes encontrar las coordenadas ",
+            ". Los dejaré allí hasta que encontremos un lugar más seguro, donde sepamos que no nos volverán a asaltar uno de estos locos cabrones. Hablamos mañana más tarde."
         },
         {
             'NormalGuns',
-            "I know I'm not gonna survive this, the wounds are too deep and I'm getting sicker every day. I really appreciate your effort to find something or someone to help me survive, but I think it's too late for me. I got all the strength I had and stashed all my important possesions near this camp so it's not taken by looters, the coordinates are",
-            ". I hope this can help you on your way to Hayward Valley and you finally find safety under Amalgamated. Please, survive... do that for me, ok?"
+            "Sé que no voy a sobrevivir a esto, las heridas son demasiado profundas y cada día me enfermo más. Realmente aprecio tu esfuerzo por encontrar algo o alguien que me ayude a sobrevivir, pero creo que es demasiado tarde para mí. Obtuve toda la fuerza que tenía y escondí todas mis posesiones importantes cerca de este campamento para que no lo tomen los saqueadores, las coordenadas son",
+            ". Espero que esto pueda ayudarlo en su camino a Hayward Valley y finalmente encuentre refugio en Amalgamated. Por favor, sobrevive ... haz eso por mí, ¿de acuerdo?"
         },
         {
             'BuildingSupplies',
-            "I QUIT, I FUCKING QUIT! I don't know about y'all, but I'm tired of this bullshit, Amalgamated is not doing anything for us, and I in exchange am building these weird things for them that don't even serve as a shelter. Fuck them! I'm leaving for good and I'm gonna ask that guy we met from the other colony the other day to remove my chip, it's all a conspiracy, it's not preventing us from becoming mutants, I don't believe such thing. Anyways, I'm gonna go with my building supplies to coordinates",
-            " to build my own thing that it actually has an use, y'all are welcome to join me."
+            "¡ME VOY! No sé ustedes, pero estoy cansado de esta mierda, Amalgamated no está haciendo nada por nosotros, y yo a cambio estoy construyendo estas cosas raras para ellos que ni siquiera sirven como refugio. ¡Que se jodan! Me voy para siempre y le voy a pedir al tipo que conocimos de la otra colonia el otro día que me quite el chip, todo es una conspiración, no nos impide convertirnos en mutantes, no creo tal cosa. De todos modos, voy a ir con mis materiales de construcción a las coordenadas.",
+            " para construir mi propia base que realmenteusaremos, todos son bienvenidos a unirse a mí.."
         },
         {
             'GeneralSupplies',
-            "I think I gathered enough supplies for my son, he should be safe enough to be with us in this move, I still refuse to give him a gun, it's not time yet, but there's some high quality stuff in there. I'm coming back in 2 days, but I placed a stash in the coordinates",
-            ". That's between the refuge and where I am, for you it should be a 25 minute walk, not even remotely close to the nest. Go with him and show him a little bit of the outside world, he's gonna need to learn as much as he can before we depart."
+            "Creo que reuní suficientes suministros para mi hijo, debería estar lo suficientemente seguro como para estar con nosotros en este movimiento, todavía me niego a darle un arma, aún no es el momento, pero hay algunas cosas de alta calidad allí. Regresaré en 2 días, pero coloqué un alijo en las coordenadas",
+            ". Eso es entre el refugio y donde estoy, para ti debería ser una caminata de 25 minutos, ni remotamente cerca del nido. Ve con él y enséñale un poco del mundo exterior. Necesitará aprender todo lo que pueda antes de partir.."
         },
         {
             'HighTierGuns',
-            "I don't even know how I'm encrypting this message, I'm still in shock. Somehow I survived a huge shootout between Amalgamated and the Iron Sons people, I was able to hide in a bush and I'm lucky I didn't get caught by a bullet. I was able to recover some really nice stuff from the bodies, this should be enough to protect ourselves. I'm coming back tomorrow, for now dig a hole in the coordinates",
-            " because I don't plan on sharing all this stuff with the others, I'm gonna tell you everything when I'm back but for now, just be careful with this 'ex-cia' girl."
+            "Ni siquiera sé cómo estoy encriptando este mensaje, todavía estoy en estado de shock. De alguna manera sobreviví a un gran tiroteo entre Amalgamated y la gente de Iron Sons, pude esconderme en un arbusto y tuve suerte de que no me atrapara una bala. Pude recuperar algunas cosas realmente agradables de los cuerpos, esto debería ser suficiente para protegernos. Regreso mañana, por ahora cava un hoyo en las coordenadas",
+            " porque no planeo compartir todo esto con los demás, te lo contaré todo cuando regrese, pero por ahora, ten cuidado con esta chica 'ex-cia'."
         },
         {
             'NormalGuns',
-            "Alright, I don't wanna tell you how to do your job, but can you please set your priorities straight? I know it's hard to be in charge of a large group, but we really need combat training. We already lost two, that nest needs to be gone. I found some guns and ammo in a cop car but stashed them in the coordinates",
-            " Because you don't let anyone to enter the walls with any weapon. Seriously, we cannot keep waiting for Amalgamated to pick us up, we need to learn how to defend ourselves."
+            "Muy bien, no quiero decirte cómo hacer tu trabajo, pero ¿podrías establecer tus prioridades en orden? Sé que es difícil estar a cargo de un grupo grande, pero realmente necesitamos entrenamiento de combate. Ya perdimos dos, ese nido debe desaparecer. Encontré algunas armas y municiones en un coche de policía, pero las guardé en las coordenadas.",
+            " Por lo que no dejes que nadie entre. En serio, no podemos seguir esperando a que Amalgamated nos recoja, tenemos que aprender a defendernos."
         },
         {
             'HighTierGuns',
-            "Deal went as expected, 3 weeks of food supplies but now we have enough hardware to repel the bandits and let me tell you, it's pretty good stuff! Take note of the coordinates",
-            ". We are gonna seal the deal right there, please don't fuck it up this time."
+            "El trato salió como se esperaba, 3 semanas de suministros de alimentos, pero ahora tenemos suficiente hardware para repeler a los bandidos y déjame decirte, ¡es bastante bueno! Toma nota de las coordenadas",
+            ". Vamos a sellar el trato allí mismo, por favor no lo arruines esta vez."
         },
         {
             'GeneralSupplies',
-            "Remember those books talking about conspiracy theories back in the normal days we never lived on? The Iron Sons seem to be these kind of conspiranoid people. I have never seen nor experienced a bad interaction with the Amalgamated guys, and they keep building and creating useful stuff for our survival. I left the settlement already in really good terms with the major actually, they even gave me a good equipment cache. I don't really need all of this so I stashed half of it at the coordinates",
-            " In case you need it, I'll come around sometimes and check on you, for now if you feel comfortable there, you can stay, I'm not forcing you, or anyone else to join me, just don't tell them I'm heading towards Amalgamated."
+            "¿Recuerdas esos libros que hablan sobre teorías de la conspiración en los días normales en los que nunca vivimos? Los Hijos de Hierro parecen ser este tipo de personas conspiranoicas. Nunca he visto ni experimentado una mala interacción con los chicos de Amalgamated, y siguen construyendo y creando cosas útiles para nuestra supervivencia. Dejé el asentamiento ya en muy buenos términos con el comandante en realidad, incluso me dieron un buen caché de equipo. Realmente no necesito todo esto, así que guardé la mitad en las coordenadas",
+            " En caso de que lo necesites, a veces iré a ver cómo estás, por ahora, si te sientes cómodo allí, puedes quedarte, no te estoy obligando a ti ni a nadie más a unirse a mí, simplemente no les digas que me dirijo hacia Amalgamated.."
         },
         {
             'BuildingSupplies',
-            "This group didn't put up any fight, that's a first. No blood nor wasted bullets, they are going to provide us weekly building supplies at the coordinates",
-            ". Have in mind though, some of or own are not being careful enough and the Military are getting word of our patches and colors, not sure if they got any names, gotta be more careful, cover our tracks then find and get rid of those idiots trying to rat on us. Too many people trying to play hero, they don't know what's coming to them."
+            "Este grupo no peleó, esa es la primera vez. Sin sangre ni balas desperdiciadas, nos van a proporcionar material de construcción semanal en las coordenadas",
+            ". Sin embargo, tenga en cuenta que algunos de ellos o los propios no están siendo lo suficientemente cuidadosos y los militares se están enterando de nuestros parches y colores, no estoy seguro de si tienen algún nombre, debemos tener más cuidado, cubrir nuestras huellas y luego encontrar y deshacerse de esos idiotas. tratando de delatarnos. Demasiadas personas que intentan jugar al héroe, no saben lo que les espera."
         },
     },
     messageFormal = {
         {
             'HighTierGuns',
-            "The situation in Hayward is getting worse, the Amalgamated soldiers have taken half the city and the radio anthena is compromised, we need reinforcements ASAP. We know the supply situation isn't great in Sultan but, don't worry, we only need manpower. We prepared a stash in preparation for this situation, it's located at coordinates",
-            ". We can only hold for a couple days before they take the entire city, and you know what losing Hayward means, we're counting on you."
+            "La situación en Hayward está empeorando, los soldados fusionados se han apoderado de la mitad de la ciudad y la radio anthena está comprometida, necesitamos refuerzos lo antes posible. Sabemos que la situación del suministro no es buena en Sultan, pero no se preocupe, solo necesitamos mano de obra. Preparamos un alijo en preparación para esta situación, está ubicado en las coordenadas",
+            ". Solo podemos esperar un par de días antes de que tomen toda la ciudad, y ya sabes lo que significa perder a Hayward, contamos contigo."
         },
         {
             'HighTierGuns',
-            "As we discussed yesterday, we're preparing an attack to a bunker, which bunker and the plan of action will be determined when we rendezvous at the meeting point. I know this should've been discussed at HQ, but we can't risk any leaks, especially since we got word of inside informants on our ranks, for now, you gotta equip your team with the best guns we can have, there's a stash at coordinates",
-            " and shouldn't be hard for you to gather reliable assets for this operation. We're gonna be posted at the meeting point between 7PM and 11PM so you have enough time."
+            "Como comentamos ayer, estamos preparando un ataque a un búnker, el plan de acción se determinarán cuando nos encontremos en el punto de encuentro. Sé que esto debería haber sido discutido en el cuartel general, pero no podemos arriesgarnos a filtraciones, especialmente desde que nos enteramos de informantes internos en nuestras filas, por ahora, debes equipar a tu equipo con las mejores armas que podamos tener, hay un escondite en coordenadas",
+            " y no debería ser difícil para usted reunir activos confiables para esta operación. Estaremos publicados en el punto de encuentro entre las 7 p.m. y las 11 p.m. para que tengas suficiente tiempo."
         },
         {
             'HighTierGuns',
-            "Preparations are ready, this deserter from Amalgamated has proven to be pretty useful. Coordinates of the gun stash at",
-            ". Her test of fire will be killing his superior by herself, don't worry, we have only taken her to our fake settlements so there's no useful info she could give them if she suddenly flipped on us. My only concern is the possibility of a set up, we have sent people to scout the area, waiting to get a word from them. Bring Amelia, if anyone is able to catch someone lying is her."
+            "Los preparativos están listos, este desertor de Amalgamated ha demostrado ser bastante útil. Coordenadas del alijo de armas en",
+            ". Su prueba de fuego será que mate a su superior, no te preocupes, solo la hemos llevado a nuestros asentamientos falsos, por lo que no hay información útil que pueda darles si de repente se pone en contacto con nosotros. Mi única preocupación es la posibilidad de un montaje, hemos enviado gente a explorar el área, esperando recibir una palabra de ellos. Trae a Amelia, si alguien es capaz de atrapar a alguien mintiendo es ella."
         },
         {
             'NormalGuns',
-            "People are really upset in Pinecrest, the town is getting swarmed every night by mutants, don't really know where they're coming from, so we need to find the source of the problem, I gathered some supplies at coordinates",
-            ". Not the best armament out there, but we shouldn't need more power for a mutant's nest. I expect you to be aware of the importance of these small operations, we need people on our side, for our cause and wouldn't be too ideal to see them get brainwashed by Amalgamated again, just because we didn't take care of such a simple task. Come to me in 2 hours."
+            "La gente está realmente molesta en Pinecrest, la ciudad está siendo invadida todas las noches por mutantes, no sé realmente de dónde vienen, así que tenemos que encontrar la fuente del problema, reuní algunos suministros en las coordenadas.",
+            ". No es el mejor armamento que existe, pero no deberíamos necesitar más poder para el nido de un mutante. Espero que sea consciente de la importancia de estas pequeñas operaciones, necesitamos personas de nuestro lado, para nuestra causa y no sería demasiado ideal para verlos volver a lavarse el cerebro con Amalgamated, solo porque no nos ocupamos de tales una tarea sencilla. Ven a verme en 2 horas."
         },
         {
             'NormalGuns',
-            "The raid operation was a success, but the intel wasn't as accurate as we expected. This convoy only had civilian weapons, we think these were being used for training. Yes, they're training civilians to go against the Iron Sons now. The guns are at the usual spot, coordinates",
-            ". This is really bad if you ask me, as fighting civilians goes against our moral code, so we need to coordinate a plan of action ASAP. Rendezvous at 'C-34' in 30"
+            "La operación de incursión fue un éxito, pero la información no fue tan precisa como esperábamos. Este convoy solo tenía armas civiles, creemos que se estaban utilizando para entrenamiento. Sí, ahora están entrenando a civiles para ir contra los Hijos de Hierro. Las armas están en el lugar habitual, coordenadas.",
+            ". Esto es realmente malo si me preguntas, ya que luchar contra civiles va en contra de nuestro código moral, por lo que debemos coordinar un plan de acción lo antes posible. Encuentro en 'C-34' en 30"
         },
         {
             'NormalGuns',
-            "Training of the new recruits has started, psychological tests seem alright, I think almost all of them have a grudge with Amalgamated so the motivation is in place. I don't think we need to redouble security this time. In 5 days we will perform simulations at H-6, to be more specific, coordinates",
-            ". Ask one of your cadets to put a stash of civilian guns, I expect the recruits to be ready for that phase when that day comes."
+            "La capacitación de los nuevos reclutas ha comenzado, las pruebas psicológicas parecen estar bien, creo que casi todos tienen rencor con Amalgamated, por lo que la motivación está en su lugar. No creo que necesitemos redoblar la seguridad esta vez. En 5 días realizaremos simulaciones en H-6, para ser más específicos, coordenadas",
+            ". Pídale a uno de sus cadetes que ponga un alijo de armas civiles, espero que los reclutas estén listos para esa fase cuando llegue ese día."
         },
         {
             'BuildingSupplies',
-            "In order to continue the settlement reinforcements, we have stashed some supplies near the station, coordinates",
-            ". Need to hear back from you or the engineer about the time of completion, some people are getting anxious sleeping on these tight spaces"
+            "Para continuar con los refuerzos del asentamiento, hemos escondido algunos suministros cerca de la estación, coordenadas",
+            ". Necesita saber de usted o del ingeniero sobre el tiempo de finalización, algunas personas se están poniendo ansiosas al dormir en estos espacios reducidos"
         },
         {
             'BuildingSupplies',
-            "We have finished building the thing you asked according to your requirements, a really weird request I may say, but if it helps the group, we're okay with it. We didn't need to use all of the materials, so we have placed them in a stash, located at coordinates",
-            ". Have in mind we couldn't bring them with us as the truck is stranded and needs urgent repairs, so send someone over for the supplies and the mechanic to repair the vehicle."
+            "Hemos terminado de construir lo que pidió de acuerdo con sus requisitos, una solicitud realmente extraña, puedo decir, pero si ayuda al grupo, estamos de acuerdo. No necesitábamos usar todos los materiales, por lo que los hemos colocado en un escondite, ubicado en las coordenadas.",
+            ". Tenga en cuenta que no pudimos traerlos con nosotros porque el camión está varado y necesita reparaciones urgentes, así que envíe a alguien por los suministros y al mecánico para reparar el vehículo."
         },
         {
             'GeneralSupplies',
-            "What is this that I'm hearing from some people? this stupid cadet of yours keeps refusing to place stashes because he doesn't like to dig, lazy ass b***h?. Have you ever explained to him this is the only way to not get tracked by Amalgamated? Here, tell him to stash an equipment crate at coordinates",
-            ". I'll give him another stash when he's done. Not gonna let him rest one single minute, either he learns how to contribute to the cause, or he can go get his free lobotomy at Amalgamated Labs!"
+            "¿Qué es esto que escucho de algunas personas? ¿Este estúpido cadete tuyo sigue negándose a colocar escondites porque no le gusta cavar, perra perezosa? ¿Le has explicado alguna vez que esta es la única forma de no ser rastreado por Amalgamated? Aquí, dile que guarde una caja de equipo en las coordenadas.",
+            ". Le daré otro alijo cuando termine. No lo dejaré descansar un solo minuto, o aprende cómo contribuir a la causa, ¡o puede ir a obtener su lobotomía gratis en Amalgamated Labs!"
         },
         {
             'GeneralSupplies',
-            "The Amalgatracker we stole is getting a signal of an old gen supply stash somewhere near coordinates",
-            ". It may be Guns, Materials or Equipment, whatever may be, we cannot be picky about it right now. Send over an recon squad and get back to me with what they found."
+            "El Amalgatracker que robamos está recibiendo una señal de un alijo de suministros de generación antigua en algún lugar cerca de las coordenadas",
+            ". Pueden ser armas, materiales o equipos, sea lo que sea, no podemos ser exigentes al respecto en este momento. Envíe un escuadrón de reconocimiento y contácteme con lo que encontraron."
         },
         {
             'BuildingSupplies',
-            "The Amalgatracker we stole is getting a signal of an old gen supply stash somewhere near coordinates",
-            ". It may be Guns, Materials or Equipment, whatever may be, we cannot be picky about it right now. Send over an recon squad and get back to me with what they found."
+            "El Amalgatracker que robamos está recibiendo una señal de un alijo de suministros de generación antigua en algún lugar cerca de las coordenadas",
+            ". Pueden ser armas, materiales o equipos, sea lo que sea, no podemos ser exigentes al respecto en este momento. Envíe un escuadrón de reconocimiento y contácteme con lo que encontraron."
         },
         {
             'NormalGuns',
-            "The Amalgatracker we stole is getting a signal of an old gen supply stash somewhere near coordinates",
-            ". It may be Guns, Materials or Equipment, whatever may be, we cannot be picky about it right now. Send over an recon squad and get back to me with what they found."
+            "El Amalgatracker que robamos está recibiendo una señal de un alijo de suministros de generación antigua en algún lugar cerca de las coordenadas",
+            ". Pueden ser armas, materiales o equipos, sea lo que sea, no podemos ser exigentes al respecto en este momento. Envíe un escuadrón de reconocimiento y contácteme con lo que encontraron."
         },
         {
             'HighTierGuns',
-            "The Amalgatracker we stole is getting a signal of an old gen supply stash somewhere near coordinates",
-            ". It may be Guns, Materials or Equipment, whatever may be, we cannot be picky about it right now. Send over a recon squad and get back to me with what they found."
+            "El Amalgatracker que robamos está recibiendo una señal de un alijo de suministros de generación antigua en algún lugar cerca de las coordenadas",
+            ". Pueden ser armas, materiales o equipos, sea lo que sea, no podemos ser exigentes al respecto en este momento. Envíe un escuadrón de reconocimiento y contácteme con lo que encontraron."
         }
     }
 };
