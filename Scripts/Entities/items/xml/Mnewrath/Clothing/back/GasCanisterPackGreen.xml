@@ -33,7 +33,7 @@
 			<location category="any"/>
 		</locations>
 		<types>
-			<type category="any" capacity="20"/>
+			<type category="any" capacity="50"/>
 		</types>
 	</storage>
 

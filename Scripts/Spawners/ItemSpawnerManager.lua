@@ -4434,6 +4434,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Maglite", percent = 2 },
 				{ class = "MRE", percent = 10 },
 				{ class = "Cb_radio", percent = 1 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 				{ class = "GridMap", percent = 1 },
 				{ class = "Binoculars", percent = 2 },
 				{ class = "SurvivalKnife", percent = 1 },
@@ -4463,6 +4464,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "SpaceHelmet", percent = 2 },
 				{ class = "ScavengerHelmet", percent = 3 },
 				{ class = "Mk18Reaver", percent = 2 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 
@@ -4481,6 +4483,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "MagliteSmall", percent = 5 },
 				{ class = "GridMap", percent = 1 },
 				{ class = "WaterPurificationTablets", percent = 1 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 
@@ -4513,6 +4516,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomPistol", percent = 6 },
 				{ class = "WaterPurificationTablets", percent = 2 },
 				{ category = "RandomTent", percent = 1 },
+                { class = "SCAAMAmalgarmin", percent = 1}, 
 			},
 		},
 
@@ -4715,7 +4719,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAmmo", percent = 3 },
 				{ category = "RandomPistol", percent = 2 },
 				{ class = "AmcoinLedger", percent = 3 },
-				{ category = "RandomTrashContent", percent = 92 },
+				{ category = "RandomTrashContent", percent = 90 },
+                { class = "SCAAMAmalgarmin", percent = 2}, 
 			},
 		},
 
@@ -4725,8 +4730,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ class = "AmcoinLedger", percent = 2 },
 				{ category = "RandomEyes", percent = 10 },
-				{ category = "RandomTorso", percent = 35 },
+				{ category = "RandomTorso", percent = 30 },
 				{ category = "RandomLegs", percent = 50 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 
@@ -4931,6 +4937,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomTron", percent = 10 },
                 { class = "GoldenCudgel2", percent = 40 }, 
                 { class = "SCAAMShovel", percent = 15 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 		
@@ -5104,6 +5111,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "EggBlue", percent = 100, min = 1, max = 5 }, -- Easter event
 				{ class = "EggGreen", percent = 100, min = 1, max = 5 }, -- Easter event
 				{ class = "EggPink", percent = 100, min = 1, max = 5 }, -- Easter event
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 		
@@ -5167,6 +5175,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				--{ class = "EggPink", percent = 100, min = 1, max = 5 }, -- Easter event
                 { class = "STANAGx50", percent = 50 },
                 { class = "ScrapMetal", percent = 100, min = 10, max = 40 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 		
@@ -5264,7 +5273,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "IronsuitWarMachineGloves", percent = 2 },
 				{ class = "IronsuitWarMachineHelmet", percent = 2 },
 				{ class = "IronsuitWarMachinePants", percent = 2 },
-                { category = "RandomTron", percent = 20 },
+                { category = "RandomTron", percent = 15 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
 			},
 		},
 
@@ -5312,7 +5322,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "IronsuitWarMachineGloves", percent = 5 },
 				{ class = "IronsuitWarMachineHelmet", percent = 5 },
 				{ class = "IronsuitWarMachinePants", percent = 5 },
-                { category = "RandomTron", percent = 50 },
+                { class = "SCAAMAmalgarmin", percent = 5}, 
+                { category = "RandomTron", percent = 45 },
                 { category = "RandomSilencer", percent = 100 },
 			},
 		},
@@ -5330,14 +5341,14 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "cabin_wood_simple", percent = 8},
 				{ class = "cabin_wood", percent = 7 },
                 { class = "one_story_white", percent = 5 },
-				{ class = "brick_wall_3m_4m", percent = 7, min = 2, max = 5 },
+				{ class = "brick_wall_3m_4m", percent = 25, min = 2, max = 5 },
 				{ category = "RandomMetalParts", percent = 6 },
 				{ category = "RandomMetalParts", percent = 3 },
 				{ category = "RandomMilitaryArmor", percent = 100 },
 				{ category = "RandomEpicWeapon", percent = 30 },
 				{ category = "RandomAmmoBox", percent = 100 },
-				{ class = "AmcoinLedger", percent = 100, min = 10, max = 32 },
-				{ class = "AmcoinLedger", percent = 1, min = 5, max = 25 },
+				{ class = "AmcoinLedger", percent = 100, min = 10, max = 250 },
+				{ class = "AmcoinLedger", percent = 1, min = 5, max = 250 },
 				{ category  = "HalloweenLootUFO", percent = 100 }, -- Halloween event
                 { class = "IronsuitWarMachineBoots", percent = 2 },
 				{ class = "IronsuitWarMachineChest", percent = 3 },
@@ -5355,6 +5366,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomAmmoBox", percent = 9 },
                 { category = "RandomAmmoBox", percent = 9 },
                 { category = "RandomSilencer", percent = 100 },
+                { class = "SCAAMAmalgarmin", percent = 10}, 
+                { category = "RandomAmmoBox", percent = 100 },
+                { category = "RandomAmmoBox", percent = 100 },
+                { category = "RandomAmmoBox", percent = 100 },
+                { category = "RandomAmmoBox", percent = 100 },
                 
 
             },

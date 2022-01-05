@@ -11,7 +11,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="@GasCanisterPack"/>
 		<param name="description" value="@GasCanisterPackDescription"/>
-		<param name="vendor_cost" value="7"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 	<wearable>
 		<param name="skin" value="objects/characters/players/male/back/backpack/scba_air_system/scba_air_system.skin"/>
@@ -42,7 +42,7 @@
 			<location category="backpack"/>
 		</locations>
 		<types>
-			<type category="any" capacity="35"/>
+			<type category="any" capacity="60"/>
 		</types>
 	</storage>
 

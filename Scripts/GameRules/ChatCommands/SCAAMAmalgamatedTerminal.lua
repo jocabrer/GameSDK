@@ -2243,13 +2243,13 @@ function SCAAMATAttemptSendMessage(data, playerId)
         messageResponse = {
             true,
             'Notice',
-            "Message sent successfully"
+            "Mensaje enviado"
         };
     else
         messageResponse = {
             false,
             'Error',
-            "This terminal id doesn't exist"
+            "Esa terminal id no existe"
         };
     end
 
@@ -2413,10 +2413,10 @@ function SCAAMATDigPatch(itemId, playerId)
                     end
                 end
             else
-                g_gameRules.game:SendTextMessage(0, playerId, "Esta pala está rota y no se puede usar.");
+                g_gameRules.game:SendTextMessage(0, playerId, "Pala rota ya no se puede usar...");
             end
         else
-            g_gameRules.game:SendTextMessage(0, playerId, "No has encontrado nada");
+            g_gameRules.game:SendTextMessage(0, playerId, "No hay nada");
         end
 
         SCAAMATIsSomeoneDigging = false;

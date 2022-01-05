@@ -5,7 +5,7 @@
 		<param name="stack_size" value="25"/>
 		<param name="display_name" value="Antibiotics"/>
 		<param name="description" value="Cures poisonous and bacterial infections"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="99"/>
 	</params>
 
 	<geometry>
