@@ -2377,8 +2377,8 @@ function SCAAMATDigPatch(itemId, playerId)
 
         for key, value in pairs(SCAAMATStashCoordinates) do
 
-            -- If the distance is less or equal than 1.5m then spawn the crate and set the contents
-            if (DistanceVectors(value.position, player:GetWorldPos()) <= 1.5) then
+            -- If the distance is less or equal than 2m then spawn the crate and set the contents
+            if (DistanceVectors(value.position, player:GetWorldPos()) <= 2) then
                 foundStash = value;
                 table.remove(SCAAMATStashCoordinates, key);
                 break;
@@ -2412,11 +2412,12 @@ function SCAAMATDigPatch(itemId, playerId)
                         crateItem.item:SetStackCount(crateItem.item:GetMaxStackSize());
                     end
                 end
+                g_gameRules.game:SendTextMessage(0, playerId, "Se ha encontrado algo !");
             else
                 g_gameRules.game:SendTextMessage(0, playerId, "Pala rota ya no se puede usar...");
             end
         else
-            g_gameRules.game:SendTextMessage(0, playerId, "No hay nada");
+            g_gameRules.game:SendTextMessage(0, playerId, "No hay nada !");
         end
 
         SCAAMATIsSomeoneDigging = false;
