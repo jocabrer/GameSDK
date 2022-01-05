@@ -95,6 +95,7 @@ SpawnUFOCrashLoot = function(self)
     -- Items that spawn in when the plane crashes
     ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
     ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
+    ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
 	ISM.SpawnCategory("UFOCrashCrate", vSpawnPos)
 end
 
