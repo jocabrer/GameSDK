@@ -131,7 +131,7 @@ function SCAAMShovel:PerformContextAction(action, targetId, targetPartId)
                 {
                     Type = 'SCAAMATSendMessage',
                     Data = {
-                        message = 'You need a shovel in your hands'
+                        message = 'Es necesario tener la pala en la mano'
                     }
                 },
                 false,

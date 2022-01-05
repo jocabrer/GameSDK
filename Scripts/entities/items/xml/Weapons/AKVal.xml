@@ -20,12 +20,12 @@
 <param name="runToSprintBlendTime" value="0.4"/>
 <param name="sprintToRunBlendTime" value="0.4"/>
 <param name="relaxedToTacticalBlendTime" value="0.35"/>
-<param name="vendor_cost" value="15"/>
+<param name="vendor_cost" value="75"/>
 <param name="tag" value="asval"/>
 <param name="adb" value="asvalWeaponAnims.adb"/>
 <animPrecache name="asval">
-<precache DBAFile="animations/weapons/asval/asval.dba" thirdperson="0"/>
-<precache DBAFile="animations/human/male/weapons/asval/asval.dba" thirdperson="1"/>
+    <precache DBAFile="animations/weapons/asval/asval.dba" thirdperson="0"/>
+    <precache DBAFile="animations/human/male/weapons/asval/asval.dba" thirdperson="1"/>
 </animPrecache>
 <aimAnims/>
 </params>
