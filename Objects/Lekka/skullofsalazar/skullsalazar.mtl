@@ -1,0 +1,18 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.099898733,0.099898733,0.099898733" Specular="0.27049783,0.27049783,0.27049783" Emittance="0.019382363,0.019382363,0,200" Opacity="1" Shininess="104" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/skullofsalazar/textures/rosa-material_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/skullofsalazar/textures/rosa-material_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/skullofsalazar/textures/rosa-material_metallicguld.dds"/>
+    <Texture Map="Detail" File="objects/lekka/skullofsalazar/textures/rosa-material_roughness.dds"/>
+    <Texture Map="Emittance" File="objects/lekka/skullofsalazar/textures/rosa-material_emittence.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.5" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

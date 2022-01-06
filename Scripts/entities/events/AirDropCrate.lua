@@ -15,7 +15,7 @@ CreateItemTable("AirDropCrate");
 -- This is when the lading particle effects and audio are played
 function AirDropCrate:OnLanded()
         Log("AirDropCrate - OnLanded")
-        Script.SetTimerForFunction(1000, "SpawnAISingle", self)
+        Script.SetTimerForFunction(5000, "SpawnAISingle", self)
 end
 
 SpawnAISingle = function(self)

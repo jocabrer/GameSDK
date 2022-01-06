@@ -6,7 +6,7 @@
 		<param name="stack_size" value="50"/>
 		<param name="display_name" value="Heat Pack"/>
 		<param name="description" value="Utilizado para combatir el frío."/>
-		<param name="vendor_cost" value="2"/>
+		<param name="vendor_cost" value="500"/>
 	</params>
 
 	<geometry>
