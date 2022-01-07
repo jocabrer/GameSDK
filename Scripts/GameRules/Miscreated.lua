@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 1500, -- min time to spawn an event (in seconds)
-			fMaxTime = 3000, -- max time to spawn an event (in seconds)
+			fMinTime = 800, -- min time to spawn an event (in seconds)
+			fMaxTime = 1200, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -32,7 +32,7 @@ SpawnWorldEvent = function(self)
 
 	if rnd <= 4 then
 		eventName = "AirDropPlane"
-	elseif rnd <= 8 then
+	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
     elseif rnd <= 10 then
         eventName = "UFOCrash"	 
@@ -46,6 +46,7 @@ SpawnWorldEvent = function(self)
 
 	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
 	local spawnedEntity = System.SpawnEntity(spawnParams)
+	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento...")
 
 	if not spawnedEntity then
 		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")

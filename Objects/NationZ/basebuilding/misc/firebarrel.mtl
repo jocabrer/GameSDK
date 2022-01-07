@@ -1,0 +1,50 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="barrel" MtlFlags="524418" Shader="Illum" GenMask="2040400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.71569365,0.71569365,0.71569365" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/barrels/barrel_a/textures/barrel_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/industrial/barrels/barrel_a/textures/barrel_ddna.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/metal/metal_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="1" SSSIndex="0" DetailBumpScale="0.1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="soil" MtlFlags="524416" Shader="Illum" GenMask="48400000" StringGenMask="%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/city_planter/textures/soil_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="3" TileV="3"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/city_planter/textures/soil_ddna.tif"/>
+    <Texture Map="Heightmap" File="objects/props/city_planter/textures/soil_displ.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" PomDisplacement="0.050000001" SSSIndex="0" SelfShadowStrength="3.5" HeightBias="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood" MtlFlags="524448" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/craftingmats/wood/wood_pile_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/craftingmats/wood/wood_pile_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ash" MtlFlags="524448" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.13843164,0.13843164,0.13843164" Specular="0.021219011,0.021219011,0.021219011" Opacity="0.99000001" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/craftingmats/wood/wood_pile_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/craftingmats/wood/wood_pile_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wheel" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.1620294,0.1620294,0.1620294" Specular="0.080219828,0.080219828,0.080219828" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/f100truck/textures/body_metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/f100truck/textures/body_metal_ddna.tif"/>
+    <Texture Map="Specular" File="objects/vehicles/f100truck/textures/body_metal_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

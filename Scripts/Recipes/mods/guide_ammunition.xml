@@ -89,6 +89,18 @@
 									<material class="SheetMetal" count="2" />
 								</materials>
 							</item>
+							<item class="Pile_556x45" time="5" amount="100">
+								<materials>
+									<material class="Gunpowder" count="200"/>
+									<material class="SheetMetal" count="20" />
+								</materials>
+							</item>
+							<item class="Pile_762x39" time="5" amount="100">
+								<materials>
+									<material class="Gunpowder" count="200"/>
+									<material class="SheetMetal" count="20" />
+								</materials>
+							</item>
 						</items>
 					</subcat>
 					<subcat name="Ammo Shotgun">

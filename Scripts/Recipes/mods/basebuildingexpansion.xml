@@ -252,6 +252,82 @@
                                     </item>
                                 </items>
                             </type>
+                            <type name="Fire Barrel">
+								<items>
+								  <item class="firebarrel" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Silver" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								   <item class="firebarrel_black" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Black" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item> 
+								  <item class="firebarrel_blue" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Blue" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_green" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Green" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_pink" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Pink" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_red" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Red" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_white" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_White" count="15" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_yellow" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Yellow" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								  <item class="firebarrel_purple" time="3">
+									<materials>
+									  <material class="WoodPile" count="20" />
+                                      <material class="PaintCan_Purple" count="1" />
+									  <material class="ScrapMetal" count="30" />
+									  <material class="SheetMetal" count="10" />
+									</materials>
+								  </item>
+								</items>
+						  </type>
                         </types>
                     </subcat>
                     <subcat name="Prefabs">

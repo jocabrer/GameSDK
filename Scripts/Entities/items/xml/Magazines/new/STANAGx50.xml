@@ -6,7 +6,7 @@
 		<param name="display_name" value="Cargador 5.56 STANAG-50"/>
 		<param name="description" value="50 Balas 5.56-STANAG"/>
 		<param name="tag" value="stanagx50"/>
-        <param name="vendor_cost" value="20"/>
+        <param name="vendor_cost" value="25"/>
 	</params>
 
 	<magazine>

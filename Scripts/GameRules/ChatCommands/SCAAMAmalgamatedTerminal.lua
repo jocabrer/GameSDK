@@ -126,15 +126,15 @@ SCAAMATValidSurfaces = {
 -- Randomized dialogs
 SCAAMATConsoleDialogs = {
     greeting = {
-        'Hey ', 'Hi ', 'Hello ', 'Greetings ', 'Good day ', 'Mr. ', 'Mrs. ', ''
+        'Hey ', 'Hola ', 'Buenas  ', 'Saludos ', 'Buen día ', 'Sr. ', 'Sra. ', ''
     },
     title = {
-        'Colonel', 'General', 'Lieutenant', 'Sergeant', 'Captain', 'Major'
+        'Coronel', 'General', 'Teniente', 'Sargento', 'Capitán', 'Mayor'
     },
     firstname = {
         'Mary', 'Patricia', 'Jennifer', 'Susan', 'Margaret', 'Sarah', 'Madison', 'Sophia',
         'Emma', 'Elizabeth', 'Megan', 'Lauren', 'Jessica', 'Isabella', 'Emily', 'Olivia',
-        'Eva', 'Shelly', 'Amy', 'Aspen', 'Audrey', 'Bailey', 'Alexandra', 'Alice', 'Allie',
+        'Eva', 'Shelly', 'Amy', 'Jose', 'Audrey', 'Bailey', 'Alexandra', 'Alice', 'Allie',
         'Alyson', 'Amanda', 'Bianca', 'Angelina', 'Annie', 'April', 'Vanessa', 'Veronica',
         'Tina', 'Wendy', 'Winter', 'Zoey', 'Samantha', 'Ronnie', 'Roxanne', 'Sofia',
         'Stacey', 'Stella', 'Sydney', 'Sylvia', 'Michelle', 'Mikaela', 'Millie', 'Miranda',
@@ -144,7 +144,7 @@ SCAAMATConsoleDialogs = {
         'Daniel', 'Joe', 'Kyle', 'Jake', 'William', 'James', 'Oscar', 'George', 'Thomas',
         'Charlie', 'Jacob', 'Harry', 'Jack', 'Oliver', 'Jeffrey', 'Rick', 'Terry', 'Alex',
         'Charles', 'Freddy', 'Jerry', 'Matthew', 'Brayden', 'Lucas', 'Lenny', 'Ely', 'Tony',
-        'August', 'Barret', 'Allan', 'Bill', 'Anthony', 'Bobby', 'Archie', 'Tex', 'Victor',
+        'August', 'Barret', 'Allan', 'Bill', 'Anthony', 'Bobby', 'Archie', 'Tex', 'Karla',
         'Tommy', 'Wade', 'Tom', 'Wayne', 'Warren', 'Will', 'Tyler', 'Sam', 'Sebastian', 'Roy',
         'Russell', 'Simon', 'Steve', 'Tanner', 'Taylor', 'Chris', 'Pattrick', 'Paul', 'Peter',
         'Noah', 'Logan'
@@ -156,7 +156,7 @@ SCAAMATConsoleDialogs = {
         'Jackson', 'Morgan', 'Cooper', 'Rose', 'White', 'Collins', 'Ford', 'Andrews', 'Haywood',
         'Stevens', 'Anderson', 'Schmidt', 'Oakes', 'Bishop', 'Nexus', 'Irvine', 'Reynolds',
         'Harris', 'Fox', 'Rogers', 'Hayes', 'Kates', 'Moore', 'Leonard', 'Murdock', 'Adams',
-        'Harper', 'Sheppard', 'Clifford', 'Walker', 'Carver', 'Freeman', 'Parker'
+        'Harper', 'Sheppard', 'Clifford', 'Walker', 'Carver', 'Cabrera', 'Guash'
     },
     message = {
         {
