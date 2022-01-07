@@ -1,10 +1,10 @@
-<item name="Rem700" class="Weapon" category="primary" priority="12" weaponParams="1">
+<item name="Sako_85" class="Weapon" category="primary" priority="12" weaponParams="1">
 	<params>
-		<param name="display_name" value="@Rem700"/>
-		<param name="description" value="@Rem700Description"/>
-		<param name="itemClass" value="model70"/>
+		<param name="display_name" value="@Sako_85"/>
+		<param name="description" value="@Sako_85Description"/>
+		<param name="itemClass" value="model_70"/>
 		<param name="suffix" value="shoulder"/>
-		<param name="mass" value="4.2"/>
+		<param name="mass" value="3.25"/>
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="bleed_percent" value="20"/>
@@ -19,35 +19,28 @@
 		<param name="runToSprintBlendTime" value="0.4"/>
 		<param name="sprintToRunBlendTime" value="0.4"/>
 		<param name="relaxedToTacticalBlendTime" value="0.35"/>
-		<param name="vendor_cost" value="15"/>
-		<param name="tag" value="rem700"/>
-		<param name="adb" value="rem700WeaponAnims.adb"/>
-		<animPrecache name="rem700">
-			<precache DBAFile="animations/weapons/rem700/rem700.dba" thirdperson="0"/>
-			<precache DBAFile="animations/human/male/weapons/rem700/rem700.dba" thirdperson="1"/>
+		<param name="vendor_cost" value="18"/>
+		<param name="tag" value="sako_85"/>
+		<param name="adb" value="sako_85WeaponAnims.adb"/>
+		<animPrecache name="sako_85">
+			<precache DBAFile="animations/weapons/sako_85/sako_85.dba" thirdperson="0"/>
+			<precache DBAFile="animations/human/male/weapons/sako_85/sako_85.dba" thirdperson="1"/>
 		</animPrecache>
 		<aimAnims/>
 	</params>
 
 	<!-- Movement scales don't work here for ironsight, so define directly in ZoomMode instead -->
-	<MovementModifiers speedScale="0.9" speedScaleTactical="0.8"/>
+	<MovementModifiers speedScale="0.95" speedScaleTactical="0.85"/>
 
 	<magazines>
 		<magazine name="Pile_308"/>
 	</magazines>
 
 	<geometry>
-		<firstperson name="Objects/weapons/rem700/remington700.cdf"/>
-		<thirdperson name="Objects/weapons/rem700/remington700.cdf"/>
-		<onground name="Objects/weapons/rem700/remington700_onground.cgf"/>
+		<firstperson name="Objects/weapons/huntingrifle_85/sako_85.cdf"/>
+		<thirdperson name="Objects/weapons/huntingrifle_85/sako_85.cdf"/>
+		<onground name="Objects/weapons/huntingrifle_85/sako_85_onground.cgf"/>
 	</geometry>
-
-	<usable>
-        <param name="title" value="Transformar en 1 Sheet Metal"/>
-        <param name="action" value="craft"/>
-        <param name="param" value="SheetMetal"/>
-        <param name="soundUsed" value=""/>
-    </usable>
 
 	<firemodes>
 		<firemode type="default">
@@ -55,7 +48,7 @@
 				<param name="hit_type" value="ammo_308"/>
 				<param name="ammo_type" value="ammo_308"/>
 				<param name="rate" value="24"/>
-				<param name="damage" value="88"/>
+				<param name="damage" value="63"/>
 				<param name="helper_tp" value="weapon_term"/>
 				<param name="bullet_chamber" value="1"/>
 				<param name="min_damage_for_knockDown" value="300"/>
@@ -123,7 +116,7 @@
 		<firemode name="Single" type="Single">
 			<fire>
 				<param name="rate" value="24"/>
-				<param name="health_reduction_per_shot" value="0.20"/>
+				<param name="health_reduction_per_shot" value="1.5"/>
 			</fire>
 		</firemode>
 
@@ -196,7 +189,7 @@
 		<zoommode name="ironsight" type="IronSight">
 			<zoom>
 				<stages>
-					<stage value="2.0" rotationSpeedScale="0.75" movementSpeedScale="0.75"/> <!-- Reduce input sensitivity by 25% when ironsight, slow character movement -->
+					<stage value="2.0" rotationSpeedScale="0.75" movementSpeedScale="0.8"/> <!-- Reduce input sensitivity by 25% when ironsight, slow character movement -->
 				</stages>
 				<param name="suffix" value="iron"/>
 				<param name="suffixAG" value="_iron"/>
@@ -226,7 +219,7 @@
 				<param name="proneScale" value="0.25"/>
 			</zoomSway>
 		</zoommode>
-
+		
 		<zoommode name="reflexsight" type="IronSight">
 			<zoom>
 				<stages>
@@ -274,7 +267,7 @@
 				<param name="proneScale" value="0.25"/>
 			</zoomSway>
 		</zoommode>
-
+		
 		<zoommode name="opticscope" type="Scope" enabled="0">
 			<zoom>
 				<stages>
@@ -430,12 +423,12 @@
 			<attach helper="hunting_scope"/>
 			<detach/>
 		</accessory>
-		<accessory name="HuntingScopeRealCamo" zoommode="huntingscope" category="scope" exclusive="1">
-			<attach helper="hunting_scope"/>
+		<accessory name="OPKSight" zoommode="reflexsight" category="scope" exclusive="1">
+			<attach helper="reflex_sight"/>
 			<detach/>
 		</accessory>
-		<accessory name="HuntingScopeRealCamoDesert" zoommode="huntingscope" category="scope" exclusive="1">
-			<attach helper="hunting_scope"/>
+		<accessory name="R3Sight" zoommode="reflexsight" category="scope" exclusive="1">
+			<attach helper="reflex_sight"/>
 			<detach/>
 		</accessory>
 		<accessory name="ReddotSight" zoommode="reflexsight" category="scope" exclusive="1">
@@ -457,40 +450,6 @@
 		</accessory>
 		<!-- BARREL END -->
 		<accessory name="RifleSilencer" category="barrelend" exclusive="1">
-			<attach helper="silencer"/>
-			<detach/>
-			<params>
-				<firemodes>
-					<firemode type="default">
-						<fire>
-							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
-							<param name="sound_radius" value="10.0"/>
-						</fire>
-						<muzzleflash>
-							<thirdperson effect="" helper="muzzleflash_effect"/>
-						</muzzleflash>
-					</firemode>
-				</firemodes>
-			</params>
-		</accessory>
-		<accessory name="RifleSilencerRealCamo" category="barrelend" exclusive="1">
-			<attach helper="silencer"/>
-			<detach/>
-			<params>
-				<firemodes>
-					<firemode type="default">
-						<fire>
-							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
-							<param name="sound_radius" value="10.0"/>
-						</fire>
-						<muzzleflash>
-							<thirdperson effect="" helper="muzzleflash_effect"/>
-						</muzzleflash>
-					</firemode>
-				</firemodes>
-			</params>
-		</accessory>
-		<accessory name="RifleSilencerRealCamoDesert" category="barrelend" exclusive="1">
 			<attach helper="silencer"/>
 			<detach/>
 			<params>
@@ -539,18 +498,4 @@
 		</types>
 	</storage>
 
-	<steam>
-		<param name="tags" value="Category:Weapon;Slot:Primary"/>
-		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/Rem700_200.png?crc=FA87FDF9"/>
-		<param name="store_hidden" value="0"/>
-		<param name="amcoins" value="15"/>
-		<param name="tradable" value="0"/>
-		<param name="name_color" value="FF001E"/>
-		<param name="itemdefid" value="110056"/>
-		<param name="marketable" value="0"/>
-		<param name="store_tags" value="Category:Weapon;Slot:Primary"/>
-		<param name="background_color" value="2A2A2A"/>
-		<param name="hidden" value="0"/>
-		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/Rem700_2048.png?crc=FA87FDF9"/>
-	</steam>
 </item>

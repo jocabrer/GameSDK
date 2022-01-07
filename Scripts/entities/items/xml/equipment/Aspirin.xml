@@ -5,7 +5,7 @@
 		<param name="stack_size" value="25"/>
 		<param name="display_name" value="Aspirin"/>
 		<param name="description" value="Helps to relieve a headache."/>
-		<param name="vendor_cost" value="4"/>
+		<param name="vendor_cost" value="250"/>
 	</params>
 
 	<geometry>

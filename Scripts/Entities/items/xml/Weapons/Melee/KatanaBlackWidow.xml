@@ -34,6 +34,13 @@
 		<onground name="objects/weapons/katana/katana_black_widow_onground.cgf"/>
 	</geometry>
 
+	<usable>
+		<param name="title" value="Transformar en SheetMetal"/>
+		<param name="action" value="convert"/>
+		<param name="param" value="SheetMetal"/>
+		<param name="soundUsed" value=""/>
+	</usable>
+
 	<firemodes>
 		<firemode name="melee" type="Melee">
 			<melee>
@@ -64,6 +71,7 @@
 	<storage>
 		<locations>
 			<location category="primary"/>
+			<location category="any"/>
 		</locations>
 	</storage>
 

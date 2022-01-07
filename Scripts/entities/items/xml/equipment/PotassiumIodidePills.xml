@@ -6,7 +6,7 @@
 		<param name="stack_size" value="25"/>
 		<param name="display_name" value="Potassium Iodide Pills"/>
 		<param name="description" value="Protects slightly against radiation for a time"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="70"/>
 	</params>
 
 	<geometry>

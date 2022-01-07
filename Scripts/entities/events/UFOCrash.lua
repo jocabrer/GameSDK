@@ -55,7 +55,9 @@ UFOCrash = {
 }
 
 function UFOCrash:OnInit()
+	g_gameRules.game:SendTextMessage(0, 0, "UFO detectado...");
 	self:OnReset();
+
 end
 
 function UFOCrash:OnPropertyChange()

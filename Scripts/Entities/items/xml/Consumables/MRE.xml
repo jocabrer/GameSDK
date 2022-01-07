@@ -5,7 +5,7 @@
 		<param name="mass" value="0.75"/>
 		<param name="display_name" value="@MRE"/>
 		<param name="description" value="@MREDescription"/>
-		<param name="vendor_cost" value="20"/>
+		<param name="vendor_cost" value="80"/>
         <param name="stack_size" value="5"/>
 	</params>
 
