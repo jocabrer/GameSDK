@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="hospital_bed_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Hospital Bed" />
+    <param name="description" value="Hospital Bed" />
+  </params>
+  <geometry>
+    <thirdperson name="objects/props/hospital/hospitalbed_01b_tow.cgf" />
+  </geometry>
+</item>

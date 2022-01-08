@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="hospital_medicalcabinet_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Hospital Medical Cabinet" />
+    <param name="description" value="Hospital Medical Cabinet" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/props/hospital/hospital_furniture/hospital_medicalcabinet_open_tow.cgf" />
+  </geometry>
+  <storage>
+    <types>
+      <type category="any" capacity="25"/>
+    </types>
+  </storage>
+</item>

@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 800, -- min time to spawn an event (in seconds)
-			fMaxTime = 1200, -- max time to spawn an event (in seconds)
+			fMinTime = 1600, -- min time to spawn an event (in seconds)
+			fMaxTime = 3200, -- max time to spawn an event (in seconds)
 		}
 	}
 }

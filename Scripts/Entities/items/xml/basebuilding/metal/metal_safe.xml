@@ -2,8 +2,9 @@
 
 	<params>
 		<param name="selectable" value="0"/>
-		<param name="mass" value="10"/>
-		<param name="stack_size" value="25"/>
+		<param name="mass" value="550"/> <!-- towable parts must have a mass > 50 -->
+		<param name="physics" value="0"/> <!-- eIPhys_PhysicalizedRigid (see Item.h) -->
+		<param name="view_dist_min" value="100"/> <!-- minimum 100m draw distance -->
 		<param name="no_icon" value="1"/>
 		<param name="display_name" value="@metal_safe"/>
 		<param name="description" value="@metal_safeDescription"/>

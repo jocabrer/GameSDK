@@ -302,14 +302,6 @@
 									  <material class="SheetMetal" count="10" />
 									</materials>
 								  </item>
-								  <item class="firebarrel_white" time="3">
-									<materials>
-									  <material class="WoodPile" count="20" />
-                                      <material class="PaintCan_White" count="15" />
-									  <material class="ScrapMetal" count="30" />
-									  <material class="SheetMetal" count="10" />
-									</materials>
-								  </item>
 								  <item class="firebarrel_yellow" time="3">
 									<materials>
 									  <material class="WoodPile" count="20" />
@@ -994,14 +986,6 @@
                                             <material class="SheetMetal" count="4" />
                                             <material class="ScrapMetal" count="12" />
                                             <material class="Hammer" count="1" />
-                                        </materials>
-                                    </item>
-                                    <item class="metal_steam_stand" time="5">
-                                        <materials>
-                                            <material class="SheetMetal" count="2" />
-                                            <material class="ScrapMetal" count="8" />
-                                            <material class="Hammer" count="1" />
-                                            <material class="Amalgaduino" />
                                         </materials>
                                     </item>
                                     <item class="metal_wall_1_3m_2m" time="5">

@@ -21,24 +21,21 @@ PartSpawnerManager = {
 				--{ class = "metal_wall_2m_2m", percent = 2 },
 				--{ class = "metal_wall_2m_4m", percent = 2 },
 				--{ class = "metal_wall_3m_2m", percent = 2 },
-				--{ class = "metal_wall_3m_4m", percent = 2 },
-				{ class = "metal_safe", percent = 5 },
-				--{ class = "metal_platform_3m_4m_4m", percent = 5 },
-
-				-- special walls (24)
-				--{ class = "metal_wall_door_3m_4m", percent = 5 }, 
-				--{ class = "metal_wall_window_3m_2m", percent = 2 },
-				{ class = "metal_wall_window_3m_4m", percent = 10 },
-
-				-- gatehouse (9)
-				{ class = "metal_gatehouse_4m_8m", percent = 5 },
-				{ class = "metal_gate_lockable_3m_5_4m", percent = 5 },
-
-				-- misc (4.01)
-				{ class = "gnome_giant_c", percent = 20 },
-				{ class = "arcade_cabinet", percent = 20 },
-				{ class = "christmas_tree", percent = 15 }, 
-                { class = "titanium_wall_3m_4m", percent = 20 }, 
+				
+				{ class = "metal_safe"                          , percent = 5 },
+				{ class = "office_desk_tow_packed"              , percent = 5 },
+				{ class = "umbrella_open_tow_packed"               , percent = 5 }, 
+				{ class = "mapsign_tow_packed"                  , percent = 15 },
+				{ class = "green_tent_tow_packed"               , percent = 10 },
+				{ class = "electric_stove_storage_packed"              , percent = 5 },
+				{ class = "posed_skeleton_onground_tow_packed"         , percent = 15 },
+				{ class = "gnome_giant_c"                       , percent = 10 },
+				{ class = "arcade_cabinet"                      , percent = 10 },
+                { class = "fridge_modern_tow_packed"			, percent = 10 }, 
+				{ class = "hospital_bed_tow_packed"			, percent = 5 },
+				{ class = "hospital_medicalcabinet_tow_packed"			, percent = 5 },
+				
+				--{ class = "christmas_tree", percent = 15 }, 
 			},
 		},   
 	},

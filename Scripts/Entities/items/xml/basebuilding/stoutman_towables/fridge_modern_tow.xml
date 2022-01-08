@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="fridge_modern_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Refrigerator" />
+    <param name="description" value="Modern Refrigerator" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/props/fridge_modern/fridgemodern_closed_tow.cgf" />
+  </geometry>
+  <storage>
+    <types>
+      <type category="any" capacity="50"/>
+    </types>
+  </storage>
+</item>
