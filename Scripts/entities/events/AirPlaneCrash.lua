@@ -144,6 +144,7 @@ SpawnAirPlaneCrashLoot = function(self)
 	local rnd = random(1,30)	
 	if rnd <= 12 then
         ISM.SpawnItem("AirDropCrate", vSpawnPos)
+		ISM.SpawnItem("AirDropCrate", vSpawnPos2)
         ISM.SpawnItem("debris_01", vSpawnPos2)
         ISM.SpawnItem("debris_01", vSpawnPos)
         ISM.SpawnItem("planecrash_engine", vSpawnPos4)
@@ -174,6 +175,7 @@ SpawnAirPlaneCrashLoot = function(self)
 		end	
 	elseif rnd <= 20 then
         ISM.SpawnItem("PlaneCrashCrate", vSpawnPos)
+		ISM.SpawnItem("PlaneCrashCrate", vSpawnPos1)
         ISM.SpawnItem("debris_01", vSpawnPos2)
         ISM.SpawnItem("debris_01", vSpawnPos)
         ISM.SpawnItem("debris_01", vSpawnPos1)
@@ -192,6 +194,7 @@ SpawnAirPlaneCrashLoot = function(self)
 			local vSpawnPos = {x=0,y=0,z=0}
 			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 
+			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)

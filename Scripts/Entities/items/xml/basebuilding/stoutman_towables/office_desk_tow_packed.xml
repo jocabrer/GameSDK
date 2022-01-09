@@ -2,7 +2,7 @@
 <item name="office_desk_tow_packed" class="Placeable" category="any">
   <params>
     <param name="selectable" value="0" />
-    <param name="mass" value="600" />
+    <param name="mass" value="500" />
 	<!--towable items must be mass > 500-->
     <param name="physics" value="0" />
     <param name="view_dist_min" value="500" />
@@ -53,7 +53,7 @@
   </geometry>
   <storage>
     <types>
-      <type category="any" capacity="10"/>
+      <type category="any" capacity="30"/>
     </types>
   </storage>
 </item>

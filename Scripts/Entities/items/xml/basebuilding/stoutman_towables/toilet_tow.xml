@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="toilet_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Toilet" />
+    <param name="description" value="Toilet" />
+  </params>
+  <geometry>
+    <thirdperson name="objects/props/toilet/toilet_01_tow.cgf" />
+  </geometry>
+</item>

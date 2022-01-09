@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="vendingmachine_2_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Vending Machine" />
+    <param name="description" value="Vending Machine" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/props/industrial/vending_machines/VendingMachine_02_tow.cgf" />
+  </geometry>
+  <storage>
+    <types>
+      <type category="any" capacity="10"/>
+    </types>
+  </storage>
+</item>

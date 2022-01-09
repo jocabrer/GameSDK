@@ -2,7 +2,7 @@
 <item name="posed_skeleton_onground_tow_packed" class="Placeable" category="any">
   <params>
     <param name="selectable" value="0" />
-    <param name="mass" value="600" />
+    <param name="mass" value="500" />
 	<!--towable items must be mass > 500-->
     <param name="physics" value="0" />
     <param name="view_dist_min" value="500" />
