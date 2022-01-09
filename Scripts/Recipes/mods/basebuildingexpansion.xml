@@ -270,14 +270,6 @@
 									  <material class="SheetMetal" count="10" />
 									</materials>
 								  </item> 
-								  <item class="firebarrel_blue" time="3">
-									<materials>
-									  <material class="WoodPile" count="20" />
-                                      <material class="PaintCan_Blue" count="1" />
-									  <material class="ScrapMetal" count="30" />
-									  <material class="SheetMetal" count="10" />
-									</materials>
-								  </item>
 								  <item class="firebarrel_green" time="3">
 									<materials>
 									  <material class="WoodPile" count="20" />
@@ -286,14 +278,7 @@
 									  <material class="SheetMetal" count="10" />
 									</materials>
 								  </item>
-								  <item class="firebarrel_pink" time="3">
-									<materials>
-									  <material class="WoodPile" count="20" />
-                                      <material class="PaintCan_Pink" count="1" />
-									  <material class="ScrapMetal" count="30" />
-									  <material class="SheetMetal" count="10" />
-									</materials>
-								  </item>
+								
 								  <item class="firebarrel_red" time="3">
 									<materials>
 									  <material class="WoodPile" count="20" />
@@ -1055,6 +1040,34 @@
                                     </item>
                                 </items>
                             </type>
+                            <type name="Stairs">
+								<items>
+									<item class="metal_stairs_0m_3m_4m_1m_end" time="5">
+										<materials>
+											<material class="Lumber" count="7" />
+                                            <material class="SheetMetal" count="7" />
+										</materials>
+									</item>
+									<item class="metal_stairs_0m_3m_4m_1m" time="5">
+										<materials>
+											<material class="Lumber" count="9" />
+                                            <material class="SheetMetal" count="9" />
+										</materials>
+									</item>
+									<item class="metal_stairs_0m_3m_4m_2m_end" time="5">
+										<materials>
+											<material class="Lumber" count="9" />
+                                            <material class="SheetMetal" count="9" />
+										</materials>
+									</item>
+                                    <item class="metal_stairs_0m_3m_4m_2m" time="5">
+										<materials>
+											<material class="Lumber" count="9" />
+                                            <material class="SheetMetal" count="9" />
+										</materials>
+									</item>
+								</items>
+							</type>
                         </types>
                     </subcat>
                     <subcat name="Estuco">
