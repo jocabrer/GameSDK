@@ -100,10 +100,10 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ category = "RandomFireStarter", percent = 30 },
-				{ class = "Binoculars", percent = 15 },
-				{ class = "Cb_radio", percent = 35 },
-				{ class = "GridMap", percent = 15 },
-				{ class = "Map", percent = 20 },
+				{ class = "Binoculars"          , percent = 15 },
+				{ class = "Cb_radio"            , percent = 20 },
+				{ class = "GridMap"             , percent = 15 },
+				{ class = "Map"                 , percent = 20 },
 			},
 		},
 		
@@ -387,18 +387,18 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomPoliceSedanSlot",
 			classes =
 			{
-				{category = "Map", percent = 5 },
-				{category = "RandomFlashlight", percent = 5 },
-				{category = "RandomConsumable", percent = 14 },
-				{category = "RandomIncapacition", percent = 9 },
-				{category = "RandomMedical", percent = 10 },
-				{category = "RandomPoliceItems", percent = 20 },
-                { class = "guide_ammunition", percent = 15 },
-				{class = "CarBattery", percent = 100 },
-				{class = "DriveBelt", percent = 75 },
-				{class = "SparkPlugs", percent = 75 },
-				{class = "Wheel", percent = 100 },
-				{ class = "AmcoinLedger", percent = 2 },
+				{category = "Map"                       , percent = 5  },
+				{category = "RandomFlashlight"          , percent = 5  },
+				{category = "RandomConsumable"          , percent = 5  },
+				{category = "RandomIncapacition"        , percent = 9  },
+				{category = "RandomMedical"             , percent = 5  },
+				{category = "RandomPoliceItems"         , percent = 10 },
+                { class ="guide_ammunition"			    , percent = 5  },
+				{class  ="CarBattery"                   , percent = 5  },
+				{class  ="DriveBelt"                    , percent = 5  },
+				{class  ="SparkPlugs"                   , percent = 15 },
+				{class  ="Wheel"                        , percent = 25 },
+				{ class ="AmcoinLedger"                 , percent = 6  },
 			},
 		},
 
@@ -3223,20 +3223,22 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				-- To reduce food/water in the world these only add up to 50%
-				{ category = "RandomRottenVeggie", percent = 1 }, 
-				{ category = "RandomSeeds", percent = 2 }, 
-				{ category = "RandomAlcohol", percent = 2},
+				{ category = "RandomRottenVeggie"   , percent = 1 }, 
+				{ category = "RandomSeeds"          , percent = 2 }, 
+				{ category = "RandomAlcohol"        , percent = 2 },
 				{ class = "WaterPurificationTablets", percent = 7 },
-				{ class = "CivCanteen01", percent = 4 },
-				{ class = "CokeCan", percent = 7 },
-				{ class = "DrPepperCan", percent = 7 },
-				{ class = "EnergyDrinkCan", percent = 7 },
-				{ class = "MilitaryCanteenPlastic", percent = 5 },
-				{ class = "MilitaryCanteenMetal", percent = 5 },
-				{ class = "PepsiCan", percent = 7 },
-				{ class = "SpriteCan", percent = 7 },
-				{ class = "TomatoJuiceCan", percent = 7 },
-				{ class = "WaterBottle", percent = 10 },
+				{ class = "CivCanteen01"            , percent = 4 },
+				{ class = "CokeCan"                 , percent = 7 },
+				{ class = "DrPepperCan"             , percent = 7 },
+				{ class = "EnergyDrinkCan"          , percent = 7 },
+				{ class = "MilitaryCanteenPlastic"  , percent = 5 },
+				{ class = "MilitaryCanteenMetal"    , percent = 5 },
+				{ class = "PepsiCan"                , percent = 7 },
+				{ class = "SpriteCan"               , percent = 7 },
+				{ class = "TomatoJuiceCan"          , percent = 7 },
+				{ class = "WaterBottle"             , percent = 7 },
+				{ class = "camping_water_jug"       , percent = 7 },
+				
 			},
 		},
 
@@ -3276,9 +3278,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomEggs", percent = 1 }, -- Easter event event
 				{ class = "ChocolateBox", percent = 1 }, -- Valentines event
 				{ class = "Champagne", percent = 1 }, -- Valentines event
-				{ class = "heart_balloon", percent = 1 }, -- Valentines event
-				{ category = "halloweenBagCommon", percent = 1 }, -- Halloween event
-				{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
+				--{ class = "heart_balloon", percent = 1 }, -- Valentines event
+				--{ category = "halloweenBagCommon", percent = 1 }, -- Halloween event
+				--{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
 			},
 		},
 
