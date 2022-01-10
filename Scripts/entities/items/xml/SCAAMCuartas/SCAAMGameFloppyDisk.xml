@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
 		<param name="stack_size" value="1"/>
-		<param name="display_name" value="Floppy disk game"/>
-		<param name="description" value="A floppy disk containing a game stored"/>
+		<param name="display_name" value="Disquete de Juego"/>
+		<param name="description" value="Contiene un juego para instalar en la terminal"/>
 	</params>
 
 	<geometry>

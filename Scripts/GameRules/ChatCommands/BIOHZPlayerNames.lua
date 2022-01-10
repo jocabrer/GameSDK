@@ -9,7 +9,7 @@ if not (Miscreated.RevivePlayer) then
     end
 end
 
-BIOHZPNMaxDistance = 15;
+BIOHZPNMaxDistance = 100;
 BIOHZPNMaxDistanceAdmin = 200;
 BIOHZLogoServerCap = 100;
 BIOHZLogoPlayerCounterStarted = false;
@@ -17,15 +17,6 @@ BIOHZLogoPlayerCounter = 0;
 
 -- Client player tag counter
 BIOHZPNPlayerTagsLength = 0;
-
--- BIOHZPNPreInitModules
--- Manages UI reload stuff
-function BIOHZPNPreInitModules()
-    if (not CryAction.IsDedicatedServer()) then
-        Log('BIOHZPlayerNames >> Called client UI init from not IsDedicatedServer');
-        ReloadModUIOnlyOnce();
-    end
-end
 
 
 -- BIOHZPNInitModules
@@ -103,7 +94,7 @@ function BIOHZPNShowPlayerNames()
                     playerPos.z = playerPos.z + 1;
                     local moveToDirection = {x=0, y=0, z=0};
                     local isAdmin = false;
-                    local MaxDistance = 15;
+                    local MaxDistance = BIOHZPNMaxDistance;
 
                     if (player.BIOHZIsAdmin) then
                         isAdmin = true;
@@ -118,52 +109,45 @@ function BIOHZPNShowPlayerNames()
 
                     local distanceBetweenPlayers = DistanceVectors(myPlayerPos, playerPos);
 
-                    if (((isAdmin == true or myPlayer.BIOHZIsAdmin) and distanceBetweenPlayers <= 200) or distanceBetweenPlayers <= 15) then
+                    if (((isAdmin == true or myPlayer.BIOHZIsAdmin) and distanceBetweenPlayers <= 200) or distanceBetweenPlayers <= 100) then
                         moveToDirection = vecScale(moveToDirection, distanceBetweenPlayers);
                         distanceBetweenPlayers = distanceBetweenPlayers - 0.5;
 
-                        g_HitTable = {{},{},{},{},{},{},{},{},{},{}};
-                        local hits = Physics.RayWorldIntersection(myPlayerPos, moveToDirection, 1, ent_all + 0x200, myPlayer.id, player.id, g_HitTable);
-                        local obstruction = g_HitTable[1];
+                        playerPos.z = playerPos.z + 0.9;
 
-                        if (hits <= 0 or (obstruction.dist and obstruction.dist >= distanceBetweenPlayers)) then
-                            playerPos.z = playerPos.z + 0.9;
+                        local pos, offset = UIAction.GetScreenPosFromWorld('mod_BIOHZPlayerNamesDummyUI', 200, playerPos, {x = 0, y = 0, z = 0}, false);
 
-                            local pos, offset = UIAction.GetScreenPosFromWorld('mod_BIOHZPlayerNamesDummyUI', 200, playerPos, {x = 0, y = 0, z = 0}, false);
-
-                            if (offset.x == 0 and offset.y == 0) then
-                                if (index > BIOHZPNPlayerTagsLength) then
-                                    UIAction.ShowElement('mod_BIOHZPlayerNamesUI', index);
-                                end
-
-                                if (MaxDistance > 15) then
-                                    if (pos.z > 200) then
-                                        pos.z = 200;
-                                    end
-
-                                    UIAction.SetScale('mod_BIOHZPlayerNamesUI', index, '_root', {x = (100 - pos.z / 2), y = (100 - pos.z / 2), z = 100});
-                                    pos.x = pos.x - ((400 * ((100 - pos.z / 2) / 100)) / 2);
-                                    pos.y = pos.y - ((50 * ((100 - pos.z / 2) / 100)) / 2) - 10;
-                                else
-                                    if (pos.z > MaxDistance) then
-                                        pos.z = MaxDistance;
-                                    end
-                                    if (pos.z > 100) then
-                                        pos.z = 100;
-                                    end
-
-                                    UIAction.SetScale('mod_BIOHZPlayerNamesUI', index, '_root', {x = (100 - pos.z * 3), y = (100 - pos.z * 3), z = 100});
-                                    pos.x = pos.x - ((400 * ((100 - pos.z * 3) / 100)) / 2);
-                                    pos.y = pos.y - ((50 * ((100 - pos.z * 3) / 100)) / 2) - 10;
-                                end
-
-                                UIAction.CallFunction('mod_BIOHZPlayerNamesUI', index, 'setPlayerInfo', player:GetName(), isAdmin);
-                                UIAction.SetPos('mod_BIOHZPlayerNamesUI', index, '_root', pos);
-
-                                index = index + 1;
-                            else
-                                currentPlayerLength = currentPlayerLength - 1;
+                        if (offset.x == 0 and offset.y == 0) then
+                            if (index > BIOHZPNPlayerTagsLength) then
+                                UIAction.ShowElement('mod_BIOHZPlayerNamesUI', index);
                             end
+
+                            if (MaxDistance > 15) then
+                                if (pos.z > 200) then
+                                    pos.z = 200;
+                                end
+
+                                UIAction.SetScale('mod_BIOHZPlayerNamesUI', index, '_root', {x = (100 - pos.z / 2), y = (100 - pos.z / 2), z = 100});
+                                pos.x = pos.x - ((400 * ((100 - pos.z / 2) / 100)) / 2);
+                                pos.y = pos.y - ((50 * ((100 - pos.z / 2) / 100)) / 2) - 10;
+                            else
+                                if (pos.z > MaxDistance) then
+                                    pos.z = MaxDistance;
+                                end
+                                if (pos.z > 100) then
+                                    pos.z = 100;
+                                end
+
+                                UIAction.SetScale('mod_BIOHZPlayerNamesUI', index, '_root', {x = (100 - pos.z * 3), y = (100 - pos.z * 3), z = 100});
+                                pos.x = pos.x - ((400 * ((100 - pos.z * 3) / 100)) / 2);
+                                pos.y = pos.y - ((50 * ((100 - pos.z * 3) / 100)) / 2) - 10;
+                            end
+
+                            UIAction.CallFunction('mod_BIOHZPlayerNamesUI', index, 'setPlayerInfo', player:GetName(), isAdmin);
+                            UIAction.SetPos('mod_BIOHZPlayerNamesUI', index, '_root', pos);
+
+                            index = index + 1;
+                          
                         else
                             currentPlayerLength = currentPlayerLength - 1;
                         end

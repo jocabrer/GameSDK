@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
 		<param name="stack_size" value="1"/>
-		<param name="display_name" value="Floppy disk"/>
-		<param name="description" value="A floppy disk with no label, what it contains is unknown"/>
+		<param name="display_name" value="Disquete Encriptado"/>
+		<param name="description" value="Disquete encriptado, contiene un mensaje con coordenadas para descubrir."/>
 	</params>
 
 	<geometry>
