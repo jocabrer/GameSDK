@@ -56,8 +56,9 @@ end
 -- BIOHZPNGetAdminState
 -- Returns the player's admin faction state to the requesting player
 function BIOHZPNGetAdminState(playerId, targetId)
-    player = System.GetEntity(targetId);
-
+    player = System.GetEntity(playerId);
+    local steamId = player.player:GetSteam64Id();
+    
     if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
         mSendEvent(
             playerId,

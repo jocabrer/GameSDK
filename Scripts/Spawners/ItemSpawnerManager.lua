@@ -2544,18 +2544,18 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomWaist",
 			classes =
 			{
-				{ class = "FannyPackBlack", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackBlueOrange", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackCamo1", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackCamo2", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackCamo3", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackGray", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackGreenGray", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackMaroonGray", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackPurplePink", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackRed", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackRedBlue", contents="RandomWaistContents", percent = 20 },
-				{ class = "FannyPackYellow", contents="RandomWaistContents", percent = 20 },
+				{ class = "FannyPackBlack", contents="RandomWaistContents", percent = 9 },
+				{ class = "FannyPackBlueOrange", contents="RandomWaistContents", percent = 9 },
+				{ class = "FannyPackCamo1", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackCamo2", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackCamo3", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackGray", contents="RandomWaistContents", percent = 9 },
+				{ class = "FannyPackGreenGray", contents="RandomWaistContents", percent = 9 },
+				{ class = "FannyPackMaroonGray", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackPurplePink", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackRed", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackRedBlue", contents="RandomWaistContents", percent = 8 },
+				{ class = "FannyPackYellow", contents="RandomWaistContents", percent = 8 },
 			},
 		},
 
@@ -2565,19 +2565,19 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomClothes",
 			classes =
 			{
-				{ category = "RandomCraftingGuide", percent = 60 },
-				{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
-				{ category = "halloweenBagCommon", percent = 2 }, -- Halloween event
-				{ category = "RandomEggs", percent = 2 }, -- Easter event
-				{ category = "RandomEyes", percent = 7 },
-				{ category = "RandomFace", percent = 7 },
+				--{ category = "RandomEggs", percent = 2 },-- disabled until easter event
+				{ category = "halloweenBagCommon", percent = 2 },-- halloween
+				--{ category = "RandomChristmasPresent", percent = 2 },-- Christmas event
+				{ category = "RandomCraftingGuide", percent = 9 },
+				{ category = "RandomEyes", percent = 6 },
+				{ category = "RandomFace", percent = 6 },
 				{ category = "RandomHands", percent = 12 },
 				{ category = "RandomHat", percent = 12 },
 				{ category = "RandomLegs", percent = 15 },
-				{ category = "RandomNeck", percent = 9 },
+				{ category = "RandomNeck", percent = 7 },
 				{ category = "RandomShoes", percent = 10 },
-				{ category = "RandomTorso", percent = 15 },
-				{ category = "RandomWaist", percent = 5 },
+				{ category = "RandomTorso", percent = 13 },
+				{ category = "RandomWaist", percent = 4 },
 			},
 		},
 
@@ -3712,7 +3712,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ category = "RandomFlashlight"      , percent = 5  },
-				{ class = "Axe"                      , percent = 10 },
+				{ class = "Axe"                      , percent = 8  },
 				{ class = "AxePatrick"               , percent = 3  },
 				{ class = "BaseballBat"              , percent = 5  },
 				{ class = "BaseballBatNails"         , percent = 3  },
@@ -3731,7 +3731,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "LugWrench"                , percent = 3  },
 				{ class = "Machete"                  , percent = 4  },
                 { class = "GoldenCudgel2"			 , percent = 5  }, 
-				{ class = "Pickaxe"                  , percent = 5  },
+				{ class = "Pickaxe"                  , percent = 7  },
 				{ class = "PipeWrench"               , percent = 4  },
 				{ class = "SurvivalKnife"            , percent = 4  },
 				{ class = "Icepickaxe"               , percent = 5  },

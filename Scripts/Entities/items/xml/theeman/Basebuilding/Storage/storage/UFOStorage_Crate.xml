@@ -12,6 +12,9 @@
   </geometry>
   
 	<storage>
+		<params>
+			<param name="has_lock" value="1"/>
+		</params>
 		<types>
 			<type category="any" capacity="40"/>
 		</types>
