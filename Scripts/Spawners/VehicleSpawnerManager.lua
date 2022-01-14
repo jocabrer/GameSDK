@@ -338,9 +338,7 @@ VehicleSpawnerManager = {
 			category = "sedan_taxi",
 			classes =
 			{
-				{ class = "sedan_taxi_blix", contents = "RandomF100TruckContents" },
-				{ class = "sedan_taxi_engoa", contents = "RandomF100TruckContents" },
-				{ class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
+				{ class = "placeholder11", contents = "RandomF100TruckContents" },
 			},
 			initialMinVehicles = 20,
 			abandonedTimer = 172800,  -- two days
