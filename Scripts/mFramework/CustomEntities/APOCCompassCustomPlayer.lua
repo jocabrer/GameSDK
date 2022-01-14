@@ -5,7 +5,10 @@ local APOCCompassCustomPlayer = {
     Methods = {
         Client = {
             APOCCompassInit = function(self)
-                ReloadModUIOnlyOnce();
+                
+                if (not CryAction.IsDedicatedServer()) then
+                    ReloadModUIOnlyOnce();
+                end
 
                 System.AddCCommand('APOCCompass', 'APOCToggleCompass(%1)', '');
                 System.AddKeyBind('delete', 'APOCCompass delete');

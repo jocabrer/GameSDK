@@ -32,8 +32,9 @@
 <!--  Movement scales don't work here for ironsight, so define directly in ZoomMode instead  -->
 <MovementModifiers speedScale="0.95" speedScaleTactical="0.85"/>
 <magazines>
-<magazine name="762x20_Akval"/>
-<magazine name="ext_762x30"/>
+    <magazine name="762x20_Akval"/>
+    <magazine name="ext_762x30"/>
+    <magazine name="akval_drummag_75rnd"/>
 </magazines>
 <geometry>
 <firstperson name="Objects/weapons/asval/asval.cdf"/>
@@ -465,42 +466,47 @@
 </zoommode>
 </zoommodes>
 <accessories>
-<!--  MAGAZINE  -->
-<accessory name="762x20_Akval" category="magazine" exclusive="1">
-<attach helper="mag_762"/>
-<detach/>
-<show helper="mag_762"/>
-</accessory>
-<accessory name="ext_762x30" category="magazine" exclusive="1">
-<attach helper="mag_762x39x30"/>
-<detach/>
-<show helper="mag_762x39x30"/>
-</accessory>
-<!--  SCOPES  -->
-<accessory name="ReddotSight" zoommode="reflexsight" category="scope" exclusive="1">
-<attach helper="reflex_sight"/>
-<detach/>
-</accessory>
-<accessory name="OPKSight" zoommode="reflexsight" category="scope" exclusive="1">
-<attach helper="reflex_sight"/>
-<detach/>
-</accessory>
-<accessory name="R3Sight" zoommode="reflexsight" category="scope" exclusive="1">
-<attach helper="reflex_sight"/>
-<detach/>
-</accessory>
-<accessory name="T1Micro" zoommode="reflexsight" category="scope" exclusive="1">
-<attach helper="reflex_sight"/>
-<detach/>
-</accessory>
-<accessory name="ReflexSight" zoommode="reflexsight" category="scope" exclusive="1">
-<attach helper="reflex_sight"/>
-<detach/>
-</accessory>
-<accessory name="OpticScope" zoommode="opticscope" category="scope" exclusive="1">
-<attach helper="optic_scope"/>
-<detach/>
-</accessory>
+    <!--  MAGAZINE  -->
+    <accessory name="762x20_Akval" category="magazine" exclusive="1">
+        <attach helper="mag_762"/>
+        <detach/>
+        <show helper="mag_762"/>
+    </accessory>
+    <accessory name="ext_762x30" category="magazine" exclusive="1">
+        <attach helper="mag_762x39x30"/>
+        <detach/>
+        <show helper="mag_762x39x30"/>
+    </accessory>
+    <accessory name="akval_drummag_75rnd" category="magazine" exclusive="1">
+        <attach helper="mag_ext_762x75"/>
+        <detach/>
+        <show helper="mag_ext_762x75"/>
+    </accessory>
+    <!--  SCOPES  -->
+    <accessory name="ReddotSight" zoommode="reflexsight" category="scope" exclusive="1">
+    <attach helper="reflex_sight"/>
+    <detach/>
+    </accessory>
+    <accessory name="OPKSight" zoommode="reflexsight" category="scope" exclusive="1">
+    <attach helper="reflex_sight"/>
+    <detach/>
+    </accessory>
+    <accessory name="R3Sight" zoommode="reflexsight" category="scope" exclusive="1">
+    <attach helper="reflex_sight"/>
+    <detach/>
+    </accessory>
+    <accessory name="T1Micro" zoommode="reflexsight" category="scope" exclusive="1">
+    <attach helper="reflex_sight"/>
+    <detach/>
+    </accessory>
+    <accessory name="ReflexSight" zoommode="reflexsight" category="scope" exclusive="1">
+    <attach helper="reflex_sight"/>
+    <detach/>
+    </accessory>
+    <accessory name="OpticScope" zoommode="opticscope" category="scope" exclusive="1">
+    <attach helper="optic_scope"/>
+    <detach/>
+    </accessory>
 </accessories>
 <storage>
 <locations>

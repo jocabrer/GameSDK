@@ -34,8 +34,8 @@
 
 	<magazines>
 		<magazine name="762x20_Akval"/>
-		<magazine name="762x30_Akval"/>
 		<magazine name="ext_762x30"/>
+		<magazine name="akval_drummag_75rnd"/>
 	</magazines>
 
 	<geometry>

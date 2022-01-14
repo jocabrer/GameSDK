@@ -16,15 +16,23 @@ CreateItemTable("AirDropCrate");
 function AirDropCrate:OnLanded()
         Log("AirDropCrate - OnLanded")
         Script.SetTimerForFunction(5000, "SpawnAISingle", self)
+		
 end
 
 SpawnAISingle = function(self)
 
 	local vForwardOffset = {x=0,y=0,z=0}
 	FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
+	
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 
 	AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
+	
+	local vSpawnPos1 = {x=10,y=0,z=0}
+	FastSumVectors(vSpawnPos1, vForwardOffset1, self:GetWorldPos())
+
+	
+	AISM.SpawnCategory(vSpawnPos1, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 
 end
