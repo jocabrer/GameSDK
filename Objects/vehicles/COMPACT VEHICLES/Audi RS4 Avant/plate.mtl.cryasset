@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="c096952f-f4ef-2d7d-2a51-78d42e4cb120">
+ <Files>
+  <File path="plate.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/3dd_pl2.dds</Path>
+  <Path>./Textures/3dd_pl2_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

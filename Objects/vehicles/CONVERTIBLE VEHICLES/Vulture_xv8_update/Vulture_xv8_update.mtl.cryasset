@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="728bc8d0-a3aa-ed17-a400-1979b4d87e1d">
+ <Files>
+  <File path="Vulture_xv8_update.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/CONVERTIBLE VEHICLES/Vulture_xv8_update/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

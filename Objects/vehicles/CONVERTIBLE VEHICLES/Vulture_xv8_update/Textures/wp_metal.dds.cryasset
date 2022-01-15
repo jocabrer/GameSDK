@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f185eeb2-4cf7-9406-3cf2-3d54ac016c25" source="wp_metal.tif">
+ <Files>
+  <File path="wp_metal.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

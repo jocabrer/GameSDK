@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="efb98156-635e-c2a8-e448-fb98548b10cd" source="trmsig.tif">
+ <Files>
+  <File path="trmsig.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

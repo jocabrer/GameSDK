@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="b9c63fef-18d1-faf1-f5c2-c8de5ea3ff41">
+ <Files>
+  <File path="logos.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/pla.dds</Path>
+  <Path>./Textures/pla_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

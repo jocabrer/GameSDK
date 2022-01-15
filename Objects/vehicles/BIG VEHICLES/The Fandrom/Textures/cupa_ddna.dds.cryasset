@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="8d3027af-8a6e-92a3-2940-eb0cc4c12ebe" source="cupa_ddna.tif">
+ <Files>
+  <File path="cupa_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<skin name="placeholder4_green">
+
+	<params>
+		<param name="display_name" value="BMW green"/>
+		<param name="description" value="green Skin for the BMW"/>
+		<param name="material" value="Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/1971_bmw_csl_green"/>
+	</params>
+
+	<items>
+		<item name="placeholder4"/>
+	</items>
+
+</skin>

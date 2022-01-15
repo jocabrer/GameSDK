@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5224544e-6a78-2c72-2870-3ad5939e2e46" source="hdligha.tif">
+ <Files>
+  <File path="hdligha.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

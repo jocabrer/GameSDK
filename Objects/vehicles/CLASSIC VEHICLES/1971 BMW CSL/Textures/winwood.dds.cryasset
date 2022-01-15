@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="1c79b6c2-da69-bcc5-4b1a-e2e32d3e04ce" source="winwood.tif">
+ <Files>
+  <File path="winwood.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

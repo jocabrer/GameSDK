@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="0a70f7d2-ce69-d3cd-5e31-634c5b0f7e45">
+ <Files>
+  <File path="p4.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/bodisp33212312321.dds</Path>
+  <Path>./Textures/bodisp22222.dds</Path>
+  <Path>./Textures/agpsscr.dds</Path>
+  <Path>./Textures/arvent2.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/later_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/frdash_a.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/digicl.dds</Path>
+ </Dependencies>
+</AssetMetadata>

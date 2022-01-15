@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f84b84c3-2db3-c742-be94-d6c43c5ffa97" source="stopb.tif">
+ <Files>
+  <File path="stopb.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

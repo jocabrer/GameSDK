@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="9cc27758-799d-cf37-8ff4-a6d47abef38f" source="strw.tif">
+ <Files>
+  <File path="strw.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

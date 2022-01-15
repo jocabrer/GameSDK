@@ -1,0 +1,13 @@
+<skin name="placeholder8_blue">
+
+	<params>
+		<param name="display_name" value="Chevrolet Corvette ะก6"/>
+		<param name="description" value="blue Skin for the Chevrolet Corvette ะก6"/>
+		<param name="material" value="Objects/vehicles/CONVERTIBLE VEHICLES/Vulture_xv8_update/vulture_xv8_blue"/>
+	</params>
+
+	<items>
+		<item name="placeholder8"/>
+	</items>
+
+</skin>

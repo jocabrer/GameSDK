@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6ee1e503-10bb-f9b3-7480-a9c24d7fb2bd" source="rims.tif">
+ <Files>
+  <File path="rims.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

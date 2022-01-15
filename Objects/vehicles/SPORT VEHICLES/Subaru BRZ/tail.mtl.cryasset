@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Material" guid="b3e2f7c9-5fad-1d6d-56e4-f2e1eeed0f47">
+ <Files>
+  <File path="tail.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

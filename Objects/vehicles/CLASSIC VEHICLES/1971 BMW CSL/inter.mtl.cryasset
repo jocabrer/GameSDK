@@ -1,0 +1,25 @@
+<AssetMetadata version="0" type="Material" guid="602f6b6d-1f94-9b9a-1900-45b849fbefb6">
+ <Files>
+  <File path="inter.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">14</Detail>
+  <Detail name="textureCount">14</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/winwood.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="694f7240-578a-79ce-a603-4ed5d2f1976f" source="ost_doors.tif">
+ <Files>
+  <File path="ost_doors.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

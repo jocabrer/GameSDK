@@ -1,0 +1,35 @@
+<AssetMetadata version="0" type="Material" guid="10da4f4a-21bc-f102-fc6d-f5ffe655642f">
+ <Files>
+  <File path="inter.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">16</Detail>
+  <Detail name="textureCount">24</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/DASH_3WT.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/dash_gauges.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/later_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/later_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

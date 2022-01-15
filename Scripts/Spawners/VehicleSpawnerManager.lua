@@ -21,10 +21,10 @@ VehicleSpawnerManager = {
 			category = "armored_truck_army",
 			classes =
 			{
-				{ class = "armored_truck_army", contents = "RandomPoliceSedanContents" },
+				{ class = "placeholder9", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 6,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -36,10 +36,10 @@ VehicleSpawnerManager = {
 			category = "armored_truck_police",
 			classes =
 			{
-				{ class = "armored_truck_police", contents = "RandomPoliceSedanContents" },
+				{ class = "placeholder12", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 6,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -138,30 +138,26 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ Audi r4
 		{
-			category = "dune_buggy",
 			classes =
 			{
-				{
-					class = "dune_buggy", contents = "RandomF100TruckContents",
+				{ 
+					class = "placeholder7", contents = "RandomF100TruckContents",
 					skins =
 					{
-						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-						{ name = "DuneBuggy_Black", percent = 11.0 },
-						{ name = "DuneBuggy_Blue", percent = 11.0 },
-						{ name = "DuneBuggy_Green", percent = 11.0 },
-						{ name = "DuneBuggy_Orange", percent = 12.0 }, -- Default
-						{ name = "DuneBuggy_Pink", percent = 11.0 },
-						{ name = "DuneBuggy_Purple", percent = 11.0 },
-						{ name = "DuneBuggy_Red", percent = 11.0 },
-						{ name = "DuneBuggy_White", percent = 11.0 },
-						{ name = "DuneBuggy_Yellow", percent = 11.0 },
+						{ name = "placeholder7_black", percent = 18 },
+						{ name = "placeholder7_blue", percent = 18 },
+						{ name = "placeholder7_green", percent = 18 },
+						{ name = "placeholder7_red", percent = 18 },
+						{ name = "placeholder7_brown", percent = 18 },
+						{ name = "placeholder7_chrome", percent = 10 },
+						
 					},
 				},
 			},
-			initialMinVehicles = 10,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -173,25 +169,10 @@ VehicleSpawnerManager = {
 			category = "f100truck",
 			classes =
 			{
-				{ 
-					class = "f100truck", contents = "RandomF100TruckContents",
-					skins =
-					{
-						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-						{ name = "F100Truck_Black", percent = 11.0 },
-						{ name = "F100Truck_Blue", percent = 11.0 },
-						{ name = "F100Truck_Green", percent = 11.0 },
-						{ name = "F100Truck_Orange", percent = 12.0 }, -- Default
-						{ name = "F100Truck_Pink", percent = 11.0 },
-						{ name = "F100Truck_Purple", percent = 11.0 },
-						{ name = "F100Truck_Red", percent = 11.0 },
-						{ name = "F100Truck_White", percent = 11.0 },
-						{ name = "F100Truck_Yellow", percent = 11.0 },
-					},
-				},
+				{ class = "placeholder1", contents = "RandomF100TruckContents" },
 			},
-			initialMinVehicles = 3,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -243,15 +224,15 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ Mrecedes vito 
 		{
 			category = "party_bus",
 			classes =
 			{
 				{ class = "party_bus", contents = "RandomPartyBusContents" },
 			},
-			initialMinVehicles = 2,
-			abandonedTimer = 259200,  -- three days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -398,10 +379,21 @@ VehicleSpawnerManager = {
 			category = "towcar",
 			classes =
 			{
-				{ class = "towcar", contents = "RandomTowcarContents" },
+				{ 
+					class = "placeholder8", contents = "RandomTowcarContents",
+					skins =
+					{
+						{ name = "placeholder8_black", percent = 20 },
+						{ name = "placeholder8_blue", percent = 20 },
+						{ name = "placeholder8_green", percent = 20 },
+						{ name = "placeholder8_red", percent = 20 },
+						{ name = "placeholder8_yellow", percent = 20 },
+						
+					},
+				},
 			},
-			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -415,8 +407,8 @@ VehicleSpawnerManager = {
 			{
 				{ class = "tractor", contents = "RandomTractorContents" },
 			},
-			initialMinVehicles = 2,
-			abandonedTimer = 21600,  -- six hours
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -443,25 +435,20 @@ VehicleSpawnerManager = {
 			category = "truck_semi",
 			classes =
 			{
-				{
-					class = "truck_semi", contents = "RandomTruck5TonContents",
+				{ 
+					class = "placeholder4", contents = "RandomTruck5TonContents",
 					skins =
 					{
-						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-						{ name = "TruckSemi_Black", percent = 11.0 },
-						{ name = "TruckSemi_Blue", percent = 11.0 },
-						{ name = "TruckSemi_Green", percent = 11.0 },
-						{ name = "TruckSemi_Orange", percent = 11.0 },
-						{ name = "TruckSemi_Pink", percent = 11.0 },
-						{ name = "TruckSemi_Purple", percent = 11.0 },
-						{ name = "TruckSemi_Red", percent = 11.0 },
-						{ name = "TruckSemi_White", percent = 12.0 }, -- Default
-						{ name = "TruckSemi_Yellow", percent = 11.0 },
+						{ name = "placeholder4_black", percent = 20 },
+						{ name = "placeholder4_blue", percent = 20 },
+						{ name = "placeholder4_brown", percent = 20 },
+						{ name = "placeholder4_green", percent = 20 },
+						{ name = "placeholder4_red", percent = 20 },
 					},
 				},
 			},
-			initialMinVehicles = 2,
-			abandonedTimer = 259200, -- three days
+			initialMinVehicles = 5,
+			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours

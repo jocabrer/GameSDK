@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4ae5560a-9550-bfbb-925e-49fbfc1d100f" source="bodisp33212312321.tif">
+ <Files>
+  <File path="bodisp33212312321.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

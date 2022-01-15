@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f3b4e9d8-2ac8-ffad-84ee-c656a46cdfb0" source="brakelights.tif">
+ <Files>
+  <File path="brakelights.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

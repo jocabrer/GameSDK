@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="1b1be4ff-f364-76dc-ff90-8c98e30ce44e">
+ <Files>
+  <File path="Subaru BRZ.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

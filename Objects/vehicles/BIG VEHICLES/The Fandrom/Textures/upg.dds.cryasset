@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5d53814f-9bf0-2169-1e79-4c86c651b9f8" source="upg.tif">
+ <Files>
+  <File path="upg.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

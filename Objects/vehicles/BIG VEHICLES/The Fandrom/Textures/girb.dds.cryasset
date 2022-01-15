@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="8ced09e8-5732-b7ad-0fdd-ff730593678f" source="girb.tif">
+ <Files>
+  <File path="girb.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

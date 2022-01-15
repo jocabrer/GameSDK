@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a39defa7-0aca-6785-618a-fee21b9c10f8" source="tire_ddna.tif">
+ <Files>
+  <File path="tire_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

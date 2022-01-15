@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="fd100dd0-1339-7162-1423-096de7daf26d">
+ <Files>
+  <File path="p1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/pla.dds</Path>
+  <Path>./Textures/pla_ddna.dds</Path>
+  <Path>./Textures/grills.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/grills.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

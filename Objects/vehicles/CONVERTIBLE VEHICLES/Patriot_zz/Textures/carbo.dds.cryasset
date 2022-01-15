@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2d5ceca5-ed24-9b86-09e1-417d6e34a49e" source="carbo.tif">
+ <Files>
+  <File path="carbo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

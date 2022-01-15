@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7fea7426-dcf7-b621-1a78-91d2c33ebf28" source="dscbb.tif">
+ <Files>
+  <File path="dscbb.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

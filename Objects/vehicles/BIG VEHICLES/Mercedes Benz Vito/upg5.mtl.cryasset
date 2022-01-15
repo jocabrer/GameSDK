@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="22ace6ef-efbb-0cd6-9dbd-4024706160ba">
+ <Files>
+  <File path="upg5.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

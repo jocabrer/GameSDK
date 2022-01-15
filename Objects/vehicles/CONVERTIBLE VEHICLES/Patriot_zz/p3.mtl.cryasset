@@ -1,0 +1,18 @@
+<AssetMetadata version="0" type="Material" guid="05f99e0e-b82f-f4d4-ad86-d3e77e2b6fdd">
+ <Files>
+  <File path="p3.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">7</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/fg4.dds</Path>
+  <Path>./Textures/fg2.dds</Path>
+  <Path>./Textures/fg1.dds</Path>
+  <Path>./Textures/strw.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

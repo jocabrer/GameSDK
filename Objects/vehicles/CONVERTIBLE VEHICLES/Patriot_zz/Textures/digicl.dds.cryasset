@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6393a67d-cd9e-4cfc-cc44-bcc919a24a11" source="digicl.tif">
+ <Files>
+  <File path="digicl.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,503 @@
+<Vehicle name="placeholder1">
+ <Physics pushable="0" shove_force="0.5">
+  <Buoyancy waterDensity="50" waterResistance="2000" waterDamping="100"/>
+  <Simulation maxTimeStep="0.02" minEnergy="0.02" maxLoggedCollisions="2"/>
+ </Physics>
+ <Damages submergedRatioMax="0.5" submergedDamageMult="0.1" collDamageThreshold="25" vehicleCollisionDestructionSpeed="75">
+  <DamageMultipliers>
+   <DamageMultiplier damageType="melee" multiplier="0.1"/>
+   <DamageMultiplier damageType="collision" multiplier="1.1"/>
+   <DamageMultiplier damageType="explosion" multiplier="6.0" splash="1.0"/>
+   <DamageMultiplier damageType="acid" multiplier="0.1" splash="1.0"/>
+   <DamageMultiplier damageType="frag" multiplier="6.0" splash="1.0"/>
+   <DamageMultiplier damageType="repair" multiplier="5.0"/>
+  </DamageMultipliers>
+  <DamagesGroups>
+   <DamagesGroup name="Destroy" useTemplate="CarDestroy"/>
+  </DamagesGroups>
+ </Damages>
+ <Components>
+  <Component damageMax="3000" name="hull" position="0,0.0494,0.9" size="1,1,1" useBoundsFromParts="1">
+   <DamageBehaviors>
+    <DamageBehavior class="Group" damageRatioMin="1">
+     <Group name="Destroy"/>
+    </DamageBehavior>
+    <DamageBehavior class="Effect" damageRatioMin="0.90">
+     <Effect disableAfterExplosion="1" effect="BurnEngine"/>
+    </DamageBehavior>
+    <DamageBehavior class="Effect" damageRatioMin="0.25">
+     <Effect disableAfterExplosion="1" effect="HullSmoke25"/>
+    </DamageBehavior>
+    <DamageBehavior class="Effect" damageRatioMin="0.50">
+     <Effect disableAfterExplosion="1" effect="HullSmoke50"/>
+    </DamageBehavior>
+    <DamageBehavior class="Effect" damageRatioMin="0.75">
+     <Effect disableAfterExplosion="1" effect="HullSmoke75"/>
+    </DamageBehavior>
+    <DamageBehavior class="Burn" damageRatioMin="0.90">
+     <Burn damage="1" helper="vehicleBurnPos" interval="0.5" radius="3" selfDamage="10"/>
+    </DamageBehavior>
+    <DamageBehavior class="MovementNotification" damageRatioMin="0.90"/>
+   </DamageBehaviors>
+  </Component>
+  <Component name="engine" damageMax="10" position="0,-2.3887,0.1119" size="0.7,0.7,0.7" useBoundsFromParts="0" hullAffection="2" major="1">
+   <DamageMultipliers>
+    <DamageMultiplier damageType="melee" multiplier="0.0"/>
+    <DamageMultiplier damageType="collision" multiplier="0.0"/>
+    <DamageMultiplier damageType="explosion" multiplier="0.0" splash="1.0"/>
+    <DamageMultiplier damageType="acid" multiplier="0.0" splash="0.0"/>
+    <DamageMultiplier damageType="frag" multiplier="0.0" splash="0.0"/>
+    <DamageMultiplier damageType="repair" multiplier="0.0"/>
+    <DamageMultiplier damageType="collision" multiplier="0.0"/>
+    <DamageMultiplier damageType="explosion" multiplier="0.0"/>
+    <DamageMultiplier damageType="frag" multiplier="0.0"/>
+    <DamageMultiplier damageType="fire" multiplier="0.0"/>
+    <DamageMultiplier damageType="melee" multiplier="0.0"/>
+    <DamageMultiplier damageType="repair" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_10mm" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_12_gauge_beanbag" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_12_gauge_pellet" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_12_gauge_slug" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_22" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_223" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_308" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_357" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_5_45x39" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_5_56x45" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_5_70x28" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_7_62x39" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_7_62x51" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_9mm" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_acp_45" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_rock_lge" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_rock_sml" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_rock_player" multiplier="0.0"/>
+    <DamageMultiplier damageType="ammo_tranquilizer_dart" multiplier="0.0"/>
+    <DamageMultiplier damageType="arrow" multiplier="0.0"/>
+    <DamageMultiplier damageType="blunt" multiplier="0.0"/>
+    <DamageMultiplier damageType="flare" multiplier="0.0"/>
+    <DamageMultiplier damageType="hammer" multiplier="0.0"/>
+    <DamageMultiplier damageType="hatchet" multiplier="0.0"/>
+    <DamageMultiplier damageType="knife" multiplier="0.0"/>
+    <DamageMultiplier damageType="pickaxe" multiplier="0."/>
+    <DamageMultiplier damageType="torch" multiplier="0.0"/>
+    <DamageMultiplier damageType="sledgehammer" multiplier="0.0"/>
+   </DamageMultipliers>
+   <DamageBehaviors>
+    <DamageBehavior class="Effect" damageRatioMin="0.5">
+     <Effect effect="EngineBurn" disableAfterExplosion="1"/>
+    </DamageBehavior>
+    <DamageBehavior class="Burn" damageRatioMin="0.90">
+     <Burn damage="1" helper="vehicleBurnPos" interval="0.5" radius="3" selfDamage="250"/>
+    </DamageBehavior>
+    <DamageBehavior class="MovementNotification" damageRatioMin="5"/>
+   </DamageBehaviors>
+  </Component>
+  <Component name="enterFrontLeft" damageMax="0" position="-1.229,-0.3898,-0.0544" size="1,1,1.26" useBoundsFromParts="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="enterFrontRight" damageMax="0" position="1.229,-0.3898,-0.0544" size="1,1,1.26" useBoundsFromParts="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="headLightLeft" damageMax="0" position="-0.8735,1.658,-0.1122" size="1,1,1" useBoundsFromParts="0" hullAffection="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="headLightRight" damageMax="0" position="0.8735,1.658,-0.1122" size="1,1,1" useBoundsFromParts="0" hullAffection="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="brakeLightLeft" damageMax="0" position="-0.9596,-3.1866,0.2835" size="0.4,0.12,0.12" useBoundsFromParts="0" hullAffection="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="brakeLightRight" damageMax="0" position="0.9596,-3.1866,0.2835" size="0.4,0.12,0.12" useBoundsFromParts="0" hullAffection="0">
+   <DamageBehaviors />
+  </Component>
+  <Component name="wheel1" damageMax="50" position="0,0,0" size="1,1,1" useBoundsFromParts="1" hullAffection="0" dontRepair="1">
+   <DamageBehaviors>
+    <DamageBehavior class="TireItem" damageRatioMin="1">
+     <TireItem />
+    </DamageBehavior>
+    <DamageBehavior class="Effect">
+     <Effect effect="BlownTirePFX"/>
+    </DamageBehavior>
+   </DamageBehaviors>
+   <DamageMultipliers>
+    <DamageMultiplier damageType="collision" multiplier="0"/>
+   </DamageMultipliers>
+  </Component>
+  <Component name="wheel2" damageMax="50" position="0,0,0" size="1,1,1" useBoundsFromParts="1" hullAffection="0" dontRepair="1">
+   <DamageBehaviors>
+    <DamageBehavior class="TireItem" damageRatioMin="1">
+     <TireItem />
+    </DamageBehavior>
+    <DamageBehavior class="Effect">
+     <Effect effect="BlownTirePFX"/>
+    </DamageBehavior>
+   </DamageBehaviors>
+   <DamageMultipliers>
+    <DamageMultiplier damageType="collision" multiplier="0"/>
+   </DamageMultipliers>
+  </Component>
+  <Component name="wheel3" damageMax="50" position="0,0,0" size="1,1,1" useBoundsFromParts="1" hullAffection="0" dontRepair="1">
+   <DamageBehaviors>
+    <DamageBehavior class="TireItem" damageRatioMin="1">
+     <TireItem />
+    </DamageBehavior>
+    <DamageBehavior class="Effect">
+     <Effect effect="BlownTirePFX"/>
+    </DamageBehavior>
+   </DamageBehaviors>
+   <DamageMultipliers>
+    <DamageMultiplier damageType="collision" multiplier="0"/>
+   </DamageMultipliers>
+  </Component>
+  <Component name="wheel4" damageMax="50" position="0,0,0" size="1,1,1" useBoundsFromParts="1" hullAffection="0" dontRepair="1">
+   <DamageBehaviors>
+    <DamageBehavior class="TireItem" damageRatioMin="1">
+     <TireItem />
+    </DamageBehavior>
+    <DamageBehavior class="Effect">
+     <Effect effect="BlownTirePFX"/>
+    </DamageBehavior>
+   </DamageBehaviors>
+   <DamageMultipliers>
+    <DamageMultiplier damageType="collision" multiplier="0"/>
+   </DamageMultipliers>
+  </Component>
+  <Component name="FlipAction" damageMax="0" major="0" position="0,-0.4405,-0.2051" size="2.75,5.32,1.5" useBoundsFromParts="0">
+   <DamageBehaviors />
+  </Component>
+ </Components>
+ <Parts>
+  <Part name="hull" class="Animated" component="hull">
+   <Parts>
+    <Part name="dials_speedometer" class="AnimatedJoint" component="hull" mass="0">
+     <AnimatedJoint>
+      <Dials rotationMax="180" ofs="-24"/>
+     </AnimatedJoint>
+    </Part>
+    <Part name="headLightLeft" class="Light" component="headLightLeft" helper="headLightLeftPos">
+     <Light type="Headlight"/>
+    </Part>
+    <Part name="headLightLeftFlare" class="Light" component="headLightLeft" helper="headLightLeftPos">
+     <Light type="Headlight_Flare"/>
+    </Part>
+    <Part name="headLightLeftFill" class="Light" component="headLightLeft" helper="headLightLeftPos">
+     <Light type="HeadlightFillBig"/>
+    </Part>
+    <Part name="headLightRight" class="Light" component="headLightRight" helper="headLightRightPos">
+     <Light type="Headlight"/>
+    </Part>
+    <Part name="headLightRightFlare" class="Light" component="headLightRight" helper="headLightRightPos">
+     <Light type="Headlight_Flare"/>
+    </Part>
+    <Part name="headLightRightFill" class="Light" component="headLightRight" helper="headLightRightPos">
+     <Light type="HeadlightFillBig"/>
+    </Part>
+    <Part name="headLight1Left" class="Light" component="headLightLeft" helper="headLight1LeftPos">
+     <Light type="Headlight"/>
+    </Part>
+    <Part name="headLight1LeftFlare" class="Light" component="headLightLeft" helper="headLight1LeftPos">
+     <Light type="Headlight_Flare"/>
+    </Part>
+    <Part name="headLight1LeftFill" class="Light" component="headLightLeft" helper="headLight1LeftPos">
+     <Light type="HeadlightFillBig"/>
+    </Part>
+    <Part name="headLight1Right" class="Light" component="headLightRight" helper="headLight1RightPos">
+     <Light type="Headlight"/>
+    </Part>
+    <Part name="headLight1RightFlare" class="Light" component="headLightRight" helper="headLight1RightPos">
+     <Light type="Headlight_Flare"/>
+    </Part>
+    <Part name="headLight1RightFill" class="Light" component="headLightRight" helper="headLight1RightPos">
+     <Light type="HeadlightFillBig"/>
+    </Part>
+    <Part name="brakeLightLeft" class="Light" component="brakeLightLeft" helper="rearLightLeftPos">
+     <Light type="Brake"/>
+    </Part>
+    <Part name="brakeLightLeft2" class="Light" component="brakeLightLeft2" helper="rearLightLeft2Pos">
+     <Light type="Brake"/>
+    </Part>
+    <Part name="brakeLightLeftFlare" class="Light" component="brakeLightLeft" helper="rearLightLeftPos">
+     <Light type="Brake_Flare"/>
+    </Part>
+    <Part name="brakeLightRight" class="Light" component="brakeLightRight" helper="rearLightRightPos">
+     <Light type="Brake"/>
+    </Part>
+    <Part name="brakeLightRight2" class="Light" component="brakeLightRight2" helper="rearLightRight2Pos">
+     <Light type="Brake"/>
+    </Part>
+    <Part name="brakeLightRightFlare" class="Light" component="brakeLightRight" helper="rearLightRightPos">
+     <Light type="Brake_Flare"/>
+    </Part>
+    <Part name="rearParkLightLeft" class="Light" component="brakeLightLeft" helper="rearLightLeftParkPos">
+     <Light type="Park"/>
+    </Part>
+    <Part name="rearPark2LightLeft" class="Light" component="brakeLightLeft" helper="rearLightLeftPark2Pos">
+     <Light type="Park"/>
+    </Part>
+    <Part name="rearParkLightRight" class="Light" component="brakeLightRight" helper="rearLightRightParkPos">
+     <Light type="Park"/>
+    </Part>
+    <Part name="rearPark2LightRight" class="Light" component="brakeLightRight" helper="rearLightRightPark2Pos">
+     <Light type="Park"/>
+    </Part>
+    <Part name="p1_attachement" class="AnimatedJoint" mass="0">
+     <AnimatedJoint filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\p1.cgf" filenameDestroyed=""/>
+    </Part>
+    <Part name="lights_attachement" class="AnimatedJoint" mass="0">
+     <AnimatedJoint filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\lights.cgf" filenameDestroyed=""/>
+    </Part>
+    <Part name="p2_attachement" class="AnimatedJoint" mass="0">
+     <AnimatedJoint filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\p2.cgf" filenameDestroyed=""/>
+    </Part>
+    <Part name="p3_attachement" class="AnimatedJoint" mass="0">
+     <AnimatedJoint filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\p3.cgf" filenameDestroyed=""/>
+    </Part>
+    <Part name="p4_attachement" class="AnimatedJoint" mass="0">
+     <AnimatedJoint filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\p4.cgf" filenameDestroyed=""/>
+    </Part>
+    <Part name="wheel1" class="SubPartWheel" component="wheel1" mass="80">
+     <SubPart filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\wheel1.cgf" id="idWheel1mesh"/>
+     <SubPartWheel axle="0" density="0" damping="-0.69" driving="1" lenMax="0.4" maxFriction="1" minFriction="1" slipFrictionMod="0.30000001" stiffness="0" suspLength="0.25" rimRadius="0.31999999" torqueScale="1.1"/>
+    </Part>
+    <Part name="wheel2" class="SubPartWheel" component="wheel2" mass="80">
+     <SubPart filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\wheel2.cgf" id="idWheel1mesh"/>
+     <SubPartWheel axle="0" density="0" damping="-0.69" driving="1" lenMax="0.4" maxFriction="1" minFriction="1" slipFrictionMod="0.30000001" stiffness="0" suspLength="0.25" rimRadius="0.31999999" torqueScale="1.1"/>
+    </Part>
+    <Part name="wheel3" class="SubPartWheel" component="wheel3" mass="80">
+     <SubPart filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\wheel3.cgf" id="idWheel1mesh"/>
+     <SubPartWheel axle="1" density="0" damping="-0.69" driving="1" lenMax="0.4" maxFriction="1" minFriction="1" slipFrictionMod="0.34999999" stiffness="0" suspLength="0.25" rimRadius="0.31999999" torqueScale="0.89999998"/>
+    </Part>
+    <Part name="wheel4" class="SubPartWheel" component="wheel4" mass="80">
+     <SubPart filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\wheel4.cgf" id="idWheel1mesh"/>
+     <SubPartWheel axle="1" density="0" damping="-0.69" driving="1" lenMax="0.4" maxFriction="1" minFriction="1" slipFrictionMod="0.34999999" stiffness="0" suspLength="0.25" rimRadius="0.31999999" torqueScale="0.89999998"/>
+    </Part>
+   </Parts>
+   <Animated filename="Objects\vehicles\CONVERTIBLE VEHICLES\Patriot_zz\Patriot_zz.cga" filenameDestroyed="objects/vehicles/sedan_crown_vic/base/sedan_base_damaged.cga"/>
+  </Part>
+  <Part name="massBox" class="MassBox" mass="2250" position="0,0.0,0.0" disablePhysics="0" disableCollision="0" isHidden="0">
+   <MassBox size="1.4,2.6,0.7" drivingOffset="-0.7"/>
+  </Part>
+ </Parts>
+ <Helpers>
+  <Helper name="passenger_enter_01" position="-1.7941,-0.0845,-0.6802" direction="0,1,0" part="hull"/>
+  <Helper name="passenger_enter_02" position="1.6496,-0.2764,-0.6983" direction="0,1,0" part="hull"/>
+  <Helper name="enginePos" position="0,1.3809,0.0756" direction="0,0,1" part="hull"/>
+  <Helper name="exhaust_pos_right" position="0.5306,-3.3535,-0.4413" direction="-0,-1,0" part="hull"/>
+  <Helper name="exhaust_pos_left" position="-0.5306,-3.3535,-0.4413" direction="-0,-1,0" part="hull"/>
+  <Helper name="exhaust_pos_right2" position="0.395,-3.3535,-0.4413" direction="-0,-1,0" part="hull"/>
+  <Helper name="exhaust_pos_left2" position="-0.3945,-3.3535,-0.4413" direction="-0,-1,0" part="hull"/>
+  <Helper name="hornPos" position="0,2.1829,-0.4385" direction="0,0,1" part="hull"/>
+  <Helper name="towPos" position="0,-3.1895,-0.3545" direction="0,-1,0" part="hull"/>
+  <Helper name="vehicleSmokePos" position="-0.0015,-2.5717,0.3684" direction="-3.10695e-006,-0.00746393,0.999972" part="hull"/>
+  <Helper name="vehicleCenterPos" position="0,-0.0095,0" direction="0,5.96046e-008,1" part="hull"/>
+  <Helper name="headLightLeftPos" position="-1.1516,1.6825,0.1309" direction="0,1,0" part="hull"/>
+  <Helper name="headLightRightPos" position="1.1516,1.6825,0.1309" direction="0,1,0" part="hull"/>
+  <Helper name="headLight1LeftPos" position="-1.0952,1.8316,0.0549" direction="0,0.999847,0.0175008" part="hull"/>
+  <Helper name="headLight1RightPos" position="1.0952,1.8316,0.0549" direction="0,0.999847,0.0175008" part="hull"/>
+  <Helper name="rearLightLeftPos" position="-0.8683,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightLeft2Pos" position="-1.0613,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightRightPos" position="0.8683,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightRight2Pos" position="1.0649,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightLeftParkPos" position="-1.0613,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightRightParkPos" position="1.0649,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightLeftPark2Pos" position="-0.8688,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="rearLightRightPark2Pos" position="0.8681,-3.1901,0.2924" direction="0,1,0" part="hull"/>
+  <Helper name="passenger_seat_ 01_pos" position="-0.4896,-0.2485,-0.1396" direction="0,1,-0.0005" part="hull"/>
+  <Helper name="passenger_seat_ 02_pos" position="0.5242,-0.4245,-0.2148" direction="0,1,-0.0005" part="hull"/>
+ </Helpers>
+ <Actions>
+  <Action class="Enter">
+   <Activations>
+    <Activation type="OnUsed" param1="component" param2="enterFrontLeft"/>
+   </Activations>
+   <Enter>
+    <Seats>
+     <Seat value="driver"/>
+    </Seats>
+   </Enter>
+  </Action>
+  <Action class="Enter">
+   <Activations>
+    <Activation type="OnUsed" param1="component" param2="enterFrontRight"/>
+   </Activations>
+   <Enter>
+    <Seats>
+     <Seat value="passenger1"/>
+    </Seats>
+   </Enter>
+  </Action>
+  <Action class="Flip">
+   <Activations>
+    <Activation type="OnUsed" param1="component" param2="FlipAction"/>
+   </Activations>
+  </Action>
+ </Actions>
+ <Seats>
+  <Seat name="driver" part="hull" enterHelper="passenger_enter_01" sitHelper="passenger_seat_ 01_pos" isDriver="1" ragdollOnDeath="1" seatGroupIndex="1" actionMap="vehicle_driver" hideBackpack="1" cameraSupressRoll="1" exitHelper="passenger_exit_pos">
+   <Views>
+    <View class="FirstPerson" canRotate="1" relaxTimeMax="0.1" rotationMin="-40,0,-60" rotationMax="10,0,60" hidePlayer="0">
+     <FirstPerson offset="0,0,0" relativeToHorizon="0"/>
+    </View>
+    <View class="SteerThirdPerson">
+     <SteerThirdPerson>
+      <Pos aim="0,0,2.5" offset="0,-7,0" pivotOffset="-1.5"/>
+      <Rotation rotationMax="45,0,160" rotationMax2="45,0,160" stickSensitivity="2,0,2" stickSensitivity2="1,0,2"/>
+      <Motion returnSpeed="1" returnSpeed2="1" angFollow="0"/>
+      <Radius min="0.9" max="1.3" relaxRate="5"/>
+     </SteerThirdPerson>
+    </View>
+   </Views>
+   <SeatActions>
+    <SeatAction class="Sound">
+     <Audio startTrigger="Play_f100truck_horn" stopTrigger="Stop_f100truck_horn" helper="hornPos"/>
+    </SeatAction>
+    <SeatAction class="Lights">
+     <Lights activation="toggle">
+      <LightParts>
+       <LightPart value="headLightLeft"/>
+       <LightPart value="headLightLeftFill"/>
+       <LightPart value="headLightLeftFlare"/>
+       <LightPart value="headLightRight"/>
+       <LightPart value="headLightRightFill"/>
+       <LightPart value="headLightRightFlare"/>
+       <LightPart value="rearParkLightLeft"/>
+       <LightPart value="rearParkLightRight"/>
+       <LightPart value="rearPark2LightLeft"/>
+       <LightPart value="rearPark2LightRight"/>
+      </LightParts>
+     </Lights>
+    </SeatAction>
+    <SeatAction class="LightsSiren">
+     <Lights activation="toggle">
+      <LightParts>
+       <LightPart value="headLight1Left"/>
+       <LightPart value="headLight1LeftFill"/>
+       <LightPart value="headLight1LeftFlare"/>
+       <LightPart value="headLight1Right"/>
+       <LightPart value="headLight1RightFill"/>
+       <LightPart value="headLight1RightFlare"/>
+      </LightParts>
+     </Lights>
+    </SeatAction>
+    <SeatAction class="Lights">
+     <Lights activation="brake">
+      <LightParts>
+       <LightPart value="brakeLightLeft"/>
+       <LightPart value="brakeLightLeft2"/>
+       <LightPart value="brakeLightLeftFlare"/>
+       <LightPart value="brakeLightRight"/>
+       <LightPart value="brakeLightRight2"/>
+       <LightPart value="brakeLightRightFlare"/>
+      </LightParts>
+     </Lights>
+    </SeatAction>
+    <SeatAction class="SteeringWheel">
+     <SteeringWheel fragmentID="IdleDriver">
+      <Car jitterAmpLow="0.02" jitterAmpHi="0.08" jitterFreqLow="9" jitterFreqHi="25" jitterSuspAmp="0.1" jitterSuspResponse="10"/>
+     </SteeringWheel>
+    </SeatAction>
+   </SeatActions>
+  </Seat>
+  <Seat name="passenger1" part="hull" enterHelper="passenger_enter_02" sitHelper="passenger_seat_ 02_pos" ragdollOnDeath="1" seatGroupIndex="2" hideBackpack="1" cameraSupressRoll="1" exitHelper="passenger_exit_pos">
+   <Views>
+    <View class="FirstPerson" canRotate="1" relaxTimeMax="0.1" rotationMin="-40,0,-60" rotationMax="20,0,70" hidePlayer="0">
+     <FirstPerson offset="0,0,0" characterBone="Bip01 Camera" relativeToHorizon="0"/>
+    </View>
+    <View class="SteerThirdPerson">
+     <SteerThirdPerson>
+      <Pos aim="0,0,2.5" offset="0,-6,0" pivotOffset="-1.5"/>
+      <Rotation rotationMax="45,0,160" rotationMax2="45,0,160" stickSensitivity="2,0,2" stickSensitivity2="1,0,2"/>
+      <Motion returnSpeed="1" returnSpeed2="1" angFollow="0"/>
+      <Radius min="0.9" max="1.3" relaxRate="5"/>
+     </SteerThirdPerson>
+    </View>
+   </Views>
+   <SeatActions />
+  </Seat>
+ </Seats>
+ <MovementParams>
+  <ArcadeWheeled steerSpeed="60" steerSpeedMin="100" steerSpeedScale="1" steerSpeedScaleMin="1" kvSteerMax="5" v0SteerMax="33" steerRelaxation="100" vMaxSteerMax="25" pedalLimitMax="0.1" rpmGearShiftSpeed="1" engineIgnitionTime="1.5">
+   <Handling>
+    <Power acceleration="19" decceleration="0.1" topSpeed="30" reverseSpeed="15"/>
+    <WheelSpin grip1="0.1" grip2="2" gripRecoverSpeed="0.5" accelMultiplier1="1" accelMultiplier2="0.2"/>
+    <HandBrake decceleration="30" deccelerationPowerLock="3" lockBack="1" lockFront="0" frontFrictionScale="2" backFrictionScale="0.8" angCorrectionScale="6"/>
+    <SpeedReduction reductionAmount="0.1" reductionRate="1.0"/>
+    <Friction back="5.0" front="6.0" offset="-2"/>
+    <Correction lateralSpring="0.65" angSpring="0.5"/>
+    <Compression frictionBoost="1.5" frictionBoostHandBrake="1.5"/>
+    <Inertia radius="4.25"/>
+   </Handling>
+   <FakeGears minChangeUpTime="0.7" minChangeDownTime="0.5">
+    <Ratios>
+     <Ratio value="0.5"/>
+     <Ratio value="0.8"/>
+     <Ratio value="0.95"/>
+    </Ratios>
+   </FakeGears>
+   <WheeledLegacy damping="0.01" engineIdleRPM="500" engineMaxRPM="6100" engineMinRPM="750" stabilizer="0" maxTimeStep="0.02" minEnergy="0.1" suspDampingMin="0" suspDampingMax="0" suspDampingMaxSpeed="0" damagedWheelSpeedInfluenceFactor="0"/>
+   <Boost endurance="300" regeneration=".3" strength="7.0"/>
+   <SoundParams engineSoundPosition="enginePos" runSoundDelay="0.0" roadBumpMinSusp="10" roadBumpMinSpeed="6" roadBumpIntensity="0.3"/>
+  </ArcadeWheeled>
+ </MovementParams>
+ <Particles mfxRow="vfx_f100truck">
+  <Exhaust insideWater="0" outsideWater="1">
+   <Helpers>
+    <Helper value="exhaust_pos_right"/>
+    <Helper value="exhaust_pos_left"/>
+    <Helper value="exhaust_pos_right2"/>
+    <Helper value="exhaust_pos_left2"/>
+   </Helpers>
+   <EngineStart effect="vehicles.F100.Engine.Start"/>
+   <EngineStop effect="vehicles.F100.Engine.Stop"/>
+   <EngineRunning effect="vehicles.F100.Engine.Running" boostEffect="6" baseSizeScale="1" minSpeed="0" minSpeedSizeScale="1" minSpeedCountScale="1" minSpeedSpeedScale="1" maxSpeed="15" maxSpeedSizeScale="1" maxSpeedCountScale="1" maxSpeedSpeedScale="1" minPower="0" minPowerSizeScale="1" minPowerCountScale="1" minPowerSpeedScale="1" maxPower="1" maxPowerSizeScale="1" maxPowerCountScale="1" maxPowerSpeedScale="1"/>
+  </Exhaust>
+  <DamageEffects>
+   <DamageEffect name="HullSmoke25" helper="vehicleSmokePos" effect="vehicles.Sedan.Damage.HullSmoke25"/>
+   <DamageEffect name="HullSmoke50" helper="vehicleSmokePos" effect="vehicles.Sedan.Damage.HullSmoke50"/>
+   <DamageEffect name="HullSmoke75" helper="vehicleSmokePos" effect="vehicles.Sedan.Damage.HullSmoke75"/>
+   <DamageEffect name="BurnEngine" helper="vehicleSmokePos" effect="vehicles.f100.damage.burnengine"/>
+   <DamageEffect name="VehicleDestroyed" helper="vehicleCenterPos" effect="vehicles.Sedan.Damage.Destroyed"/>
+   <DamageEffect name="SmokeStack" helper="vehicleCenterPos" effect="vehicles.Sedan.Damage.SmokeStack"/>
+   <DamageEffect name="BlownTirePFX" helper="" effect="vehicles.Common.Ground.Blown_Tire" gravityDirection="0,0,1"/>
+  </DamageEffects>
+  <EnvironmentLayers>
+   <EnvironmentLayer minSpeed="5" minSpeedSizeScale="0.25" minSpeedCountScale="0.25" minSpeedSpeedScale="0.5" maxSpeed="25" maxSpeedSizeScale="1.0" maxSpeedCountScale="1.0" maxSpeedSpeedScale="1.0">
+    <Alignment alignGroundHeight="0" maxHeightSizeScale="1" maxHeightCountScale="1" alignToWater="0"/>
+    <Emitters />
+    <Wheels>
+     <WheelGroups>
+      <WheelGroup>
+       <Wheels>
+        <Wheel value="1"/>
+       </Wheels>
+      </WheelGroup>
+      <WheelGroup>
+       <Wheels>
+        <Wheel value="2"/>
+       </Wheels>
+      </WheelGroup>
+      <WheelGroup>
+       <Wheels>
+        <Wheel value="3"/>
+       </Wheels>
+      </WheelGroup>
+      <WheelGroup>
+       <Wheels>
+        <Wheel value="4"/>
+       </Wheels>
+      </WheelGroup>
+     </WheelGroups>
+    </Wheels>
+   </EnvironmentLayer>
+   <EnvironmentLayer name="rims" minSpeed="3" minSpeedSizeScale="0.25" minSpeedCountScale="1" minSpeedSpeedScale="1" maxSpeed="10" maxSpeedSizeScale="0.50" maxSpeedCountScale="1" maxSpeedSpeedScale="1">
+    <Alignment alignGroundHeight="0" maxHeightSizeScale="1" maxHeightCountScale="1" alignToWater="0"/>
+    <Emitters />
+    <Wheels all="1" allActive="0"/>
+   </EnvironmentLayer>
+  </EnvironmentLayers>
+ </Particles>
+ <Mannequin tag="sedan" vehicleADB="Animations/Mannequin/ADB/sedanAnims.adb" controllerDef="Animations/Mannequin/ADB/vehicleControllerDefs.xml" passengerADB="Animations/Mannequin/ADB/playerVehicleAnims.adb"/>
+ <Paints />
+ <Modifications />
+</Vehicle>

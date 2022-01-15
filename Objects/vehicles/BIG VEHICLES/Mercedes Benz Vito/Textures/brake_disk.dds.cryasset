@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="bb028192-df5c-6cf3-8436-21fe3444a0cc" source="brake_disk.tif">
+ <Files>
+  <File path="brake_disk.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

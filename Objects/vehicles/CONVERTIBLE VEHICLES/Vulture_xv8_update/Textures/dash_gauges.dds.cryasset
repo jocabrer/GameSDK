@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ff13134b-1d07-9265-1019-f2d394b5faf3" source="dash_gauges.tif">
+ <Files>
+  <File path="dash_gauges.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">4096</Detail>
+  <Detail name="height">4096</Detail>
+  <Detail name="mipCount">11</Detail>
+ </Details>
+</AssetMetadata>

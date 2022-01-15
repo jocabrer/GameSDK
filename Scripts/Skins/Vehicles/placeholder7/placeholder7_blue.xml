@@ -1,0 +1,13 @@
+<skin name="placeholder7_blue">
+
+	<params>
+		<param name="display_name" value="audi rs4 avant"/>
+		<param name="description" value="blue Skin for audi rs4 avant"/>
+		<param name="material" value="Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/audi_rs4_avant_blue"/>
+	</params>
+
+	<items>
+		<item name="placeholder7"/>
+	</items>
+
+</skin>

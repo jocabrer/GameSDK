@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ecd37b94-802c-5afa-cc71-490edd46e44b" source="rlighta2.tif">
+ <Files>
+  <File path="rlighta2.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

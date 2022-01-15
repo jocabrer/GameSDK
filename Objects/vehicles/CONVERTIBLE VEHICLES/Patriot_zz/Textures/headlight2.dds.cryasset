@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="874825e4-2d6a-6e04-6e6a-49a9e8807237" source="headlight2.tif">
+ <Files>
+  <File path="headlight2.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

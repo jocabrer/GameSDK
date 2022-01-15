@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4daad5d2-2f6d-252d-5ac5-8dc987b35849" source="volan.tif">
+ <Files>
+  <File path="volan.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="8a78c8fa-e556-ff64-5d2f-72564d14f88f" source="wheel.tif">
+ <Files>
+  <File path="wheel.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

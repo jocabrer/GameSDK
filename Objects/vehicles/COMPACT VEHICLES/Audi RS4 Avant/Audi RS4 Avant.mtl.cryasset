@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="e1997b7d-4cd4-a1c6-39ee-89cf91b62945">
+ <Files>
+  <File path="Audi RS4 Avant.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

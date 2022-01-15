@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5ea36f9f-9a78-6280-240d-5fef09d0ad0a" source="signa1.tif">
+ <Files>
+  <File path="signa1.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

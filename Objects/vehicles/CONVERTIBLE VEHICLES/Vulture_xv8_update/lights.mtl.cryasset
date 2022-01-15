@@ -1,0 +1,32 @@
+<AssetMetadata version="0" type="Material" guid="e2845213-2a7b-988c-22de-6ca157decd1c">
+ <Files>
+  <File path="lights.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">18</Detail>
+  <Detail name="textureCount">21</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/grills.dds</Path>
+  <Path>./Textures/bmlight.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/ch_tail.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lgglas_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/wp_metal.dds</Path>
+  <Path>./Textures/signa12.dds</Path>
+  <Path>./Textures/signwhite22.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lgglas_ddna.dds</Path>
+  <Path>./Textures/trlightyellow.dds</Path>
+  <Path>./Textures/signa1.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/signa12.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/yell.dds</Path>
+ </Dependencies>
+</AssetMetadata>

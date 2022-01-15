@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Material" guid="7aea4224-ca08-af10-dc5f-9a4d7d870b17">
+ <Files>
+  <File path="inter.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">12</Detail>
+  <Detail name="textureCount">12</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/lights_v.dds</Path>
+  <Path>./Textures/decals_b.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/decals_c.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/decals_b.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/decals_b.dds</Path>
+  <Path>./Textures/agpsscr.dds</Path>
+ </Dependencies>
+</AssetMetadata>

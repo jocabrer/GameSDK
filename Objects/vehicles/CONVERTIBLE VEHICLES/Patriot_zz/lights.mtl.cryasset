@@ -1,0 +1,22 @@
+<AssetMetadata version="0" type="Material" guid="600fa92c-5e6a-24ed-3f8d-c96610885920">
+ <Files>
+  <File path="lights.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">11</Detail>
+  <Detail name="textureCount">11</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/headlight2.dds</Path>
+  <Path>./Textures/signa1.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/brakelights.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/hallo.dds</Path>
+  <Path>./Textures/rlighta2.dds</Path>
+  <Path>./Textures/rlightb.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

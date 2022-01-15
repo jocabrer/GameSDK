@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="23974e99-d3ed-fb12-49ad-4856a8682b6a">
+ <Files>
+  <File path="wheel1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/rubber.dds</Path>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/yo_tire_ddna.dds</Path>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/rubber.dds</Path>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/brd1.dds</Path>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/rims.dds</Path>
+ </Dependencies>
+</AssetMetadata>

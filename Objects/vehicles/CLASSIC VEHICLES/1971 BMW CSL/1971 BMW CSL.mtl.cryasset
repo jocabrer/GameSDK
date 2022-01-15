@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="af72c7a4-d1f8-1978-b085-abc7cb0e018d">
+ <Files>
+  <File path="1971 BMW CSL.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/CLASSIC VEHICLES/1971 BMW CSL/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

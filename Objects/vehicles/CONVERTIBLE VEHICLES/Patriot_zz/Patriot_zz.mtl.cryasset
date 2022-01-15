@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="47e3fad2-d3ec-06ce-efb0-734f6f9504ca">
+ <Files>
+  <File path="Patriot_zz.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/CONVERTIBLE VEHICLES/Patriot_zz/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

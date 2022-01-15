@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="71127604-fe6e-6a59-b976-aeea0699b203">
+ <Files>
+  <File path="upg.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/signa1.dds</Path>
+  <Path>./Textures/stopa.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/signwhite2.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

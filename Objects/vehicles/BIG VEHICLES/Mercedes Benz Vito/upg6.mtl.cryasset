@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="949a14b6-aa5c-4b95-ec32-8c449946190e">
+ <Files>
+  <File path="upg6.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/headlight2.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="2ae6715f-eb1d-97de-70f8-276a8eb4664b">
+ <Files>
+  <File path="wheel1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">8</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/diskal.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/awelogo.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/bmw_whedec.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/Audi RS4 Avant/Textures/tire_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

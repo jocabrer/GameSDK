@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="9f72bb76-c21f-9602-fff8-4a272eedf4cb" source="arvent2.tif">
+ <Files>
+  <File path="arvent2.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

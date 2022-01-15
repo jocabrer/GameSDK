@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4d9dc1ed-c416-5d55-40cc-38aa6543f0ae" source="yell.tif">
+ <Files>
+  <File path="yell.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

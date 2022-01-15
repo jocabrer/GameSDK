@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e37d3491-9715-30a9-f279-9cae831830a1" source="signwhite2.tif">
+ <Files>
+  <File path="signwhite2.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

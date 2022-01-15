@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f3f8a330-078f-6694-bec3-4cd52801f4cd" source="brd1.tif">
+ <Files>
+  <File path="brd1.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

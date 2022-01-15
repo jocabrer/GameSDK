@@ -1,0 +1,31 @@
+<AssetMetadata version="0" type="Material" guid="0c386e90-d8b4-5138-f58a-f526ad2d112d">
+ <Files>
+  <File path="The Fandrom.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">20</Detail>
+  <Detail name="textureCount">20</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/tire.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/tire_ddna.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/ost_doors.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/girb.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/signa1.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/trmsig.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/stopb.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/signa1.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/signa12.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/signwhite2.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/plate.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/cupa.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/upg.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/upg_ddna.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/ost_doors.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/volan.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/body1.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/cupa.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/ost_doors.dds</Path>
+  <Path>Objects/vehicles/BIG VEHICLES/The Fandrom/Textures/hdligha.dds</Path>
+ </Dependencies>
+</AssetMetadata>

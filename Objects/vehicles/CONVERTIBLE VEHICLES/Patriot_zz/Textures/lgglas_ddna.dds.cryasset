@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="336e766e-a981-8ac9-fc47-d4824cba9220" source="lgglas_ddna.tif">
+ <Files>
+  <File path="lgglas_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

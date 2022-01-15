@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6afdf2fb-b0a7-be5c-ea6b-6863d27fb8f1" source="decals_b.tif">
+ <Files>
+  <File path="decals_b.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="491d6e38-40f8-78d7-2b59-631dc322e290" source="agpsscr.tif">
+ <Files>
+  <File path="agpsscr.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>
