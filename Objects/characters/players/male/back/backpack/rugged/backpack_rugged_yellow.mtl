@@ -1,0 +1,17 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="backpack" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.77582234,0.93011099,0.048171829" Specular="0.81484669,0.93011099,0.011612247" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/back/backpack/rugged/backpack_rugged_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/back/backpack/rugged/backpack_rugged_pbr_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/back/backpack/rugged/backpack_rugged_spec.tif"/>
+    <Texture Map="Detail" File="textures/defaults/black.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.551" SSSIndex="0" DetailBumpScale="0" DetailGlossScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.58407855,0.58407855,0.58407855" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

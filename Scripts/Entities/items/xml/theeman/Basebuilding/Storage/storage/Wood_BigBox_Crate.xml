@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
         <param name="mass" value="-1" />
 		<param name="display_name" value="Gran Caja vieja"/>
-		<param name="description" value="Una caja vieja sin seguro" />
+		<param name="description" value="Una caja vieja, 1 x base" />
 	</params>
 
   <geometry>
@@ -17,7 +17,7 @@
 			<param name="has_lock" value="1"/>
 		</params>
 		<types>
-			<type category="any" capacity="50"/>
+			<type category="any" capacity="60"/>
 		</types>
 	</storage>
 	

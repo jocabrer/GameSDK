@@ -528,7 +528,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_metal",
 			uses = 1,
 			regenerate = 300,
-			percentage = 10,
+			percentage = 20,
 			spawn = "RandomElectronicsContent",
 			forceinteraction = true,
 		},
