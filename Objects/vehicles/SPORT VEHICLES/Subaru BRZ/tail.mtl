@@ -12,7 +12,7 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #908" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.76815128,0.76815128,0.76815128" Specular="0.20507877,0.20507877,0.20507877" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="Material #908" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.76815128,0.76815128,0.76815128" Specular="0.040915202,0.040915202,0.040915202" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
    </Textures>

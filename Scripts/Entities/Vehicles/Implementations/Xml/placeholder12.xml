@@ -299,7 +299,7 @@
   <Helper name="rearLightRightParkPos" position="0.8461,-2.4273,0.12" direction="0,-1,-0" part="hull"/>
   <Helper name="reverseLightLeftPos" position="-0.8461,-2.4273,0.12" direction="0,-1,0" part="hull"/>
   <Helper name="reverseLightRightPos" position="0.8461,-2.4273,0.12" direction="0,1,0" part="hull"/>
-  <Helper name="passenger_seat_ 01_pos" position="-0.42,-0.1827,-0.3325" direction="0,1,-0.0005" part="hull"/>
+  <Helper name="passenger_seat_ 01_pos" position="-0.45,-0.1307,-0.31" direction="0,0.9994,-0.0349" part="hull"/>
   <Helper name="passenger_seat_ 02_pos" position="0.454,-0.1921,-0.3377" direction="0,1,-0.0005" part="hull"/>
  </Helpers>
  <Actions>
@@ -497,7 +497,7 @@
    </EnvironmentLayer>
   </EnvironmentLayers>
  </Particles>
- <Mannequin tag="sedan" vehicleADB="Animations/Mannequin/ADB/sedanAnims.adb" controllerDef="Animations/Mannequin/ADB/vehicleControllerDefs.xml" passengerADB="Animations/Mannequin/ADB/playerVehicleAnims.adb"/>
+ <Mannequin tag="beetle" vehicleADB="Animations/Mannequin/ADB/beetleAnims.adb" controllerDef="Animations/Mannequin/ADB/vehicleControllerDefs.xml" passengerADB="Animations/Mannequin/ADB/playerVehicleAnims.adb"/>
  <Paints />
  <Modifications />
 </Vehicle>

@@ -72,11 +72,11 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #966" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.0030352699,0.0030352699,0.0030352699" Specular="0.43415368,0.43415368,0.43415368" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="Material #966" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.0030352699,0.0030352699,0.0030352699" Specular="0.052860651,0.052860651,0.052860651" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
    </Textures>
-   <PublicParams BumpMapTile="1" TintColor="0.86315733,0.86315733,0.86315733" TintCloudiness="0.0020000001" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+   <PublicParams BumpMapTile="1" TintColor="0.75294232,0.75294232,0.75294232" TintCloudiness="0.0020000001" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
   </Material>
  </SubMaterials>
  <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>

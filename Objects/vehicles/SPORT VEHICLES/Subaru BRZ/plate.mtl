@@ -12,19 +12,19 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #908" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0030352699,0.0056053922,0.025186861" Specular="0.018500222,0.018500222,0.018500222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="Material #908" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.018500222,0.018500222,0.018500222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #909" MtlFlags="524416" Shader="Illum" GenMask="40000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0030352699,0.0056053922,0.025186861" Specular="0.018500222,0.018500222,0.018500222" Opacity="1" vertModifType="0" LayerAct="1">
+  <Material Name="Material #909" MtlFlags="524416" Shader="Illum" GenMask="40000800" StringGenMask="%DECAL%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0036765076,0.0036765076,0.0036765076" Specular="0.0056053922,0.0056053922,0.0056053922" Opacity="1" Shininess="189" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/number.dds"/>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/number2.dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="9.9999997e-005" DecalAlphaMult="10" IndirectColor="0.24620135,0.24620135,0.24620135"/>
   </Material>
-  <Material Name="Material #910" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.00060705398,0.00060705398,0.00060705398" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="87" vertModifType="0" LayerAct="1">
+  <Material Name="Material #910" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="87" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
    </Textures>

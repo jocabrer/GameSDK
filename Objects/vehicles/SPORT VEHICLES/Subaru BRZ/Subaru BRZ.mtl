@@ -1,8 +1,8 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="inter" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0030352699,0.0056053922,0.025186861" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="246" vertModifType="0" LayerAct="1">
+  <Material Name="inter" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.023153368,0.024157634,0.0030352699" Specular="0.019382363,0.019382363,0.019382363" Opacity="1" Shininess="246" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Textures/paint_w.dds"/>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/camo14.dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>

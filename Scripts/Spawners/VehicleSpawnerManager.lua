@@ -34,15 +34,26 @@ VehicleSpawnerManager = {
 		------------------------------------------------
 		{
 			category = "armored_truck_police",
-			classes =
-			{
-				{ class = "placeholder12", contents = "RandomPoliceSedanContents" },
-			},
-			initialMinVehicles = 5,
-			abandonedTimer = 432000,  -- two days
-			abandonedRespawnTimer = 3600, -- one hour
-			destroyedTimer = 120,
-			destroyedRespawnTimer = 7200, -- two hours
+					classes =
+					{
+						{ 
+							class = "placeholder12", contents = "RandomPoliceSedanContents",
+							skins =
+							{
+								{ name = "placeholder12"		, percent = 10 },
+								{ name = "placeholder12_black"	, percent = 20 },
+								{ name = "placeholder12_blue"	, percent = 20 },
+								{ name = "placeholder12_camo2"	, percent = 10 },
+								{ name = "placeholder12_green"	, percent = 20 },
+								{ name = "placeholder12_red"	, percent = 20 },
+							},
+						},
+					},
+					initialMinVehicles = 6,
+					abandonedTimer = 432000,  -- two days
+					abandonedRespawnTimer = 3600, -- one hour
+					destroyedTimer = 120,
+					destroyedRespawnTimer = 7200, -- two hours
 		},
 
 		------------------------------------------------

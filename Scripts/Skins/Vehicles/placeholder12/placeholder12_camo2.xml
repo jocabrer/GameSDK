@@ -1,0 +1,13 @@
+<skin name="placeholder12_camo2">
+
+	<params>
+		<param name="display_name" value="Subaru BRZ"/>
+		<param name="description" value="camo2 Skin for the Subaru BRZ"/>
+		<param name="material" value="Objects/vehicles/SPORT VEHICLES/Subaru BRZ/subaru_brz_camo2"/>
+	</params>
+
+	<items>
+		<item name="placeholder12"/>
+	</items>
+
+</skin>

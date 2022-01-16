@@ -1,9 +1,7 @@
 <Material MtlFlags="524544" vertModifType="0">
  <SubMaterials>
-  <Material Name="inter" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.0030352699,0.0030352699,0.0030352699" Specular="0.24620135,0.24620135,0.24620135" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
-   <Textures>
-    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
-   </Textures>
+  <Material Name="inter" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0.0030352699,0.0030352699,0.0030352699" Specular="0.06124606,0.06124606,0.06124606" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures />
    <PublicParams BumpMapTile="1" TintColor="0.019382363,0.019382363,0.019382363" TintCloudiness="0.001" BackLightScale="0.42300001" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
   </Material>
   <Material Name="Material #907" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.43415368,0.43415368,0.43415368" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
@@ -12,13 +10,13 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #908" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.0030352699,0.0056053922,0.025186861" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="248" vertModifType="0" LayerAct="1">
+  <Material Name="Material #908" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.001214108,0.001214108,0.001214108" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="248" vertModifType="0" LayerAct="1">
    <Textures>
-    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/carbon.dds"/>
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #909" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.00060705398,0.00060705398,0.00060705398" Specular="0.051269464,0.051269464,0.051269464" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+  <Material Name="Material #909" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="0.0056053922,0.0056053922,0.0056053922" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/paint_w.dds"/>
    </Textures>
@@ -36,7 +34,7 @@
    </Textures>
    <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="Material #912" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.13286835,0.13286835,0.13286835" Specular="0,0,0" Opacity="1" Shininess="55" vertModifType="0" LayerAct="1">
+  <Material Name="Material #912" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.080219828,0.080219828,0.080219828" Specular="0,0,0" Opacity="1" Shininess="55" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/subaru brz/textures/grills.dds">
      <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.60000002" TileV="0.40000001"/>
