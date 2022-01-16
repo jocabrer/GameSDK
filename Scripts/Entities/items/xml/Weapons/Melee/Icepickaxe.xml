@@ -39,6 +39,12 @@
         <param name="param" value="SheetMetal"/>
         <param name="soundUsed" value=""/>
     </usable>
+	<usable>
+        <param name="title" value="Convertir en RK"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="RK_Icepickaxe"/>
+        <param name="soundUsed" value=""/>
+    </usable>
 
 	<firemodes>
 		<firemode name="melee" type="Melee">
