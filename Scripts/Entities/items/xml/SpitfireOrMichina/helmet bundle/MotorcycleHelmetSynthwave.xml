@@ -10,6 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Synthwave Motorcycle Helmet"/>
 		<param name="description" value="A 80s style helmet, traveling through time!"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>

@@ -7,6 +7,7 @@
 		<param name="damage_scale" value="0.2"/>
 		<param name="display_name" value="Blue MX Shirt"/>
 		<param name="description" value="A cold and dirty MX shirt."/>
+		<param name="vendor_cost" value="10"/>
 	</params>
 
 	<wearable>

@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="armor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.38642946,0.38132605,0.3712377" Specular="0.068478175,0.02842604,0.010960096" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/clothing/spartagear/curiass_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/clothing/spartagear/curiass_normal.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.55000001" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="gauntlet" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.40724024,0.3712377,0.30946895" Specular="0.038204376,0.035601322,0.0069954107" Opacity="1" Shininess="208" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/clothing/spartagear/gauntlet_albedo.tif"/>
+    <Texture Map="Bumpmap" File="objects/lekka/clothing/spartagear/gauntlet_normal.dds"/>
+    <Texture Map="Detail" File="objects/lekka/clothing/spartagear/gauntlet_rough.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="helmet" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.011764707,0.71372551,0.062745102" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="greave" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.26635563,0.2269659,0.20863689" Specular="0.099898733,0.06124606,0.015996294" Opacity="1" Shininess="181" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/clothing/spartagear/greave_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/clothing/spartagear/greave_normal.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="skirt" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.19806935,0.19806935,0.19806935" Opacity="1" Shininess="132" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/clothing/spartagear/skirt_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/clothing/spartagear/skirt_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/clothing/spartagear/skirt_metallic.dds"/>
+    <Texture Map="Detail" File="objects/lekka/clothing/spartagear/skirt_rough.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sandal" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.31764707,0.25490198,0.21176472" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoulders" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.21223079,0.20863689,0.19806935" Specular="0.1221388,0.074213572,0.018500222" Opacity="1" Shininess="178" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/clothing/spartagear/spaulders_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/clothing/spartagear/spaulders_normal.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -11,6 +11,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Green Gas Canister Pack"/>
 		<param name="description" value="A Green Gas Canister Pack to complete your Hazmat Gear Set"/>
+		<param name="vendor_cost" value="15"/>
 	</params>
 	<wearable>
 		<param name="skin" value="objects/characters/players/male/back/backpack/scba_air_system/scba_air_system.skin"/>

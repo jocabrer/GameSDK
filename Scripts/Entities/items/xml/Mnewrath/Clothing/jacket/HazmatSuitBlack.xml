@@ -7,6 +7,7 @@
 		<param name="damage_scale" value="0.001"/>
 		<param name="display_name" value="Black Hazmat Suit"/>
 		<param name="description" value="NBC protection at it's finest - Mnewrath style."/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>

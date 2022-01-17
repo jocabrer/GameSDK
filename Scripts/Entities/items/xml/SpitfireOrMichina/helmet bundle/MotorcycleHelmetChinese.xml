@@ -10,6 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Golden Chinese Motorcycle Helmet"/>
 		<param name="description" value="A realy shiny and precious helmet. A tresor for the owner!"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>

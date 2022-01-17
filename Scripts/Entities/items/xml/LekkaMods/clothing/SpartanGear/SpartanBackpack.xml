@@ -10,6 +10,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Spartan Shield Backpack"/>
 		<param name="description" value="Spartan Shield Backpack"/>
+		<param name="vendor_cost" value="100"/>
 	</params>
 	<wearable>
 		<param name="skin" value="objects/Lekka/clothing/SpartaGear/Spartabackpack/spartabackpack.skin"/>

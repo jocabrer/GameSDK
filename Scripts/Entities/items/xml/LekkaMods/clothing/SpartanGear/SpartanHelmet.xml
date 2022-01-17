@@ -10,6 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Spartan Helmet"/>
 		<param name="description" value="Spartan Helmet"/>
+		<param name="vendor_cost" value="100"/>
 	</params>
 
 	<wearable>

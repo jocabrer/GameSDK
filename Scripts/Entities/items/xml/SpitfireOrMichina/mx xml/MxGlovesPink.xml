@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.3"/>
 		<param name="display_name" value="Pink MX Gloves"/>
 		<param name="description" value="A pair of pink MX gloves."/>
+		<param name="vendor_cost" value="3"/>
 	</params>
 
 	<wearable>

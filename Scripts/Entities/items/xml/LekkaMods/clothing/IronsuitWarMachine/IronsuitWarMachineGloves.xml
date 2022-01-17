@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Warmachine Gloves"/>
 		<param name="description" value="Warmachine Gloves"/>
+		<param name="vendor_cost" value="5"/>
 	</params>
 
 	<wearable>

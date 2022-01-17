@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.3"/>
 		<param name="display_name" value="Yellow MX Boots"/>
 		<param name="description" value="A pair of bad and cheap MX boots. Better than nothing."/>
+		<param name="vendor_cost" value="3"/>
 	</params>
 	<wearable>
 		<param name="skin" value="objects/characters/players/male/feet/combat_boots/combat_boots.skin"/>

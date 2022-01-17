@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.001"/>
 		<param name="display_name" value="Green Hazmat Mask"/>
 		<param name="description" value="A Green Hazmat Mask to complete your Hazmat Gear Set"/>
+		<param name="vendor_cost" value="10"/>
 	</params>
 	<wearable>
 		<param name="skin" value="Objects/characters/players/male/face/hazmat_gas_mask/hazmat_gas_mask.skin"/>

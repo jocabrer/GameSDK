@@ -10,6 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Spitfire Motorcycle Helmet"/>
 		<param name="description" value="Deploy your wings, shoot the enemy... and die because you cant fly."/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>

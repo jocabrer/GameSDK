@@ -10,6 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Beach Motorcycle Helmet"/>
 		<param name="description" value="What a beautiful sunset, isn't it?"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>

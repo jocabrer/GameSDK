@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Spartan Chest Armor"/>
 		<param name="description" value="Spartan Chest Armor"/>
+		<param name="vendor_cost" value="100"/>
 	</params>
 
 	<wearable>
