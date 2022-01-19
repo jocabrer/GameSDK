@@ -21,6 +21,7 @@
 		<thirdperson name="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_ground.cgf" material="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_white"/>
 		<onground name="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_ground.cgf" material="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_white"/>
 	</geometry>
+	
 	<storage>
 		<locations>
 			<location category="any"/>
