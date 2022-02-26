@@ -162,10 +162,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "M4V5WithMagazines"             , percent = 5  },
 				{ category = "PeacemakerWithMagazines"       , percent = 3  },
 				{ class = "AxePatrick"                       , percent = 5  },
-				{ class = "BaseballBatHerMajesty"            , percent = 5  },
+				{ class = "BaseballBatHerMajesty"            , percent = 4  },
 				{ class = "KatanaBlackWidow"                 , percent = 3  }, 
 				{ class = "Mk18Reaver"                       , percent = 2  },
                 { class = "GoldenCudgel"         			 , percent = 4  }, 
+				{ class = "RocketLauncherNew"				 , percent = 1  },
 			},
 		},
 		
@@ -181,10 +182,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "M4V5"                 , percent = 5  },
 				{ class = "AKMGold"              , percent = 5  },
 				{ class = "ColtPythonGrimeyRick" , percent = 2  },
-				{ class = "AxePatrick"           , percent = 15 },
+				{ class = "AxePatrick"           , percent = 14 },
 				{ class = "BaseballBatHerMajesty", percent = 15 },
 				{ class = "KatanaBlackWidow"     , percent = 15 },
 				{ class = "GoldenCudgel"         , percent = 4  }, 
+				{ class = "RocketLauncherNew"    , percent = 1  },
 			},
 		},
 
@@ -638,10 +640,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "PistolSilencer"                    , percent = 3   },
 				{ class = "Megaphone"                         , percent = 2   },
                 { class = "GoldenCudgel2"                     , percent = 0.5 }, 
-				{ class = "AmcoinLedger"                      , percent = 5   },
+				{ class = "AmcoinLedger"                      , percent = 3   },
                 { class = "guide_ammunition"                  , percent = 5   },
 				{ class = "RandomTron"						  , percent = 5   },
 				{ class = "SCAAMAmalgarmin"					  , percent = 5   },
+				{ category = "RandomRockets"				  , percent = 2   },
 				
 			},
 		},
@@ -4983,6 +4986,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "SCAAMShovel"    , percent = 15 },
                 { class = "SCAAMAmalgarmin", percent = 5}, 
 				{ category = "RandomHazmatSuit"        , percent = 50 },
+				{ class = "RocketLauncherNew"				 , percent = 40  },
+				{ category = "RandomRockets", percent = 80 },
 			},
 		},
 		
@@ -5152,7 +5157,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "EggBlue"                    , percent = 100, min = 1, max = 5 }, -- Easter event
 				{ class = "EggGreen"                   , percent = 100, min = 1, max = 5 }, -- Easter event
 				{ class = "EggPink"                    , percent = 100, min = 1, max = 5 }, -- Easter event
-                { class = "SCAAMAmalgarmin", percent = 5}, 
+                { class = "SCAAMAmalgarmin"			   , percent = 5}, 
+				{ class = "RocketLauncherNew"		   , percent = 20  },
+				{ category = "RandomRockets", percent = 80 },
 				
 			},
 		},
@@ -5218,6 +5225,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "ScrapMetal"     			   , percent = 100, min = 10, max = 40 },
                 { class = "SCAAMAmalgarmin"			   , percent = 5}, 
 				{ category = "RandomHazmatSuit"        , percent = 50 },
+				{ category = "RandomRockets"		   , percent = 70 },
 			},
 		},
 		
@@ -5257,7 +5265,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "TrapLandminePacked", percent = 50 },
 				{ class = "M97", percent = 2 },
                 { class = "STANAGx50", percent = 50 },
-				-- { class = "Pile_Rocket", percent = 2 },
+				-- { class = "RandomRockets", percent = 2 },
 				-- { class = "Pile_Rocket_AP", percent = 4 },
 				-- { class = "Pile_Rocket_HE", percent = 1 },
 				--{ class = "RocketLauncherNew", percent = 2 },
@@ -5276,7 +5284,16 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			},
 		},
 
-		
+		{
+			category = "RandomRockets",
+			classes =
+			{
+				{ class = "Pile_Rocket", percent = 50 },
+				{ class = "Pile_Rocket_HE", percent = 15 },
+				{ class = "Pile_Rocket_AP", percent = 35 },
+			},
+		}, 
+
 		{
 			category = "AirPlaneCrashCrate",
 			classes =
@@ -5948,21 +5965,29 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomVendorBackpackMilitary",
 			classes =
 			{
-				{ class = "DuffelBag", percent = 6 },
-				{ class = "DuffelBagBlack", percent = 6 },
-				{ class = "DuffelBagGreen", percent = 6 },
-				{ class = "DuffelBagGreenCamo1", percent = 6 },
-				{ class = "DuffelBagGreenCamo2", percent = 6 },
-				{ class = "DuffelBagGreenCamo3", percent = 7 },
-				{ class = "DuffelBagGreenCamo4", percent = 7 },
-				{ class = "DuffelBagTanCamo1", percent = 7 },
-				{ class = "DuffelBagTanCamo2", percent = 7 },
-				{ class = "DuffelBagTanCamo3", percent = 7 },
-				{ class = "DuffelBagTanCamo4", percent = 7 },
-				{ class = "DuffelBagUrbanCamo1", percent = 7 },
-				{ class = "DuffelBagUrbanCamo2", percent = 7 },
-				{ class = "DuffelBagUrbanCamo3", percent = 7 },
-				{ class = "DuffelBagUrbanCamo4", percent = 7 },
+				{ class = "DuffelBag"		   , percent = 4 },
+				{ class = "DuffelBagBlack"     , percent = 5 },
+				{ class = "DuffelBagGreen"     , percent = 4 },
+				{ class = "DuffelBagGreenCamo1", percent = 5 },
+				{ class = "DuffelBagGreenCamo2", percent = 4 },
+				{ class = "DuffelBagGreenCamo3", percent = 4 },
+				{ class = "DuffelBagGreenCamo4", percent = 4 },
+				{ class = "DuffelBagTanCamo1"  , percent = 5 },
+				{ class = "DuffelBagTanCamo2"  , percent = 4 },
+				{ class = "DuffelBagTanCamo3"  , percent = 4 },
+				{ class = "DuffelBagTanCamo4"  , percent = 5 },
+				{ class = "DuffelBagUrbanCamo1", percent = 4 },
+				{ class = "DuffelBagUrbanCamo2", percent = 5 },
+				{ class = "DuffelBagUrbanCamo3", percent = 4 },
+				{ class = "DuffelBagUrbanCamo4", percent = 5 },
+				{ class = "DuffelBagLightBlue" , percent = 4 },
+				{ class = "DuffelBagOGreen"    , percent = 4 },
+				{ class = "DuffelBagYellow"    , percent = 4 },
+				{ class = "DuffelBagBlue"      , percent = 5 },
+				{ class = "DuffelBagPurple"    , percent = 4 },
+				{ class = "DuffelBagPink"      , percent = 4 },
+				{ class = "DuffelBagRed"       , percent = 5 },
+				{ class = "DuffelBagWhite"     , percent = 4 },
 			},
 		},
 		
@@ -6281,11 +6306,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "M4A1"                            , percent = 12.5  },
 				{ class = "M16Vietnam"                      , percent = 12.5  },
 				{ class = "VSS"                             , percent = 13    },
-				{ class = "RPK"                             , percent = 12.5  },
+				{ class = "RPK"                             , percent = 10    },
 				{ class = "M4V5"                            , percent = 12.5  },
 				{ class = "AKMGold"                         , percent = 12.5  },
 				{ class = "ColtPythonGrimeyRick"            , percent = 6     },
                 { class = "ColtPythonGrimeyRick"			, percent = 6     },
+				{ class = "RocketLauncherNew"			    , percent = 2.5   },
                 
 			},
 		},
