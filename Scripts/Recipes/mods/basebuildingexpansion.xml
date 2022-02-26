@@ -1042,24 +1042,24 @@
                             </type>
                             <type name="Stairs">
 								<items>
-									<item class="metal_stairs_0m_3m_4m_1m_end" time="5">
+									<!--<item class="metal_stairs_0m_3m_4m_1m_end" time="5">
 										<materials>
 											<material class="Lumber" count="7" />
                                             <material class="SheetMetal" count="7" />
 										</materials>
-									</item>
+									</item>-->
 									<item class="metal_stairs_0m_3m_4m_1m" time="5">
 										<materials>
 											<material class="Lumber" count="9" />
                                             <material class="SheetMetal" count="9" />
 										</materials>
 									</item>
-									<item class="metal_stairs_0m_3m_4m_2m_end" time="5">
+									<!--<item class="metal_stairs_0m_3m_4m_2m_end" time="5">
 										<materials>
 											<material class="Lumber" count="9" />
                                             <material class="SheetMetal" count="9" />
 										</materials>
-									</item>
+									</item>-->
                                     <item class="metal_stairs_0m_3m_4m_2m" time="5">
 										<materials>
 											<material class="Lumber" count="9" />
