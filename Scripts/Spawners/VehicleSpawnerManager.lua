@@ -361,6 +361,20 @@ VehicleSpawnerManager = {
 						{ name = "SUVBasic_Yellow", percent = 11.0 },
 					},
 				},
+				{ 
+					class = "placeholder3", contents = "RandomF100TruckContents",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "placeholder3_black", percent = 14 },
+						{ name = "placeholder3_green", percent = 14 },
+						{ name = "placeholder3_yellow", percent = 15 },
+						{ name = "placeholder3_white", percent = 14 },
+						{ name = "placeholder3_red", percent = 15 },
+						{ name = "placeholder3_grey", percent = 14 },
+						{ name = "placeholder3_blue", percent = 14 },
+					},
+				},
 			},
 			initialMinVehicles = 20,
 			abandonedTimer = 172800,  -- two days
@@ -400,6 +414,24 @@ VehicleSpawnerManager = {
 						{ name = "placeholder8_red", percent = 20 },
 						{ name = "placeholder8_yellow", percent = 20 },
 						
+					},
+					
+				},
+				{ 
+					class = "placeholder5", contents = "RandomF100TruckContents",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "placeholder5_Black", percent = 13 },
+						{ name = "placeholder5_Green", percent = 14 },
+						{ name = "placeholder5_Yellow", percent = 14 },
+						{ name = "placeholder5_Brown", percent = 9 },
+						{ name = "placeholder5_Camo7", percent = 9 },
+						{ name = "placeholder5_Camo5", percent = 9 },
+						{ name = "placeholder5_Gray", percent = 9 },
+						{ name = "placeholder5_Pink", percent = 8 },
+						{ name = "placeholder5_White", percent = 8 },
+						{ name = "placeholder5_Leopard", percent = 7 },
 					},
 				},
 			},

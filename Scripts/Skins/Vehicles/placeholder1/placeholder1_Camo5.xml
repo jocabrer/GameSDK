@@ -1,0 +1,13 @@
+<skin name="placeholder1_Camo5">
+
+	<params>
+		<param name="display_name" value="HMMWV Camo Skin"/>
+		<param name="description" value="Camo skin for the HMMWV"/>
+		<param name="material" value="objects/vehicles/hmmwv/hmmwv_camo5"/>
+	</params>
+
+	<items>
+		<item name="placeholder1"/>
+	</items>
+
+</skin>

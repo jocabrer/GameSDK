@@ -1,0 +1,13 @@
+<skin name="placeholder1_Black">
+
+	<params>
+		<param name="display_name" value="HMMWV Black Skin"/>
+		<param name="description" value="Black skin for the HMMWV"/>
+		<param name="material" value="objects/vehicles/hmmwv/hmmwv"/>
+	</params>
+
+	<items>
+		<item name="placeholder1"/>
+	</items>
+
+</skin>

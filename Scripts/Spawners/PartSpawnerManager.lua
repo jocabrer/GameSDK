@@ -29,7 +29,7 @@ PartSpawnerManager = {
 				{ class = "green_tent_tow_packed"                 , percent = 5 },
 				{ class = "electric_stove_storage_packed"         , percent = 6 },
 				{ class = "gnome_giant_c"                         , percent = 10 },
-				{ class = "arcade_cabinet"                        , percent = 10 },
+				{ class = "arcade_cabinet"                        , percent = 5 },
                 { class = "fridge_modern_tow_packed"			  , percent = 6 }, 
 				{ class = "oil_rack_storage_packed"				  , percent = 5 },
 				{ class = "toilet_tow_packed"   				  , percent = 6 },
@@ -38,6 +38,8 @@ PartSpawnerManager = {
 				{ class = "vendingmachine_1_tow_packed"			  , percent = 6 },
 				{ class = "mailbox_storage_packed"   			  , percent = 6 },
 				{ class = "whiteboard_tow_packed"   			  , percent = 6 },
+				{ class = "payphone_tow_packed"   			      , percent = 5 },
+				
 				--{ class = "christmas_tree", percent = 15 }, 
 			},
 		},   

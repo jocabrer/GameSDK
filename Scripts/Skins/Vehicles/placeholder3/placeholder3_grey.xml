@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<skin name="placeholder3_grey">
+  <params>
+    <param name="display_name" value="Shelby Mustang GT500 grey skin" />
+    <param name="description" value="Grey skin for the Mustang" />
+    <param name="material" value="objects/vehicles/shelby_gt500/shelby_gt_grey" />
+  </params>
+  <items>
+    <item name="placeholder3" />
+  </items>
+</skin>
