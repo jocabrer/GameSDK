@@ -1,0 +1,51 @@
+<item name="Pile_Plasma_red" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.0" />
+    <param name="display_name" value="Pile_Plasma_red" />
+    <param name="description" value="Use con precaución" />
+    <param name="is_ammo_pile" value="1" />
+    <param name="hide_as_attachment" value="1" />
+    <param name="tag" value="Pile_Flare" />
+  </params>
+  <magazine>
+    <magazine capacity="100" />
+    <ammos>
+      <ammo name="ammo_plasma_red" amount="1" />
+      <ammo name="ammo_plasma" amount="1" />
+      <ammo name="ammo_plasma_green" amount="1" />
+      <ammo name="ammo_plasma_yellow" amount="1" />
+    </ammos>
+    <param name="sound_split" value="Play_rounds_split" />
+    <param name="sound_combine" value="Play_rounds_split" />
+  </magazine>
+  <geometry>
+    <thirdperson name="Objects/ammo/12Gauge_Flare/pile_flare.cgf" />
+  </geometry>
+  <usable>
+    <param name="title" value="@ConvertToGunpowder" />
+    <param name="action" value="convert" />
+    <param name="param" value="Gunpowder" />
+    <param name="soundUsed" value="" />
+  </usable>
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="plasma_mag" />
+    </locations>
+  </storage>
+  <steam>
+    <param name="tags" value="Category:AmmoPile" />
+    <param name="icon_url" value="http://miscreatedgame.com/shots/item_images/Pile_Flare_200.png?crc=A7F67087" />
+    <param name="store_hidden" value="0" />
+    <param name="amcoins" value="3" />
+    <param name="tradable" value="0" />
+    <param name="name_color" value="FF001E" />
+    <param name="itemdefid" value="80054" />
+    <param name="marketable" value="0" />
+    <param name="store_tags" value="Category:AmmoPile" />
+    <param name="background_color" value="2A2A2A" />
+    <param name="hidden" value="0" />
+    <param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/Pile_Flare_2048.png?crc=A7F67087" />
+  </steam>
+</item>

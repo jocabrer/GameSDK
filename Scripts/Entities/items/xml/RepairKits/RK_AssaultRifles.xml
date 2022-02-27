@@ -1,0 +1,47 @@
+<item name="RK_AssaultRifles" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="itemClass" value="RK_AssaultRifles"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="destroyWhenDegraded" value="1"/>		
+		<param name="display_name" value="Assault Rifle Repair Kit"/>
+		<param name="description" value="Repair Kit for Most Assault Rifle Weapons."/>
+		<param name="vendor_cost" value="7"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/equipment/repairkits/repair_kits.cgf" Material="Objects/equipment/repairkits/repair_kits_red"/>
+	</geometry>
+
+	<repair>
+		<item name="RK_AssaultRifles" percentage="100"/>
+		<item name="Mk18" percentage="100"/>
+		<item name="Mk18Reaver" percentage="100"/>
+		<item name="M4V5" percentage="100"/>
+		<item name="M16" percentage="100"/>
+		<item name="M16Vietnam" percentage="100"/>
+		<item name="CX4Storm" percentage="100"/>
+		<item name="Bulldog" percentage="100"/>
+		<item name="AT15" percentage="100"/>
+		<item name="M4A1" percentage="100"/>
+		<item name="M4A1_old" percentage="100"/>
+		<item name="M4A1_new" percentage="100"/>
+		<item name="AKM" percentage="100"/>
+		<item name="AKMGold" percentage="100"/>
+		<item name="AK74U" percentage="100"/>
+		<item name="AK5D" percentage="100"/>
+		<item name="L1AR" percentage="100"/>
+		<item name="SCAR-H" percentage="100"/>
+		<item name="G36C" percentage="100"/>
+		<item name="HK416" percentage="100"/>
+	</repair>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>
