@@ -22,6 +22,7 @@
     <param name="relaxedToTacticalBlendTime" value="0.45" />
     <param name="tag" value="ruger22" />
     <param name="adb" value="ruger22WeaponAnims.adb" />
+    <param name="vendor_cost" value="25"/>
     <animPrecache name="ruger22">
       <precache DBAFile="animations/weapons/ruger22/ruger22.dba" thirdperson="0" />
       <precache DBAFile="animations/human/male/weapons/ruger22/ruger22_3p.dba" thirdperson="1" />

@@ -6,7 +6,7 @@
 		<param name="stack_size" value="10"/>
 		<param name="display_name" value="Work Light"/>
 		<param name="description" value="A work light that can be used in crafting"/>
-		<param name="vendor_cost" value="2"/>
+		<param name="vendor_cost" value="18"/>
 	</params>
 
 	<geometry>

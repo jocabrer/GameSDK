@@ -9,6 +9,7 @@
 		<param name="display_name" value="@CarBattery"/>
 		<param name="description" value="@CarBatteryDescription"/>
 		<param name="view_dist_min" value="30"/> <!-- minimum 30m draw distance -->
+		<param name="vendor_cost" value="10"/>
 	</params>
 
 	<geometry>

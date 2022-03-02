@@ -63,6 +63,11 @@
 		<item name="HazmatMaskPink" percentage="100"/>
 		<item name="HazmatMaskWhite" percentage="100"/>
 		<item name="HazmatMaskYellow" percentage="100"/>
+		<item name="HazmatSuitPurple" percentage="100"/>
+		<item name="HazmatSuitGreenCamo" percentage="100"/>
+		<item name="HazmatSuitBrownCamo" percentage="100"/>
+		<item name="HazmatSuitBlack" percentage="100"/>
+		<item name="hazmat_suit_red" percentage="100"/>
 
         <item name="TronSuitBlue" percentage="100"/>
         <item name="TronSuitGreen" percentage="100"/>
@@ -70,6 +75,16 @@
         <item name="TronSuitPurple" percentage="100"/>
         <item name="TronSuitRed" percentage="100"/>
         <item name="TronSuitYellow" percentage="100"/>
+
+		<item name="IronsuitWarMachineChest" percentage="100"/>
+		<item name="IronsuitWarMachineGloves" percentage="100"/>
+		<item name="IronsuitWarMachinePants" percentage="100"/>
+
+		<item name="IronsuitPinkChest" percentage="100"/>
+		<item name="IronsuitPinkGloves" percentage="100"/>
+		<item name="IronsuitPinkPants" percentage="100"/>
+		
+		<item name="SpartanArmor" percentage="100"/>
         
 	</repair>
 

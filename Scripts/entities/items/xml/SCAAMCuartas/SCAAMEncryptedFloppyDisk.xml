@@ -6,6 +6,7 @@
 		<param name="stack_size" value="1"/>
 		<param name="display_name" value="Disquete Encriptado"/>
 		<param name="description" value="Disquete encriptado, contiene un mensaje con coordenadas para descubrir."/>
+		<param name="vendor_cost" value="20"/>
 	</params>
 
 	<geometry>

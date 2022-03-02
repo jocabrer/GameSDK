@@ -23,7 +23,7 @@
 
     <protection level="0">
         <environmental>
-            <protection_amount type="cold" percentage="10"/>
+            <protection_amount type="cold" percentage="5"/>
             <protection_amount type="heat" percentage="1"/>
         </environmental>
     </protection>

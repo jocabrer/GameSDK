@@ -2431,10 +2431,10 @@ function SCAAMATGetCrateContents(category)
 
     -- Random item amount the crate will have
     local randomChances = {
-        HighTierGuns = {min = 10, max = 20},
-        NormalGuns = {min = 7, max = 16},
-        GeneralSupplies = {min = 8, max = 15},
-        BuildingSupplies = {min = 10, max = 15}
+        HighTierGuns = {min = 10, max = 40},
+        NormalGuns = {min = 10, max = 40},
+        GeneralSupplies = {min = 10, max = 40},
+        BuildingSupplies = {min = 10, max = 40}
     };
 
     local itemAmount = 0;

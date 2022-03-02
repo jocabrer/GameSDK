@@ -15,6 +15,7 @@
 		<param name="sprintToRunBlendTime" value="0.15"/>
 		<param name="tag" value="grenade"/>
 		<param name="adb" value="grenadeWeaponAnims.adb"/>
+		<param name="vendor_cost" value="20"/>
 		<animPrecache name="grenade">
 			<precache DBAFile="animations/weapons/grenade/grenade.dba" thirdperson="0"/>
 			<precache DBAFile="animations/human/male/weapons/throw/throw.dba" thirdperson="1"/>

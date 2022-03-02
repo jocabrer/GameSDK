@@ -8,6 +8,7 @@
 		<param name="damage_scale" value="0.5"/>
 		<param name="display_name" value="@DriveBelt"/>
 		<param name="description" value="@DriveBeltDescription"/>
+		<param name="vendor_cost" value="18"/>
 	</params>
 
 	<geometry>

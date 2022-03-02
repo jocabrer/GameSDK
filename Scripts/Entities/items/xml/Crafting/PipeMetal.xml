@@ -6,6 +6,7 @@
 		<param name="stack_size" value="10"/>
 		<param name="display_name" value="@PipeMetal"/>
 		<param name="description" value="@PipeMetalDescription"/>
+		<param name="vendor_cost" value="50"/>
 	</params>
 
 	<geometry>

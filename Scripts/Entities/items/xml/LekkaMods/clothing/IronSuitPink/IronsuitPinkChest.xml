@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Ironsuit Pink Chest"/>
 		<param name="description" value="Ironsuit Pink Chest"/>
+		<param name="vendor_cost" value="20"/>
 	</params>
 	
 	<wearable>
@@ -32,8 +33,8 @@
 			<protection_amount type="pool_acid" percentage="95.0"/>
 			<protection_amount type="rain_radiation" percentage="95.0"/>
 			<protection_amount type="electricity" percentage="95.0"/>
-			<protection_amount type="cold" percentage="95.0"/>
-			<protection_amount type="heat" percentage="95.0"/>
+			<protection_amount type="cold" percentage="5"/>
+			<protection_amount type="heat" percentage="5"/>
 			<protection_amount type="physical" percentage="95.0"/>
         </environmental>
 		<protectBodyPart name="torso"> <!-- Use valid bodyparts defined in Libs/BodyDamage/BodyParts_*.xml -->
