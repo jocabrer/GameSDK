@@ -46,7 +46,7 @@ SpawnWorldEvent = function(self)
 
 	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
 	local spawnedEntity = System.SpawnEntity(spawnParams)
-	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento...")
+	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento..." )
 
 	if not spawnedEntity then
 		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")
