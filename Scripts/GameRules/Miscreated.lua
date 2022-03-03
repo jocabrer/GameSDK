@@ -30,7 +30,7 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 4 then
+	if rnd <= 3 then
 		eventName = "AirDropPlane"
 	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
@@ -46,7 +46,7 @@ SpawnWorldEvent = function(self)
 
 	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
 	local spawnedEntity = System.SpawnEntity(spawnParams)
-	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento..." )
+	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento " .. eventName )
 
 	if not spawnedEntity then
 		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")
