@@ -408,6 +408,38 @@
 							</item>
 						</items>
 					</subcat>
+					<subcat name="Plasma">
+						<items>
+							<item class="Pile_Plasma_yellow" time="5" amount="1">
+								<materials>
+									<material class="Pyrite" count="85" />
+									<material class="AnimalFat" count="15" />
+									<material class="Tarp" count="3" />
+								</materials>
+							</item>
+							<item class="Pile_Plasma_green" time="5" amount="1">
+								<materials>
+									<material class="Pyrite" count="85" />
+									<material class="AnimalFat" count="15" />
+									<material class="Tarp" count="3" />
+								</materials>
+							</item>
+							<item class="Pile_Plasma_red" time="5" amount="1">
+								<materials>
+									<material class="Pyrite" count="85" />
+									<material class="AnimalFat" count="15" />
+									<material class="Tarp" count="3" />
+								</materials>
+							</item>
+							<item class="Pile_Plasma" time="5" amount="1">
+								<materials>
+									<material class="Pyrite" count="85" />
+									<material class="AnimalFat" count="15" />
+									<material class="Tarp" count="3" />									
+								</materials>
+							</item>
+						</items>
+					</subcat>
 				</subcats>
 			</cat>
 		</cats>

@@ -41,12 +41,6 @@
         <param name="param" value="SheetMetal"/>
         <param name="soundUsed" value=""/>
     </usable>
-	<usable>
-        <param name="title" value="Convertir en RK"/>
-        <param name="action" value="craft"/>
-        <param name="param" value="RK_Icepickaxe"/>
-        <param name="soundUsed" value=""/>
-    </usable>
 
 	<firemodes>
 		<firemode name="melee" type="Melee">
@@ -54,9 +48,9 @@
 				<param name="helper" value="collision"/>
 				<param name="hit_type" value="pickaxe"/>
 				<param name="range" value="1.6"/>
-				<param name="damage" value="49"/>
-				<param name="impulse" value="10"/>
-				<param name="impulse_actor" value="30"/>
+				<param name="damage" value="60"/>
+				<param name="impulse" value="15"/>
+				<param name="impulse_actor" value="40"/>
 				<param name="impulse_ai_to_player" value="0"/> <!-- < -1 uses impulse actor instead -->
 				<param name="impulse_vehicle" value="40"/>
 				<param name="delay" value="0.387"/>

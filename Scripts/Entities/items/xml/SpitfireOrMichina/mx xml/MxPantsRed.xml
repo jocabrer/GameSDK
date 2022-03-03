@@ -16,8 +16,8 @@
 
     <protection level="1">
         <environmental>
-            <protection_amount type="cold" percentage="5"/>
-            <protection_amount type="heat" percentage="6"/>
+			<protection_amount type="cold" percentage="15"/>
+            <protection_amount type="heat" percentage="5"/>
         </environmental>
     </protection>
 

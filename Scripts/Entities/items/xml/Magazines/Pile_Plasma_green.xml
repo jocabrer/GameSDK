@@ -2,19 +2,17 @@
   <params>
     <param name="selectable" value="0" />
     <param name="mass" value="0.0" />
-    <param name="display_name" value="Pile_Plasma_green" />
-    <param name="description" value="Use con precaución" />
+    <param name="display_name" value="Plasma Acid" />
+    <param name="description" value="Use con precaución, Veneno 75%." />
     <param name="is_ammo_pile" value="1" />
     <param name="hide_as_attachment" value="1" />
     <param name="tag" value="Pile_Flare" />
+    <param name="vendor_cost" value="7"/>
   </params>
   <magazine>
     <magazine capacity="100" />
     <ammos>
       <ammo name="ammo_plasma_green" amount="1" />
-      <ammo name="ammo_plasma_red" amount="1" />
-      <ammo name="ammo_plasma" amount="1" />
-      <ammo name="ammo_plasma_blue" amount="1" />
     </ammos>
     <param name="sound_split" value="Play_rounds_split" />
     <param name="sound_combine" value="Play_rounds_split" />
