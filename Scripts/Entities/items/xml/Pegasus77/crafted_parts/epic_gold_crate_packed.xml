@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="7"/>
 		<param name="display_name" value="Caja de Almacenamiento Dorada"/>
-		<param name="description" value="Una caja de almacenamiento dorada que tarda mucho en construirse, pero que te proporciona 50 espacios. Tiene cerradura. Máx.1 x base"/>
+		<param name="description" value="Una caja de almacenamiento dorada con cerradura. Máx.1 x base"/>
 	</params>
 
 	<base_part class="entity" type="5061" name="epic_gold_crate_packed" max_health="45000" limit="1">

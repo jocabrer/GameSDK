@@ -32,12 +32,16 @@ SpawnWorldEvent = function(self)
 
 	if rnd <= 3 then
 		eventName = "AirDropPlane"
+		g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop")
 	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
+		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión" )
     elseif rnd <= 10 then
         eventName = "UFOCrash"	 
+		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado "  )
     else
 		eventName = "AirDropChristmas"	
+		g_gameRules.game:SendTextMessage(0, 0, "jojojo ! Santa se aproxima... Feliz navidad !"  )
 	end
 
 	local spawnParams = {}
@@ -46,7 +50,7 @@ SpawnWorldEvent = function(self)
 
 	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
 	local spawnedEntity = System.SpawnEntity(spawnParams)
-	g_gameRules.game:SendTextMessage(0, 0, "Se ha detectado un nuevo evento " .. eventName )
+	
 
 	if not spawnedEntity then
 		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")

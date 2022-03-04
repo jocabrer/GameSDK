@@ -36,6 +36,7 @@
 		<item name="L1AR" percentage="100"/>
 		<item name="G36C" percentage="100"/>
 		<item name="HK416" percentage="100"/>
+		<item name="MP5" percentage="100"/>
 	</repair>
 
 	<storage>

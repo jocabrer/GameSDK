@@ -120,7 +120,7 @@ SpawnAirPlaneCrashLoot = function(self)
 
 	local vSpawnPos3 = {x=10,y=-10,z=0}
 	FastSumVectors(vSpawnPos3, vForwardOffset3, self:GetWorldPos())
-	FastSumVectors(vSpawnPos3, vSpawnPos3, {x=0,y=0,z=-5})
+	-- FastSumVectors(vSpawnPos3, vSpawnPos3, {x=0,y=0,z=-5})
 
 	local vSpawnPos4 = {x=-10,y=-20,z=0}
 	FastSumVectors(vSpawnPos4, vForwardOffset4, self:GetWorldPos())
@@ -314,7 +314,7 @@ SpawnAirPlaneCrashLoot = function(self)
 		ISM.SpawnItem("debris_01"			, vSpawnPos2)
         ISM.SpawnItem("debris_01"			, vSpawnPos1)
         ISM.SpawnItem("planecrash_engine"	, vSpawnPos2)
-        ISM.SpawnItem("planecrash_engine"		, vSpawnPos3)
+        ISM.SpawnItem("planecrash_engine"	, vSpawnPos3)
         ISM.SpawnItem("planecrash_gear"		, vSpawnPos6)
                 
 
