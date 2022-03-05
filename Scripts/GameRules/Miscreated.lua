@@ -38,7 +38,7 @@ SpawnWorldEvent = function(self)
 		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión" )
     elseif rnd <= 10 then
         eventName = "UFOCrash"	 
-		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado "  )
+		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado"  )
     else
 		eventName = "AirDropChristmas"	
 		g_gameRules.game:SendTextMessage(0, 0, "jojojo ! Santa se aproxima... Feliz navidad !"  )

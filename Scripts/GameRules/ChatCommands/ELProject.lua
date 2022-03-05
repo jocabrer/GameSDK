@@ -84,7 +84,8 @@ ELPAmmoTable = {
     ['G36C'] = {'g36c_mag', 'Pile_556x45'},
     ['SCAR-H'] = {'STANAGx30', 'STANAGx50', 'ext_556x75', 'Pile_556x45'},
     ['Subjugator'] = {'mag_m14', 'Pile_762x51'},
-    ['PlasmaRifle'] = {'Pile_Plasma', 'Pile_Plasma_yellow', 'Pile_Plasma_green', 'Pile_Plasma_red'}
+    ['PlasmaRifle'] = {'Pile_Plasma', 'Pile_Plasma_yellow', 'Pile_Plasma_green', 'Pile_Plasma_red'},
+    ['RocketLauncherNew'] = {'Pile_Rocket', 'Pile_Rocket_AP', 'Pile_Rocket_HE'}
 };
 
 -- Validating if Miscreated:RevivePlayer is set
