@@ -278,22 +278,24 @@ SCAAMATConsoleDialogs = {
 SCAAMStashContents = {
     RandomPrimaryWeapon = {
         RandomRifle = {
-            {Item = 'AK5D', Ammo = {'556x30_ak5d', 'ext_556x75'}, Attachment1 = {'T1Micro', 'ReflexSight'}, Spawner = 'HighTierGuns'},
-            {Item = 'AK74U', Ammo = {'545x30'}, Attachment1 = {'ReddotSight', 'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'AKM', Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'AKMGold', Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight'}, Attachment2 = {'LaserSight'}, Spawner = 'HighTierGuns'},
-            {Item = 'AKVal', Ammo = {'762x20_Akval', 'ext_762x30'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Spawner = 'HighTierGuns'},
-            {Item = 'AT15', Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns,NormalGuns'},
-            {Item = 'Bulldog', Ammo = {'STANAGx30', 'STANAGx50', 'ext_556x75'}, Spawner = 'HighTierGuns'},
-            {Item = 'M4A1', Ammo = {'STANAGx30','STANAGx50', 'ext_556x75'}, Attachment1 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'M4V5', Ammo = {'STANAGx30','STANAGx50', 'ext_556x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'M16', Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope', 'HuntingScope', 'ReddotSight'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'AK5D'      , Ammo = {'556x30_ak5d', 'ext_556x75'}, Attachment1 = {'T1Micro', 'ReflexSight'}, Spawner = 'HighTierGuns'},
+            {Item = 'AK74U'     , Ammo = {'545x30'}, Attachment1 = {'ReddotSight', 'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'AKM'       , Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'AKMGold'   , Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight'}, Attachment2 = {'LaserSight'}, Spawner = 'HighTierGuns'},
+            {Item = 'AKVal'     , Ammo = {'762x20_Akval', 'ext_762x30'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Spawner = 'HighTierGuns'},
+            {Item = 'AT15'      , Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns,NormalGuns'},
+            {Item = 'Bulldog'   , Ammo = {'STANAGx30', 'STANAGx50', 'ext_556x75'}, Spawner = 'HighTierGuns'},
+            {Item = 'M4A1'      , Ammo = {'STANAGx30','STANAGx50', 'ext_556x75'}, Attachment1 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'M4V5'      , Ammo = {'STANAGx30','STANAGx50', 'ext_556x75'}, Attachment1 = {'ReddotSight', 'OPKSight', 'R3Sight', 'T1Micro', 'ReflexSight', 'OpticScope'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'M16'       , Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope', 'HuntingScope', 'ReddotSight'}, Attachment2 = {'ForegripVertical', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
             {Item = 'M16Vietnam', Ammo = {'STANAGx30','STANAGx50', 'ext_556x75'}, Attachment1 = {'BayonetRifle', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'M249', Ammo = {'556x100'}, Attachment1 = {'BayonetRifle', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'Mk18', Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope', 'ReddotSight'}, Attachment2 = {'LaserSight', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'M249'      , Ammo = {'556x100'}, Attachment1 = {'BayonetRifle', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'Mk18'      , Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'T1Micro', 'OPKSight', 'R3Sight', 'ReflexSight', 'OpticScope', 'ReddotSight'}, Attachment2 = {'LaserSight', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
             {Item = 'Mk18Reaver', Ammo = {'STANAGx30', 'STANAGx50','ext_556x75'}, Attachment1 = {'T1Micro', 'ReflexSight', 'OpticScope', 'OPKSight', 'R3Sight', 'ReddotSight'}, Attachment2 = {'LaserSight', 'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'RPK', Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'PSOScope'}, Attachment2 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
-            {Item = 'VSS', Ammo = {'762x20_Akval', 'ext_762x30'}, Attachment1 = {'PSOScope'}, Spawner = 'HighTierGuns'}
+            {Item = 'RPK'       , Ammo = {'762x30', 'ext_762x75'}, Attachment1 = {'PSOScope'}, Attachment2 = {'RifleSilencer'}, Spawner = 'HighTierGuns'},
+            {Item = 'VSS'       , Ammo = {'762x20_Akval', 'ext_762x30'}, Attachment1 = {'PSOScope'}, Spawner = 'HighTierGuns'},
+            {Item = 'RocketLauncherNew'  , Ammo = {'Pile_Rocket', 'Pile_Rocket_AP', 'Pile_Rocket_HE'}, Spawner = 'HighTierGuns'},
+            {Item = 'PlasmaRifle'  , Ammo = {'Pile_Plasma', 'Pile_Plasma_yellow', 'Pile_Plasma_green', 'Pile_Plasma_red'}, Spawner = 'HighTierGuns'}
         },
         RandomShotgun = {
             {Item = 'AA12', Ammo = {'12Gaugex8_Beanbag_AA12', '12Gaugex8_Pellet_AA12', '12Gaugex8_Slug_AA12'}, Spawner = 'HighTierGuns'},
@@ -361,7 +363,10 @@ SCAAMStashContents = {
             {Item = 'NailsPaddle', Spawner = 'NormalGuns'},
             {Item = 'PipeWrench', Spawner = 'NormalGuns'},
             {Item = 'PoliceBaton', Spawner = 'NormalGuns'},
-            {Item = 'SurvivalKnife', Spawner = 'NormalGuns'}
+            {Item = 'SurvivalKnife', Spawner = 'NormalGuns'},
+            {Item = 'Icepickaxe', Spawner = 'NormalGuns'},
+            {Item = 'GoldenCudgel2', Spawner = 'NormalGuns'},
+            {Item = 'GoldenCudgel', Spawner = 'NormalGuns'}
         }
     },
     RandomUtilitary = {
@@ -389,17 +394,26 @@ SCAAMStashContents = {
         {Item = 'FannyPackBlack', Spawner = 'GeneralSupplies'},
         {Item = 'horshoe_pack', Spawner = 'GeneralSupplies'},
         {Item = 'GasCanisterPack', Spawner = 'GeneralSupplies'},
-        {Item = 'DuffelBag', Spawner = 'GeneralSupplies'}
+        {Item = 'DuffelBagRed', Spawner = 'GeneralSupplies'},
+        {Item = 'DuffelBagBlue', Spawner = 'GeneralSupplies'},
+        {Item = 'DuffelBagYellow', Spawner = 'GeneralSupplies'},
+        {Item = 'DuffelBagWhite', Spawner = 'GeneralSupplies'}
     },
     RandomProtection = {
         RandomChest = {
-            {Item = 'FlakVestTan', Spawner = 'GeneralSupplies'},
-            {Item = 'PoliceVestBlack', Spawner = 'GeneralSupplies'},
-            {Item = 'TacticalVestBlack', Spawner = 'GeneralSupplies'},
-            {Item = 'GhillieSuit1', Spawner = 'GeneralSupplies'},
-            {Item = 'GhillieSuit2', Spawner = 'GeneralSupplies'},
-            {Item = 'GhillieSuit3', Spawner = 'GeneralSupplies'},
-            {Item = 'GhillieSuit4', Spawner = 'GeneralSupplies'}
+            {Item = 'FlakVestTan'            , Spawner = 'GeneralSupplies'},
+            {Item = 'PoliceVestBlack'        , Spawner = 'GeneralSupplies'},
+            {Item = 'TacticalVestBlack'      , Spawner = 'GeneralSupplies'},
+            {Item = 'GhillieSuit1'           , Spawner = 'GeneralSupplies'},
+            {Item = 'GhillieSuit2'           , Spawner = 'GeneralSupplies'},
+            {Item = 'GhillieSuit3'           , Spawner = 'GeneralSupplies'},
+            {Item = 'GhillieSuit4'           , Spawner = 'GeneralSupplies'},
+            {Item = 'IronsuitWarMachineChest', Spawner = 'GeneralSupplies'},
+            {Item = 'TronSuitYellow'         , Spawner = 'GeneralSupplies'},
+            {Item = 'MxShirtsBlue'           , Spawner = 'GeneralSupplies'},
+            {Item = 'MxShirtsYellow'         , Spawner = 'GeneralSupplies'},
+            {Item = 'MxShirtsWhite'          , Spawner = 'GeneralSupplies'},
+            {Item = 'SpartanArmor'           , Spawner = 'GeneralSupplies'}
         },
         RandomHead = {
             {Item = 'SpaceHelmet', Spawner = 'GeneralSupplies'},
@@ -410,7 +424,13 @@ SCAAMStashContents = {
             {Item = 'GhillieHood1', Spawner = 'GeneralSupplies'},
             {Item = 'GhillieHood2', Spawner = 'GeneralSupplies'},
             {Item = 'GhillieHood3', Spawner = 'GeneralSupplies'},
-            {Item = 'GhillieHood4', Spawner = 'GeneralSupplies'}
+            {Item = 'GhillieHood4', Spawner = 'GeneralSupplies'},
+            {Item = 'SpartanHelmet', Spawner = 'GeneralSupplies'},
+            {Item = 'MotorcycleHelmetSkull', Spawner = 'GeneralSupplies'},
+            {Item = 'MotorcycleHelmetSkull', Spawner = 'GeneralSupplies'},
+            {Item = 'MotorcycleHelmetChinese', Spawner = 'GeneralSupplies'},
+            {Item = 'MotorcycleHelmetBeach', Spawner = 'GeneralSupplies'}
+            
         }
     },
     RandomBuilding = {
@@ -427,7 +447,8 @@ SCAAMStashContents = {
         {Item = 'PaintCan_Green', Spawner = 'BuildingSupplies'},
         {Item = 'PaintCan_Blue', Spawner = 'BuildingSupplies'},
         {Item = 'PaintCan_Black', Spawner = 'BuildingSupplies'},
-        {Item = 'SolarPanelPiece', Spawner = 'BuildingSupplies'}
+        {Item = 'ConcreteBag', Spawner = 'BuildingSupplies'},
+        {Item = 'guide_concrete', Spawner = 'BuildingSupplies'}
     }
 }
 
@@ -2431,10 +2452,10 @@ function SCAAMATGetCrateContents(category)
 
     -- Random item amount the crate will have
     local randomChances = {
-        HighTierGuns = {min = 10, max = 40},
-        NormalGuns = {min = 10, max = 40},
-        GeneralSupplies = {min = 10, max = 40},
-        BuildingSupplies = {min = 10, max = 40}
+        HighTierGuns        = {min = 30, max = 40},
+        NormalGuns          = {min = 30, max = 40},
+        GeneralSupplies     = {min = 30, max = 40},
+        BuildingSupplies    = {min = 30, max = 40}
     };
 
     local itemAmount = 0;

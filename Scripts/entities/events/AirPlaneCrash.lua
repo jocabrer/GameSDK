@@ -91,7 +91,7 @@ SpawnAirPlaneCrashLoot = function(self)
 	FastScaleVector(vForwardOffset2, self:GetDirectionVector(), -2.0)
 
 	local vForwardOffset3 = {x=0,y=0,z=0}
-	FastScaleVector(vForwardOffset3, self:GetDirectionVector(), -20.0)
+	FastScaleVector(vForwardOffset3, self:GetDirectionVector(), -2.0)
 
 	local vForwardOffset4 = {x=10,y=-20,z=0}
 	FastScaleVector(vForwardOffset4, self:GetDirectionVector(), 10.0)
