@@ -8,7 +8,7 @@
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.5"/>
 		<param name="destroyWhenDegraded" value="1"/>
-		<param name="display_name" value="Blue Tron Helmet"/>
+		<param name="display_name" value="Orange Tron Helmet"/>
 		<param name="description" value="A glowing futuristic helmet."/>
 		<param name="vendor_cost" value="40"/>
 	</params>

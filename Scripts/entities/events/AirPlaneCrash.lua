@@ -108,6 +108,12 @@ SpawnAirPlaneCrashLoot = function(self)
 	local vForwardOffset8 = {x=10,y=-10,z=0}
 	FastScaleVector(vForwardOffset8, self:GetDirectionVector(), -15.0)
 
+	local vForwardOffset9 = {x=12,y=-15,z=0}
+	FastScaleVector(vForwardOffset9, self:GetDirectionVector(), -7.0)
+
+	local vForwardOffset10 = {x=12,y=-17,z=0}
+	FastScaleVector(vForwardOffset10, self:GetDirectionVector(), -18.0)
+
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 	FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
@@ -137,6 +143,12 @@ SpawnAirPlaneCrashLoot = function(self)
 	local vSpawnPos8 = {x=-20,y=15,z=0}
 	FastSumVectors(vSpawnPos8, vForwardOffset8, self:GetWorldPos())
 
+	local vSpawnPos9 = {x=-20,y=15,z=0}
+	FastSumVectors(vSpawnPos9, vForwardOffset9, self:GetWorldPos())
+
+	local vSpawnPos10 = {x=-20,y=15,z=0}
+	FastSumVectors(vSpawnPos10, vForwardOffset10, self:GetWorldPos())
+
 
 
 	---------------
@@ -145,12 +157,14 @@ SpawnAirPlaneCrashLoot = function(self)
 	if rnd <= 12 then
         ISM.SpawnItem("AirDropCrate"             , vSpawnPos1)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos2)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
+
+		ISM.SpawnItem("debris_01"                , vSpawnPos5)
         ISM.SpawnItem("debris_01"                , vSpawnPos6)
-        ISM.SpawnItem("debris_01"                , vSpawnPos4)
-        ISM.SpawnItem("planecrash_engine"        , vSpawnPos3)
-        ISM.SpawnItem("planecrash_gear"          , vSpawnPos7)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
+        ISM.SpawnItem("planecrash_engine"        , vSpawnPos7)
+        ISM.SpawnItem("planecrash_gear"          , vSpawnPos8)
+        
 		
 		SpawnAI = function(self)
 
@@ -175,17 +189,17 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 20 then
-        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos7)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos8)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos2)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
+        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
+		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
+		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
 
-        ISM.SpawnItem("debris_01"                , vSpawnPos2)
-        ISM.SpawnItem("debris_01"                , vSpawnPos4)
-        ISM.SpawnItem("planecrash_engine"        , vSpawnPos6)
-        ISM.SpawnItem("planecrash_engine"           , vSpawnPos3)
-        ISM.SpawnItem("planecrash_gear"          , vSpawnPos1)
+        ISM.SpawnItem("debris_01"                , vSpawnPos6)
+        ISM.SpawnItem("debris_01"                , vSpawnPos7)
+        ISM.SpawnItem("planecrash_engine"        , vSpawnPos8)
+        ISM.SpawnItem("planecrash_engine"        , vSpawnPos9)
+        ISM.SpawnItem("planecrash_gear"          , vSpawnPos10)
         
 		SpawnAI = function(self)
 
@@ -215,21 +229,21 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 25 then
-        ISM.SpawnItem("PlaneCrashCrate", vSpawnPos8)
+        ISM.SpawnItem("PlaneCrashCrate", vSpawnPos1)
 		ISM.SpawnItem("PlaneCrashCrate", vSpawnPos2)
-        ISM.SpawnItem("AirDropCrate", vSpawnPos7)
+        ISM.SpawnItem("AirDropCrate", vSpawnPos3)
 		ISM.SpawnItem("AirDropCrate", vSpawnPos4)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos6)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos7)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
 
 
-        ISM.SpawnItem("debris_01", vSpawnPos7)
         ISM.SpawnItem("debris_01", vSpawnPos9)
+        ISM.SpawnItem("debris_01", vSpawnPos10)
         ISM.SpawnItem("planecrash_engine", vSpawnPos7)
-        ISM.SpawnItem("planecrash_engine", vSpawnPos3)
-        ISM.SpawnItem("planecrash_gear", vSpawnPos9)
+        ISM.SpawnItem("planecrash_engine", vSpawnPos8)
+        ISM.SpawnItem("planecrash_gear", vSpawnPos6)
         
 		SpawnAI = function(self)
 
@@ -300,22 +314,22 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
     elseif rnd <= 28 then
-        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos)
+        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
 		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
-        ISM.SpawnItem("AirDropCrate"             , vSpawnPos6)
+        ISM.SpawnItem("AirDropCrate"             , vSpawnPos3)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos4)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos5)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos6)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos7)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos2)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos1)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
+        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos9)
+		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
         
-		ISM.SpawnItem("debris_01"			, vSpawnPos2)
-        ISM.SpawnItem("debris_01"			, vSpawnPos1)
-        ISM.SpawnItem("planecrash_engine"	, vSpawnPos2)
-        ISM.SpawnItem("planecrash_engine"	, vSpawnPos3)
-        ISM.SpawnItem("planecrash_gear"		, vSpawnPos6)
+		ISM.SpawnItem("debris_01"			, vSpawnPos)
+        ISM.SpawnItem("debris_01"			, vSpawnPos8)
+        ISM.SpawnItem("planecrash_engine"	, vSpawnPos9)
+        ISM.SpawnItem("planecrash_engine"	, vSpawnPos10)
+        ISM.SpawnItem("planecrash_gear"		, vSpawnPos7)
                 
 
 		SpawnAI = function(self)
@@ -414,23 +428,23 @@ SpawnAirPlaneCrashLoot = function(self)
 
 		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos)
 		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos7)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos8)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos2)
+		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
+		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos3)
+		ISM.SpawnItem("AirDropCrate"             , vSpawnPos4)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos5)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos6)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos6)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos7)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
+		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos9)
+		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
+		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos1)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
 
-		ISM.SpawnItem("debris_01", vSpawnPos2)
-		ISM.SpawnItem("debris_01", vSpawnPos4)
-		ISM.SpawnItem("planecrash_engine", vSpawnPos2)
-		ISM.SpawnItem("planecrash_engine", vSpawnPos3)
-		ISM.SpawnItem("planecrash_gear", vSpawnPos6)
+		ISM.SpawnItem("debris_01", vSpawnPos9)
+		ISM.SpawnItem("debris_01", vSpawnPos10)
+		ISM.SpawnItem("planecrash_engine", vSpawnPos7)
+		ISM.SpawnItem("planecrash_engine", vSpawnPos8)
+		ISM.SpawnItem("planecrash_gear", vSpawnPos10)
 	
         SpawnAI = function(self)
 

@@ -69,6 +69,7 @@
 	<storage>
 		<locations> <!-- Can only have max 2 categories defined below -->
 			<location category="primary"/>
+			<location category="any"/>
 		</locations>
 	</storage>
 

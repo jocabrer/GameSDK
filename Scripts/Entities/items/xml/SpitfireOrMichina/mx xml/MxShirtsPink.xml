@@ -40,7 +40,7 @@
 			<location category="torso"/>
 		</locations>
 		<types>
-			<type category="any" capacity="2"/>
+			<type category="any" capacity="4"/>
 		</types>
 	</storage>
 

@@ -18,15 +18,15 @@ AISpawnerManager = {
 					class = "BruteMutant", percent = 100,
 					models =
                     {
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf"     , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf"     , percent = 5 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf"     , percent = 6 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf"     , percent = 6 },
                         { name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf"           , percent = 8 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 4 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 6 },
                         { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 3 },
                         { name = "objects/characters/mutants/brutemutant/brute_mutant.cdf"                , percent = 9 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf"        , percent = 9 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf"   , percent = 9 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_es_armored_dark.cdf", percent = 9 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf"        , percent = 8 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf"   , percent = 8 },
+                        { name = "objects/characters/mutants/brutemutant/brute_mutant_es_armored_dark.cdf", percent = 7 },
                         { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es1.cdf"    , percent = 7 },
                         { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es2.cdf"    , percent = 7 },
                         { name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf"              , percent = 9 },
@@ -307,7 +307,7 @@ AISpawnerManager = {
 
 		{
 			category = "RandomDeer",
-			pack = true, min = 1, max = 3,
+			pack = true, min = 3, max = 6,
 			classes =
 			{
 				{ category = "DeerSingle", percent = 100 }
