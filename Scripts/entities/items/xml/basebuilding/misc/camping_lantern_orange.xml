@@ -5,6 +5,7 @@
 		<param name="mass" value="0.8"/>
 		<param name="stack_size" value="5"/>
 		<param name="display_name" value="Camping Lantern Orange"/>
+		<param name="vendor_cost" value="5"/>
 		<param name="description" value="Camping Lantern that shines with orange light"/>
 	</params>
 

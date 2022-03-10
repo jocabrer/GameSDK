@@ -2,7 +2,6 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="auto_wear" value="1"/>
-		<param name="stack_size" value="5"/>
 		<param name="mass" value="0.1"/>
 		<param name="healthMax" value="200.0"/>
 		<param name="damage_scale" value="0.01"/>

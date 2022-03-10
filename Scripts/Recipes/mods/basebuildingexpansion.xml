@@ -59,48 +59,56 @@
                                     <item class="wall_lantern_red" time="4">
                                         <materials>
                                             <material class="camping_lantern_red" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_blue" time="4">
                                         <materials>
                                             <material class="camping_lantern_blue" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_aqua" time="4">
                                         <materials>
                                             <material class="camping_lantern_aqua" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_green" time="4">
                                         <materials>
                                             <material class="camping_lantern_green" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_orange" time="4">
                                         <materials>
                                             <material class="camping_lantern_orange" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_pink" time="4">
                                         <materials>
                                             <material class="camping_lantern_pink" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_purple" time="4">
                                         <materials>
                                             <material class="camping_lantern_purple" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
                                     <item class="wall_lantern_yellow" time="4">
                                         <materials>
                                             <material class="camping_lantern_yellow" />
+                                            <material class="SheetMetal" count="2" />
                                             <material class="Lumber" count="2" />
                                         </materials>
                                     </item>
