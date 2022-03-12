@@ -11,7 +11,7 @@
 
 	<magazine>
 		<!-- must only be one magazine element in this section-->
-		<magazine capacity="5"/> <!-- max number of rounds this magazine can hold -->
+		<magazine capacity="20"/> <!-- max number of rounds this magazine can hold -->
 
 		<!-- Ammo block -->
 		<!-- A magazine can support one or more types of ammo. For every ammo type, we add a <ammo ... /> line -->
