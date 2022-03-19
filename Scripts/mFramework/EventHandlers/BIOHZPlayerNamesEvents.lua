@@ -2,12 +2,16 @@ Log('BIOHZPlayerNames >> Registering events');
 
 -- CLIENT EVENTS
 g_mEventHandlers['BIOHZPNInitUI'] = function()
+    LogWarning('BIOHZPNInitUI: Entró .');
     local player = System.GetEntity(g_localActorId);
     UIAction.ShowElement('mod_BIOHZPlayerNamesDummyUI', 200);
     Script.SetTimerForFunction(5000, 'BIOHZPNShowPlayerNamesAfterDelay', {});
 end
 
 g_mEventHandlers['BIOHZPNSetAdminState'] = function(playerId, data, source_id, target_id)
+
+    LogWarning('BIOHZPNSetAdminState: estamos acá. data.isAdmin ' .. data.isAdmin );
+
     player = System.GetEntity(source_id);
 
     if (player and player.player) then

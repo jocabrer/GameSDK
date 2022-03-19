@@ -23,7 +23,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "placeholder9", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles    = 5,
+			initialMinVehicles    = 10,
 			abandonedTimer        = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer        = 120,
@@ -49,7 +49,7 @@ VehicleSpawnerManager = {
 							},
 						},
 					},
-					initialMinVehicles = 6,
+					initialMinVehicles = 10,
 					abandonedTimer = 432000,  -- two days
 					abandonedRespawnTimer = 3600, -- one hour
 					destroyedTimer = 120,
@@ -243,7 +243,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "party_bus", contents = "RandomPartyBusContents" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 8,
 			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -490,7 +490,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 8,
 			abandonedTimer = 432000,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,

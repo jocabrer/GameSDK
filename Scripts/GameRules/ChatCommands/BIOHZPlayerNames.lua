@@ -18,6 +18,14 @@ BIOHZLogoPlayerCounter = 0;
 -- Client player tag counter
 BIOHZPNPlayerTagsLength = 0;
 
+-- BIOHZPNPreInitModules
+-- Manages UI reload stuff
+function BIOHZPNPreInitModules()
+    if (not CryAction.IsDedicatedServer()) then
+        Log('BIOHZPlayerNames >> Called client UI init from not IsDedicatedServer');
+        ReloadModUIOnlyOnce();
+    end
+end
 
 -- BIOHZPNInitModules
 -- Initializes some server stuff and patches the player
@@ -31,11 +39,14 @@ end
 -- BIOHZPNPatchPlayer
 -- Modifies the Init function to retrieve the player's faction
 function BIOHZPNPatchPlayer()
+    LogWarning('BIOHZPNPatchPlayer: estamos acá.');
+    
     if (_G['Player']) then
         local player = _G['Player'];
-
+        LogWarning('BIOHZPNPatchPlayer: Entró.');
         player.OnInit = function(self, bIsReload)
             if (not CryAction.IsDedicatedServer()) then
+                LogWarning('mSendEvent: Entró.');
                 mSendEvent(
                     'Server',
                     {
@@ -50,16 +61,23 @@ function BIOHZPNPatchPlayer()
             self:SetAIName(self:GetName());
             self:OnReset(true, bIsReload);
         end
+    else
+        LogWarning('BIOHZPNPatchPlayer: No gPlayer');
     end
 end
 
 -- BIOHZPNGetAdminState
 -- Returns the player's admin faction state to the requesting player
 function BIOHZPNGetAdminState(playerId, targetId)
+
+
     player = System.GetEntity(playerId);
     local steamId = player.player:GetSteam64Id();
     
+    LogWarning('BIOHZPNGetAdminState: estamos acá. steamId ' .. steamId );
+
     if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
+        LogWarning('BIOHZPNPatchPlayer: Entró ADMIN.');
         mSendEvent(
             playerId,
             {
@@ -78,7 +96,7 @@ end
 -- Checks for players at 3m around the player and displays their name if there's nothing
 -- in between them
 function BIOHZPNShowPlayerNames()
-    
+    LogWarning('BIOHZPNShowPlayerNames: Entró .');
     local myPlayer = System.GetEntity(g_localActorId);
 
     if (not myPlayer:IsDead()) then
@@ -183,6 +201,7 @@ end
 -- BIOHZPNShowPlayerNamesAfterDelay
 -- Recalls the function to show names after a delay
 function BIOHZPNShowPlayerNamesAfterDelay(dummy)
+    LogWarning('BIOHZPNShowPlayerNamesAfterDelay: Entró .');
     BIOHZPNShowPlayerNames();
 end
 
@@ -193,6 +212,7 @@ RegisterCallbackReturnAware(
     'RevivePlayer',
     function (self, ret, playerId)
 
+        LogWarning('RevivePlayer: Entró .');
         mSendEvent(
             playerId,
             {

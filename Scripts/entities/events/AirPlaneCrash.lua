@@ -155,7 +155,7 @@ SpawnAirPlaneCrashLoot = function(self)
 
 	local rnd = random(1,30)	
 	if rnd <= 12 then
-        ISM.SpawnItem("AirDropCrate"             , vSpawnPos1)
+        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
 		ISM.SpawnItem("AirDropCrate"             , vSpawnPos2)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
