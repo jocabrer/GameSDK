@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="f9a0dd78-6cb5-1460-97a9-99b650646a2b">
+ <Files>
+  <File path="lights_a.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">4</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/camera.dds</Path>
+  <Path>./Textures/bmlight.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

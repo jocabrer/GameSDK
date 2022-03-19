@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="2ec5035f-04b7-480a-2b64-66ad28e4f8ba" source="phg4.tif">
+ <Files>
+  <File path="phg4.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Material" guid="79316e04-e096-7574-4947-bc36d166bec7">
+ <Files>
+  <File path="int_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">6</Detail>
+  <Detail name="textureCount">6</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/phg1.dds</Path>
+  <Path>./Textures/phg2.dds</Path>
+  <Path>./Textures/phg6.dds</Path>
+  <Path>./Textures/phg4.dds</Path>
+  <Path>./Textures/ggps.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

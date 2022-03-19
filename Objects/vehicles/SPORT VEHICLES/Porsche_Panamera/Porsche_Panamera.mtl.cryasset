@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="f0e28276-f689-1eab-d811-1d1042b4d627">
+ <Files>
+  <File path="Porsche_Panamera.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">4</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/SPORT VEHICLES/Porsche_Panamera/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Porsche_Panamera/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Porsche_Panamera/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="e496f34f-00cf-1e60-5355-752137b37b68">
+ <Files>
+  <File path="paint_b.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

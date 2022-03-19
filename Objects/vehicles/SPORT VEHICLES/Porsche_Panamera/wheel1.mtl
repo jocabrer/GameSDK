@@ -1,0 +1,33 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="05 - Default" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.0021246891,0.0021246891,0.0021246891" Specular="0.0056053922,0.0056053922,0.0056053922" Opacity="1" Shininess="110" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/paint_w.dds"/>
+    <Texture Map="Bumpmap" File="objects/vehicles/sport vehicles/porsche_panamera/textures/yo_tire_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #900" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.0085681258,0.0085681258,0.0085681258" Specular="0.43415368,0.43415368,0.43415368" Opacity="1" Shininess="237" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/paint_w.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #901" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.072271854,0.064803272,0.043735035" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/brd1.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #902" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0,0,0" Specular="0.10946172,0.10946172,0.10946172" Opacity="1" Shininess="229" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/paint_w.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.59215689,0.71372551,0.10196079" Specular="0,0,0" Opacity="0.2" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

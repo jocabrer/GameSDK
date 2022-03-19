@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="1192844d-4dc8-aed1-ddda-2e084828fa61">
+ <Files>
+  <File path="chrome.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

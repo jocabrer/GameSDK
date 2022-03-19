@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="811af56b-efd6-d67e-012d-31e240672c90" source="camera.tif">
+ <Files>
+  <File path="camera.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

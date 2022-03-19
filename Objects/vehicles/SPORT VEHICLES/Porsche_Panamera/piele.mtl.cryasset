@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="93bb836d-f163-d415-5d1b-ba2317879a3a">
+ <Files>
+  <File path="piele.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">1</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/0lb.dds</Path>
+ </Dependencies>
+</AssetMetadata>

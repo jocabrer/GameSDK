@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="04dbd138-aa1e-2318-649c-b35c70d541dd">
+ <Files>
+  <File path="windows.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/3dd_pl2.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

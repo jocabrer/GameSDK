@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="56d1e23e-ab15-7901-4c49-1f37849c9022" source="ggps.tif">
+ <Files>
+  <File path="ggps.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

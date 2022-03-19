@@ -1,0 +1,17 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="01 - Default" MtlFlags="526466" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.080219828,0.080219828,0.080219828" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/paint_w.dds"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.10461649,0.10461649,0.10461649" TintCloudiness="0.001" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #411" MtlFlags="526466" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0.06124606,0.06124606,0.06124606" Opacity="1" Shininess="251" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/vehicles/sport vehicles/porsche_panamera/textures/paint_w.dds"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.072271854,0,0" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
