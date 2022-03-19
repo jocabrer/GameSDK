@@ -39,14 +39,14 @@ end
 -- BIOHZPNPatchPlayer
 -- Modifies the Init function to retrieve the player's faction
 function BIOHZPNPatchPlayer()
-    LogWarning('BIOHZPNPatchPlayer: estamos acá.');
+    --LogWarning('BIOHZPNPatchPlayer: estamos acá.');
     
     if (_G['Player']) then
         local player = _G['Player'];
-        LogWarning('BIOHZPNPatchPlayer: Entró.');
+        --LogWarning('BIOHZPNPatchPlayer: Entró.');
         player.OnInit = function(self, bIsReload)
             if (not CryAction.IsDedicatedServer()) then
-                LogWarning('mSendEvent: Entró.');
+                --LogWarning('mSendEvent: Entró.');
                 mSendEvent(
                     'Server',
                     {
@@ -77,7 +77,7 @@ function BIOHZPNGetAdminState(playerId, targetId)
     LogWarning('BIOHZPNGetAdminState: estamos acá. steamId ' .. steamId );
 
     if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
-        LogWarning('BIOHZPNPatchPlayer: Entró ADMIN.');
+        --LogWarning('BIOHZPNPatchPlayer: Entró ADMIN.');
         mSendEvent(
             playerId,
             {
@@ -96,7 +96,7 @@ end
 -- Checks for players at 3m around the player and displays their name if there's nothing
 -- in between them
 function BIOHZPNShowPlayerNames()
-    LogWarning('BIOHZPNShowPlayerNames: Entró .');
+    --LogWarning('BIOHZPNShowPlayerNames: Entró .');
     local myPlayer = System.GetEntity(g_localActorId);
 
     if (not myPlayer:IsDead()) then
@@ -201,7 +201,7 @@ end
 -- BIOHZPNShowPlayerNamesAfterDelay
 -- Recalls the function to show names after a delay
 function BIOHZPNShowPlayerNamesAfterDelay(dummy)
-    LogWarning('BIOHZPNShowPlayerNamesAfterDelay: Entró .');
+    --LogWarning('BIOHZPNShowPlayerNamesAfterDelay: Entró .');
     BIOHZPNShowPlayerNames();
 end
 

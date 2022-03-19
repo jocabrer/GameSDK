@@ -526,7 +526,7 @@
 			<detach/>
 			<show helper="mag_stanag"/>
 		</accessory>
-		<accessory name="STANAGx40" category="magazine" exclusive="1">
+		<accessory name="STANAGx50" category="magazine" exclusive="1">
 			<attach helper="mag_stanag"/>
 			<detach/>
 			<show helper="mag_stanag"/>
@@ -588,14 +588,6 @@
 			<detach/>
 		</accessory>
 		<accessory name="OpticScope" zoommode="opticscope" category="scope" exclusive="1">
-			<attach helper="optic_scope"/>
-			<detach/>
-		</accessory>
-		<accessory name="OpticScopeRealCamo" zoommode="opticscope" category="scope" exclusive="1">
-			<attach helper="optic_scope"/>
-			<detach/>
-		</accessory>
-		<accessory name="OpticScopeRealCamoDesert" zoommode="opticscope" category="scope" exclusive="1">
 			<attach helper="optic_scope"/>
 			<detach/>
 		</accessory>

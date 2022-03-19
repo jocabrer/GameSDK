@@ -34,7 +34,7 @@
 
 	<magazines>
 		<magazine name="357x14"/>
-		<magazine name="357x20"/>						   
+	   
 	</magazines>
 
 	<geometry>
@@ -244,11 +244,6 @@
 	<accessories>
 		<!-- MAGAZINE -->
 		<accessory name="357x14" category="magazine" exclusive="1">
-			<attach helper="mag_357x14"/>
-			<detach/>
-			<show helper="mag_357x14"/>
-		</accessory>
-		<accessory name="357x20" category="magazine" exclusive="1">
 			<attach helper="mag_357x14"/>
 			<detach/>
 			<show helper="mag_357x14"/>

@@ -35,7 +35,6 @@
 
 	<magazines>
 		<magazine name="acp_45x30"/>
-		<magazine name="acp_45x40"/>							  
 	</magazines>
 
 	<geometry>
@@ -371,11 +370,6 @@
 	<accessories>
 		<!-- MAGAZINE -->
 		<accessory name="acp_45x30" category="magazine" exclusive="1">
-			<attach helper="mag_acp_45x30"/>
-			<detach/>
-			<show helper="mag_acp_45x30"/>
-		</accessory>
-		<accessory name="acp_45x40" category="magazine" exclusive="1">
 			<attach helper="mag_acp_45x30"/>
 			<detach/>
 			<show helper="mag_acp_45x30"/>

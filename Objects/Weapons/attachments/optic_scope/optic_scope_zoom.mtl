@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="body" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thin" MatTemplate="" Diffuse="0.19120172,0.19120172,0.19120172" Specular="0.03954624,0.03954624,0.03954624" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/m16/textures/optic_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/weapons/m16/textures/optic_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="lens" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="0.99000001" Shininess="218" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asval/textures/pso_reticle_shadow_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/architecture/fallout_shelter/textures/scratched_wall_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="crosshair" MtlFlags="524416" Shader="Scopes" GenMask="12" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emittance="1,1,1,63" Opacity="0.99000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/mk18/textures/rectile_diff.tif"/>
+    <Texture Map="Emittance" File="objects/weapons/mk18/textures/rectile_diff.tif"/>
+   </Textures>
+   <PublicParams FakeGlowAmount="0" NoiseScale="0.054000001" ObjectUV="0.1" ScopeScale="2.7" HolographicNoiseScale="0" ScopeColorMultiplier="16" NoiseBias="0.063000001"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

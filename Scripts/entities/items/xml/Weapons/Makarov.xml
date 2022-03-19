@@ -34,7 +34,6 @@
 
 	<magazines>
 		<magazine name="9mmx10_makarov"/>
-		<magazine name="9mmx20_makarov"/>								   
 	</magazines>
 
 	<geometry>
@@ -244,11 +243,6 @@
 	<accessories>
 		<!-- MAGAZINE -->
 		<accessory name="9mmx10_makarov" category="magazine" exclusive="1">
-			<attach helper="mag_9mmx10"/>
-			<detach/>
-			<show helper="mag_9mmx10"/>
-		</accessory>
-		<accessory name="9mmx20_makarov" category="magazine" exclusive="1">
 			<attach helper="mag_9mmx10"/>
 			<detach/>
 			<show helper="mag_9mmx10"/>

@@ -34,7 +34,6 @@
 
 	<magazines>
 		<magazine name="9mmx19_ap85"/>
-		<magazine name="9mmx25_ap85"/>								
 	</magazines>
 
 	<geometry>
@@ -232,11 +231,6 @@
 	<accessories>
 		<!-- MAGAZINE -->
 		<accessory name="9mmx19_ap85" category="magazine" exclusive="1">
-			<attach helper="mag_9mmx19_ap85"/>
-			<detach/>
-			<show helper="mag_9mmx19_ap85"/>
-		</accessory>
-		<accessory name="9mmx25_ap85" category="magazine" exclusive="1">
 			<attach helper="mag_9mmx19_ap85"/>
 			<detach/>
 			<show helper="mag_9mmx19_ap85"/>
