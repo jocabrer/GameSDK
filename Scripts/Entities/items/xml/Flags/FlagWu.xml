@@ -1,0 +1,25 @@
+<item name="FlagWu" class="Placeable" category="any">
+
+    <params>
+        <param name="selectable" value="0"/>
+        <param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+        <param name="display_name" value="Bandera Wu tang Clan "/>
+        <param name="description" value="Wu tang clan flag"/>
+    </params>
+
+    <base_part class="static" type="6985" name="FlagWu" max_health="5000" repair_with="Lumber">
+        <static filename="objects/basebuilding/other/flag/flag_pole.cgf" material="objects/custom/flags/donators/flag_wu.mtl"/>
+    </base_part>
+
+    <geometry>
+        <thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+    </geometry>
+
+    <storage>
+        <locations>
+            <location category="any"/>
+        </locations>
+    </storage>
+</item>
+
