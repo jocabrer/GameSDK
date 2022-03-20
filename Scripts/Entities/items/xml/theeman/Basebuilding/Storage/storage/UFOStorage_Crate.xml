@@ -16,7 +16,7 @@
 			<param name="has_lock" value="1"/>
 		</params>
 		<types>
-			<type category="any" capacity="50"/>
+			<type category="any" capacity="60"/>
 		</types>
 	</storage>
 	
