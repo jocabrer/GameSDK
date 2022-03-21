@@ -1,0 +1,25 @@
+<item name="FlagCC" class="Placeable" category="any">
+
+    <params>
+        <param name="selectable" value="0"/>
+        <param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+        <param name="display_name" value="Bandera de Colo Colo"/>
+        <param name="description" value="Bandera colocolina"/>
+    </params>
+
+    <base_part class="static" type="6989" name="FlagCC" max_health="5000" repair_with="Lumber">
+        <static filename="objects/basebuilding/other/flag/flag_pole.cgf" material="objects/custom/flags/donators/flag_cc.mtl"/>
+    </base_part>
+
+    <geometry>
+        <thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+    </geometry>
+
+    <storage>
+        <locations>
+            <location category="any"/>
+        </locations>
+    </storage>
+</item>
+

@@ -41,6 +41,22 @@
                                         <material class="Rags" count="10" />
                                     </materials>
 							</item>
+                             <item class="FlagCC" time="3">
+                                    <materials>
+                                        <material class="PaintCan_Black" count="1" />
+                                        <material class="PaintCan_White" count="1" />
+                                        <material class="Lumber" count="5" />
+                                        <material class="Rags" count="10" />
+                                    </materials>
+							</item>
+                             <item class="FlagRiver" time="3">
+                                    <materials>
+                                        <material class="PaintCan_Red" count="1" />
+                                        <material class="PaintCan_White" count="1" />
+                                        <material class="Lumber" count="5" />
+                                        <material class="Rags" count="10" />
+                                    </materials>
+							</item>
                         </items>                       
                         </type>
                   </types>
