@@ -1,0 +1,37 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="helmet_a_plastic" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.21223079,0.21223079,0.21223079" Specular="0.021219011,0.021219011,0.021219011" Emittance="1,0.21586053,0,20" Opacity="1" Shininess="100" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/characters/players/generic/hat/helmet_a/textures/helmet_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/spitfireormichina/characters/players/generic/hat/helmet_a/textures/tron_helmet_ddna.tif"/>
+    <Texture Map="Emittance" File="objects/spitfireormichina/characters/players/generic/hat/helmet_a/textures/tron_helmet_emit.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="2" SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="helmet_a_glass" MtlFlags="526464" Shader="Glass" GenMask="2010" StringGenMask="%BILINEAR_FP16%DIRT_MAP" SurfaceType="mat_glass" MatTemplate="" Diffuse="0,0,0" Specular="0.21223079,0.21223079,0.21223079" Opacity="1" Shininess="220" AlphaTest="0.1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/glass/glass_broken_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/helmet_a/textures/helmet_a_face_mask_ddna.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0.038204376,0.038204376,0.038204376" TintCloudiness="0.89999998" BackLightScale="1" BumpScale="2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="helmet_a_lod1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/helmet_a/textures/helmet_a_lod1_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/helmet_a/textures/helmet_a_lod1_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="2" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="helmet_a_lod2" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/generic/hat/helmet_a/textures/helmet_a_lod2_diff.tif" IsTileU="0" IsTileV="0"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/generic/hat/helmet_a/textures/helmet_a_lod2_ddna.tif" IsTileU="0" IsTileV="0"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
