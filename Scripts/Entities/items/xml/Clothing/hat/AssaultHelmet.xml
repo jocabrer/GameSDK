@@ -1,0 +1,67 @@
+<item name="AssaultHelmet" class="Item" category="any">
+  <params>
+    <param name="colorable" value="0" />
+    <param name="droppable" value="1" />
+    <param name="selectable" value="0" />
+    <param name="auto_wear" value="1" />
+    <param name="mass" value="1" />
+    <param name="healthMax" value="200.0" />
+    <param name="damage_scale" value="0.5" />
+    <param name="destroyWhenDegraded" value="1" />
+    <param name="display_name" value="Assault Helmet" />
+    <param name="description" value="A Heavy Assault Helmet for Heavy Assaults. Safe head is safe." />
+    <param name="vendor_cost" value="25"/>
+  </params>
+  <wearable>
+    <param name="skin" value="objects/characters/players/generic/hat/assault_helmet/assault_helmet.skin" />
+    <param name="mtl" value="objects/characters/players/generic/hat/assault_helmet/assault_helmet01.mtl" />
+    <param name="slot" value="hat" />
+  </wearable>
+  <geometry>
+    <onground name="objects/characters/players/generic/hat/assault_helmet/assault_helmet_onground.cgf" material="objects/characters/players/generic/hat/assault_helmet/assault_helmet01.mtl" />
+  </geometry>
+  <protection level="3">
+    <environmental>
+      <protection_amount type="explosion" percentage="5.0" />
+      <protection_amount type="rain_acid" percentage="4" />
+      <protection_amount type="cold" percentage="2" />
+    </environmental>
+    <protectBodyPart name="head">
+      <protection_amount hit_type="blunt" percentage="100.0" />
+      <protection_amount hit_type="melee" percentage="100.0" />
+      <protection_amount hit_type="ammo_22" percentage="100.0" />
+      <protection_amount hit_type="ammo_10mm" percentage="95.0" />
+      <protection_amount hit_type="ammo_357" percentage="90.0" />
+      <protection_amount hit_type="ammo_9mm" percentage="95.0" />
+      <protection_amount hit_type="ammo_acp_45" percentage="90.0" />
+	  <protection_amount hit_type="ammo_5_45x39" percentage="70.0" />
+	  <protection_amount hit_type="ammo_5_56x45" percentage="70.0" />
+	  <protection_amount hit_type="ammo_7_62x39" percentage="60.0" />
+	  <protection_amount hit_type="ammo_308" percentage="60.0" />
+	  <protection_amount hit_type="ammo_223" percentage="70.0" />
+	  <protection_amount hit_type="ammo_5_70x28" percentage="95.0" />
+	  <protection_amount hit_type="ammo_7_62x51" percentage="70.0" />
+    </protectBodyPart>
+  </protection>
+
+  <explosion>
+    <param name="damage" value="0" />
+    <param name="pressure" value="0" />
+    <param name="min_radius" value="0" />
+    <param name="max_radius" value="0" />
+    <param name="min_phys_radius" value="0" />
+    <param name="max_phys_radius" value="0" />
+    <param name="sound_radius" value="0" />
+    <param name="hole_size" value="0" />
+    <param name="effect" value="item_degradation.generic.debris_medium" />
+    <param name="effect_scale" value="1" />
+    <param name="radial_blur_dist" value="0" />
+    <param name="hit_type" value="frag" />
+  </explosion>
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="hat" />
+    </locations>
+  </storage>
+</item>

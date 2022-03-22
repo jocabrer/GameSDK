@@ -39,7 +39,10 @@
 		<item name="IronsuitPinkHelmet" percentage="100"/>
 		<item name="IronsuitWarMachineHelmet" percentage="100"/>
 		
-		
+        <item name="AssaultHelmet" percentage="100"/>
+        <item name="ethahelmetgreen" percentage="100"/>
+        <item name="daftpunkhelmet" percentage="100"/>
+		<item name="daftpunkhelmet2" percentage="100"/>
 	</repair>
 
 	<storage>

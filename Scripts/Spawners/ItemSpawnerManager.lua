@@ -992,8 +992,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "EventHelmets",
 			classes =
 			{
-				{ class = "SpaceHelmet", percent = 50 },
-				{ class = "ScavengerHelmet", percent = 50 },
+				{ class = "SpaceHelmet", percent = 40 },
+				{ class = "ScavengerHelmet", percent = 40 },
+                { category = "RandomCivilianHelmet"  , percent = 20    },
 			},
 		},
 		
@@ -1176,6 +1177,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "BalaclavaGreen", percent = 20 },
 				{ class = "BalaclavaPink", percent = 20 },
 				{ class = "BalaclavaYellow", percent = 20 },
+                
+                
 			},
 		},
 
@@ -1307,7 +1310,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "MilitaryHelmetUrbanCamo1", percent = 7 },
 				{ class = "MilitaryHelmetUrbanCamo2", percent = 7 },
 				{ class = "MilitaryHelmetUrbanCamo3", percent = 7 },
-				{ class = "MilitaryHelmetUrbanCamo4", percent = 7 },
+				{ class = "MilitaryHelmetUrbanCamo4", percent = 4 },
+                { class = "AssaultHelmet", percent = 2 },
+                
 			},
 		},
 		
@@ -1417,7 +1422,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "FootballHelmetWhiteStripedRed"    , percent = 3 },
 				{ class = "FootballHelmetWhiteStripedTeal"   , percent = 3 },
 				{ class = "FootballHelmetWhiteStripedYellow" , percent = 3 },
-				{ class = "FootballHelmetYellow"             , percent = 3 },
+				{ class = "FootballHelmetYellow"             , percent = 2 },
 				{ class = "BikeHelmetBlack"                  , percent = 2 },
 				{ class = "BikeHelmetBlue"                   , percent = 2 },
 				{ class = "BikeHelmetGreen"                  , percent = 2 },
@@ -1426,14 +1431,19 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "BikeHelmetRed"                    , percent = 1 },
 				{ class = "BikeHelmetWhite"                  , percent = 1 },
 				{ class = "BikeHelmetYellow"                 , percent = 1 },
-				{ class = "MotorcycleHelmetCarbon"           , percent = 3 },
-				{ class = "MotorcycleHelmetGold"             , percent = 3 },
+				{ class = "MotorcycleHelmetCarbon"           , percent = 2 },
+				{ class = "MotorcycleHelmetGold"             , percent = 2 },
 				{ class = "MotorcycleHelmetWhite"            , percent = 3 },	
                 { class = "MotorcycleHelmetBeach"            , percent = 3 },
                 { class = "MotorcycleHelmetSynthwave"        , percent = 3 },
                 { class = "MotorcycleHelmetSpitfire"         , percent = 3 },
                 { class = "MotorcycleHelmetSkull"            , percent = 2 },
-                { class = "MotorcycleHelmetChinese"          , percent = 3 },
+                { class = "MotorcycleHelmetChinese"          , percent = 2 },
+                { class = "daftpunkhelmet2"                  , percent = 1 },
+                { class = "daftpunkhelmet"                   , percent = 1 },
+                { class = "ethahelmetgreen"                  , percent = 1 },
+                { class = "ethahelmet"                       , percent = 1 },
+                
 				
 			},
 		},
