@@ -57,6 +57,22 @@
                                         <material class="Rags" count="10" />
                                     </materials>
 							</item>
+                            <item class="FlagBreton" time="3">
+                                    <materials>
+                                        <material class="PaintCan_Black" count="1" />
+                                        <material class="PaintCan_White" count="1" />
+                                        <material class="Lumber" count="5" />
+                                        <material class="Rags" count="10" />
+                                    </materials>
+							</item>
+                            <item class="FlagNC" time="3">
+                                    <materials>
+                                        <material class="PaintCan_Red" count="1" />
+                                        <material class="PaintCan_Blue" count="1" />
+                                        <material class="Lumber" count="5" />
+                                        <material class="Rags" count="10" />
+                                    </materials>
+							</item>
                         </items>                       
                         </type>
                   </types>

@@ -1,0 +1,56 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="board" MtlFlags="524448" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/grogan/textures/leuis_horizontal_diff.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_brushed_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524418" Shader="Illum" GenMask="60400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/highway_bridge/metal_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetV="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_brushed_ddna.dds"/>
+    <Texture Map="Specular" File="objects/props/highway_bridge/metal_spec.tif"/>
+    <Texture Map="Custom" File="textures/metal/rustedmetal_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/metal/metal_iron_b_ddna.dds"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/dirty_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.2" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.18000001" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="details" MtlFlags="524416" Shader="Illum" GenMask="60400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/highway_bridge/metal_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/billboard_large/details_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/highway_bridge/metal_spec.tif"/>
+    <Texture Map="Custom" File="textures/metal/rustedmetal_diff.tif"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/dirty_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="6.4000001" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="2.0599999" BlendFactor="0.18000001" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="railing" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_chainlink" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/billboard_large/metal_floor_grate_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/billboard_large/metal_floor_grate_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/billboard_large/metal_floor_grate_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526496" Shader="Glass" GenMask="40020000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="textures/glass/glass_dirty_highspec_tint.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="1,1,1" CloudinessReducesGloss="0.5" TintCloudiness="0.5" BackLightScale="0" BumpScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
