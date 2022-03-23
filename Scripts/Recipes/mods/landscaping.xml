@@ -246,50 +246,6 @@
                                     </item>
                                 </items>
                             </type>
-<!--                             <type name="Opuntia Cacti">
-                                <items>
-                                    <item class="porkchop_opuntia" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_Opuntia02" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_Opuntia03" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_Opuntia04" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_OpuntiaFl01" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_OpuntiaFl02" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_OpuntiaFl03" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                    <item class="porkchop_OpuntiaFl04" time="2">
-                                        <materials>
-                                            <material class="Rocks" count="10" />
-                                        </materials>
-                                    </item>
-                                </items>
-                            </type> -->
                             <type name="Saguaro Cacti">
                                 <items>
                                     <item class="porkchop_Saguaro01" time="2">

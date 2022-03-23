@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
 		<param name="stack_size" value="1"/>
-		<param name="display_name" value="Disquete Encriptado"/>
-		<param name="description" value="Disquete encriptado, contiene un mensaje con coordenadas para descubrir."/>
+		<param name="display_name" value="Disquete Encriptado/Encrypted"/>
+		<param name="description" value="Disquete encriptado, contiene un mensaje con coordenadas para descubrir. Encrypted floppy, contains a message with coordinates to discover."/>
 		<param name="vendor_cost" value="20"/>
 	</params>
 

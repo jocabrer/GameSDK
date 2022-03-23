@@ -335,11 +335,6 @@
 			<detach/>
 			<show helper="mag_762"/>
 		</accessory>
-		<accessory name="762x30_Akval" category="magazine" exclusive="1">
-			<attach helper="mag_762"/>
-			<detach/>
-			<show helper="mag_762"/>
-		</accessory>
 		<accessory name="ext_762x30" category="magazine" exclusive="1">
 			<attach helper="mag_762x39x30"/>
 			<detach/>

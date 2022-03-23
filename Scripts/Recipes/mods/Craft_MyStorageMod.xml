@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<recipes>		
-	
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
 	<guide name="default" id="0">
-		<cats>		
+		<cats>
 			<cat name="Base Building">
 				<subcats>
 					<subcat name="Structures">
@@ -11,39 +10,39 @@
 								<items>
 									<item class="Wood_BigBox_Crate_packed" time="1" amount="1">
 										<materials>
-											<material class="Lumber" count="10"/>
-											<material class="Nails" count="10"/>
+											<material class="Lumber" count="10" />
+											<material class="Nails" count="10" />
+                                            <material class="Rope" count="10" />
 										</materials>
 									</item>
 									<item class="UFOStorage_Crate_packed" time="1" amount="1">
-											<materials>
-												<material class="SheetMetal" count="50"/>
-												<material class="Nails" count="25"/>
-                                                <material class="DuctTape" count="10"/>
-                                                
-											</materials>
+										<materials>
+											<material class="SheetMetal" count="50" />
+											<material class="Nails" count="25" />
+											<material class="DuctTape" count="10" />
+										</materials>
 									</item>
-                                    <item class="minecart_base_packed" time="1">
-                                        <materials>
-                                         <material class="ScrapMetal" count="500" />
-										 <material class="SheetMetal" count="500" />
-										 <material class="Lumber" count="500" />
-                                        </materials>
-                                    </item>
-                                    <item class="epic_gold_crate_packed" time="1">
-                                        <materials>
-                                         <material class="ScrapMetal" count="500" />
-										 <material class="SheetMetal" count="500" />
-										 <material class="Lumber" count="500" />
-                                        </materials>
-                                    </item>
+									<item class="minecart_base_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="SheetMetal" count="500" />
+											<material class="Lumber" count="500" />
+										</materials>
+									</item>
+									<item class="epic_gold_crate_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="500" />
+											<material class="SheetMetal" count="500" />
+											<material class="Lumber" count="500" />
+										</materials>
+									</item>
 									<item class="metal_safe" time="1" amount="1">
-											<materials>
-												<material class="ScrapMetal" count="125"/>
-												<material class="SheetMetal" count="80"/>
-												<material class="Nails" count="25"/>
-											</materials>
-									</item>								
+										<materials>
+											<material class="ScrapMetal" count="125" />
+											<material class="SheetMetal" count="80" />
+											<material class="Nails" count="25" />
+										</materials>
+									</item>
 								</items>
 							</type>
 						</types>
@@ -52,5 +51,4 @@
 			</cat>
 		</cats>
 	</guide>
-	
 </recipes>

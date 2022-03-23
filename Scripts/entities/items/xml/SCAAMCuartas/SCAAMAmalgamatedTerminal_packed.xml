@@ -5,7 +5,7 @@
 		<param name="mass" value="8"/>
 		<param name="stack_size" value="5"/>
 		<param name="display_name" value="Amalgamated terminal"/>
-		<param name="description" value="A terminal device to manage various things in your base"/>
+		<param name="description" value="Allows you to install floppy disks and find treasures with the shovel. Permite instalar los disquetes y encontrar tesoros con la pala"/>
 	</params>
 
 	<base_part class="entity" type="7634" name="SCAAMAmalgamatedTerminal_packed" max_health="6500" limit="1" repair_sound="Play_wall_repair">

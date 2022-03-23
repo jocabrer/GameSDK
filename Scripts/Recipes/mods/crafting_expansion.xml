@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <recipes>
 	<guide name="workbench">
 		<cats>
@@ -10,121 +10,120 @@
 								<items>
 									<item class="Lumber" time="5" amount="10">
 										<materials>
-											<material class="WoodPile" count="20"/>
+											<material class="WoodPile" count="20" />
 										</materials>
 									</item>
 									<item class="StickPile" time="5" amount="10">
 										<materials>
-											<material class="WoodPile" count="5"/>
+											<material class="WoodPile" count="5" />
 										</materials>
 									</item>
 									<item class="Gunpowder" time="5" amount="10">
 										<materials>
-											<material class="Sulphur" count="10"/>
-											<material class="Charcoal" count="10"/>
+											<material class="Sulphur" count="10" />
+											<material class="Charcoal" count="10" />
 										</materials>
 									</item>
-                                    <item class="SheetMetal" time="5" amount="10">
-                                        <materials>
-                                            <material class="IronIngot" count="20" />
-                                        </materials>
-                                    </item>
+									<item class="SheetMetal" time="5" amount="10">
+										<materials>
+											<material class="IronIngot" count="20" />
+										</materials>
+									</item>
 								</items>
 							</type>
 							<type name="b. Componentes X25">
 								<items>
 									<item class="Lumber" time="5" amount="25">
 										<materials>
-											<material class="WoodPile" count="50"/>
+											<material class="WoodPile" count="50" />
 										</materials>
 									</item>
 									<item class="StickPile" time="5" amount="20">
 										<materials>
-											<material class="WoodPile" count="10"/>
+											<material class="WoodPile" count="10" />
 										</materials>
 									</item>
 									<item class="Gunpowder" time="5" amount="25">
 										<materials>
-											<material class="Sulphur" count="25"/>
-											<material class="Charcoal" count="25"/>
+											<material class="Sulphur" count="25" />
+											<material class="Charcoal" count="25" />
 										</materials>
 									</item>
-                                    <item class="SheetMetal" time="5" amount="25">
-                                        <materials>
-                                            <material class="IronIngot" count="50" />
-                                        </materials>
-                                    </item>
+									<item class="SheetMetal" time="5" amount="25">
+										<materials>
+											<material class="IronIngot" count="50" />
+										</materials>
+									</item>
 								</items>
 							</type>
 							<type name="c. Componentes X50">
-								<items>		
+								<items>
 									<item class="Lumber" time="5" amount="50">
 										<materials>
-											<material class="WoodPile" count="100"/>
+											<material class="WoodPile" count="100" />
 										</materials>
 									</item>
 									<item class="StickPile" time="5" amount="50">
 										<materials>
-											<material class="WoodPile" count="25"/>
+											<material class="WoodPile" count="25" />
 										</materials>
 									</item>
 									<item class="Gunpowder" time="5" amount="50">
 										<materials>
-											<material class="Sulphur" count="50"/>
-											<material class="Charcoal" count="50"/>
+											<material class="Sulphur" count="50" />
+											<material class="Charcoal" count="50" />
 										</materials>
 									</item>
-                                    <item class="SheetMetal" time="5" amount="50">
-                                        <materials>
-                                            <material class="IronIngot" count="100" />
-                                        </materials>
-                                    </item>
+									<item class="SheetMetal" time="5" amount="50">
+										<materials>
+											<material class="IronIngot" count="100" />
+										</materials>
+									</item>
 								</items>
 							</type>
 							<type name="d. Componentes X75">
-								<items>				
-									
+								<items>
 									<item class="Lumber" time="5" amount="75">
 										<materials>
-											<material class="WoodPile" count="150"/>
+											<material class="WoodPile" count="150" />
 										</materials>
 									</item>
 									<item class="StickPile" time="5" amount="75">
 										<materials>
-											<material class="WoodPile" count="37"/>
+											<material class="WoodPile" count="37" />
 										</materials>
 									</item>
 									<item class="Gunpowder" time="5" amount="75">
 										<materials>
-											<material class="Sulphur" count="75"/>
-											<material class="Charcoal" count="75"/>
+											<material class="Sulphur" count="75" />
+											<material class="Charcoal" count="75" />
 										</materials>
 									</item>
-                                    <item class="SheetMetal" time="5" amount="75">
-                                        <materials>
-                                            <material class="IronIngot" count="150" />
-                                        </materials>
-                                    </item>
+									<item class="SheetMetal" time="5" amount="75">
+										<materials>
+											<material class="IronIngot" count="150" />
+										</materials>
+									</item>
 								</items>
 							</type>
 							<type name="e. Componentes X125">
 								<items>
 									<item class="Lumber" time="5" amount="125">
 										<materials>
-											<material class="WoodPile" count="250"/>
+											<material class="WoodPile" count="250" />
 										</materials>
 									</item>
 									<item class="Gunpowder" time="5" amount="125">
 										<materials>
-											<material class="Sulphur" count="125"/>
-											<material class="Charcoal" count="125"/>
+											<material class="Sulphur" count="125" />
+											<material class="Charcoal" count="125" />
 										</materials>
 									</item>
-                                    <item class="SheetMetal" time="5" amount="125">
-                                        <materials>
-                                            <material class="IronIngot" count="250" />
-                                        </materials>
-                                    </item>
+									<item class="SheetMetal" time="5" amount="125">
+										<materials>
+											<material class="IronIngot" count="250" />
+										</materials>
+									</item>
 								</items>
 							</type>
 						</types>
@@ -135,7 +134,7 @@
 								<items>
 									<item class="hesco_barrier" time="5">
 										<materials>
-											<material class="sandbag_crafted_single" count="4"/>
+											<material class="sandbag_crafted_single" count="4" />
 										</materials>
 									</item>
 								</items>
@@ -146,7 +145,6 @@
 			</cat>
 		</cats>
 	</guide>
-
 	<guide name="default" id="0">
 		<cats>
 			<cat name="Weapons">
@@ -295,7 +293,7 @@
 								<items>
 									<item class="RK_Leather" time="5">
 										<materials>
-											<material class="BearPelt" count="5"/>
+											<material class="BearPelt" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -304,7 +302,7 @@
 								<items>
 									<item class="RK_Leather" time="5">
 										<materials>
-											<material class="DeerPelt" count="5"/>
+											<material class="DeerPelt" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -313,7 +311,7 @@
 								<items>
 									<item class="RK_Leather" time="5">
 										<materials>
-											<material class="WolfPelt" count="5"/>
+											<material class="WolfPelt" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -324,67 +322,66 @@
 			</cat>
 		</cats>
 	</guide>
-
-    <guide name="guide_concrete" id="52">
-     <cats>
-        <cat name="Base Building">
-            <subcats>
-                <subcat name="MultiComponents">
-                    <types>
-                        <type name="a. Componentes X10">
-                            <items>
-                                <item class="ConcreteBag" time="1"  amount="10">
-                                    <materials>
-                                        <material class="Rocks" count="50" />
-                                        <material class="Charcoal" count="50" />
-                                    </materials>
-                                </item>
-                            </items>
-                        </type>
-                        <type name="b. Componentes X25">
-                            <items>
-                                <item class="ConcreteBag" time="1"  amount="25">
-                                    <materials>
-                                        <material class="Rocks" count="125" />
-                                        <material class="Charcoal" count="125" />
-                                    </materials>
-                                </item>
-                            </items>
-                        </type>
-                        <type name="c. Componentes X50">
-                            <items>
-                                <item class="ConcreteBag" time="1"  amount="50">
-                                    <materials>
-                                        <material class="Rocks" count="250" />
-                                        <material class="Charcoal" count="250" />
-                                    </materials>
-                                </item>
-                            </items>
-                        </type>
-                        <type name="d. Componentes X75">
-                            <items>
-                                <item class="ConcreteBag" time="1"  amount="75">
-                                    <materials>
-                                        <material class="Rocks" count="375" />
-                                        <material class="Charcoal" count="375" />
-                                    </materials>
-                                </item>
-                            </items>
-                        </type>
-                        <type name="e. Componentes X125">
-                            <items>
-                                <item class="ConcreteBag" time="1"  amount="125">
-                                    <materials>
-                                        <material class="Rocks" count="625" />
-                                        <material class="Charcoal" count="625" />
-                                    </materials>
-                                </item>
-                            </items>
-                        </type>
-                    </types>
-                </subcat>
-            </subcats>
-        </cat>
-     </cats>
-    </guide>
+	<guide name="guide_concrete" id="52">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="MultiComponents">
+						<types>
+							<type name="a. Componentes X10">
+								<items>
+									<item class="ConcreteBag" time="1" amount="10">
+										<materials>
+											<material class="Rocks" count="50" />
+											<material class="Charcoal" count="50" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="b. Componentes X25">
+								<items>
+									<item class="ConcreteBag" time="1" amount="25">
+										<materials>
+											<material class="Rocks" count="125" />
+											<material class="Charcoal" count="125" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="c. Componentes X50">
+								<items>
+									<item class="ConcreteBag" time="1" amount="50">
+										<materials>
+											<material class="Rocks" count="250" />
+											<material class="Charcoal" count="250" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="d. Componentes X75">
+								<items>
+									<item class="ConcreteBag" time="1" amount="75">
+										<materials>
+											<material class="Rocks" count="375" />
+											<material class="Charcoal" count="375" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="e. Componentes X125">
+								<items>
+									<item class="ConcreteBag" time="1" amount="125">
+										<materials>
+											<material class="Rocks" count="625" />
+											<material class="Charcoal" count="625" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
 </recipes>

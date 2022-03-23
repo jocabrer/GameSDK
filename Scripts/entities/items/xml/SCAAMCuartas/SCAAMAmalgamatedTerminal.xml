@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="-1"/>
 		<param name="display_name" value="Amalgamated terminal"/>
-		<param name="description" value="A terminal device to manage various things in your base."/>
+		<param name="description" value="Allows you to install floppy disks and find treasures with the shovel. Permite instalar los disquetes y encontrar tesoros con la pala"/>
 	</params>
 
 	<geometry>

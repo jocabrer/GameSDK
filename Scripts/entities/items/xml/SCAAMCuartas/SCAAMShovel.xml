@@ -1,7 +1,7 @@
 <item name="SCAAMShovel" class="Weapon" category="primary" priority="1" weaponParams="1">
 	<params>
-		<param name="display_name" value="Shovel"/>
-		<param name="description" value="An old shovel, can be used to dig up spots and as a weapon"/>
+		<param name="display_name" value="Shovel/Pala"/>
+		<param name="description" value="Allows you to dig in the coordinates indicated in the terminal and find the treasure, Permite cavar en las coordenadas indicadas en la terminal y hallar el tesoro/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="4.0"/>

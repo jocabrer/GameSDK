@@ -8,7 +8,7 @@
 		<param name="description" value="Puerta blanca"/>
 	</params>
 
-	<base_part class="door" type="7014" name="base_white_door" max_health="55000">
+	<base_part class="door" type="7009" name="base_white_door" max_health="55000">
 		<door filename="Objects/NationZ/basebuilding/doors/base_white_door.cgf" rotate_base="-180" rotate_range="90" rotate_speed="180" rotate_axis="z" rotate_dir="" 
 			sound_open="Play_door_wood_open" sound_opened="Play_door_wood_opened" sound_close="Play_door_wood_close" sound_closed="Play_door_wood_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
 		<base_actions>
