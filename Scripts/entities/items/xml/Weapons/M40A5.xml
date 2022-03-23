@@ -424,11 +424,6 @@
 			<detach/>
 			<show helper="mag_m40x5"/>
 		</accessory>
-		<accessory name="M40x7" category="magazine" exclusive="1">
-			<attach helper="mag_m40x5"/>
-			<detach/>
-			<show helper="mag_m40x5"/>
-		</accessory>
 		<!-- SCOPES -->
 		<accessory name="OpticScope" zoommode="opticscope" category="scope" exclusive="1">
 			<attach helper="optic_scope"/>
