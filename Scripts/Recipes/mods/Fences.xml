@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <recipes>
 	<guide name="default" id="0">
 		<cats>
@@ -7,12 +7,12 @@
 					<subcat name="Prefabs">
 						<types>
 							<type name="Doors">
-								<items>								
-                                    <item class="rangertower_door" time="1">
+								<items>
+									<item class="rangertower_door" time="1">
 										<materials>
-                                            <material class="Lumber" count="16" />
-                                            <material class="Nails" count="8" />
-                                            <material class="SheetMetal" count="4" />											
+											<material class="Lumber" count="16" />
+											<material class="Nails" count="8" />
+											<material class="SheetMetal" count="4" />
 										</materials>
 									</item>
 								</items>
@@ -21,24 +21,24 @@
 								<items>
 									<item class="RangerTower_Packed" time="1">
 										<materials>
-                                            <material class="Lumber" count="128" />
-                                            <material class="Nails" count="64" />
-                                            <material class="SheetMetal" count="32" />
-                                            <material class="CamoNetting" count="5" />
-                                            <material class="BarbedWireCoil" count="10" />											
+											<material class="Lumber" count="128" />
+											<material class="Nails" count="64" />
+											<material class="SheetMetal" count="32" />
+											<material class="CamoNetting" count="5" />
+											<material class="BarbedWireCoil" count="10" />
 										</materials>
 									</item>
 								</items>
 							</type>
 							<type name="Fences">
-								<items>							
+								<items>
 									<item class="farmfence_nz" time="3">
 										<materials>
 											<material class="Lumber" count="16" />
 											<material class="Nails" count="8" />
 											<material class="ScrapMetal" count="4" />
 										</materials>
-									</item>	
+									</item>
 									<item class="postonly_nz" time="3">
 										<materials>
 											<material class="Lumber" count="4" />
@@ -101,12 +101,12 @@
 											<material class="ScrapMetal" count="8" />
 											<material class="SheetMetal" count="4" />
 										</materials>
-									</item>									
+									</item>
 								</items>
-							</type>									
+							</type>
 						</types>
 					</subcat>
-				</subcats>	
+				</subcats>
 			</cat>
 		</cats>
 	</guide>
