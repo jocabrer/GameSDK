@@ -2433,15 +2433,17 @@ function SCAAMATDigPatch(itemId, playerId)
                         crateItem.item:SetStackCount(crateItem.item:GetMaxStackSize());
                     end
                 end
-                g_gameRules.game:SendTextMessage(0, playerId, "Se ha encontrado algo !");
+                g_gameRules.game:SendTextMessage(0, playerId, "Se encontró algo! / something was found! ");
             else
-                g_gameRules.game:SendTextMessage(0, playerId, "Pala rota ya no se puede usar...");
+                g_gameRules.game:SendTextMessage(0, playerId, "La pala está rota / the shovel is broken");
             end
         else
-            g_gameRules.game:SendTextMessage(0, playerId, "No hay nada !");
+            g_gameRules.game:SendTextMessage(0, playerId, "No hay nada! / there is nothing");
         end
 
         SCAAMATIsSomeoneDigging = false;
+    else
+        g_gameRules.game:SendTextMessage(0, playerId, "Otra persona está cavando! / someone else is digging!");
     end
 end
 
