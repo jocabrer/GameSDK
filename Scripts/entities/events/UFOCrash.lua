@@ -164,4 +164,7 @@ SpawnAI = function(self)
 	AISM.SpawnCategory(vSpawnPos1, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos1, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos1, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos1, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos1, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos1, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 end

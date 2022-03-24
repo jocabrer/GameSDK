@@ -116,7 +116,7 @@ SpawnAirPlaneCrashLoot = function(self)
 
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
-	FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
+	-- FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
 	
 	local vSpawnPos1 = {x=10,y=0,z=0}
 	FastSumVectors(vSpawnPos1, vForwardOffset1, self:GetWorldPos())
@@ -187,6 +187,7 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 20 then
         ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
@@ -227,6 +228,7 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 25 then
         ISM.SpawnItem("PlaneCrashCrate", vSpawnPos1)
@@ -309,9 +311,9 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
     elseif rnd <= 28 then
         ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
@@ -423,6 +425,8 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
     elseif rnd <= 30 then 
 
@@ -554,6 +558,9 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end
 	end
 end
