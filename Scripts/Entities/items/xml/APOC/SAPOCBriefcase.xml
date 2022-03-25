@@ -1,0 +1,20 @@
+<item name="SAPOCBriefcase" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Briefcase / Maletín"/>
+		<param name="description" value="A briefcase used to call in an personal Airdrop / Un maletín usado para llamar a un Airdrop personal."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/Lekka/scifipc/scifipc.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

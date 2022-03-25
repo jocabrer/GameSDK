@@ -4,8 +4,9 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_curve_wall_window_3x4x4_grey"/>
-		<param name="description" value="Concrete_curve_wall_window_3x4x4_grey"/>
+        <param name="display_name" value="3x4x4 curved concrete wall grey"/>
+		<param name="description" value="3x4x4 curved concrete wall grey / Pared curva de concreto gris"/>
+
 	</params>
 
 	<base_part class="static" type="5828" name="Concrete_curve_wall_window_3x4x4_grey" max_health="80000" repair_with="ConcreteBag">

@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="4"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Glass_Platform_0x16x16"/>
-		<param name="description" value="Glass_Platform_0x16x16"/>
+		<param name="display_name" value="Glass platform"/>
+		<param name="description" value="0x16x16 glass platform / plataforma de vidrio"/>
 	</params>
 
 	<base_part class="static" type="5903" name="Glass_Platform_HMS_0x16x16" max_health="15000" repair_with="SheetMetal" repair_sound="">

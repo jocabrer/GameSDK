@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_platform_0x8x8_black"/>
-		<param name="description" value="Concrete_platform_0x8x8_black"/>
+        <param name="display_name" value="0x8x8 Black concrete platform"/>
+		<param name="description" value="0x8x8 Black concrete platform / Plataforma de concreto negra"/>
 	</params>
 
 	<base_part class="static" type="5846" name="Concrete_platform_0x8x8_black" max_health="80000" repair_with="ConcreteBag">

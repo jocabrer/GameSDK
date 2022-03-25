@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_round_column_3m_grey"/>
-		<param name="description" value="Concrete_round_column_3m_grey"/>
+		<param name="display_name" value="Round column grey 3m"/>
+		<param name="description" value="Round column grey 3m / Columna redonda gris de 3m"/>
 	</params>
 
 	<base_part class="static" type="5836" name="Concrete_round_column_3m_grey" max_health="80000" repair_with="ConcreteBag">

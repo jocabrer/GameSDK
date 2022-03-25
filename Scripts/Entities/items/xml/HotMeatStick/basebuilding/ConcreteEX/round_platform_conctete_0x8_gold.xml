@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="round_platform_conctete_0x8_gold"/>
-		<param name="description" value="round_platform_conctete_0x8_gold"/>
+		<param name="display_name" value="Gold 0x8 round platform "/>
+		<param name="description" value="0x8 round gold platform / Plataforma de oro redonda de 0x8"/>
 	</params>
 
 	<base_part class="static" type="5815" name="round_platform_conctete_0x8_gold" max_health="80000" repair_with="ConcreteBag">

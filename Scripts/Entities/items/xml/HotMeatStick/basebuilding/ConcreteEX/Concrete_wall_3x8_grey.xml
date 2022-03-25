@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_wall_3x8_grey"/>
-		<param name="description" value="Concrete_wall_3x8_grey"/>
+	    <param name="display_name" value="3x8 grey concrete"/>
+		<param name="description" value="3x8 grey concrete wall / Pared gris de concreto de 3x8 "/>
 	</params>
 
 	<base_part class="static" type="5852" name="Concrete_wall_3x8_grey" max_health="80000" repair_with="ConcreteBag">

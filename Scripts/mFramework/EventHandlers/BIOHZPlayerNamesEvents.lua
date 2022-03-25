@@ -12,7 +12,7 @@ g_mEventHandlers['BIOHZPNSetAdminState'] = function(playerId, data, source_id, t
 
     LogWarning('BIOHZPNSetAdminState: estamos acá. data.isAdmin ' .. data.isAdmin );
 
-    player = System.GetEntity(source_id);
+    player = System.GetEntity(playerId);
 
     if (player and player.player) then
         if (data.isAdmin == true) then

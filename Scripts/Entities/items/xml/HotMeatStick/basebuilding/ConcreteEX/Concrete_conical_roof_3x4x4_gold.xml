@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_conical_roof_3x4x4_gold"/>
-		<param name="description" value="Concrete_conical_roof_3x4x4_gold"/>
+        <param name="display_name" value="3x4x4 Gold conical roof "/>
+		<param name="description" value="3x4x4 Gold conical roof / Techo cónico oro"/>
 	</params>
 
 	<base_part class="static" type="5871" name="Concrete_conical_roof_3x4x4_gold" max_health="80000" repair_with="ConcreteBag">

@@ -1,0 +1,76 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="bases" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,27" Opacity="1" Shininess="212" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/bases_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/bases_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/bases_metallic.tif"/>
+    <Texture Map="Detail" File="objects/lekka/scifipc/textures/bases_roughness.dds"/>
+    <Texture Map="Emittance" File="objects/lekka/scifipc/textures/bases_emissive.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bisagra" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.035601322,0.035601322,0.035601322" Opacity="1" Shininess="80" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/bisagras_albedo.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.5" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="carcasa2" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.75294232,0.75294232,0.75294232" Specular="1,1,1" Opacity="1" Shininess="92" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/carcasa_22_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/carcasa_22_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/carcasa_2_metallic.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="dettalles" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Emittance="1,1,1,19" Opacity="1" Shininess="80" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/detalles_albedo.tif"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/detalles_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/detalles_metallic.dds"/>
+    <Texture Map="Emittance" File="objects/lekka/scifipc/textures/detalles_emissive.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="forros" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.3185468,0.3185468,0.3185468" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/forros_albedo.tif"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/forros_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/forros_metallic.dds"/>
+    <Texture Map="Detail" File="objects/lekka/scifipc/textures/forros_roughness.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="marcos" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="86" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/marcos_albedo.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material #102" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.00060705398,0.00060705398,0.00060705398" Specular="1,1,1" Emittance="1,1,1,2" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/pantalla_albedo.tif"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/pantalla_normal.tif"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/pantalla_metallic.dds"/>
+    <Texture Map="Detail" File="objects/lekka/scifipc/textures/pantalla_roughness.dds"/>
+    <Texture Map="Heightmap" File="objects/lekka/scifipc/textures/pantalla_ao.dds"/>
+    <Texture Map="Emittance" File="objects/lekka/scifipc/textures/pantalla_emissive.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="carcasa1" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="72" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/lekka/scifipc/textures/carcasa_2_albedo.dds"/>
+    <Texture Map="Bumpmap" File="objects/lekka/scifipc/textures/carcasa_2_normal.dds"/>
+    <Texture Map="Specular" File="objects/lekka/scifipc/textures/carcasa_2_metallic.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

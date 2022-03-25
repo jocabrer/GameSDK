@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_curve_door_3x4x4_white"/>
-		<param name="description" value="Concrete_curve_door_3x4x4_white"/>
+        <param name="display_name" value="3x4x4 White curved wall door "/>
+		<param name="description" value="3x4x4 White curved wall door / Puerta de pared curva blanca"/>
 	</params>
 
 	<base_part class="door" type="5861" name="Concrete_curve_door_3x4x4_white" max_health="80000" repair_with="ConcreteBag">

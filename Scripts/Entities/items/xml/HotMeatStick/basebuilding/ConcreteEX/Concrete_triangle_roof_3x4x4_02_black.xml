@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_triangle_roof_3x4x4_02_black"/>
-		<param name="description" value="Concrete_triangle_roof_3x4x4_02_black"/>
+	    <param name="display_name" value="3x4x4 black B concrete triangle"/>
+		<param name="description" value="3x4x4 black B concrete triangle / Triángulo de concreto black B de 3x4x4 "/>
 	</params>
 
 	<base_part class="static" type="5858" name="Concrete_triangle_roof_3x4x4_02_black" max_health="80000" repair_with="ConcreteBag">

@@ -4,8 +4,8 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1"/>
 		<param name="stack_size" value="5"/>
-		<param name="display_name" value="Concrete_wall_3x8_gold"/>
-		<param name="description" value="Concrete_wall_3x8_gold"/>
+		<param name="display_name" value="Concrete wall 3x8 gold"/>
+		<param name="description" value="3x8 gold concrete wall / pared de concreto de oro de 3x8"/>
 	</params>
 
 	<base_part class="static" type="5855" name="Concrete_wall_3x8_gold" max_health="80000" repair_with="ConcreteBag">
