@@ -35,6 +35,8 @@
 
 	<magazines>
 		<magazine name="M40x5"/>
+        <magazine capacity="20"/> <!-- max number of rounds this magazine can hold -->
+
 	</magazines>
 
 	<geometry>

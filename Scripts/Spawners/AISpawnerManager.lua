@@ -431,7 +431,7 @@ AISpawnerManager = {
 
 		{
 			category = "twoheaddog_invasion",
-			min = 3, max = 5,
+			min = 1, max = 5,
 			classes = 
 			{
 				{ class = "TwoHeadDog", percent = 100 },

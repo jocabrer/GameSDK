@@ -165,7 +165,7 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnItem("planecrash_engine"        , vSpawnPos7)
         ISM.SpawnItem("planecrash_gear"          , vSpawnPos8)
         
-		
+		ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
 		SpawnAI = function(self)
 
 			local vForwardOffset = {x=0,y=0,z=0}
@@ -190,8 +190,8 @@ SpawnAirPlaneCrashLoot = function(self)
             AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 20 then
-        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
+        ISM.SpawnItem("AirDropCrate"          , vSpawnPos1)
+		ISM.SpawnItem("AirDropCrate"          , vSpawnPos2)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
@@ -202,6 +202,7 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnItem("planecrash_engine"        , vSpawnPos9)
         ISM.SpawnItem("planecrash_gear"          , vSpawnPos10)
         
+        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos5)
 		SpawnAI = function(self)
 
 			local vForwardOffset = {x=0,y=0,z=0}
@@ -232,7 +233,7 @@ SpawnAirPlaneCrashLoot = function(self)
 		end	
 	elseif rnd <= 25 then
         ISM.SpawnItem("PlaneCrashCrate", vSpawnPos1)
-		ISM.SpawnItem("PlaneCrashCrate", vSpawnPos2)
+		ISM.SpawnItem("AirDropCrate", vSpawnPos2)
         ISM.SpawnItem("AirDropCrate", vSpawnPos3)
 		ISM.SpawnItem("AirDropCrate", vSpawnPos4)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
@@ -240,6 +241,7 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos7)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
 
+        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
 
         ISM.SpawnItem("debris_01", vSpawnPos9)
         ISM.SpawnItem("debris_01", vSpawnPos10)
@@ -258,6 +260,7 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
@@ -312,7 +315,6 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
-			AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
             AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
     elseif rnd <= 28 then
@@ -333,6 +335,7 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnItem("planecrash_engine"	, vSpawnPos10)
         ISM.SpawnItem("planecrash_gear"		, vSpawnPos7)
                 
+        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
 
 		SpawnAI = function(self)
 
@@ -443,6 +446,7 @@ SpawnAirPlaneCrashLoot = function(self)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos1)
+        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
 
 		ISM.SpawnItem("debris_01", vSpawnPos9)
 		ISM.SpawnItem("debris_01", vSpawnPos10)
@@ -471,6 +475,7 @@ SpawnAirPlaneCrashLoot = function(self)
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
+            AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)

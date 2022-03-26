@@ -27,7 +27,7 @@
 
 	<storage>
 		<types>
-			<type category="any" capacity="20"/>
+			<type category="any" capacity="40"/>
 		</types>
 	</storage>
 
