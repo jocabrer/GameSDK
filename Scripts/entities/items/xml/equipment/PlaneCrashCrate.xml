@@ -26,6 +26,9 @@
 	</air_drop>
 
 	<storage>
+        <params>
+			<param name="crate" value="1"/>
+		</params>
 		<types>
 			<type category="any" capacity="40"/>
 		</types>

@@ -7,8 +7,8 @@
 	</params>
 
 	<geometry>
-		<thirdperson name="objects/props/airdrop/airdrop_crate.cgf" material="objects/props/airdrop/suitcase_crate.mtl"/>
-		<aux1 name="objects/props/airdrop/parachute.cgf" material="objects/props/airdrop/suitcase_crate.mtl"/>
+	<thirdperson name="objects/props/airdrop/airdrop_crate.cgf" scale="1.5"/>
+		<aux1 name="objects/props/airdrop/parachute.cgf"/>
 	</geometry>
 
 	<air_drop>
@@ -18,8 +18,8 @@
 		<param name="landed_effect" value="misc.airdrop.suitcasesmokeshort"/>
 		<param name="landed_effect" value="misc.airdrop.suitcaselanding"/>
 
-		<light1 helper="light1" light_radius="150" light_bulb_size="50.5" light_color="5,3,5" light_diff_mul="5" light_spec_mul="1" light_hdr_dyn="0" light_style="38" light_anim_speed="1" light_view_dist_ratio="255" light_fake_light="1" light_material="materials/lights/lens_flares/generic/lens_optics" lens_flare_name="miscreated.bpart.candle" lens_flare_fov="360"/>
-		<light2 helper="light2" light_radius="150" light_bulb_size="50.5" light_color="1,5,1" light_diff_mul="5" light_spec_mul="1" light_hdr_dyn="0" light_style="38" light_anim_speed="1" light_view_dist_ratio="255" light_fake_light="1" light_material="materials/lights/lens_flares/generic/lens_optics" lens_flare_name="miscreated.bpart.candle" lens_flare_fov="360"/>
+        <light2 helper="light1" light_radius="20" light_color="1.0,0.05,0.05" light_diff_mul="8" light_spec_mul="1" light_hdr_dyn="0" light_offset="0,0,0" light_rotation="-30,0,90" light_style="38" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="254"/>
+		<light2 helper="light2" light_radius="20" light_color="1.0,0.05,0.05" light_diff_mul="8" light_spec_mul="1" light_hdr_dyn="0" light_offset="0,0,0" light_rotation="-30,0,90" light_style="38" light_anim_speed="1" light_cast_shadows="0" light_bulb_size="0.05" light_view_dist_ratio="254"/>
 	</air_drop>
 
 	<storage>
