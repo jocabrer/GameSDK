@@ -7,8 +7,8 @@
 		<param name="mass" value="1"/>
 		<param name="healthMax" value="275.0"/>
 		<param name="damage_scale" value="0.1"/>
-		<param name="display_name" value="Skeleton Legs"/>
-		<param name="description" value="Skeleton Legs"/>
+		<param name="display_name" value="Skeleton Legs/Piernas de esqueleto"/>
+		<param name="description" value="Skeleton Legs/Piernas de esqueleto"/>
 	</params>
 	
 	<wearable>
@@ -72,7 +72,7 @@
 			<location category="legs"/>
 		</locations>
 		<types>
-			<type category="any" capacity="5"/>
+			<type category="any" capacity="10"/>
 		</types>
 	</storage>
 

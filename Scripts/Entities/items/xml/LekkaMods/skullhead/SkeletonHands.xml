@@ -7,8 +7,8 @@
 		<param name="mass" value="1"/>
 		<param name="healthMax" value="275.0"/>
 		<param name="damage_scale" value="0.1"/>
-		<param name="display_name" value="Skeleton Hands"/>
-		<param name="description" value="Hides the Hands"/>
+		<param name="display_name" value="Skeleton Hands/Manos de esqueleto"/>
+		<param name="description" value="Hides the Hands/Oculta las manos"/>
 	</params>
 
 	<wearable>

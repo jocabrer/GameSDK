@@ -8,7 +8,7 @@
 		<param name="healthMax" value="275.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Skeleton Chest"/>
-		<param name="description" value="Skeleton Chest"/>
+		<param name="description" value="Skeleton Chest / Ropa tipo torso de esqueleto"/>
 	</params>
 	
 	<wearable>
@@ -72,7 +72,7 @@
 			<location category="torso"/>
 		</locations>
 		<types>
-			<type category="any" capacity="5"/>
+			<type category="any" capacity="10"/>
 		</types>
 	</storage>
 

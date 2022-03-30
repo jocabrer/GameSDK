@@ -113,8 +113,9 @@ function SAPOCBriefcase.Server:CallAirdrop(playerId)
         if (System.IsEditor()) then
             g_gameRules.game:SendTextMessage(0, g_localActorId, "A Player has called in an Airdrop");
         else
-            g_gameRules.game:SendTextMessage(0, 0, "El jugador " ..playerName.. " a solicitado una entrega de Airdrop personal");
-            g_gameRules.game:SendTextMessage(4, 0, "El jugador " ..playerName.. " a solicitado una entrega de Airdrop personal");
+            g_gameRules.game:SendTextMessage(0, 0, "El jugador " ..playerName.. " solicitó un Airdrop");
+            g_gameRules.game:SendTextMessage(4, 0, "El jugador " ..playerName.. " solicitó una entrega de Airdrop");
+            g_gameRules.game:SendTextMessage(4, 0, "The player " ..playerName.. " requested an airdrop delivery");
         end
     end
 end
