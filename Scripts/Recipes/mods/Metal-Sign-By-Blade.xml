@@ -81,6 +81,18 @@
                                  <material class="Nails" count="4" />
                               </materials>
                            </item>
+                            <item class="cargadores_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                            <item class="scopes_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
                         </items>
                      </type>
                   </types>
