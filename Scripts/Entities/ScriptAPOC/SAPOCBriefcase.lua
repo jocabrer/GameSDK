@@ -44,7 +44,7 @@ local Physics_DX9MP_Simple = {
 }
 
 function SAPOCBriefcase.Client:DeployAirdrop()
-    local soundTriggerID = AudioUtils.LookupTriggerID('Play_terminal_recieve');
+    local soundTriggerID = AudioUtils.LookupTriggerID('Play_microwave_food_done');
 
     if (soundTriggerID ~= nil) then
         self:ExecuteAudioTrigger(soundTriggerID, self:GetDefaultAuxAudioProxyID());
@@ -59,7 +59,6 @@ function SAPOCBriefcase.Server:CallAirdrop(playerId)
     if (self and APOCBriefcaseCooldownActive == false) then
         APOCBriefcasePreventDupe();
         local position = self:GetWorldPos();
-        -- self.allClients:DeployAirdrop();
         self:DeleteThis();
 
         local airdropPos = {};
@@ -70,29 +69,6 @@ function SAPOCBriefcase.Server:CallAirdrop(playerId)
 
         while (isValidPosition == false) do
             airdropPos = new(position);
-
-            local randomMultiplierX = random(2);
-            local randomMultiplierY = random(2);
-            
-            if (randomMultiplierX == 1) then
-                randomMultiplierX = -1;
-            else
-                randomMultiplierX = 1;
-            end
-
-            if (randomMultiplierY == 1) then
-                randomMultiplierY = -1;
-            else
-                randomMultiplierY = 1;
-            end
-
-            local randomChangeX = randomF(75, 100);
-            local randomChangeY = randomF(75, 100);
-            randomChangeX = randomChangeX * randomMultiplierX;
-            randomChangeY = randomChangeY * randomMultiplierY;
-
-            airdropPos.x = airdropPos.x + randomChangeX;
-            airdropPos.y = airdropPos.y + randomChangeY;
 
             local terrainElevation = System.GetTerrainElevation(airdropPos);
 
