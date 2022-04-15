@@ -30,7 +30,7 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 3 then
+	if rnd <= 4 then
 		eventName = "AirDropPlane"
 		g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
 	elseif rnd <= 7 then
