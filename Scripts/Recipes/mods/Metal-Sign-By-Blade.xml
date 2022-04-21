@@ -7,7 +7,7 @@
             <subcats>
                <subcat name="Decorations">
                   <types>
-                     <type name="Sign by Blade">
+                     <type name="Sign / Carteles">
                         <items>                       
                            <item class="ammo_Blade" time="1">
                               <materials>
@@ -88,6 +88,24 @@
                               </materials>
                            </item>
                             <item class="scopes_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                             <item class="pinturas_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                             <item class="semillas_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                              </materials>
+                           </item>
+                            <item class="cascos_sign" time="1">
                               <materials>
                                  <material class="ScrapMetal" count="5" />
                                  <material class="Nails" count="4" />

@@ -1,0 +1,26 @@
+<item name="pinturas_sign" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="display_name" value="Pinturas / Paint Can  "/>
+		<param name="description" value="Pinturas / Paint Can Sign"/>
+		<param name="stack_size" value="5"/>
+		<param name="place_restrict_snap" value="sticky"/>
+	</params>
+
+	<base_part class="static" type="7044" name="pinturas_sign" max_health="10000" repair_with="SheetMetal">
+		<static filename="objects/props/speedsign/speedsign4.cgf" material="objects/Blade/Black-Pussy/pinturas_sign.mtl"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/props/speedsign/speedsign4.cgf" material="objects/Blade/Black-Pussy/pinturas_sign.mtl"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>
