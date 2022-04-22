@@ -343,11 +343,6 @@
 			<detach/>
 			<show helper="mag_ext_762x75"/>
 		</accessory>
-		<!-- BARREL RIGHT -->
-		<accessory name="FlashlightRifle" category="barrelright" exclusive="1">
-			<attach helper="flashlight"/>
-			<detach/>
-		</accessory>
 		<!-- BARREL END -->
 		<accessory name="RifleSilencer" category="barrelend" exclusive="1">
 			<attach helper="silencer"/>
@@ -388,6 +383,24 @@
 			<attach helper="scope_rifle"/>
 			<detach/>
 		</accessory>
+		<!-- BARREL LEFT -->
+		<accessory name="LaserSight" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
+		<accessory name="LaserSightGreen" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
+		<accessory name="LaserSightBlue" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
+		<!-- BARREL RIGHT -->
+		<accessory name="FlashlightRifle" category="barrelright" exclusive="1">
+			<attach helper="flashlight"/>
+			<detach/>
+		</accessory>
 	</accessories>
 
 	<storage>
@@ -398,6 +411,7 @@
 		<types>
 			<type category="762_mag" capacity="1" visible="1"/>
 			<type category="barrel_end" capacity="1" visible="1"/>
+			<type category="barrel_left" capacity="1" visible="1"/>
 			<type category="barrel_right" capacity="1" visible="1"/>
 			<type category="scope_rifle" capacity="1" visible="1"/>
 		</types>

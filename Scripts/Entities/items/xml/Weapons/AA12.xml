@@ -323,10 +323,67 @@
 				</firemodes>
 			</params>
 		</accessory>
+		<!-- BARREL LEFT -->
+		<accessory name="LaserSight" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
+		<accessory name="LaserSightGreen" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
+		<accessory name="LaserSightBlue" category="barrelleft" exclusive="1">
+			<attach helper="laser_sight"/>
+			<detach/>
+		</accessory>
 		<!-- BARREL RIGHT -->
 		<accessory name="FlashlightRifle" category="barrelright" exclusive="1">
+			<attach helper="flashlight2"/>
+			<detach/>
+		</accessory>
+		<!-- BARREL BOTTOM -->
+		<accessory name="FlashlightMounted" category="barrelbottom" exclusive="1">
 			<attach helper="flashlight"/>
 			<detach/>
+		</accessory>
+		<accessory name="FlashlightPistol" category="barrelbottom" exclusive="1">
+			<attach helper="flashlight"/>
+			<detach/>
+		</accessory>
+		<!-- BARREL END -->
+		<accessory name="RifleSilencer" category="barrelend" exclusive="1">
+			<attach helper="silencer"/>
+			<detach/>
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<fire>
+							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
+							<param name="sound_radius" value="10.0"/>
+						</fire>
+						<muzzleflash>
+							<thirdperson effect="" helper="muzzleflash_effect"/>
+						</muzzleflash>
+					</firemode>
+				</firemodes>
+			</params>
+		</accessory>
+		<accessory name="CraftedSilencer" category="barrelend" exclusive="1" health_reduction_per_shot="24.0"> <!-- CraftedSilencer has 50 HP -->
+			<attach helper="silencer"/>
+			<detach/>
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<fire>
+							<param name="is_silenced" value="1"/> <!-- Tells AI system shot is silent -->
+							<param name="sound_radius" value="10.0"/>
+						</fire>
+						<muzzleflash>
+							<thirdperson effect="" helper="muzzleflash_effect"/>
+						</muzzleflash>
+					</firemode>
+				</firemodes>
+			</params>
 		</accessory>
 	</accessories>
 
@@ -338,7 +395,24 @@
 		<types>
 			<type category="mag_12gauge" capacity="1"/>
 			<type category="barrel_right" capacity="1" visible="1"/>
+			<type category="barrel_left" capacity="1" visible="1"/>
+			<type category="barrel_bottom" capacity="1" visible="1"/>
+			<type category="barrel_end" capacity="1" visible="1"/>
 		</types>
 	</storage>
 
+	<steam>
+		<param name="tags" value="Category:Weapon;Slot:Primary"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/AA12_200.png?crc=BF3A12E9"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="15"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="110000"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Weapon;Slot:Primary"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/AA12_2048.png?crc=BF3A12E9"/>
+	</steam>
 </item>
