@@ -12,8 +12,6 @@ ChatCommands["!rules"] = function(playerId, command)
 	
 end
 
-
-
 ChatCommands["!ayuda"] = function(playerId, command)
 	Log(">> !ayuda - %s", command);
 	
