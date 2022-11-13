@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 1800, -- min time to spawn an event (in seconds)
-			fMaxTime = 3600, -- max time to spawn an event (in seconds)
+			fMinTime = 3600, -- min time to spawn an event (in seconds)
+			fMaxTime = 7200, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -36,7 +36,7 @@ SpawnWorldEvent = function(self)
 	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
 		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash" )
-    elseif rnd <= 10 then
+    elseif rnd <= 9 then
         eventName = "UFOCrash"	 
 		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected"  )
     else

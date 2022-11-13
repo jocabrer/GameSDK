@@ -6,7 +6,7 @@
     <param name="display_name" value="Light Tower" />
     <param name="description" value="Nice Light Tower" />
   </params>
-  <base_part class="static" type="7048" name="light_tower_tall" max_health="20000" repair_with="Hammer">
+  <base_part class="static" type="7048" name="light_tower_tall" max_health="20000" repair_with="Hammer" limit="1">
     <static filename="objects/props/biohazard_assets/light_tower_tall.cgf" />
     <base_parts>
       <base_part class="light">

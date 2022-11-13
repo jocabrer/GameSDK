@@ -2,7 +2,7 @@
 
 	<params>
 		<param name="selectable" value="0"/>
-		<param name="mass" value="1" />
+		<param name="mass" value="5" />
 		<param name="stack_size" value="30"/>
 		<param name="display_name" value="Wood Big Box"/>
 		<param name="description" value="Wood Big Box system storage, Una x base" />
