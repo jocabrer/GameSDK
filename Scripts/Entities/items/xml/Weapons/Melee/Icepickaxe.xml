@@ -27,7 +27,8 @@
 		<aimAnims/>
 	</params>
 
-	<MovementModifiers speedScaleTactical="0.85" speedScale="1.0" rotationScale="1.0" firingSpeedScale="0.65"/>
+	<MovementModifiers speedScaleTactical="1.3" speedScale="1.2" rotationScale="1.0" firingSpeedScale="0.72"/>
+
 
 	<geometry>
 		<thirdperson name="objects/weapons/icepickaxe/icepickaxe_tp.cgf" material="objects/weapons/icepickaxe/icepickaxe_mat.mtl"/>

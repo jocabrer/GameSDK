@@ -22,7 +22,7 @@ end
 ChatCommands["!reglas"] = function(playerId, command)
 	Log(">> !reglas - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Prohibido robar, no matar a otros jugadores, no seas grosero, no incursionar en bases, no atropellar, nosotros revisamos los logs para ver si se incumplen las reglas");
+	g_gameRules.game:SendTextMessage(4, playerId, "Prohibido robar, matar a otros jugadores, no ser grosero, no incursionar en bases, atropellar, nosotros revisamos los logs para ver si se incumplen las reglas");
 	
 end
 

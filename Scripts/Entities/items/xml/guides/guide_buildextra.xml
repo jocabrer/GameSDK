@@ -1,10 +1,10 @@
-<item name="guide_ammunition" class="Item" category="any">
+<item name="guide_buildextra" class="Item" category="any">
 
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
-		<param name="display_name" value="Amunnition Guide"/>
-		<param name="description" value="A guide on advanced ammunition crafting"/>
+		<param name="display_name" value="Guía Construcción Avanzada"/>
+		<param name="description" value="Una guía para aprender construcción avanzada"/>
 	</params>
 
 	<geometry>
@@ -13,7 +13,7 @@
 
 	<usable>
 		<param name="action" value="guide"/>
-		<param name="param" value="43"/>
+		<param name="param" value="100"/>
 		<param name="soundUsed" value="Play_book_page_turn"/>
 	</usable>
 

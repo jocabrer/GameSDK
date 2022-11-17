@@ -1058,7 +1058,7 @@
     </cats>
 	</guide>
 	
-	<guide name="default" id="0">
+	<guide  name="guide_buildextra" id="100">
     <cats>
 			<cat name="Base Building Color">
 				<subcats>

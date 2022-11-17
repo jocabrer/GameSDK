@@ -68,7 +68,7 @@
 			<param name="has_lock" value="1"/>
 		</params>
 		<types>
-			<type category="any" capacity="40"/>
+			<type category="any" capacity="45"/>
 		</types>
 		<locations>
 			<location category="any"/>
