@@ -11,21 +11,9 @@ ChatCommands['!discord'] = function(playerId, command)
         local playerName = player:GetName()
         local steamId = player.player:GetSteam64Id()
 
-        cmd_arg = cmdSplit(command, ' ')
-        if not (#cmd_arg >= 3) then
-            g_gameRules.game:SendTextMessage(4, playerId, 'El mensaje es muy corto')
-            return
-        elseif not (#cmd_arg >= 1) then
-            g_gameRules.game:SendTextMessage(4, playerId, 'No channel specified: !discord [channelname] [message]')
-            return
-        end
-        local message = command:gsub("^"..cmd_arg[1], '')
-        local Channel = DiscordChannels[cmd_arg[1]]
-        if not Channel then
-            --g_gameRules.game:SendTextMessage(4, playerId, 'The Specified Channel Does not exist')
-            --return
-            Channel = DiscordChannels['Default']
-        end
+        local message = command:gsub("^"..'', '')
+        local Channel = DiscordChannels['Default']
+        
         Channel:SendMessage(
             'game-msg-' .. playerName .. '[' .. steamId .. ']', message,
             function() g_gameRules.game:SendTextMessage(4, playerId, 'Message Sent / Mensaje enviado') end

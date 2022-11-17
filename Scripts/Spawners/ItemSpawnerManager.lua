@@ -4334,8 +4334,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "guide_structures_wood_gallows"   , percent = 2 },
 				{ class = "guide_structures_wood_watchtower", percent = 2 },
 				{ class = "guide_structures_wood_gatehouse" , percent = 2 },
-
-
                 
 			},
 		},
@@ -4707,7 +4705,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ category = "RandomMedical"        , percent = 73  },
 				{ category = "RandomHospitalBandage", percent = 20  },
-				{ class = "guide_medical_bandages"  , percent = 2   ,
+				{ class = "guide_medical_bandages"  , percent = 2   },
                 { class = "guide_concrete"          , percent = 2   },
 			},
 		},
