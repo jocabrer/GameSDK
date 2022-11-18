@@ -6,30 +6,6 @@
 				<subcats>
 					<subcat name="Prefabs">
 						<types>
-							<type name="Doors">
-								<items>
-									<item class="rangertower_door" time="1">
-										<materials>
-											<material class="Lumber" count="16" />
-											<material class="Nails" count="8" />
-											<material class="SheetMetal" count="4" />
-										</materials>
-									</item>
-								</items>
-							</type>
-							<type name="Defensive structures">
-								<items>
-									<item class="RangerTower_Packed" time="1">
-										<materials>
-											<material class="Lumber" count="128" />
-											<material class="Nails" count="64" />
-											<material class="SheetMetal" count="32" />
-											<material class="CamoNetting" count="5" />
-											<material class="BarbedWireCoil" count="10" />
-										</materials>
-									</item>
-								</items>
-							</type>
 							<type name="Fences">
 								<items>
 									<item class="farmfence_nz" time="3">

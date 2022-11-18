@@ -451,7 +451,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMutantLoot",
 			group =
 			{
-				{ category = "RandomEggs"        , percent = 5   }, -- easter event
 				{ class    = "AmcoinLedger"      , percent = 10   , min = 1, max = 7},
 				{ category = "RandomAmmo"        , percent = 40  },
 				{ category = "RandomConsumable"  , percent = 80  },
@@ -476,15 +475,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBruteLoot",
 			group =
 			{
-				{ category  = "RandomAmmo",             percent = 50  },
-				{ category  = "RandomMushroom",         percent = 50  },
+				{ category  = "RandomAmmo",             percent = 50   },
+				{ category  = "RandomMushroom",         percent = 50   },
 				{ class     = "AmcoinLedger",           percent = 5    , min = 1, max = 5},
-				{ category  = "RandomEggs",             percent = 5   }, -- Easter event
-				{ class     = "GoldenCudgel2",          percent = 2   }, 
-				{ class     = "HalloweenBagBrute",      percent = 5   }, --Halloween event.
-				{ class     = "ChristmasPresentRare",   percent = 5   }, -- Christmas event
-				{ category  = "RandomSpartaGear",       percent = 1   }, 
-				{ category = "RandomMedical"          , percent = 10  },
+				{ class     = "GoldenCudgel2",          percent = 2    }, 
+				{ category  = "RandomSpartaGear",       percent = 1    }, 
+				{ category  = "RandomMedical",          percent = 10   },
 			},
 		},
 
@@ -496,7 +492,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AnimalGut"       , min = 1, max = 2  },
 				{ class = "DeerMeatSteakRaw", min = 3, max = 4  },
 				{ class = "DeerPelt"                            },
-                { category = "RandomEggs", percent = 25         },
 			},
 		},
 
@@ -521,7 +516,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AnimalGut" 					        },
 				{ class = "WolfMeatSteakRaw", min = 2, max = 3  },
 				{ class = "WolfPelt" 						    },
-                { category = "RandomEggs"   , percent = 50      },
 			},
 		},
 		
@@ -562,15 +556,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBackpackContents",
 			classes =
 			{
-				{ category             = "RandomEggs"            , percent = 2   }, --Easter event
-				{ category             = "RandomChristmasPresent", percent = 2   }, --Christmas event
-				{ category             = "halloweenBagCommon"    , percent = 1   }, --Halloween event
 				{ category             = "Map"                   , percent = 3   },
 				{ category             = "RandomCraftingGuide"   , percent = 2   },
 				{ category             = "RandomClothes"         , percent = 3   },
 				{ category             = "RandomCrafting"        , percent = 4   },
 				{ category             = "RandomFlashlight"      , percent = 10  },
-				{ category             = "RandomConsumable"      , percent = 5   , min = 1, max = 3 },
+				{ category             = "RandomConsumable"      , percent = 10   , min = 1, max = 3 },
 				{ category             = "RandomMaintenance"     , percent = 8 	 },
 				{ category             = "RandomMedical"         , percent = 5   },
 				{ class                = "AmcoinLedger"          , percent = 5   },
@@ -837,8 +828,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "christmas_gift_pile"           , percent = 1 },
 				{ class = "christmas_rug_01"              , percent = 1 },
 				{ class = "christmas_rug_02"              , percent = 1 },
-				{ class = "SweaterChristmasGreen"         , percent = 1 },
-				{ class = "SweaterChristmasRed"           , percent = 1 },
 				{ class = "ChristmasHat"                  , percent = 1 },
 				{ class = "snowman_small"                 , percent = 1 },
 				{ class = "Peacemaker"                    , percent = 5 },
@@ -864,12 +853,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ class = "snowman"                 , percent = 13  },
-				{ class = "christmas_rug_03"        , percent = 15  },
-				{ class = "SweaterChristmasGreen2"  , percent = 10  },
-				{ class = "SweaterChristmasRed2"    , percent = 8  },
-				{ class = "christmas_wreath"        , percent = 12  },
-				{ class = "christmas_stocking"      , percent = 10  },
-				{ class = "christmas_snowglobe"     , percent = 5   },
 				{ class = "ScavengerHelmet"         , percent = 4   },
 				{ class = "EggNog"                  , percent = 0.5 },
 				{ class = "GingerBreadMan"          , percent = 0.5 },
@@ -1880,10 +1863,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Sweater", contents="RandomTorsoContents", percent = 10 },
 				{ class = "SweaterBlack", contents="RandomTorsoContents", percent = 15 },
 				{ class = "SweaterBlue", contents="RandomTorsoContents", percent = 15 },
-				{ class = "SweaterChristmasGreen", contents="RandomTorsoContents", percent = 3 }, -- Christmas event
-				{ class = "SweaterChristmasGreen2", contents="RandomTorsoContents", percent = 3 }, -- Christmas event
-				{ class = "SweaterChristmasRed", contents="RandomTorsoContents", percent = 3 }, -- Christmas event
-				{ class = "SweaterChristmasRed2", contents="RandomTorsoContents", percent = 3 }, -- Christmas event
 				{ class = "SweaterGreen", contents="RandomTorsoContents", percent = 15 },
 				{ class = "SweaterOrange", contents="RandomTorsoContents", percent = 15 },
 				{ class = "SweaterPink", contents="RandomTorsoContents", percent = 15 },
@@ -2527,7 +2506,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomFootballHelmet", percent = 6 },
 				{ class = "BandanaHat", percent = 6 },
 				{ class = "BaseballCap", percent = 7 },
-				{ class = "ChristmasHat", percent = 2 }, -- Christmas event
 				{ class = "DorfmanPacific", percent = 10 },
 				{ class = "WeldersMask", percent = 7 },
 			},
@@ -2609,9 +2587,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomClothes",
 			classes =
 			{
-				--{ category = "RandomEggs", percent = 2 },-- disabled until easter event
-				--{ category = "RandomChristmasPresent", percent = 2 },-- Christmas event
-				{ category = "halloweenBagCommon" , percent = 3  },-- halloween
 				{ category = "RandomEyes"         , percent = 8  },
 				{ category = "RandomFace"         , percent = 8  },
 				{ category = "RandomHands"        , percent = 11 },
@@ -3321,12 +3296,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RavioliCan", percent = 3 },
 				{ class = "SoupCan", percent = 2 },
 				{ class = "TunaCan", percent = 2 },
-				{ category = "RandomEggs", percent = 1 }, -- Easter event event
-				{ class = "ChocolateBox", percent = 1 }, -- Valentines event
-				{ class = "Champagne", percent = 1 }, -- Valentines event
-				--{ class = "heart_balloon", percent = 1 }, -- Valentines event
-				--{ category = "halloweenBagCommon", percent = 1 }, -- Halloween event
-				--{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
 			},
 		},
 
@@ -3541,13 +3510,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomCrafting",
 			classes =
 			{
-				{ class = "CupidArrowx8"             , percent = 1 	}, -- Valentines event
-				{ class = "flower_vase"              , percent = 1 	}, -- Valentines event
-				{ class = "heart_candle"             , percent = 1 	}, -- Valentines event
-				{ class = "heart_balloon"            , percent = 1 	}, -- Valentines event
-				{ category = "RandomChristmasPresent", percent = 1 	}, -- Christmas event
-				{ category = "halloweenBagCommon"    , percent = 1 	}, -- Halloween event
-				{ category = "RandomEggs"            , percent = 1 	}, -- Easter event
 				{ category = "RandomIncapacition"    , percent = 5 	},
 				{ category = "RandomPaintCan"        , percent = 7 	},
 				{ category = "RandomFireStarter"     , percent = 4 	},
@@ -3659,13 +3621,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "painting_map_canyonlands", percent = 3 },
 				{ class = "poster_vertical_01", percent = 3 },
 				{ class = "painting_map", percent = 2 },
-				{ category = "RandomEggs", percent = 2 }, -- Easter event 
-				{ class = "CupidArrowx8", percent = 2 }, -- Valentines event
-				{ class = "flower_vase", percent = 2 }, -- Valentines event
-				{ class = "heart_candle", percent = 2 }, -- Valentines event
-				{ class = "heart_balloon", percent = 2 }, -- Valentines event
-				{ category = "halloweenBagCommon", percent = 1 }, -- Halloween event
-				{ category = "RandomChristmasPresent", percent = 1 }, -- Christmas event
 			},
 		},
 		
@@ -3702,8 +3657,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBPart", 
 			classes =
 			{
-				{ category = "RandomCampingBPart", percent = 99 },
-				{ category = "RandomGnome", percent = 1 },
+				{ category = "RandomCampingBPart", percent = 98 },
+				{ category = "RandomGnome", percent = 2 },
 			},
 		},
 
@@ -4082,7 +4037,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "HuntingScopeRealCamo"       , percent = 4  },
                 { class = "HuntingScopeRealCamoDesert" , percent = 4  },
 				{ class = "OpticScope"		   	       , percent = 5  },
-				{ category = "RandomEggs"		       , percent = 5  },
 				{ category = "RandomToolRepairKit"     , percent = 5  },
                 { category = "RandomCargador"          , percent = 5  },
 			},
@@ -4485,9 +4439,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMilitaryFootlockerContent",
 			classes =
 			{
-				{ category = "RandomChristmasPresent"  , percent = 0.5  }, -- Christmas event
-				{ category = "halloweenBagCommon"      , percent = 0.5  }, -- Halloween event
-				{ category = "RandomEggs"              , percent = 0.5  }, -- Easter event
 				{ category = "RandomRangedPolicePure"  , percent = 7    },
 				{ category = "RandomMilitaryClothing"  , percent = 7    },
 				{ category = "RandomWeaponRepairKit"   , percent = 0.5  },
@@ -4523,9 +4474,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category  = "RandomMilitaryBodyArmor"         , percent = 14  },
 				{ category  = "RandomMilitaryHelmet"            , percent = 13  },
 				{ category  = "RandomAmmo"                      , percent = 10  },
-				--{ category  = "RandomChristmasPresent"          , percent = 3   }, -- Christmas event
-				--{ category  = "halloweenBagCommon"              , percent = 3   }, -- Halloween event
-				--{ category  = "RandomSpartaGear"                , percent = 2   }, -- Easter event
 				{ category  = "RandomRangedMilitaryPure"        , percent = 17  },
 				{ category  = "RandomAmmoBox"                   , percent = 6   },
 				{ category  = "RandomAccessory"                 , percent = 10  },
@@ -4606,7 +4554,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Oil"                         , percent = 8   },
 				{ class = "DuctTape"                    , percent = 10  },
 				{ class = "DogFoodCan"                  , percent = 7   },
-				--{ class = "CupidArrowx8", percent = 2.5 }, -- Valentines event
 			},
 		},
 
@@ -4859,7 +4806,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "titanium_crenelation"                     , percent = 2      , min = 1, max = 2 },
 				{ class = "titanium_wall_3m_4m_door"                 , percent = 2      , min = 1, max = 2 },		
                 { class = "concrete_wall_door_3m_4m_black"           , percent = 2      , min = 1, max = 2 },	
-                { class = "RangerTower_Packed"   		             , percent = 1      },
                 { class = "Left_Clean_Fence_Mesh_nz"   		         , percent = 2      },
                 { class = "Right_Clean_fence_Mesh_nz"   	         , percent = 1      },
                 { class = "postonly_nz"   		                     , percent = 1      },
@@ -6473,8 +6419,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Antibiotics", percent = 10 },
 				{ class = "PotassiumIodidePills", percent = 5 },
 				{ class = "WaterPurificationTablets", percent = 10 },
-				{ class = "Champagne", percent = 10 },
-				{ class = "ChocolateBox", percent = 10 },
 				{ class = "GingerBreadMan", percent = 10 },
                 
 			},

@@ -27,6 +27,18 @@ end
 SpawnWorldEvent = function(self)
 	--Log("Miscreated:SpawnWorldEvent")
 
+
+    CurrentMonth = os.date('%m')
+    local top = 0;
+    -- Christmas lasts from december 
+    if CurrentMonth == '12' then
+            -- deploy Christmas
+        top = 9;
+        Log('>> SeasonalEvents : Christmas Event')
+    else 
+        top = 10;
+    end
+
 	local eventName
 	local rnd = random(1, 10)
 
@@ -36,12 +48,12 @@ SpawnWorldEvent = function(self)
 	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
 		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash" )
-    elseif rnd <= 9 then
+    elseif rnd <= top then
         eventName = "UFOCrash"	 
 		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected"  )
     else
 		eventName = "AirDropChristmas"	
-		g_gameRules.game:SendTextMessage(0, 0, "jojojo ! Santa se aproxima... Feliz navidad !"  )
+		g_gameRules.game:SendTextMessage(0, 0, "jojojo Feliz navidad!"  )
 	end
 
 	local spawnParams = {}
