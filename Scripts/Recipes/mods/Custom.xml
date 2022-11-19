@@ -78,6 +78,29 @@
 					</subcat>
 				</subcats>
 			</cat>
+            <cat name="PVE Store">
+                <subcats>
+                    <subcat name="Speed Mod">
+                    <types>
+							<type name="Icepickaxe">
+								<items>
+									<item class="Icepickaxe" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="200" />
+										</materials>
+									</item>
+                                    <item class="Icepickaxeplus" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="300" />
+                                            <material class="Icepickaxe"   count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+					</types>
+                    </subcat>
+                </subcats>
+            </cat>
 		</cats>
 	</guide>
 </recipes>

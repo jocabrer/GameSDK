@@ -25,6 +25,7 @@
 		<item name="Maglite" percentage="100"/>
 		<item name="MagliteSmall" percentage="100"/>
 		<item name="Megaphone" percentage="100"/>
+        <item name="SCAAMAmalgarmin" percentage="100"/>
 	</repair>
 
 	<storage>

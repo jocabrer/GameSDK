@@ -20,6 +20,7 @@
 	<repair>
 		<item name="RK_Icepickaxe" percentage="100"/>
 		<item name="Icepickaxe" percentage="100"/>
+        <item name="Icepickaxeplus" percentage="100"/>
 	</repair>
 
 	<storage>

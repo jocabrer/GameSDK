@@ -18,6 +18,7 @@
 		<param name="relaxedToTacticalBlendTime" value="0.22"/>
 		<param name="tag" value="map"/>
 		<param name="prone_no_melee" value="0"/>
+        <param name="vendor_cost" value="3"/>
 		<animPrecache name="1handedmelee">
 			<precache DBAFile="animations/human/male/items/map/map.dba" thirdperson="1"/>
 		</animPrecache>

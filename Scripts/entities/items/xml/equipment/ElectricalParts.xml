@@ -6,7 +6,7 @@
 		<param name="stack_size" value="25" />
 		<param name="display_name" value="Electrical Parts"/>
 		<param name="description" value="Various electrical parts that can be used with crafting"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<geometry>
