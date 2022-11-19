@@ -22,7 +22,19 @@ RegisterCallback(_G,
 			local RndPresent3 = { category = "RandomChristmasPresent", percent = 3 }
 			local RndPresent2 = { category = "RandomChristmasPresent", percent = 2 }
 			local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
+            local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
+            local arbol = { class = "christmas_tree", percent = 7 }
 
+
+            -- 0 Part Spart para agregar arbol
+
+            local metalcat =  FindInTable(PartSpawnerManager.itemCategories, "category", "metal_part")
+            table.insert(category1.classes, arbol)
+            local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
+            classtoilet.percent = classtoilet.percent - 4
+            local classtoilet = FindInTable(metalcat.classes, "class", "icemachine_tow_packed")
+            classtoilet.percent = classtoilet.percent - 3
+            
 
 			-- 1 / RandomBruteLoot 		
 			local category1 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomBruteLoot")
@@ -84,7 +96,7 @@ RegisterCallback(_G,
 			-- 11 / RandomMilitaryFootlockerIronSonsContent 		
 			local category11 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomMilitaryFootlockerIronSonsContent")
 			table.insert(category11.classes, RndPresent3)
-			
--
+		
+
 		end
 	end)

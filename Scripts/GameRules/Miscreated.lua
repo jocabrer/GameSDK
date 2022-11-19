@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 3600, -- min time to spawn an event (in seconds)
-			fMaxTime = 7200, -- max time to spawn an event (in seconds)
+			fMinTime = 2400, -- min time to spawn an event (in seconds)
+			fMaxTime = 4200, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -31,7 +31,7 @@ SpawnWorldEvent = function(self)
     CurrentMonth = os.date('%m')
     local top = 0;
     -- Christmas lasts from december 
-    if CurrentMonth == '12' then
+    if CurrentMonth == '12' or CurrentMonth == '11' then
             -- deploy Christmas
         top = 9;
         Log('>> SeasonalEvents : Christmas Event')
@@ -45,15 +45,19 @@ SpawnWorldEvent = function(self)
 	if rnd <= 4 then
 		eventName = "AirDropPlane"
 		g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
+        Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
 	elseif rnd <= 7 then
 		eventName = "AirPlaneCrash"
 		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash" )
+        Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")
     elseif rnd <= top then
         eventName = "UFOCrash"	 
 		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected"  )
+        Log("Miscreated:SpawnWorldEvent - UFO detectado / UFO detected")
     else
 		eventName = "AirDropChristmas"	
 		g_gameRules.game:SendTextMessage(0, 0, "jojojo Feliz navidad!"  )
+        Log("Miscreated:SpawnWorldEvent - jojojo Feliz navidad!")
 	end
 
 	local spawnParams = {}

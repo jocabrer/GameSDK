@@ -500,7 +500,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ class = "AmcoinLedger"                , percent = 5        , min = 5, max = 25 },
 				{ category = "RandomAccessory"          , percent = 65      },
-				{ category = "RandomConsumable"         , percent = 100     },
+				{ category = "RandomConsumable"         , percent = 75      },
+                { category = "RandomMedical"            , percent = 100     },
 				{ category = "RandomAmmo"               , percent = 20      },
 				{ category  = "RandomBackpackContents"  , percent = 80      }, 
                 { category  = "SAPOCBriefcaseClosed"    , percent = 2       }, 
@@ -3209,12 +3210,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomSmokeGrenade",
 			classes =
 			{
-				{ class = "GrenadeGasSleepPickup", percent = 20 },
-				{ class = "GrenadeSmokeGreenPickup", percent = 20 },
-				{ class = "GrenadeSmokeMagentaPickup", percent = 20 },
-				{ class = "GrenadeSmokeRedPickup", percent = 20 },
-				{ class = "GrenadeSmokeWhitePickup", percent = 30 },
-				{ class = "GrenadeSmokeYellowPickup", percent = 15 },
+				{ class = "GrenadeGasSleepPickup",      percent = 10 },
+				{ class = "GrenadeSmokeGreenPickup",    percent = 10 },
+				{ class = "GrenadeSmokeMagentaPickup",  percent = 20 },
+				{ class = "GrenadeSmokeRedPickup",      percent = 20 },
+				{ class = "GrenadeSmokeWhitePickup",    percent = 20 },
+				{ class = "GrenadeSmokeYellowPickup",   percent = 20 },
 				
 			},
 		},
@@ -4359,13 +4360,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomDrinkVendingMachineContent",
 			classes =
 			{
-				{ class = "AmcoinLedger", percent = 8 },
-				{ class = "CokeCan", percent = 8 },
-				{ class = "DrPepperCan", percent = 8 },
-				{ class = "EnergyDrinkCan", percent =85 },
-				{ class = "PepsiCan", percent = 15 },
-				{ class = "SpriteCan", percent = 13 },
-				{ class = "WaterBottle", percent = 10 },
+				{ class = "AmcoinLedger"    , percent = 15 },
+				{ class = "CokeCan"         , percent = 15 },
+				{ class = "DrPepperCan"     , percent = 15 },
+				{ class = "EnergyDrinkCan"  , percent = 15 },
+				{ class = "PepsiCan"        , percent = 15 },
+				{ class = "SpriteCan"       , percent = 15 },
+				{ class = "WaterBottle"     , percent = 10 },
 			},
 		},
 
