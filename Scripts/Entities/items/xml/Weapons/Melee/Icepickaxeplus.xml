@@ -1,7 +1,7 @@
 <item name="Icepickaxeplus" class="Weapon" category="secondary" priority="1" weaponParams="1">
 	<params>
 		<param name="display_name" value="Icepickaxeplus"/>
-		<param name="description" value="Multi-Tool Speed mod plus"/>
+		<param name="description" value="Multi-Tool Speed Mod 1.5x"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="2.5"/>

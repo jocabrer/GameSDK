@@ -91,8 +91,19 @@
 									</item>
                                     <item class="Icepickaxeplus" time="3">
 										<materials>
-											<material class="AmcoinLedger" count="300" />
+											<material class="AmcoinLedger" count="250" />
                                             <material class="Icepickaxe"   count="1" />
+										</materials>
+									</item>
+                                    <item class="PoliceBaton" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="200" />
+										</materials>
+									</item>
+                                    <item class="StunBaton" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="250" />
+                                            <material class="PoliceBaton"   count="1" />
 										</materials>
 									</item>
 								</items>

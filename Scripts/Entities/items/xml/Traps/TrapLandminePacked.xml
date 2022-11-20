@@ -1,0 +1,26 @@
+<item name="TrapLandminePacked" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.6"/>
+		<param name="display_name" value="@TrapLandminePacked"/>
+		<param name="description" value="@TrapLandminePackedDescription"/>
+        <param name="vendor_cost" value="8"/>
+	</params>
+
+	<placeable>
+		<param name="placed_class" value="TrapLandmine"/>
+		<param name="placed_sound" value="Play_pickup_metal"/>
+	</placeable>
+
+	<geometry>
+		<thirdperson name="Objects/traps/landmine/landmine_onground.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

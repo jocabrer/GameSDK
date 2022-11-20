@@ -82,71 +82,72 @@ SpawnAirPlaneCrashLoot = function(self)
 	--Log("AirPlaneCrash - SpawnAirPlaneCrashLoot")
 
 	local vForwardOffset = {x=0,y=0,z=0}
-	FastScaleVector(vForwardOffset, self:GetDirectionVector(), -2.0)
+	FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0.0)
 
-	local vForwardOffset1 = {x=10,y=10,z=0}
-	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -10.0)
+	local vForwardOffset1 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -2.0)
 
-	local vForwardOffset2 = {x=-10,y=-10,z=0}
-	FastScaleVector(vForwardOffset2, self:GetDirectionVector(), -2.0)
+	local vForwardOffset2 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset2, self:GetDirectionVector(), -6.0)
 
 	local vForwardOffset3 = {x=0,y=0,z=0}
-	FastScaleVector(vForwardOffset3, self:GetDirectionVector(), -2.0)
+	FastScaleVector(vForwardOffset3, self:GetDirectionVector(), -10.0)
 
-	local vForwardOffset4 = {x=10,y=-20,z=0}
-	FastScaleVector(vForwardOffset4, self:GetDirectionVector(), 10.0)
+	local vForwardOffset4 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset4, self:GetDirectionVector(), -14.0)
 
-	local vForwardOffset5 = {x=-10,y=-20,z=0}
-	FastScaleVector(vForwardOffset5, self:GetDirectionVector(), 10.0)
+	local vForwardOffset5 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset5, self:GetDirectionVector(), 2.0)
 
-	local vForwardOffset6 = {x=-15,y=-15,z=0}
-	FastScaleVector(vForwardOffset6, self:GetDirectionVector(), 5.0)
+	local vForwardOffset6 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset6, self:GetDirectionVector(), 6.0)
 
-	local vForwardOffset7 = {x=-5,y=-5,z=0}
-	FastScaleVector(vForwardOffset7, self:GetDirectionVector(), -5.0)
+	local vForwardOffset7 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset7, self:GetDirectionVector(), 10.0)
 
-	local vForwardOffset8 = {x=10,y=-10,z=0}
-	FastScaleVector(vForwardOffset8, self:GetDirectionVector(), -15.0)
+	local vForwardOffset8 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset8, self:GetDirectionVector(), 14.0)
 
-	local vForwardOffset9 = {x=12,y=-15,z=0}
-	FastScaleVector(vForwardOffset9, self:GetDirectionVector(), -7.0)
+	local vForwardOffset9 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset9, self:GetDirectionVector(), 20.0)
 
-	local vForwardOffset10 = {x=12,y=-17,z=0}
-	FastScaleVector(vForwardOffset10, self:GetDirectionVector(), -18.0)
+	local vForwardOffset10 = {x=0,y=0,z=0}
+	FastScaleVector(vForwardOffset10, self:GetDirectionVector(), 22.0)
 
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
 	-- FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
 	
-	local vSpawnPos1 = {x=10,y=0,z=0}
+    -- FastSumvecto Copies the componentwise addition of vector b and vector a to vector dest.
+	local vSpawnPos1 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos1, vForwardOffset1, self:GetWorldPos())
 
-	local vSpawnPos2 = {x=-10,y=0,z=0}
+	local vSpawnPos2 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos2, vForwardOffset2, self:GetWorldPos())
 
-	local vSpawnPos3 = {x=10,y=-10,z=0}
+	local vSpawnPos3 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos3, vForwardOffset3, self:GetWorldPos())
 	-- FastSumVectors(vSpawnPos3, vSpawnPos3, {x=0,y=0,z=-5})
 
-	local vSpawnPos4 = {x=-10,y=-20,z=0}
+	local vSpawnPos4 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos4, vForwardOffset4, self:GetWorldPos())
 
-	local vSpawnPos5 = {x=10,y=-20,z=0}
+	local vSpawnPos5 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos5, vForwardOffset5, self:GetWorldPos())
 
-	local vSpawnPos6 = {x=15,y=-15,z=0}
+	local vSpawnPos6 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos6, vForwardOffset6, self:GetWorldPos())
 
-	local vSpawnPos7 = {x=5,y=-5,z=0}
+	local vSpawnPos7 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos7, vForwardOffset7, self:GetWorldPos())
 
-	local vSpawnPos8 = {x=-20,y=15,z=0}
+	local vSpawnPos8 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos8, vForwardOffset8, self:GetWorldPos())
 
-	local vSpawnPos9 = {x=-20,y=15,z=0}
+	local vSpawnPos9 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos9, vForwardOffset9, self:GetWorldPos())
 
-	local vSpawnPos10 = {x=-20,y=15,z=0}
+	local vSpawnPos10 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos10, vForwardOffset10, self:GetWorldPos())
 
 
@@ -164,9 +165,8 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnItem("debris_01"                , vSpawnPos6)
         ISM.SpawnItem("planecrash_engine"        , vSpawnPos7)
         ISM.SpawnItem("planecrash_gear"          , vSpawnPos8)
-        
-		ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
-		SpawnAI = function(self)
+		
+        SpawnAI = function(self)
 
 			local vForwardOffset = {x=0,y=0,z=0}
 			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
@@ -202,7 +202,6 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnItem("planecrash_engine"        , vSpawnPos9)
         ISM.SpawnItem("planecrash_gear"          , vSpawnPos10)
         
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos5)
 		SpawnAI = function(self)
 
 			local vForwardOffset = {x=0,y=0,z=0}
@@ -239,8 +238,6 @@ SpawnAirPlaneCrashLoot = function(self)
         ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos6)
         ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos7)
         ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos8)
-
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
 
         ISM.SpawnItem("debris_01", vSpawnPos9)
         ISM.SpawnItem("debris_01", vSpawnPos10)

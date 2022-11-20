@@ -1,0 +1,25 @@
+<item name="TrapGrenadeFrag2mPacked" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.5"/>
+		<param name="display_name" value="@TrapGrenadeFrag2mPacked"/>
+		<param name="description" value="@TrapGrenadeFrag2mPackedDescription"/>
+	</params>
+
+	<placeable>
+		<param name="placed_class" value="TrapGrenadeFrag2m"/>
+		<param name="placed_sound" value="Play_pickup_metal"/>
+	</placeable>
+
+	<geometry>
+		<thirdperson name="Objects/traps/grenadefrag/trap_grenadefrag_onground.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

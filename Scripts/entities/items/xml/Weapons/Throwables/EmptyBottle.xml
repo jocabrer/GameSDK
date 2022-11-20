@@ -19,6 +19,7 @@
 			<precache DBAFile="animations/human/male/weapons/throw/throw.dba" thirdperson="1"/>
 		</animPrecache>
 		<aimAnims/>
+        <param name="vendor_cost" value="5"/>
 	</params>
 
 	<ammos>

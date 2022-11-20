@@ -5,7 +5,7 @@
 		<param name="mass" value="1.6"/>
 		<param name="display_name" value="@WaterskinCraftedDeer"/>
 		<param name="description" value="@WaterskinCraftedDeerDescription"/>
-
+        <param name="vendor_cost" value="2"/>
 	</params>
 
 	<geometry>

@@ -32,7 +32,7 @@
 			<protection_amount type="feet_sharp" percentage="33.0"/>
 			<protection_amount type="feet_blunt" percentage="20.0"/>
 			<protection_amount type="electricity" percentage="95"/>
-			<protection_amount type="cold" percentage="15"/>
+			<protection_amount type="cold" percentage="35"/>
 			<protection_amount type="heat" percentage="-15"/>
 		</environmental>
 	</protection>

@@ -5,6 +5,7 @@
 		<param name="mass" value="0.1"/>
 		<param name="display_name" value="Guía Construcción Avanzada"/>
 		<param name="description" value="Una guía para aprender construcción avanzada"/>
+        <param name="vendor_cost" value="125"/>
 	</params>
 
 	<geometry>
