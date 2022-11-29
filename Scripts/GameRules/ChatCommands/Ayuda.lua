@@ -1,8 +1,11 @@
 ChatCommands["!help"] = function(playerId, command)
 	Log(">> !help - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "You can use the following commands for help / information: !rules, the command !zone will teleport you to the safe zone, the !say command allows you to send global messages");
-	
+	g_gameRules.game:SendTextMessage(4, playerId,   "You can use the following commands for help/information: \n " ..
+                                                    " !rules (Show info) \n" ..
+                                                    " !zone  (Teleport you to the safe zone - 20 Amcoin required) \n" ..
+                                                    " !say (Send global messages \n example: !say Hi everyone ) \n" ..
+                                                    " !discord (Send discord messages)");
 end
 
 ChatCommands["!rules"] = function(playerId, command)
@@ -15,8 +18,12 @@ end
 ChatCommands["!ayuda"] = function(playerId, command)
 	Log(">> !ayuda - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Puede usar los siguientes comandos para obtener ayuda/información: !reglas, el comando !zona te teletransportará hasta la zona segura, el comando !say te permite enviar mensajes globales");
-	
+	g_gameRules.game:SendTextMessage(4, playerId, "Puede usar los siguientes comandos para obtener ayuda/información: \n " ..
+                                                  " !reglas (Mostrar info.) \n " ..
+                                                  " !zona  (Viaje rápido a la Zona Segura - Requiere 20 Amcoin ) \n" ..
+	                                              " !say (te permite enviar mensajes globales ejemplo: !say Hola a todos) \n"..
+                                                  " !discord (Enviar mensaje al discord)");
+    
 end
 
 ChatCommands["!reglas"] = function(playerId, command)

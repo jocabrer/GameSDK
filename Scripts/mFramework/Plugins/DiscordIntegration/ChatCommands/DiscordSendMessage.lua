@@ -13,11 +13,16 @@ ChatCommands['!discord'] = function(playerId, command)
 
         local message = command:gsub("^"..'', '')
         local Channel = DiscordChannels['Default']
-        
-        Channel:SendMessage(
-            'game-msg-' .. playerName .. '[' .. steamId .. ']', message,
-            function() g_gameRules.game:SendTextMessage(4, playerId, 'Message Sent / Mensaje enviado') end
-        )
+
+        if (string.len(message) < 10 ) then
+            g_gameRules.game:SendTextMessage(4, playerId, 'Short Message  / Mensaje muy corto')
+        else
+            Channel:SendMessage(
+                'game-msg-' .. playerName .. '[' .. steamId .. ']', message,
+                function() g_gameRules.game:SendTextMessage(4, playerId, 'Message Sent / Mensaje enviado') end
+            )
+
+        end
     else
         g_gameRules.game:SendTextMessage(4, playerId, 'No Channels')
     end

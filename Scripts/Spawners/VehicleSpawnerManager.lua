@@ -16,7 +16,7 @@ VehicleSpawnerManager = {
 		-- ====================================================================
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ PORSHE
 		{
 			category = "armored_truck_army",
 			classes =
@@ -31,7 +31,7 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ SUBARU BRZ
 		{
 			category = "armored_truck_police",
 					classes =
@@ -94,20 +94,7 @@ VehicleSpawnerManager = {
 			{
 				{
 					-- All bicycle spawners now just spawn a quadbike
-					class = "quadbike", contents = "RandomQuadBikeContents",
-					skins =
-					{
-						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-						{ name = "Quadbike_Black", percent = 11.0 },
-						{ name = "Quadbike_Blue", percent = 11.0 },
-						{ name = "Quadbike_Green", percent = 11.0 },
-						{ name = "Quadbike_Orange", percent = 12.0 }, -- Default??
-						{ name = "Quadbike_Pink", percent = 11.0 },
-						{ name = "Quadbike_Purple", percent = 11.0 },
-						{ name = "Quadbike_Red", percent = 11.0 },
-						{ name = "Quadbike_White", percent = 11.0 },
-						{ name = "Quadbike_Yellow", percent = 11.0 },
-					},
+					class = "bicycle", contents = "RandomQuadBikeContents",
 				},
 			},
 			initialMinVehicles = 10,
@@ -169,22 +156,25 @@ VehicleSpawnerManager = {
 						},
 					},
 					initialMinVehicles = 5,
-					abandonedTimer = 432000,  -- two days
+					abandonedTimer = 432000,  -- 5 days
 					abandonedRespawnTimer = 3600, -- one hour
 					destroyedTimer = 120,
 					destroyedRespawnTimer = 7200, -- two hours
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ BMW-F420 PATRIOT
 		{
 			category = "f100truck",
 			classes =
 			{
-				{ class = "placeholder1", contents = "RandomF100TruckContents" },
+				{ class = "placeholder1", contents = "RandomF100TruckContents" 
+            
+            
+                },
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 432000,  -- two days
+			abandonedTimer = 432000,  -- 5 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -236,7 +226,7 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------ Mrecedes vito 
+		------------------------------------------------ Mercedes vito 
 		{
 			category = "party_bus",
 			classes =
@@ -326,7 +316,7 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ camion blindado mod
 		{
 			category = "sedan_taxi",
 			classes =
@@ -363,6 +353,7 @@ VehicleSpawnerManager = {
 					},
 				},
 				{ 
+                    -- Shelby gt500
 					class = "placeholder3", contents = "RandomF100TruckContents",
 					skins =
 					{
@@ -400,7 +391,7 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ --chevrolet corvette c6
 		{
 			category = "towcar",
 			classes =
@@ -442,9 +433,9 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ HMMWV o Humvee 
 		{
-			category = "truck_5ton",
+			category = "truck_5ton",  
 			classes =
 			{
 				{ 
@@ -473,9 +464,9 @@ VehicleSpawnerManager = {
 		},
 
 		------------------------------------------------
-		------------------------------------------------
+		------------------------------------------------ BMW clasico 
 		{
-			category = "truck_semi",
+			category = "truck_semi", 
 			classes =
 			{
 				{ 
@@ -491,7 +482,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 8,
-			abandonedTimer = 432000,  -- two days
+			abandonedTimer = 432000,  -- 5 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
