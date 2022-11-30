@@ -108,16 +108,86 @@ end
 -- ELPInitModules
 -- Initializes some server stuff
 function ELPInitModules()
-    ELPJSON = require('JSON');
+    -- Calling the Miscreated Revive player function to initialize the player names script
+    RegisterCallbackReturnAware(
+        Miscreated,
+        'RevivePlayer',
+        function (self, ret, playerId)
+
+            mSendEvent(
+                playerId,
+                {
+                    Type = 'ELPInitUI',
+                    Data = {
+                        playerCount = 0,
+                        playerTotal = 0
+                    }
+                },
+                false,
+                false
+            );
+
+            
+
+            return ret;
+        end,
+        nil
+    );
+
+    -- Calling the Miscreated Revive player function to initialize the player names script
+    RegisterCallbackReturnAware(
+        Miscreated,
+        'RevivePlayer',
+        function (self, ret, playerId)
+            if (ELPPlayerCounterStarted == false) then
+                ELPPlayerCounterStarted = true;
+                Script.SetTimerForFunction(1000, 'PVECountPlayersAfterDelay', {});
+            end
+
+            local player = System.GetEntity(playerId);
+            local steamId = player.player:GetSteam64Id();
+
+            local playersConnected = table.getn(CryAction.GetPlayerList());
+            local playerKills = 0;
+
+            --if (BIOHZLogoKillCounter[steamId]) then
+            --    playerKills = BIOHZLogoKillCounter[steamId];
+            --else
+            --    local killerPersistentData = DBCollection:GetPage(steamId);
+--
+            --    if (killerPersistentData and killerPersistentData['kills']) then
+            --        playerKills = killerPersistentData['kills'];
+            --        BIOHZLogoKillCounter[steamId] = playerKills;
+            --    end
+            --end
+
+            mSendEvent(
+                playerId,
+                {
+                    Type = 'PVEInitUI',
+                    Data = {
+                        playerCount = playersConnected,
+                        playerKills = 0,
+                    }
+                },
+                false,
+                false
+            );
+
+            return ret;
+        end,
+        nil
+    );
 end
 
 
--- ELPPlayerGeneralUpdate
+
 -- Updates the player's data in a regular basis
 function ELPPlayerGeneralUpdate()
     local player = System.GetEntity(g_localActorId);
 
     if (not player:IsDead()) then
+
 
         -- Ammo data
         local currentGun = player.inventory:GetCurrentItem();
@@ -151,40 +221,87 @@ function ELPPlayerGeneralUpdate()
             UIAction.CallFunction('mod_ELAmmoCounterUI', 1, 'SetAmmo', 'undefined', '', '');
         end
 
-
         Script.SetTimerForFunction(10, 'ELPPlayerGeneralUpdateAfterDelay', {});
     else
         UIAction.UnloadElement('mod_ELAmmoCounterUI', 1);
     end
+
+    
 end
 
--- ELPPlayerGeneralUpdateAfterDelay
+
 -- Updates the player data after a delay
 function ELPPlayerGeneralUpdateAfterDelay(dummyData)
     ELPPlayerGeneralUpdate();
 end
 
+-- Counts the number of players connected to the server
+function PVECountPlayers()
+    local listOfPlayers = CryAction.GetPlayerList();
+    local playersConnected = table.getn(listOfPlayers);
 
--- Calling the Miscreated Revive player function to initialize the player names script
-RegisterCallbackReturnAware(
-    Miscreated,
-    'RevivePlayer',
-    function (self, ret, playerId)
+    if (ELPPlayerCounter ~= playersConnected) then
+        ELPPlayerCounter = playersConnected;
 
-        mSendEvent(
-            playerId,
-            {
-                Type = 'ELPInitUI',
-                Data = {
-                    playerCount = 0,
-                    playerTotal = 0
-                }
-            },
-            false,
-            false
-        );
+        for key, player in pairs(listOfPlayers) do
+            mSendEvent(
+                player.id,
+                {
+                    Type = 'PVEUpdatePlayerCount',
+                    Data = {
+                        playerCount = playersConnected
+                    }
+                },
+                false,
+                false
+            );
+        end
+    end
 
-        return ret;
-    end,
-    nil
-);
+    Script.SetTimerForFunction(10000, 'PVECountPlayersAfterDelay', {});
+end
+
+-- Counts the number of players connected to the server after a delay
+function PVECountPlayersAfterDelay(dummy)
+    PVECountPlayers();
+end
+
+
+function UpdateMiniMapCounters()
+
+    local player = System.GetEntity(g_localActorId);
+
+    if (not player:IsDead()) then
+
+        Script.SetTimerForFunction(10, 'UpdateMiniMapCountersAfterDelay', {});
+
+        -- Position data
+        local position = {};
+        local playerAngles = {};
+        local vehicleId = player.actor:GetLinkedVehicleId();
+        if (vehicleId) then
+            local vehicle = System.GetEntity(vehicleId);
+            position = vehicle:GetWorldPos();
+            playerAngles = vehicle:GetAngles();
+        else
+            position = player:GetWorldPos();
+            playerAngles = player:GetAngles();
+        end
+        local playerData = {
+            Position = position,
+            Rotation = playerAngles.z * 180/g_Pi
+        };
+        if (not ELPJSON) then
+            ELPJSON = require('JSON');
+        end
+        UIAction.CallFunction('mod_ELMinimapUI', 1, 'UpdatePlayerPosAndRotation', ELPJSON.stringify(playerData), tostring(player.ELPPlayerCount), tostring(player.ELPKills));
+    else
+        UIAction.UnloadElement('mod_ELMinimapUI', 1);
+    end
+    
+    
+end
+
+function UpdateMiniMapCountersAfterDelay(dummy)
+    UpdateMiniMapCounters();
+end
