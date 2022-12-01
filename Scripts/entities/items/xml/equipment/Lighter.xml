@@ -3,11 +3,11 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
-		<param name="stack_size" value="50"/>
+		<param name="stack_size" value="20"/>
 		<param name="stack_size_spawned" value="35"/> <!-- allow up to 35 uses when spawned in -->
 		<param name="display_name" value="@Lighter"/>
 		<param name="description" value="@LighterDescription"/>
-		<param name="vendor_cost" value="20"/>
+		<param name="vendor_cost" value="40"/>
 	</params>
 
 	<geometry>

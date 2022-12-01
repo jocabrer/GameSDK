@@ -22,6 +22,7 @@
 		<param name="prone_no_melee" value="0"/>                                                          
 		<param name="tag" value="stunbaton"/>
 		<param name="adb" value="stunbatonWeaponAnims.adb"/>
+        <param name="vendor_cost" value="100"/>
 		<animPrecache name="stunbaton">
 			<precache DBAFile="animations/human/male/weapons/stunbaton/stunbaton.dba" thirdperson="1"/>                     
 		</animPrecache>

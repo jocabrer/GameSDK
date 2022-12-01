@@ -7,7 +7,7 @@
 		<param name="stack_size_spawned" value="15"/> <!-- allow up to 15 matches when spawned in -->
 		<param name="display_name" value="@Matches"/>
 		<param name="description" value="@MatchesDescription"/>
-		<param name="vendor_cost" value="1"/>
+		<param name="vendor_cost" value="50"/>
 	</params>
 
 	<geometry>

@@ -66,7 +66,8 @@
         <item name="TronHelmetRed" percentage="100"/>
         <item name="TronHelmetYellow" percentage="100"/>
 
-        
+        <item name="HockeyMaskDp" percentage="100"/>
+        <item name="HockeyMask" percentage="100"/>
 	</repair>
 
 	<storage>

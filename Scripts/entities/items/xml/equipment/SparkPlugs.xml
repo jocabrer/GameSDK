@@ -3,7 +3,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.5"/>
-		<param name="stack_size" value="10"/>
+		<param name="stack_size" value="3"/>
 		<param name="healthMax" value="25.0"/>
 		<param name="damage_scale" value="0.5"/>
 		<param name="display_name" value="@SparkPlugs"/>
