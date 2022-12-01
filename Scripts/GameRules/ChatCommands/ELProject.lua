@@ -105,30 +105,23 @@ function ELPPreInitModules()
     end
 end
 
--- ELPInitModules
 -- Initializes some server stuff
 function ELPInitModules()
+
     -- Calling the Miscreated Revive player function to initialize the player names script
     RegisterCallbackReturnAware(
         Miscreated,
         'RevivePlayer',
         function (self, ret, playerId)
-
             mSendEvent(
                 playerId,
                 {
                     Type = 'ELPInitUI',
-                    Data = {
-                        playerCount = 0,
-                        playerTotal = 0
-                    }
+                    Data = {}
                 },
                 false,
                 false
             );
-
-            
-
             return ret;
         end,
         nil
@@ -143,37 +136,15 @@ function ELPInitModules()
                 ELPPlayerCounterStarted = true;
                 Script.SetTimerForFunction(1000, 'PVECountPlayersAfterDelay', {});
             end
-
-            local player = System.GetEntity(playerId);
-            local steamId = player.player:GetSteam64Id();
-
-            local playersConnected = table.getn(CryAction.GetPlayerList());
-            local playerKills = 0;
-
-            --if (BIOHZLogoKillCounter[steamId]) then
-            --    playerKills = BIOHZLogoKillCounter[steamId];
-            --else
-            --    local killerPersistentData = DBCollection:GetPage(steamId);
---
-            --    if (killerPersistentData and killerPersistentData['kills']) then
-            --        playerKills = killerPersistentData['kills'];
-            --        BIOHZLogoKillCounter[steamId] = playerKills;
-            --    end
-            --end
-
             mSendEvent(
                 playerId,
                 {
                     Type = 'PVEInitUI',
-                    Data = {
-                        playerCount = playersConnected,
-                        playerKills = 0,
-                    }
+                    Data = {}
                 },
                 false,
                 false
             );
-
             return ret;
         end,
         nil
@@ -187,8 +158,6 @@ function ELPPlayerGeneralUpdate()
     local player = System.GetEntity(g_localActorId);
 
     if (not player:IsDead()) then
-
-
         -- Ammo data
         local currentGun = player.inventory:GetCurrentItem();
 
@@ -229,7 +198,6 @@ function ELPPlayerGeneralUpdate()
     
 end
 
-
 -- Updates the player data after a delay
 function ELPPlayerGeneralUpdateAfterDelay(dummyData)
     ELPPlayerGeneralUpdate();
@@ -237,9 +205,12 @@ end
 
 -- Counts the number of players connected to the server
 function PVECountPlayers()
+    
+    
     local listOfPlayers = CryAction.GetPlayerList();
     local playersConnected = table.getn(listOfPlayers);
-
+    local playerKills = 0;
+    
     if (ELPPlayerCounter ~= playersConnected) then
         ELPPlayerCounter = playersConnected;
 
@@ -257,8 +228,9 @@ function PVECountPlayers()
             );
         end
     end
-
+    
     Script.SetTimerForFunction(10000, 'PVECountPlayersAfterDelay', {});
+    
 end
 
 -- Counts the number of players connected to the server after a delay
@@ -273,7 +245,7 @@ function UpdateMiniMapCounters()
 
     if (not player:IsDead()) then
 
-        Script.SetTimerForFunction(10, 'UpdateMiniMapCountersAfterDelay', {});
+        Script.SetTimerForFunction(30, 'UpdateMiniMapCountersAfterDelay', {});
 
         -- Position data
         local position = {};
@@ -294,7 +266,29 @@ function UpdateMiniMapCounters()
         if (not ELPJSON) then
             ELPJSON = require('JSON');
         end
-        UIAction.CallFunction('mod_ELMinimapUI', 1, 'UpdatePlayerPosAndRotation', ELPJSON.stringify(playerData), tostring(player.ELPPlayerCount), tostring(player.ELPKills));
+
+        --local steamId = player.player:GetSteam64Id();
+        --local killerPersistentData = DBCollection:GetPage(steamId);
+        local playerKills = 0 ;
+
+        --if (killerPersistentData and killerPersistentData['mkills']) then
+        --    playerKills = killerPersistentData['mkills'];
+        --end
+
+        --mSendEvent(
+        --    player.id,
+        --    {
+        --        Type = 'ELPUpdateKills',
+        --        Data = {
+        --           playerKills = playerKills
+        --        }
+        --    },
+        --    false,
+        --    false
+        --);
+
+        UIAction.CallFunction('mod_ELMinimapUI', 1, 'UpdatePlayerPosAndRotation', ELPJSON.stringify(playerData), tostring(player.ELPPlayerCount), tostring(playerKills));
+
     else
         UIAction.UnloadElement('mod_ELMinimapUI', 1);
     end

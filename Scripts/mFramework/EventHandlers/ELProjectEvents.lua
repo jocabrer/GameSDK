@@ -13,10 +13,6 @@ g_mEventHandlers['PVEInitUI'] = function(playerId, data, source_id, target_id)
     
     local player = System.GetEntity(g_localActorId);
     
-    player.ELPPlayerCount = data.playerCount;
-    player.ELPKills = data.playerKills;
-    
-    
     UIAction.ShowElement('mod_ELMinimapUI', 1);
 
     local mapName = System.GetCVar('sv_map');
@@ -39,7 +35,7 @@ g_mEventHandlers['PVEInitUI'] = function(playerId, data, source_id, target_id)
     end
 
     UIAction.CallFunction('mod_ELMinimapUI', 1, 'InitMinimap', mapScale, mapName);
-    Script.SetTimerForFunction(3000, 'UpdateMiniMapCountersAfterDelay', {});
+    Script.SetTimerForFunction(5000, 'UpdateMiniMapCountersAfterDelay', {});
     
 end
 
@@ -47,5 +43,11 @@ g_mEventHandlers['PVEUpdatePlayerCount'] = function(playerId, data, source_id, t
     local player = System.GetEntity(g_localActorId);
     player.ELPPlayerCount = data.playerCount;
 end
+
+g_mEventHandlers['ELPUpdateKills'] = function(playerId, data, source_id, target_id)
+    local player = System.GetEntity(g_localActorId);
+    player.ELPKills = data.playerKills;
+end
+
 
 -- SERVER EVENTS
