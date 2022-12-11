@@ -6,7 +6,7 @@
 		<param name="stack_size" value="250" />
 		<param name="display_name" value="@SheetMetal" />
 		<param name="description" value="@SheetMetalDescription" />
-        <param name="vendor_cost" value="500"/>
+        <param name="vendor_cost" value="255"/>
 	</params>
 
 	<geometry>

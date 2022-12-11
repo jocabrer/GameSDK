@@ -6,7 +6,7 @@
 		<param name="stack_size" value="25"/>
 		<param name="display_name" value="Rubbing Alcohol"/>
 		<param name="description" value="An old bottle of rubbing alcohol."/>
-		<param name="vendor_cost" value="3"/>
+		<param name="vendor_cost" value="75"/>
 	</params>
 
 	<geometry>

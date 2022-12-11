@@ -21,7 +21,7 @@
 		<aimAnims/>
 		<param name="hit_points" value="35"/> <!-- Allows item to be shot while equipped -->
 		<param name="physics" value="0"/> <!-- Allows item to be shot while equipped -->
-        <param name="vendor_cost" value="15"/>
+        <param name="vendor_cost" value="20"/>
 	</params>
 
 	<ammos>
