@@ -24,7 +24,7 @@ VehicleSpawnerManager = {
 				{ class = "placeholder9", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles    = 10,
-			abandonedTimer        = 432000,  -- two days
+			abandonedTimer        = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer        = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -50,7 +50,7 @@ VehicleSpawnerManager = {
 						},
 					},
 					initialMinVehicles = 10,
-					abandonedTimer = 432000,  -- two days
+					abandonedTimer = 172800,  -- two days
 					abandonedRespawnTimer = 3600, -- one hour
 					destroyedTimer = 120,
 					destroyedRespawnTimer = 7200, -- two hours
@@ -93,12 +93,95 @@ VehicleSpawnerManager = {
 			classes =
 			{
 				{
-					-- All bicycle spawners now just spawn a quadbike
-					class = "bicycle", contents = "RandomQuadBikeContents",
+					class = "beetle", contents = "RandomF100TruckContents",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "Beetle_Black", percent = 11.0 },
+						{ name = "Beetle_Blue", percent = 11.0 },
+						{ name = "Beetle_Green", percent = 11.0 },
+						{ name = "Beetle_Orange", percent = 12.0 }, -- Default
+						{ name = "Beetle_Pink", percent = 11.0 },
+						{ name = "Beetle_Purple", percent = 11.0 },
+						{ name = "Beetle_Red", percent = 11.0 },
+						{ name = "Beetle_White", percent = 11.0 },
+						{ name = "Beetle_Yellow", percent = 11.0 },
+					},
 				},
+                {
+					class = "truck_semi", contents = "RandomTruck5TonContents",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "TruckSemi_Black", percent = 11.0 },
+						{ name = "TruckSemi_Blue", percent = 11.0 },
+						{ name = "TruckSemi_Green", percent = 11.0 },
+						{ name = "TruckSemi_Orange", percent = 11.0 },
+						{ name = "TruckSemi_Pink", percent = 11.0 },
+						{ name = "TruckSemi_Purple", percent = 11.0 },
+						{ name = "TruckSemi_Red", percent = 11.0 },
+						{ name = "TruckSemi_White", percent = 12.0 }, -- Default
+						{ name = "TruckSemi_Yellow", percent = 11.0 },
+					},
+				},
+                {
+                    category = "tractor",
+                    classes =
+                    {
+                        { class = "tractor", contents = "RandomTractorContents" },
+                    },
+                    initialMinVehicles = 2,
+                    abandonedTimer = 21600,  -- six hours
+                    abandonedRespawnTimer = 3600, -- one hour
+                    destroyedTimer = 120,
+                    destroyedRespawnTimer = 7200, -- two hours
+                },
+                {
+                    category = "sedan_taxi",
+                    classes =
+                    {
+                        { class = "sedan_taxi_blix", contents = "RandomF100TruckContents" },
+                        { class = "sedan_taxi_engoa", contents = "RandomF100TruckContents" },
+                        { class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
+                    },
+                    initialMinVehicles = 2,
+                    abandonedTimer = 172800,  -- two days
+                    abandonedRespawnTimer = 3600, -- one hour
+                    destroyedTimer = 120,
+                    destroyedRespawnTimer = 7200, -- two hours
+                },
+                {
+                    category = "party_bus",
+                    classes =
+                    {
+                        { class = "party_bus", contents = "RandomPartyBusContents" },
+                    },
+                    initialMinVehicles = 2,
+                    abandonedTimer = 259200,  -- three days
+                    abandonedRespawnTimer = 3600, -- one hour
+                    destroyedTimer = 120,
+                    destroyedRespawnTimer = 7200, -- two hours
+                },
+                {
+					class = "dune_buggy", contents = "RandomF100TruckContents",
+					skins =
+					{
+						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
+						{ name = "DuneBuggy_Black", percent = 11.0 },
+						{ name = "DuneBuggy_Blue", percent = 11.0 },
+						{ name = "DuneBuggy_Green", percent = 11.0 },
+						{ name = "DuneBuggy_Orange", percent = 12.0 }, -- Default
+						{ name = "DuneBuggy_Pink", percent = 11.0 },
+						{ name = "DuneBuggy_Purple", percent = 11.0 },
+						{ name = "DuneBuggy_Red", percent = 11.0 },
+						{ name = "DuneBuggy_White", percent = 11.0 },
+						{ name = "DuneBuggy_Yellow", percent = 11.0 },
+					},
+				},
+        
 			},
-			initialMinVehicles = 10,
-			abandonedTimer = 21600,  -- six hours
+			initialMinVehicles = 30,
+			abandonedTimer = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -156,7 +239,7 @@ VehicleSpawnerManager = {
 						},
 					},
 					initialMinVehicles = 5,
-					abandonedTimer = 432000,  -- 5 days
+					abandonedTimer = 172800,  -- 5 days
 					abandonedRespawnTimer = 3600, -- one hour
 					destroyedTimer = 120,
 					destroyedRespawnTimer = 7200, -- two hours
@@ -174,7 +257,7 @@ VehicleSpawnerManager = {
                 },
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 432000,  -- 5 days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -233,8 +316,8 @@ VehicleSpawnerManager = {
 			{
 				{ class = "party_bus", contents = "RandomPartyBusContents" },
 			},
-			initialMinVehicles = 8,
-			abandonedTimer = 432000,  -- two days
+			initialMinVehicles = 4,
+			abandonedTimer = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -294,7 +377,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 5,
-			abandonedTimer = 172800, -- two days
+			abandonedTimer = 172800, -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -307,9 +390,10 @@ VehicleSpawnerManager = {
 			classes =
 			{
 				{ class = "sedan_police", contents = "RandomPoliceSedanContents" },
+                { class = "suv_police", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 2,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 4,
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -324,7 +408,7 @@ VehicleSpawnerManager = {
 				{ class = "placeholder11", contents = "RandomF100TruckContents" },
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -369,7 +453,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 20,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -384,7 +468,7 @@ VehicleSpawnerManager = {
 				{ class = "suv_police", contents = "RandomPoliceSedanContents" },
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 172800,  -- two days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -409,9 +493,10 @@ VehicleSpawnerManager = {
 					},
 					
 				},
+                { class = "towcar", contents = "RandomTowcarContents" },
 			},
 			initialMinVehicles = 20,
-			abandonedTimer = 432000,  -- two days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -426,7 +511,7 @@ VehicleSpawnerManager = {
 				{ class = "tractor", contents = "RandomTractorContents" },
 			},
 			initialMinVehicles = 8,
-			abandonedTimer = 432000,  -- two days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -457,7 +542,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 10,
-			abandonedTimer = 259200,  -- three days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -482,7 +567,7 @@ VehicleSpawnerManager = {
 				},
 			},
 			initialMinVehicles = 8,
-			abandonedTimer = 432000,  -- 5 days
+			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours

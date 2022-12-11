@@ -328,7 +328,7 @@
   <MovementParams>
     <ArcadeWheeled steerSpeed="60" steerSpeedMin="100" steerSpeedScale="1" steerSpeedScaleMin="1" kvSteerMax="5" v0SteerMax="33" steerRelaxation="300" vMaxSteerMax="25" pedalLimitMax="0.1" rpmGearShiftSpeed="1" engineIgnitionTime="1.5">
       <Handling>
-        <Power acceleration="19" decceleration="0.1" topSpeed="29" reverseSpeed="15" />
+        <Power acceleration="17" decceleration="0.1" topSpeed="20" reverseSpeed="15" />
         <!-- Decceleration is off-pedal slow rate -->
         <WheelSpin grip1="0.1" grip2="2" gripRecoverSpeed="0.5" accelMultiplier1="1" accelMultiplier2="0.2" />
         <HandBrake decceleration="30" deccelerationPowerLock="3" lockBack="0" lockFront="1" frontFrictionScale="0.9" backFrictionScale="0.8" angCorrectionScale="6" />
