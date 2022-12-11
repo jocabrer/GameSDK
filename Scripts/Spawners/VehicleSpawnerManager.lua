@@ -293,7 +293,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 10,
+			initialMinVehicles = 5,
 			abandonedTimer = 172800, -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -308,7 +308,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "sedan_police", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 2,
 			abandonedTimer = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
