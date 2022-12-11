@@ -1736,7 +1736,7 @@
 								<items>
 									<item class="door_titanium" time="1">
 										<materials>
-											<material class="Lumber" count="25" />
+											<material class="Hammer" count="3" />
 											<material class="SheetMetal" count="50" />
 											<material class="Nails" count="50" />
 											<material class="Amalgaduino" count="3" />
