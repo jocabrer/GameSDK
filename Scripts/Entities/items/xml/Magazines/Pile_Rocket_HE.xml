@@ -32,13 +32,6 @@
 		<thirdperson name="Objects/weapons/rocket_launcher/rocket_launcher_missle.cgf" scale="1"/>  <!--5-->
 	</geometry>
 
-    <usable>
-		<param name="title" value="Convert to C4" />
-		<param name="action" value="craft" />
-		<param name="param" value="C4TimedPickup" />
-		<param name="soundUsed" value="" />
-    </usable>
-
 	<storage>
 		<locations>
 			<location category="any"/>

@@ -1,0 +1,30 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="board" MtlFlags="524416" Shader="Illum" GenMask="40000400" StringGenMask="%DETAIL_MAPPING%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="0.30498734,0.30498734,0.30498734" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/grogan/textures/canyonland_poster_diff.tif">
+     <TexMod TexMod_RotateType="1" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.65" OffsetU="0.63999999" TileV="1.02" OffsetV="-0.012" TexMod_WRotateAmplitude="270"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plastic/plastic_detail.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.2" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524418" Shader="Illum" GenMask="60400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal_thick" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/highway_bridge/metal_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetV="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/generic/metal/metal_brushed_ddna.dds"/>
+    <Texture Map="Specular" File="objects/props/highway_bridge/metal_spec.tif"/>
+    <Texture Map="Custom" File="textures/metal/rustedmetal_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/metal/metal_iron_b_ddna.dds"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/dirty_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.2" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.18000001" BlendLayer2Specular="0.039999999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

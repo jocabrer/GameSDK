@@ -67,6 +67,8 @@
 		<item name="IronsuitPinkGloves" percentage="100"/>
 		<item name="IronsuitPinkBoots" percentage="100"/>
 		
+        <item name="DustMask" percentage="100"/>
+        
 		
 	</repair>
 

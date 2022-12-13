@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 2400, -- min time to spawn an event (in seconds)
-			fMaxTime = 4200, -- max time to spawn an event (in seconds)
+			fMinTime = 2700, -- min time to spawn an event (in seconds)
+			fMaxTime = 5400, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -56,8 +56,8 @@ SpawnWorldEvent = function(self)
         Log("Miscreated:SpawnWorldEvent - UFO detectado / UFO detected")
     else
 		eventName = "AirDropChristmas"	
-		g_gameRules.game:SendTextMessage(0, 0, "jojojo Feliz navidad!"  )
-        Log("Miscreated:SpawnWorldEvent - jojojo Feliz navidad!")
+		g_gameRules.game:SendTextMessage(0, 0, "jojojo Santa detected!"  )
+        Log("Miscreated:SpawnWorldEvent - Santa detected! ")
 	end
 
 	local spawnParams = {}
