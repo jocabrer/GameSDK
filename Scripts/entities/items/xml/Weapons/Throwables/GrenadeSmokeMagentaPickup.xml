@@ -15,7 +15,7 @@
 		<param name="sprintToRunBlendTime" value="0.15"/>
 		<param name="nonHostileUse" value="1"/>
 		<param name="dontRotateOnSpawn" value="1"/>
-		<param name="vendor_cost" value="20"/>
+		<param name="vendor_cost" value="40"/>
 		<param name="tag" value="throwable"/>
 		<animPrecache name="Throwable">
 			<precache DBAFile="animations/human/male/weapons/throw/throw.dba" thirdperson="1"/>

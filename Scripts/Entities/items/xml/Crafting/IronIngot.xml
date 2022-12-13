@@ -6,6 +6,7 @@
 		<param name="stack_size" value="250" />		
 		<param name="display_name" value="@IronIngot" />
 		<param name="description" value="@IronIngotDescription" />
+        <param name="vendor_cost" value="250"/>
 	</params>
 
 	<geometry>
