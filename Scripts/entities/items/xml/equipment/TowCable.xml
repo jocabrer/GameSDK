@@ -7,6 +7,7 @@
 		<param name="damage_scale" value="0.5"/>		
 		<param name="display_name" value="@TowCable"/>
 		<param name="description" value="@TowCableDescription"/>
+        <param name="vendor_cost" value="25"/>
 	</params>
 
 	<geometry>

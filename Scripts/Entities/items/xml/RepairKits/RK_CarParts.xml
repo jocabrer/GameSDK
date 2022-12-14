@@ -22,6 +22,7 @@
         <item name="CarBattery" percentage="100"/>
         <item name="SparkPlugs" percentage="100"/>
         <item name="DriveBelt" percentage="100"/>
+        <item name="TowCable" percentage="100"/>
 	</repair>
 
 	<storage>

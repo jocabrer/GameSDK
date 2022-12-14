@@ -150,18 +150,7 @@ VehicleSpawnerManager = {
                     destroyedTimer = 120,
                     destroyedRespawnTimer = 7200, -- two hours
                 },
-                {
-                    category = "party_bus",
-                    classes =
-                    {
-                        { class = "party_bus", contents = "RandomPartyBusContents" },
-                    },
-                    initialMinVehicles = 2,
-                    abandonedTimer = 259200,  -- three days
-                    abandonedRespawnTimer = 3600, -- one hour
-                    destroyedTimer = 120,
-                    destroyedRespawnTimer = 7200, -- two hours
-                },
+               
                 {
 					class = "dune_buggy", contents = "RandomF100TruckContents",
 					skins =
@@ -346,7 +335,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-        initialMinVehicles = 5,
+            initialMinVehicles = 15,
 			abandonedTimer = 21600,  -- six hours
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
