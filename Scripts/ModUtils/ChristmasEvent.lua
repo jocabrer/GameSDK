@@ -23,7 +23,7 @@ RegisterCallback(_G,
 			local RndPresent2 = { category = "RandomChristmasPresent", percent = 2 }
 			local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
             local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
-            local arbol = { class = "christmas_tree", percent = 7 }
+            local arbol = { class = "christmas_tree", percent = 8 }
 
 
             -- 0 Part Spart para agregar arbol
@@ -33,7 +33,7 @@ RegisterCallback(_G,
             local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
             classtoilet.percent = classtoilet.percent - 4
             local classtoilet = FindInTable(metalcat.classes, "class", "icemachine_tow_packed")
-            classtoilet.percent = classtoilet.percent - 3
+            classtoilet.percent = classtoilet.percent - 4
             
 
 			-- 1 / RandomBruteLoot 		
