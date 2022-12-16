@@ -104,12 +104,17 @@ SpawnAI = function(self)
 
 	local vForwardOffset = {x=0,y=0,z=0}
 	FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-	local vForwardOffset1 = {x=5,y=5,z=0}
+	local vForwardOffset1 = {x=5,y=5,z=2}
+	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -5.0)
+    local vForwardOffset2 = {x=5,y=5,z=4}
+	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -5.0)
+    local vForwardOffset3 = {x=5,y=5,z=5}
+	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -5.0)
+    local vForwardOffset4 = {x=5,y=5,z=8}
 	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -5.0)
 
 	local vSpawnPos = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
-	FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
 	
 	local vSpawnPos1 = {x=0,y=0,z=0}
 	FastSumVectors(vSpawnPos1, vForwardOffset1, self:GetWorldPos())
