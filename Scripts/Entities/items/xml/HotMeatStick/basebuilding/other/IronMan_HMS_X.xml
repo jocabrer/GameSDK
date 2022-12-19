@@ -1,0 +1,16 @@
+﻿<item name="IronMan_HMS_X" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="IronMan_HMS_X" />
+    <param name="description" value="IronMan_HMS_X" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/HotMeatStick/basebuilding/IronMan_HMS/IronMan_HMS.cgf"/>
+  </geometry>
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

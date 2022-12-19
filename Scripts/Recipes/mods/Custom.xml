@@ -81,34 +81,68 @@
             <cat name="PVE Store">
                 <subcats>
                     <subcat name="Speed Mod">
-                    <types>
-							<type name="Icepickaxe">
-								<items>
-									<item class="Icepickaxe" time="3">
-										<materials>
-											<material class="AmcoinLedger" count="200" />
-										</materials>
-									</item>
-                                    <item class="Icepickaxeplus" time="3">
-										<materials>
-											<material class="AmcoinLedger" count="250" />
-                                            <material class="Icepickaxe"   count="1" />
-										</materials>
-									</item>
-                                    <item class="PoliceBaton" time="3">
-										<materials>
-											<material class="AmcoinLedger" count="200" />
-										</materials>
-									</item>
-                                    <item class="StunBaton" time="3">
-										<materials>
-											<material class="AmcoinLedger" count="250" />
-                                            <material class="PoliceBaton"   count="1" />
-										</materials>
-									</item>
-								</items>
-							</type>
-					</types>
+                            <items>
+                                <item class="Icepickaxe" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="200" />
+                                    </materials>
+                                </item>
+                                <item class="Icepickaxeplus" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="250" />
+                                        <material class="Icepickaxe"   count="1" />
+                                    </materials>
+                                </item>
+                                <item class="PoliceBaton" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="200" />
+                                    </materials>
+                                </item>
+                                <item class="StunBaton" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="250" />
+                                        <material class="PoliceBaton"   count="1" />
+                                    </materials>
+                                </item>
+                            </items>
+					</subcat>		
+                    <subcat name="Monumentos">
+                            <items>
+                                <item class="2B_HMS" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="Batman_HMS" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="IronMan_HMS" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="Star_HMS" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="statue" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                            </items>
+                    </subcat>
+                    <subcat name="Personal Airdrop">
+                            <items>
+                                <item class="SAPOCBriefcaseClosed" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="1020" />
+                                    </materials>
+                                </item>
+                            </items>
                     </subcat>
                 </subcats>
             </cat>

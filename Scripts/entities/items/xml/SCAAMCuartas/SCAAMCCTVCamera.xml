@@ -5,7 +5,7 @@
 		<param name="mass" value="1"/>
 		<param name="display_name" value="CCTV Camera"/>
 		<param name="description" value="Se usa con la aplicación de cámaras de la terminal, works with the amalgated terminal and the installed application"/>
-		
+		<param name="vendor_cost" value="50"/>
 		<param name="place_restrict_snap" value="sticky"/>
 	</params>
 

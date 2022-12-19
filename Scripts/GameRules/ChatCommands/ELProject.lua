@@ -1,3 +1,4 @@
+
 -- EL Project v1.0.2
 -- Created by Cuartas, property of End of Living | RobocopHD community PvP
 
@@ -126,6 +127,9 @@ function ELPInitModules()
         end,
         nil
     );
+
+   
+    Script.SetTimerForFunction(3600, 'PVETopAfterDelay');
 
     -- Calling the Miscreated Revive player function to initialize the player names script
     RegisterCallbackReturnAware(
@@ -298,4 +302,17 @@ end
 
 function UpdateMiniMapCountersAfterDelay(dummy)
     UpdateMiniMapCounters();
+end
+
+
+function PVETop()
+    local mensaje = 'Use Command !help / Usa el comando !Ayuda';
+    g_gameRules.game:SendTextMessage(0, 0, mensaje );
+    g_gameRules.game:SendTextMessage(4, 0, mensaje );
+    Script.SetTimerForFunction(1200000, 'PVETopAfterDelay');
+end 
+
+
+function PVETopAfterDelay()
+    PVETop();
 end
