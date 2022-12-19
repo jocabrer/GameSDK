@@ -233,7 +233,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 
 newItem = {
     class = "SCAAMAppFloppyDisk",
-    percent = 25,
+    percent = 8,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomDeskContent")
@@ -298,7 +298,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 -- Floppy disk encrypted
 newItem = {
     class = "SCAAMEncryptedFloppyDisk",
-    percent = 10,
+    percent = 3,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")
@@ -362,7 +362,7 @@ categoryItemToAdjust.percent = categoryItemToAdjust.percent - leftover
 
 newItem = {
     class = "SCAAMEncryptedFloppyDisk",
-    percent = 10,
+    percent = 5,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomDeskContent")

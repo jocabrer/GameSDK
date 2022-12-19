@@ -1,41 +1,44 @@
+function FindInTable(tbl, keyname, keyvalue)
+	for i,v in ipairs(tbl) do
+		if (v[keyname] == keyvalue) then
+			return v
+		end
+	end
+end
 
 
-RegisterCallback(_G, 
-	'OnInitAllLoaded', 
-	nil, 
-	function()
-		if CryAction.IsDedicatedServer() then
 			Log('>> SeasonalEvents : Loading Christmas Event...')
 
 -- SPAWNERS ---------------------------------------------------------------------------
 
-			-- resources
-			local SweaterGreen3 = { class = "SweaterChristmasGreen", contents="RandomTorsoContents", percent = 3 }
-			local SweaterGreen23 = { class = "SweaterChristmasGreen2", contents="RandomTorsoContents", percent = 3 }
-			local SweaterRed3 = { class = "SweaterChristmasRed", contents="RandomTorsoContents", percent = 3 }
-			local SweaterRed23 = { class = "SweaterChristmasRed2", contents="RandomTorsoContents", percent = 3 }
-			local Hat2 = { class = "ChristmasHat", percent = 2 }
-			local CommonPresent1 = { class = "ChristmasPresentCommon1", percent = 100 }
-			local CommonPresent2 = { class = "ChristmasPresentCommon2", percent = 100 }
-			local RarePresent = { class = "ChristmasPresentRare", percent = 100 }
-			local RarePresent30 = { class = "ChristmasPresentRare", percent = 30 }
-			local RndPresent3 = { category = "RandomChristmasPresent", percent = 3 }
-			local RndPresent2 = { category = "RandomChristmasPresent", percent = 2 }
-			local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
-            local RndPresent1 = { category = "RandomChristmasPresent", percent = 1 }
+            -- resources
+            local SweaterGreen3 = { class = "SweaterChristmasGreen", contents="RandomTorsoContents", percent = 3 }
+            local SweaterGreen23 = { class = "SweaterChristmasGreen2", contents="RandomTorsoContents", percent = 3 }
+            local SweaterRed3 = { class = "SweaterChristmasRed", contents="RandomTorsoContents", percent = 3 }
+            local SweaterRed23 = { class = "SweaterChristmasRed2", contents="RandomTorsoContents", percent = 3 }
+            local Hat2 = { class = "ChristmasHat", percent = 12 }
+            local CommonPresent1 = { class = "ChristmasPresentCommon1", percent = 25 }
+            local CommonPresent2 = { class = "ChristmasPresentCommon2", percent = 30 }
+            local RarePresent = { class = "ChristmasPresentRare", percent = 15 }
+            local RarePresent30 = { class = "ChristmasPresentRare", percent = 10 }
+            local RndPresent3 = { category = "RandomChristmasPresent", percent = 70 }
+            local RndPresent2 = { category = "RandomChristmasPresent", percent = 50 }
+            local RndPresent1 = { category = "RandomChristmasPresent", percent = 65 }
             local arbol = { class = "christmas_tree", percent = 8 }
 
 
             -- 0 Part Spart para agregar arbol
-
-            local metalcat =  FindInTable(PartSpawnerManager.itemCategories, "category", "metal_part")
-            table.insert(category1.classes, arbol)
+            Log('>> SeasonalEvents : Part Spart para agregar arbol...')
+            local metalcat =  FindInTable(PartSpawnerManager.categories, "category", "metal_part")
+            table.insert(metalcat.classes, arbol)
+            
             local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
             classtoilet.percent = classtoilet.percent - 4
-            local classtoilet = FindInTable(metalcat.classes, "class", "icemachine_tow_packed")
-            classtoilet.percent = classtoilet.percent - 4
             
-
+            local icemachine = FindInTable(metalcat.classes, "class", "icemachine_tow_packed")
+            icemachine.percent = icemachine.percent - 4
+            
+            Log('>> SeasonalEvents : ItemSpawnerManager')
 			-- 1 / RandomBruteLoot 		
 			local category1 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomBruteLoot")
 			table.insert(category1.group, RarePresent30)
@@ -48,6 +51,7 @@ RegisterCallback(_G,
 			local category3 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomBackpackContents")
 			table.insert(category3.classes, RndPresent3)
 
+            Log('>> SeasonalEvents : ItemSpawnerManager2')
 			-- 4 / RandomSweater 		
 			local category4 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomSweater")
 			table.insert(category4.classes, SweaterGreen3)
@@ -67,10 +71,11 @@ RegisterCallback(_G,
 			categoryItem45.percent = categoryItem45.percent - 2
 			categoryItem46.percent = categoryItem46.percent - 2
 
+            Log('>> SeasonalEvents : ItemSpawnerManager3')
 			-- 5 / RandomHat 		
 			local category5 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomHat")
 			table.insert(category5.classes, Hat2)
-			local categoryItem51 = FindInTable(category5.classes, "class", "RandomHeadband")
+			local categoryItem51 = FindInTable(category5.classes, "class", "DorfmanPacific")
 			categoryItem51.percent = categoryItem51.percent - Hat2.percent
 
 			-- 6 / RandomClothes
@@ -85,6 +90,7 @@ RegisterCallback(_G,
 			local category8 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomCrafting")
 			table.insert(category8.classes, RndPresent2)
 
+            Log('>> SeasonalEvents : ItemSpawnerManager4')
 			-- 9 / RandomGnome 		
 			local category9 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomGnome")
 			table.insert(category9.classes, RndPresent2)
@@ -96,7 +102,5 @@ RegisterCallback(_G,
 			-- 11 / RandomMilitaryFootlockerIronSonsContent 		
 			local category11 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomMilitaryFootlockerIronSonsContent")
 			table.insert(category11.classes, RndPresent3)
-		
 
-		end
-	end)
+            Log('>> SeasonalEvents : ItemSpawnerManager5')

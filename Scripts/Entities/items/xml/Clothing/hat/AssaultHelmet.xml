@@ -22,8 +22,8 @@
   </geometry>
   <protection level="3">
     <environmental>
-      <protection_amount type="explosion" percentage="5.0" />
-      <protection_amount type="rain_acid" percentage="4" />
+      <protection_amount type="explosion" percentage="3.0" />
+      <protection_amount type="rain_acid" percentage="2" />
       <protection_amount type="cold" percentage="2" />
     </environmental>
     <protectBodyPart name="head">
