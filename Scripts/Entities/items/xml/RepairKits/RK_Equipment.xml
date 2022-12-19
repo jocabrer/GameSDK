@@ -33,6 +33,8 @@
         <item name="SunglassesBBlack" percentage="100"/>
         <item name="SunglassesBMaroon" percentage="100"/>
         <item name="SunglassesBSilver" percentage="100"/>
+        <item name="binoculars_arctic" percentage="100"/>
+		<item name="binoculars_vision" percentage="100"/>
 	</repair>
 
 	<storage>

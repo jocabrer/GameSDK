@@ -689,7 +689,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomMilitaryGrenade"             , percent = 2 },
 				{ category = "RandFomMilitaryWeaponWithMagazines", percent = 8 },
 				{ category = "RandomPoliceWeaponWithMagazines"   , percent = 8 },
-				{ class = "Binoculars"                     	     , percent = 3 },
+				{ category = "RandomBinoculars"            	     , percent = 3 },
 				--{ class = "C4Bricks"                             , percent = 5 },
 				{ class = "Cb_radio"                             , percent = 1 },
 				{ class = "GasMask"                              , percent = 1 },
@@ -717,6 +717,16 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomMilitaryShoes"      , percent = 13.2 },
                 { category = "RandomIronSuite"          , percent = 13.2 },
 				{ category = "RandomSpartaGear"         , percent = 5    },
+			},
+		},
+
+        {
+			category = "RandomBinoculars",
+			classes =
+			{
+				{ class     = "Binoculars"                  , percent = 70  },
+                { class     = "binoculars_arctic"           , percent = 15  },
+                { class     = "binoculars_vision"           , percent = 15  },
 			},
 		},
 
@@ -756,7 +766,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category  = "RandomCraftingGuide"         , percent = 23  },
 				{ class     = "Cb_radio"                    , percent = 5   },
 				{ class     = "Map"                         , percent = 2   },
-				{ class     = "Binoculars"                  , percent = 10  },
+				{ category  = "RandomBinoculars"            , percent = 10  },
 				{ class     = "HuntingScope"                , percent = 10  },
                 { class     = "HuntingScopeRealCamo"        , percent = 5   },
                 { class     = "HuntingScopeRealCamoDesert"  , percent = 5   },
@@ -4466,7 +4476,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Cb_radio"                   , percent = 1    },
                 { class = "SCAAMAmalgarmin"			   , percent = 5    }, 
 				{ class = "GridMap"                    , percent = 0.5  },
-				{ class = "Binoculars"                 , percent = 2.5  },
+				{ category = "RandomBinoculars"        , percent = 2.5  },
 				{ class = "SurvivalKnife"              , percent = 1    },
 				{ class = "HeatPack"                   , percent = 1.5  },
 				{ class = "WaterPurificationTablets"   , percent = 1.5  },
@@ -5493,7 +5503,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomTron"                    , percent = 10  },
                 { category = "RandomAllGasCanisterPack"      , percent = 50  },
                 { class = "Headlamp"                         , percent = 80  },
-                { class = "Binoculars"                       , percent = 50  },
+                { category = "RandomBinoculars"            	 , percent = 53 },
                 { class = "SCAAMShovel"                      , percent = 50  },                
 			},
 		},
