@@ -1,0 +1,19 @@
+<item name="locker1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Locker 1"/>
+		<param name="description" value="A large locker to put your shit in!"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/locker/lockerWhole.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="50"/>
+		</types>
+	</storage>
+</item>

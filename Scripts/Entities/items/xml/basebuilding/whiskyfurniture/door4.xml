@@ -1,0 +1,32 @@
+<item name="door4" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Door 4"/>
+		<param name="description" value="Blue Door 2"/>
+	</params>
+
+	<base_part class="door" type="7351" name="door4" max_health="10000" repair_sound="">
+		<door filename="Objects/basebuilding/Whisky/Doors/Warehouse_BlueDoor/Flat_Blue_LargeWindow.cgf" rotate_base="-90" rotate_range="90" rotate_speed="90" rotate_axis="z" rotate_axis_front="y" sound_open="Play_door_wood_open" sound_opened="" sound_close="Play_door_wood_close" sound_closed="Play_door_wood_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock"/>
+			</base_action>
+			<base_action class="toggle_lock">
+				<toggle_lock/>
+			</base_action>
+		</base_actions>
+	</base_part>
+	
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

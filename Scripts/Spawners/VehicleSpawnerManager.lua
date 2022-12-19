@@ -23,7 +23,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "placeholder9", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles    = 10,
+			initialMinVehicles    = 4,
 			abandonedTimer        = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer        = 120,
@@ -34,57 +34,31 @@ VehicleSpawnerManager = {
 		------------------------------------------------ SUBARU BRZ
 		{
 			category = "armored_truck_police",
-					classes =
-					{
-						{ 
-							class = "placeholder12", contents = "RandomPoliceSedanContents",
-							skins =
-							{
-								{ name = "placeholder12"		, percent = 10 },
-								{ name = "placeholder12_black"	, percent = 20 },
-								{ name = "placeholder12_blue"	, percent = 20 },
-								{ name = "placeholder12_camo2"	, percent = 10 },
-								{ name = "placeholder12_green"	, percent = 20 },
-								{ name = "placeholder12_red"	, percent = 20 },
-							},
-						},
-					},
-					initialMinVehicles = 10,
-					abandonedTimer = 172800,  -- two days
-					abandonedRespawnTimer = 3600, -- one hour
-					destroyedTimer = 120,
-					destroyedRespawnTimer = 7200, -- two hours
+            classes =
+            {
+                { 
+                    class = "placeholder12", contents = "RandomPoliceSedanContents",
+                    skins =
+                    {
+                        { name = "placeholder12"		, percent = 10 },
+                        { name = "placeholder12_black"	, percent = 20 },
+                        { name = "placeholder12_blue"	, percent = 20 },
+                        { name = "placeholder12_camo2"	, percent = 10 },
+                        { name = "placeholder12_green"	, percent = 20 },
+                        { name = "placeholder12_red"	, percent = 20 },
+                    },
+                },
+            },
+            initialMinVehicles = 4,
+            abandonedTimer = 172800,  -- two days
+            abandonedRespawnTimer = 3600, -- one hour
+            destroyedTimer = 120,
+            destroyedRespawnTimer = 7200, -- two hours
 		},
 
 		------------------------------------------------
 		------------------------------------------------
-		{
-			category = "beetle",
-			classes =
-			{
-				{
-					class = "beetle", contents = "RandomF100TruckContents",
-					skins =
-					{
-						-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-						{ name = "Beetle_Black", percent = 11.0 },
-						{ name = "Beetle_Blue", percent = 11.0 },
-						{ name = "Beetle_Green", percent = 11.0 },
-						{ name = "Beetle_Orange", percent = 12.0 }, -- Default
-						{ name = "Beetle_Pink", percent = 11.0 },
-						{ name = "Beetle_Purple", percent = 11.0 },
-						{ name = "Beetle_Red", percent = 11.0 },
-						{ name = "Beetle_White", percent = 11.0 },
-						{ name = "Beetle_Yellow", percent = 11.0 },
-					},
-				},
-			},
-			initialMinVehicles = 16,
-			abandonedTimer = 172800,  -- two days
-			abandonedRespawnTimer = 3600, -- one hour
-			destroyedTimer = 120,
-			destroyedRespawnTimer = 7200, -- two hours
-		},
+		
 
 		------------------------------------------------
 		------------------------------------------------
@@ -124,33 +98,10 @@ VehicleSpawnerManager = {
 						{ name = "TruckSemi_Yellow", percent = 11.0 },
 					},
 				},
-                {
-                    category = "tractor",
-                    classes =
-                    {
-                        { class = "tractor", contents = "RandomTractorContents" },
-                    },
-                    initialMinVehicles = 2,
-                    abandonedTimer = 21600,  -- six hours
-                    abandonedRespawnTimer = 3600, -- one hour
-                    destroyedTimer = 120,
-                    destroyedRespawnTimer = 7200, -- two hours
-                },
-                {
-                    category = "sedan_taxi",
-                    classes =
-                    {
-                        { class = "sedan_taxi_blix", contents = "RandomF100TruckContents" },
-                        { class = "sedan_taxi_engoa", contents = "RandomF100TruckContents" },
-                        { class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
-                    },
-                    initialMinVehicles = 2,
-                    abandonedTimer = 172800,  -- two days
-                    abandonedRespawnTimer = 3600, -- one hour
-                    destroyedTimer = 120,
-                    destroyedRespawnTimer = 7200, -- two hours
-                },
-               
+                { class = "sedan_taxi_blix", contents = "RandomF100TruckContents" },
+                { class = "sedan_taxi_engoa", contents = "RandomF100TruckContents" },
+                { class = "sedan_taxi_fullout", contents = "RandomF100TruckContents" },
+                { class = "towcar", contents = "RandomTowcarContents" },
                 {
 					class = "dune_buggy", contents = "RandomF100TruckContents",
 					skins =
@@ -169,8 +120,8 @@ VehicleSpawnerManager = {
 				},
         
 			},
-			initialMinVehicles = 30,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 15,
+			abandonedTimer = 345600,  -- 4 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
@@ -200,7 +151,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 4,
+			initialMinVehicles = 10,
 			abandonedTimer = 21600,  -- six hours
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -211,27 +162,27 @@ VehicleSpawnerManager = {
 		------------------------------------------------ Audi r4
 		{
 			category = "dune_buggy",
-					classes =
-					{
-						{ 
-							class = "placeholder7", contents = "RandomF100TruckContents",
-							skins =
-							{
-								{ name = "placeholder7_black", percent = 18 },
-								{ name = "placeholder7_blue", percent = 18 },
-								{ name = "placeholder7_green", percent = 18 },
-								{ name = "placeholder7_red", percent = 18 },
-								{ name = "placeholder7_brown", percent = 18 },
-								{ name = "placeholder7_chrome", percent = 10 },
-								
-							},
-						},
-					},
-					initialMinVehicles = 5,
-					abandonedTimer = 172800,  -- 5 days
-					abandonedRespawnTimer = 3600, -- one hour
-					destroyedTimer = 120,
-					destroyedRespawnTimer = 7200, -- two hours
+            classes =
+            {
+                { 
+                    class = "placeholder7", contents = "RandomF100TruckContents",
+                    skins =
+                    {
+                        { name = "placeholder7_black", percent = 18 },
+                        { name = "placeholder7_blue", percent = 18 },
+                        { name = "placeholder7_green", percent = 18 },
+                        { name = "placeholder7_red", percent = 18 },
+                        { name = "placeholder7_brown", percent = 18 },
+                        { name = "placeholder7_chrome", percent = 10 },
+                        
+                    },
+                },
+            },
+            initialMinVehicles = 4,
+            abandonedTimer = 172800,  -- 5 days
+            abandonedRespawnTimer = 3600, -- one hour
+            destroyedTimer = 120,
+            destroyedRespawnTimer = 7200, -- two hours
 		},
 
 		------------------------------------------------
@@ -245,7 +196,7 @@ VehicleSpawnerManager = {
             
                 },
 			},
-			initialMinVehicles = 10,
+			initialMinVehicles = 4,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -275,7 +226,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 3,
+			initialMinVehicles = 5,
 			abandonedTimer = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -365,7 +316,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 4,
 			abandonedTimer = 172800, -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -396,7 +347,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "placeholder11", contents = "RandomF100TruckContents" },
 			},
-			initialMinVehicles = 10,
+			initialMinVehicles = 4,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -441,7 +392,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 20,
+			initialMinVehicles = 8,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -482,9 +433,8 @@ VehicleSpawnerManager = {
 					},
 					
 				},
-                { class = "towcar", contents = "RandomTowcarContents" },
 			},
-			initialMinVehicles = 20,
+			initialMinVehicles = 4,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,

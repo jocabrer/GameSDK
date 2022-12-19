@@ -1,0 +1,24 @@
+<item name="pigpen1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Pig Pen"/>
+		<param name="description" value="A pig pen."/>
+	</params>
+
+	<base_part class="static" type="7367" name="pigpen1" max_health="2000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/PigPen/shed.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,24 @@
+<item name="counter4" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Bar Counter 4"/>
+		<param name="description" value="Bar Counter Small"/>
+	</params>
+
+	<base_part class="static" type="7323" name="counter4" max_health="2000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/counter/counter_mid.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

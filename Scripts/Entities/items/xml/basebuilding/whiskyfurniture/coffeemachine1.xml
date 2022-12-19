@@ -1,0 +1,24 @@
+<item name="coffeemachine1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Coffee Machine 1"/>
+		<param name="description" value="Coffee Machine 1"/>
+	</params>
+
+	<base_part class="static" type="7336" name="coffeemachine1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/coffee_machine_hotplate/DinerProp_CoffeeHotPlate.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

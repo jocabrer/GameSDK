@@ -1,0 +1,24 @@
+<item name="gasstove1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Gas Stove"/>
+		<param name="description" value="Gas Stove"/>
+	</params>
+
+	<base_part class="static" type="7340" name="gasstove1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/gas_Stove/gas_Stove.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

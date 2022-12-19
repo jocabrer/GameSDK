@@ -1,0 +1,24 @@
+<item name="basket1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Laundry Basket"/>
+		<param name="description" value="Laundry Basket"/>
+	</params>
+
+	<base_part class="static" type="7346" name="basket1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/laundry_assets/basket.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/laundry_assets/basket.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

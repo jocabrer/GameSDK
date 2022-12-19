@@ -1,0 +1,24 @@
+<item name="chickencoop1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Chicken Coop"/>
+		<param name="description" value="A Chicken coop."/>
+	</params>
+
+	<base_part class="static" type="7366" name="chickencoop1" max_health="2000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/ChickenCoop/chicken_coop.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,19 @@
+<item name="cabinet8" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="File Cabinet"/>
+		<param name="description" value="File Cabinet"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/Cabinet/cabinet_Cloed.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="30"/>
+		</types>
+	</storage>
+</item>

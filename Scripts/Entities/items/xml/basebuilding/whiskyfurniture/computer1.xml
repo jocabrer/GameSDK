@@ -1,0 +1,24 @@
+<item name="computer1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Computer"/>
+		<param name="description" value="A Computer"/>
+	</params>
+
+	<base_part class="static" type="7318" name="computer1" max_health="15000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/computer/computer.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

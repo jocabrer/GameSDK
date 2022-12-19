@@ -1,0 +1,24 @@
+<item name="bookshelf1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Book Shelf"/>
+		<param name="description" value="Book Shelf"/>
+	</params>
+
+	<base_part class="static" type="7339" name="bookshelf1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/bookshelf/bookshelf_a.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

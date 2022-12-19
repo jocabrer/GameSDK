@@ -127,6 +127,13 @@
                                  <material class="Hammer" count="1" />
                               </materials>
                            </item>
+                            <item class="construcciones_sign" time="1">
+                              <materials>
+                                 <material class="ScrapMetal" count="5" />
+                                 <material class="Nails" count="4" />
+                                 <material class="Hammer" count="1" />
+                              </materials>
+                           </item>
                         </items>
                      </type>
                   </types>
