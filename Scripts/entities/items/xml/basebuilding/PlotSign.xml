@@ -15,7 +15,7 @@
 
 		maxRootDistance is counted in parts ("too many parts from ground message") (default 12 from ground, -1 means unlimited)
 	-->
-	<placeable maxPartCount="600" buildRadiusXY="60" reserveRadiusXY="70" buildRadiusZ="20" reserveRadiusZ="70" maxRootDistance="-1">
+	<placeable maxPartCount="600" buildRadiusXY="60" reserveRadiusXY="360" buildRadiusZ="20" reserveRadiusZ="100" maxRootDistance="-1">
 		<param name="packup_class" value="PlotSignPacked"/>
 		<damage_multipliers>
 			<!-- standard hit types -->

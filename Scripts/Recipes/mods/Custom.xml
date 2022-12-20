@@ -72,6 +72,14 @@
 											<material class="Rags" count="10" />
 										</materials>
 									</item>
+                                    <item class="FlagPVE" time="3">
+										<materials>
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Green" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
 								</items>
 							</type>
 						</types>
@@ -108,26 +116,26 @@
 					</subcat>		
                     <subcat name="Monumentos">
                             <items>
-                                <item class="2B_HMS" time="3">
+                                <!--<item class="2B_HMS" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>-->
+                                <item class="statue_batman" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
                                 </item>
-                                <item class="Batman_HMS" time="3">
+                                <item class="statue_ironman" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
                                 </item>
-                                <item class="IronMan_HMS" time="3">
+                                <!--<item class="Star_HMS" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
-                                </item>
-                                <item class="Star_HMS" time="3">
-                                <materials>
-                                    <material class="AmcoinLedger" count="1020" />
-                                </materials>
-                                </item>
+                                </item>-->
                                 <item class="statue" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />

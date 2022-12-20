@@ -1,0 +1,25 @@
+<item name="statue_batman" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Batman"/>
+		<param name="description" value="Batman Statue"/>
+        <param name="vendor_cost" value="250"/>
+	</params>
+
+	<base_part class="static" type="8023" name="statue_batman" max_health="15000" repair_with="SheetMetal">
+		<static filename="Objects\HotMeatStick\basebuilding\Batman_HMS\batman_hms.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

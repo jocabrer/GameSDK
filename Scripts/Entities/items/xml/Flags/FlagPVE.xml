@@ -1,0 +1,25 @@
+<item name="FlagPVE" class="Placeable" category="any">
+
+    <params>
+        <param name="selectable" value="0"/>
+        <param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+        <param name="display_name" value="Flag server"/>
+        <param name="description" value="A Custom Flag "/>
+    </params>
+
+    <base_part class="static" type="6993" name="FlagPVE" max_health="5000" repair_with="Lumber">
+        <static filename="objects/basebuilding/other/flag/flag_pole.cgf" material="objects/custom/flags/donators/FlagPVE.mtl"/>
+    </base_part>
+
+    <geometry>
+        <thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+    </geometry>
+
+    <storage>
+        <locations>
+            <location category="any"/>
+        </locations>
+    </storage>
+</item>
+
