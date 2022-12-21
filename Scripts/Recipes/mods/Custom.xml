@@ -112,6 +112,16 @@
                                         <material class="PoliceBaton"   count="1" />
                                     </materials>
                                 </item>
+                                <item class="FuYan_sword2" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="400" />
+                                    </materials>
+                                </item>
+                                <item class="Ken_sword" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="450" />
+                                </materials>
+                                </item>
                             </items>
 					</subcat>		
                     <subcat name="Monumentos">

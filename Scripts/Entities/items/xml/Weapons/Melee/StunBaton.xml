@@ -1,6 +1,6 @@
 <item name="StunBaton" class="Weapon" category="primary" priority="1" weaponParams="1">
 	<params>
-		<param name="display_name" value="@StunBaton"/>
+		<param name="display_name" value="Stun Baton 1.5x"/>
 		<param name="description" value="Speed Mod 1.5x"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>

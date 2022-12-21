@@ -1,6 +1,6 @@
 <item name="PoliceBaton" class="Weapon" category="primary" priority="1" weaponParams="1">
 	<params>
-		<param name="display_name" value="@PoliceBaton"/>
+		<param name="display_name" value="Police Baton 1.2x"/>
 		<param name="description" value="Speed Mod 1.2x"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
