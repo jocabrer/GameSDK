@@ -116,11 +116,11 @@
 					</subcat>		
                     <subcat name="Monumentos">
                             <items>
-                                <!--<item class="2B_HMS" time="3">
+                                <item class="statue_mai" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
-                                </item>-->
+                                </item>
                                 <item class="statue_batman" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
@@ -131,12 +131,22 @@
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
                                 </item>
-                                <!--<item class="Star_HMS" time="3">
+                                <item class="statue_escorts" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>
-                                </item>-->
+                                </item>
                                 <item class="statue" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                 <item class="statue_lion_x" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                 <item class="statue_lion" time="3">
                                 <materials>
                                     <material class="AmcoinLedger" count="1020" />
                                 </materials>

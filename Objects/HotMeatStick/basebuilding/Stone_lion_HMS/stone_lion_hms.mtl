@@ -1,0 +1,39 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Lion" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.55834049,0.55834049,0.55834049" Specular="0.054480281,0.054480281,0.054480281" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_ddna.dds"/>
+    <Texture Map="Specular" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_diff.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Ball_1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.11193243,0.11193243,0.11193243" Specular="1,0.92158198,0.3467041" Emittance="1,1,1,999" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/HotMeatStick/Test/rainbow/rainbow##01_17(.03).dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/HotMeatStick/Test/rainbow/rainbow##01_17(.03).dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Base" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.55834049,0.55834049,0.55834049" Specular="0.054480281,0.054480281,0.054480281" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/base_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/base_ddna.dds"/>
+    <Texture Map="Specular" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/base_diff.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.79910284,0.79910284,0.79910284" Specular="1,1,1" Opacity="1" Shininess="50" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Ball_2" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="1,0.93011099,0.25015831" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/stone_lion_hms/tietu/lion_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
