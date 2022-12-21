@@ -73,7 +73,7 @@ StructureSpawnerManager = {
 			},
 			initialMinStructures = 20,
 			abandonedTimer = 1209600,  -- 14 days
-        abandonedRespawnTimer = 0, -- one hour
+            abandonedRespawnTimer = 0, -- one hour
 			destroyedTimer = 0,
 			destroyedRespawnTimer = 0, -- two hours
 		},
