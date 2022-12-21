@@ -6779,11 +6779,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMonumento",
 			classes =
 			{
-				{ class = "2B_HMS"              , percent = 20 },
-				{ class = "Batman_HMS"          , percent = 20 },
-				{ class = "IronMan_HMS"         , percent = 20 },
-				{ class = "Star_HMS"            , percent = 20 },
-                { class = "statue"              , percent = 20 },
+				{ class = "statue_lion"              , percent = 14.2 },
+				{ class = "statue_batman"            , percent = 14.2 },
+				{ class = "statue_ironman"           , percent = 14.2 },
+				{ class = "statue_lion_x"            , percent = 14.2 },
+                { class = "statue"                   , percent = 14.2 },
+                { class = "statue_mai"               , percent = 14.2 },
+                { class = "statue_escorts"           , percent = 14.2 },
 			},
 		},
 
