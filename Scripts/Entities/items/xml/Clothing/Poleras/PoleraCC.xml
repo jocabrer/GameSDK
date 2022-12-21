@@ -7,6 +7,7 @@
 		<param name="damage_scale" value="0.2"/>
 		<param name="display_name" value="Colo Colo Tshirt"/>
 		<param name="description" value="Colo Colo Tshirt"/>
+        <param name="vendor_cost" value="25"/>
 	</params>
 
 	<wearable>
@@ -39,7 +40,7 @@
 			<location category="torso"/>
 		</locations>
 		<types>
-			<type category="any" capacity="2"/>
+			<type category="any" capacity="5"/>
 		</types>
 	</storage>
 

@@ -9,6 +9,7 @@
 		<param name="damage_scale" value="0.2"/>
 		<param name="display_name" value="Wu tang Hoodie"/>
 		<param name="description" value="Wu tang Hoodie"/>
+        <param name="vendor_cost" value="30"/>
 	</params>
 
 	<wearable>
@@ -41,7 +42,7 @@
 			<location category="torso"/>
 		</locations>
 		<types>
-			<type category="any" capacity="3"/>
+			<type category="any" capacity="10"/>
 		</types>
 	</storage>
 
