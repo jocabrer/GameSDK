@@ -152,15 +152,16 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomEpicWeapon",
 			classes =
 			{
-				{ category = "Mk18ReaverWithMagazines"       , percent = 10   },
-				{ category = "AKMGoldWithMagazines"          , percent = 13   },
+				{ category = "Mk18ReaverWithMagazines"       , percent = 8   },
+				{ category = "AKMGoldWithMagazines"          , percent = 9   },
 				{ category = "ColtPythonGrimeyRickWithRounds", percent = 6   },
-				{ category = "M4A1WithMagazines"             , percent = 9  },
-				{ category = "M16VietnamWithMagazines"       , percent = 11   },
+                { category = "mutantsilencerWithRounds"      , percent = 6   },
+				{ category = "M4A1WithMagazines"             , percent = 9   },
+				{ category = "M16VietnamWithMagazines"       , percent = 6   },
 				{ category = "VSSWithMagazines"              , percent = 6   },
 				{ category = "RPKWithMagazines"              , percent = 5   },
 				{ category = "M4V5WithMagazines"             , percent = 5   },
-				{ category = "PeacemakerWithMagazines"       , percent = 4   },
+				{ category = "PeacemakerWithMagazines"       , percent = 5   },
 				{ class = "AxePatrick"                       , percent = 2   },
 				{ class = "BaseballBatHerMajesty"            , percent = 2   },
 				{ class = "KatanaBlackWidow"                 , percent = 2   }, 
@@ -170,6 +171,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "G36C"			        	     , percent = 5   },
 				{ class = "RocketLauncherNew"			  	 , percent = 4   },
 				{ class = "ACAW"			  	 		     , percent = 4   },
+                { class = "mutantsilencer"	  	 		     , percent = 4   },
+                
 			},
 		},
 		
@@ -184,13 +187,15 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "RPK"                  , percent = 5  },
 				{ class = "M4V5"                 , percent = 5  },
 				{ class = "AKMGold"              , percent = 5  },
-				{ class = "ColtPythonGrimeyRick" , percent = 2  },
+				{ class = "ColtPythonGrimeyRick" , percent = 1  },
 				{ class = "AxePatrick"           , percent = 13 },
 				{ class = "BaseballBatHerMajesty", percent = 15 },
 				{ class = "KatanaBlackWidow"     , percent = 10 },
 				{ class = "PlasmaRifle"          , percent = 1  },
 				{ class = "SCAR-H"			     , percent = 5  },
-                { class = "G36C"                , percent = 1 	    },
+                { class = "G36C"                 , percent = 1 	},
+                { class = "mutantsilencer"       , percent = 1 	},
+                
 			},
 		},
 
@@ -2816,6 +2821,15 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			},
 		},
 
+        {
+			category = "mutantsilencerWithRounds",
+			group =
+			{
+				{ class = "mutantsilencer" },
+				{ class = "Pile_357" },
+			},
+		},
+        
 		{
 			category = "CraftedBowWithMagazines",
 			group =
@@ -3828,8 +3842,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AT15"                , percent = 2 		},
 				{ class = "AUMP45"              , percent = 2   	},
 				{ class = "Bulldog"             , percent = 1 		},
-				{ class = "ColtPython"          , percent = 6.9 	},
+				{ class = "ColtPython"          , percent = 4.9 	},
 				{ class = "ColtPythonGrimeyRick", percent = 0.1 	},
+                { class = "mutantsilencer"      , percent = 2 	    },
 				{ class = "CraftedBow"          , percent = 0.5 	},
 				{ class = "CraftedPistol"       , percent = 0.5 	},
 				{ class = "CraftedRifleLong"    , percent = 0.5 	},
@@ -3922,6 +3937,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "Shotgun870Tactical"  , percent = 3 },
 				{ class = "AKMGold"             , percent = 2 },
 				{ class = "ColtPythonGrimeyRick", percent = 1 },
+                { class = "mutantsilencer"      , percent = 2 },
 				{ class = "Mk18Reaver"          , percent = 1 },
 				{ class = "M4A1"                , percent = 5 },
 				{ class = "AKVal"               , percent = 5 },
@@ -3929,8 +3945,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AK5D"                , percent = 5 },
 				{ class = "MAK10"               , percent = 5 },
 				{ class = "M97"                 , percent = 1.5 },
-				{ class = "M16Vietnam"          , percent = 4.5},
-				{ class = "VSS"                 , percent = 4.5 },
+				{ class = "M16Vietnam"          , percent = 3.5},
+				{ class = "VSS"                 , percent = 3.5 },
 				{ class = "M4V5"                , percent = 3 },
 				{ class = "RPK"                 , percent = 2 },
 				{ category = "RandomAccessory"  , percent = 3.5 },
@@ -4002,9 +4018,10 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ class = "ColtPython", percent = 8 },
 				{ class = "ColtPythonGrimeyRick", percent = 1 },
+                { class = "mutantsilencer", percent = 1 },
 				{ class = "FlareGun", percent = 6 },
 				{ class = "G18Pistol", percent = 8 },
-				{ class = "hk45", percent = 9 },
+				{ class = "hk45", percent = 8 },
 				{ class = "ruger22", percent = 8 },
 				{ class = "Makarov", percent = 9 },
 				{ class = "M9A1", percent = 9 },
@@ -6655,7 +6672,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "M4V5"                            , percent = 10.5  },
 				{ class = "AKMGold"                         , percent = 10.5  },
 				{ class = "ColtPythonGrimeyRick"            , percent = 8.5   },
-                { class = "ColtPythonGrimeyRick"			, percent = 6     },
+                { class = "mutantsilencer"	        		, percent = 6     },
 				{ class = "PlasmaRifle"			            , percent = 2.5   },
                 { class = "SCAR-H"	    		            , percent = 2.5   },
                 { class = "G36C"                            , percent = 2 	    },
