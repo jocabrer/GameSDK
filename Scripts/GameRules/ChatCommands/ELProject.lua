@@ -307,9 +307,36 @@ end
 
 
 function PVETop()
+    
+    local rnd = random(1, 10);
+    
     local mensaje = 'Use Command !help / Usa el comando !Ayuda';
+
+    if rnd == 1 then
+        mensaje = 'Remember Survivors must set a name on the server';
+    elseif rnd == 2 then
+        mensaje = '!zone command allows you to go to the safe zone';
+    elseif rnd == 3 then
+        mensaje = 'PVE STORE menu has speed mods to buy';
+    elseif rnd == 4 then
+        mensaje = 'Deactivate the locations with the "¬" button';
+    elseif rnd == 5 then
+        mensaje = 'Deactivate the locations with the "¬" button';
+    elseif rnd == 6 then
+        mensaje = 'Use Command !help / Usa el comando !Ayuda'
+    elseif rnd == 7 then
+        mensaje = 'Use Command !help / Usa el comando !Ayuda'
+    elseif rnd == 8 then
+        mensaje = 'Desactiva las ubicaciones con el botón "¬"'
+    elseif rnd == 9 then
+        mensaje = 'El menú PVE STORE tiene mods de velocidad para comprar'
+    elseif rnd == 10 then
+        mensaje = 'Comando !zona te permite ir a la zona segura'
+    end
+
     g_gameRules.game:SendTextMessage(0, 0, mensaje );
     g_gameRules.game:SendTextMessage(4, 0, mensaje );
+
     Script.SetTimerForFunction(1200000, 'PVETopAfterDelay');
 end 
 

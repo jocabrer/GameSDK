@@ -6,7 +6,7 @@
 		<param name="display_name" value="R90 Extended Magainze"/>
 		<param name="description" value="A 57x28 round magazine with a 60 round capacity."/>
 		<param name="tag" value="57x60"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="15"/>
 	</params>
 
 	<magazine>

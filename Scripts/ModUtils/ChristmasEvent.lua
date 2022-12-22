@@ -16,7 +16,7 @@ end
             local SweaterGreen23 = { class = "SweaterChristmasGreen2", contents="RandomTorsoContents", percent = 3 }
             local SweaterRed3 = { class = "SweaterChristmasRed", contents="RandomTorsoContents", percent = 3 }
             local SweaterRed23 = { class = "SweaterChristmasRed2", contents="RandomTorsoContents", percent = 3 }
-            local Hat2 = { class = "ChristmasHat", percent = 12 }
+            local Hat2 = { class = "ChristmasHat", percent = 10 }
             local CommonPresent1 = { class = "ChristmasPresentCommon1", percent = 25 }
             local CommonPresent2 = { class = "ChristmasPresentCommon2", percent = 30 }
             local RarePresent = { class = "ChristmasPresentRare", percent = 15 }
@@ -24,7 +24,7 @@ end
             local RndPresent3 = { category = "RandomChristmasPresent", percent = 70 }
             local RndPresent2 = { category = "RandomChristmasPresent", percent = 50 }
             local RndPresent1 = { category = "RandomChristmasPresent", percent = 65 }
-            local arbol = { class = "christmas_tree", percent = 8 }
+            local arbol = { class = "christmas_tree", percent = 7.69 }
 
 
             -- 0 Part Spart para agregar arbol
@@ -33,10 +33,8 @@ end
             table.insert(metalcat.classes, arbol)
             
             local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
-            classtoilet.percent = classtoilet.percent - 4
+            classtoilet.percent = classtoilet.percent - 7.69
             
-            local icemachine = FindInTable(metalcat.classes, "class", "icemachine_tow_packed")
-            icemachine.percent = icemachine.percent - 4
             
             Log('>> SeasonalEvents : ItemSpawnerManager')
 			-- 1 / RandomBruteLoot 		
