@@ -36,13 +36,6 @@
 											<material class="Lumber" count="500" />
 										</materials>
 									</item>
-									<item class="metal_safe" time="1" amount="1">
-										<materials>
-											<material class="ScrapMetal" count="125" />
-											<material class="SheetMetal" count="80" />
-											<material class="Nails" count="25" />
-										</materials>
-									</item>
 								</items>
 							</type>
 						</types>
