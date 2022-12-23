@@ -509,7 +509,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomConsumable"         , percent = 75      },
                 { category = "RandomMedical"            , percent = 100     },
 				{ category = "RandomAmmo"               , percent = 20      , min = 5, max = 25},
-                { category = "RandomCargador"           , percent = 5       , min = 10, max = 25},
+                { category = "RandomCargador"           , percent = 35       , min = 10, max = 25},
 				{ category  = "RandomBackpackContents"  , percent = 80      }, 
                 { class  = "SAPOCBriefcaseClosed"       , percent = 5       }, 
 			},
@@ -632,9 +632,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "PistolSilencer"                    , percent = 3    },
 				{ class = "Megaphone"                         , percent = 2    },
 				{ class = "AmcoinLedger"                      , percent = 8    },
-				{ category = "RandomTron"				      , percent = 1    },
+				{ category = "RandomTron"				      , percent = 2    },
 				{ class = "SCAAMAmalgarmin"					  , percent = 5    },
-				{ category  = "RandomPlasma"				  , percent = 1     , min = 3, max = 10 },
 			},
 		},
 
@@ -4120,8 +4119,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomAmmo",
 			classes =
 			{
-                { category = "RandomPlasma"      , percent = 5.88    , min = 1, max = 25 },
-                { category = "RandomRocket"      , percent = 5.88    , min = 1, max = 25 },
                 { class = "Arrowx8"              , percent = 5.88    , min = 1, max = 25 },
                 { class = "Boltx5_0000"          , percent = 5.88    , min = 1, max = 25 },
                 { class = "Pile_10mm"            , percent = 5.88    , min = 1, max = 25 },
@@ -4138,7 +4135,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "Pile_9mm"             , percent = 5.88    , min = 1, max = 25 },
                 { class = "Pile_Flare"           , percent = 4.88    , min = 1, max = 25 },
                 { class = "Pile_40mmGrenade"     , percent = 1       , min = 1, max = 3  },
-                
+                { category = "RandomPlasma"      , percent = 5.88    , min = 1, max = 25 },
+                { category = "RandomRocket"      , percent = 5.88    , min = 1, max = 25 },                
 			},
 		},
     	{
@@ -5725,6 +5723,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomRangedCivilianPure"         , percent = 100  },
                 { category = "RandomSilencer"	                , percent = 20   },
 				{ category = "RandomCargador"                   , percent = 100	 },
+                { category = "RandomCargador"                   , percent = 100	 },
                 { category = "RandomRocket"			   		    , percent = 20    , min = 10, max = 40 },
 				{ category = "RandomRocket"		   	   		    , percent = 20	  , min = 3, max = 5 },
 				{ category = "RandomEpicWeapon"                 , percent = 20   },
@@ -5752,7 +5751,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomSkullGear"                  , percent = 1    },
                 { category = "EventHelmets"                     , percent = 5    },
                 { category = "EventHelmets"                     , percent = 5    },
-                { category = "RandomAmmo"               , percent = 20  , min = 30, max = 128},
+                { category = "RandomCargador"                   , percent = 20  , min = 30, max = 128},
                 { category = "RandomMonumento"                  , percent = 0.5 },
                 
             },

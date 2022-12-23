@@ -6,7 +6,7 @@
 		<param name="display_name" value="G36C Magazine"/>
 		<param name="description" value="A 5.56x45 round magazine with a 50 round capacity."/>
 		<param name="tag" value="g36cx50"/>
-        <param name="vendor_cost" value="5"/>
+        <param name="vendor_cost" value="25"/>
 	</params>
 
 	<magazine>
