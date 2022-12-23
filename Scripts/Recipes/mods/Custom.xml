@@ -122,6 +122,21 @@
                                     <material class="AmcoinLedger" count="500" />
                                 </materials>
                                 </item>
+                                <item class="LaserSword_hms_pink" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                                <item class="LaserSword_hms_white" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                                <item class="LaserSword_hms_yellow" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
                             </items>
 					</subcat>		
                     <subcat name="Monumentos">

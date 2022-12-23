@@ -37,7 +37,10 @@ PartSpawnerManager = {
 				{ class = "mailbox_storage_packed"   			  , percent = 7.142  },
 				{ class = "whiteboard_tow_packed"   			  , percent = 7.142  },
 				{ class = "payphone_tow_packed"   			      , percent = 7.142  },
-                { class = "metal_safe"             			      , percent = 7.142  },
+                { class = "metal_safe"             			      , percent = 4.142  },
+                { class = "safe_large"             			      , percent = 2      },
+                { class = "safedoor_large2"        			      , percent = 1      },
+                
 				--{ class = "metal_door_lockable_1m_2m"             , percent = 0.6  },
 				--{ class = "metal_aframe_3m_4m"                    , percent = 0.2  },
 				--{ class = "metal_wall_1_3m_2m"                    , percent = 0.4  },

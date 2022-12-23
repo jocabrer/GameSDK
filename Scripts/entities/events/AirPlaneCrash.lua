@@ -315,12 +315,12 @@ SpawnAirPlaneCrashLoot = function(self)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
         
 		ISM.SpawnItem("debris_01"			, vSpawnPos)
-        ISM.SpawnItem("debris_01"			, vSpawnPos8)
+        --ISM.SpawnItem("debris_01"			, vSpawnPos8)
         ISM.SpawnItem("planecrash_engine"	, vSpawnPos9)
-        ISM.SpawnItem("planecrash_engine"	, vSpawnPos10)
+        --ISM.SpawnItem("planecrash_engine"	, vSpawnPos10)
         ISM.SpawnItem("planecrash_gear"		, vSpawnPos7)
                 
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
+        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos10)
 
 		SpawnAI = function(self)
 
@@ -386,11 +386,11 @@ SpawnAirPlaneCrashLoot = function(self)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos)
 		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos1)
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
+        ISM.SpawnCategory("RandomTowableParts"    , vSpawnPos10)
 
-		ISM.SpawnItem("debris_01", vSpawnPos9)
+		--ISM.SpawnItem("debris_01", vSpawnPos9)
 		ISM.SpawnItem("debris_01", vSpawnPos10)
-		ISM.SpawnItem("planecrash_engine", vSpawnPos7)
+		--ISM.SpawnItem("planecrash_engine", vSpawnPos7)
 		ISM.SpawnItem("planecrash_engine", vSpawnPos8)
 		ISM.SpawnItem("planecrash_gear", vSpawnPos10)
 	

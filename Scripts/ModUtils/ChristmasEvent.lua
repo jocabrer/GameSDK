@@ -33,9 +33,10 @@ end
             table.insert(metalcat.classes, arbol)
             
             local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
-            classtoilet.percent = classtoilet.percent - 7.69
+            classtoilet.percent = classtoilet.percent - 7.142
             
-            
+            dump(PartSpawnerManager)
+
             Log('>> SeasonalEvents : ItemSpawnerManager')
 			-- 1 / RandomBruteLoot 		
 			local category1 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomBruteLoot")
