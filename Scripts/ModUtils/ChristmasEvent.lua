@@ -12,19 +12,19 @@ end
 -- SPAWNERS ---------------------------------------------------------------------------
 
             -- resources
-            local SweaterGreen3 = { class = "SweaterChristmasGreen", contents="RandomTorsoContents", percent = 3 }
-            local SweaterGreen23 = { class = "SweaterChristmasGreen2", contents="RandomTorsoContents", percent = 3 }
-            local SweaterRed3 = { class = "SweaterChristmasRed", contents="RandomTorsoContents", percent = 3 }
-            local SweaterRed23 = { class = "SweaterChristmasRed2", contents="RandomTorsoContents", percent = 3 }
-            local Hat2 = { class = "ChristmasHat", percent = 10 }
-            local CommonPresent1 = { class = "ChristmasPresentCommon1", percent = 25 }
-            local CommonPresent2 = { class = "ChristmasPresentCommon2", percent = 30 }
-            local RarePresent = { class = "ChristmasPresentRare", percent = 15 }
-            local RarePresent30 = { class = "ChristmasPresentRare", percent = 10 }
-            local RndPresent3 = { category = "RandomChristmasPresent", percent = 70 }
-            local RndPresent2 = { category = "RandomChristmasPresent", percent = 50 }
-            local RndPresent1 = { category = "RandomChristmasPresent", percent = 65 }
-            local arbol = { class = "christmas_tree", percent = 7.69 }
+            local SweaterGreen3 =   { class = "SweaterChristmasGreen"    , contents="RandomTorsoContents", percent = 2 }
+            local SweaterGreen23 =  { class = "SweaterChristmasGreen2"   , contents="RandomTorsoContents", percent = 2 }
+            local SweaterRed3 =     { class = "SweaterChristmasRed"      , contents="RandomTorsoContents", percent = 2 }
+            local SweaterRed23 =    { class = "SweaterChristmasRed2"     , contents="RandomTorsoContents", percent = 2 }
+            local Hat2 =            { class = "ChristmasHat"             , percent = 10   }
+            local CommonPresent1 =  { class = "ChristmasPresentCommon1"  , percent = 8    }
+            local CommonPresent2 =  { class = "ChristmasPresentCommon2"  , percent = 9    }
+            local RarePresent =     { class = "ChristmasPresentRare"     , percent = 15   }
+            local RarePresent30 =   { class = "ChristmasPresentRare"     , percent = 10   }
+            local RndPresent3 =     { category = "RandomChristmasPresent", percent = 8    }
+            local RndPresent2 =     { category = "RandomChristmasPresent", percent = 5    }
+            local RndPresent1 =     { category = "RandomChristmasPresent", percent = 20   }
+            local arbol =           { class = "christmas_tree"           , percent = 7.69 }
 
 
             -- 0 Part Spart para agregar arbol
@@ -101,4 +101,12 @@ end
 			local category11 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomMilitaryFootlockerIronSonsContent")
 			table.insert(category11.classes, RndPresent3)
 
+
+            local category12 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomLivingAreaContent")
+			table.insert(category12.classes, CommonPresent1)
+
+            local category13 = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomPoliceSedanSlot")
+			table.insert(category13.classes, CommonPresent2)
+
+            
             Log('>> SeasonalEvents : ItemSpawnerManager5')
