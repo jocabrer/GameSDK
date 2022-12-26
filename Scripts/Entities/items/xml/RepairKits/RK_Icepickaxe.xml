@@ -25,6 +25,9 @@
         <item name="StunBaton" percentage="100"/>
         <item name="FuYan_sword2" percentage="100"/>
         <item name="Ken_sword" percentage="100"/>
+        <item name="LaserSword_hms_pink" percentage="100"/>
+        <item name="LaserSword_hms_white" percentage="100"/>
+        <item name="LaserSword_hms_yellow" percentage="100"/>
 	</repair>
 
 	<storage>

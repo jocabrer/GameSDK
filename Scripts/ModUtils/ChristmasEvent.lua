@@ -24,7 +24,7 @@ end
             local RndPresent3 =     { category = "RandomChristmasPresent", percent = 8    }
             local RndPresent2 =     { category = "RandomChristmasPresent", percent = 5    }
             local RndPresent1 =     { category = "RandomChristmasPresent", percent = 20   }
-            local arbol =           { class = "christmas_tree"           , percent = 7.69 }
+            local arbol =           { class = "christmas_tree"           , percent = 7.142}
 
 
             -- 0 Part Spart para agregar arbol

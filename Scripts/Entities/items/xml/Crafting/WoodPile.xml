@@ -6,6 +6,7 @@
 		<param name="stack_size" value="250" />
 		<param name="display_name" value="@WoodPile" />
 		<param name="description" value="@WoodPileDescription" />
+        <param name="vendor_cost" value="60"/>
 	</params>
 
 	<geometry>
