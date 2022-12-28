@@ -78,6 +78,104 @@
 											<material class="SheetMetal" count="4" />
 										</materials>
 									</item>
+                                    <item class="sliding_gate_frame_double" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="15" />
+                                            <material class="Hammer" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="sliding_gate_door_wall_2x4" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="10" />
+                                            <material class="Hammer" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="sliding_gate_door_double_wall_2x8" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="20" />
+                                            <material class="Hammer" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="sliding_gate_door_double" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="20" />
+                                            <material class="Hammer" count="1" />
+                                        </materials>
+                                    </item>
+
+
+                                    <item class="barbwire_fence_placeable_2m" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="5" />
+                                            <material class="BarbedWireCoil" count="3" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_4m" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="10" />
+                                            <material class="BarbedWireCoil" count="6" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_8m" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="20" />
+                                            <material class="BarbedWireCoil" count="9" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_corner_a" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="10" />
+                                            <material class="BarbedWireCoil" count="6" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_corner_b" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="10" />
+                                            <material class="BarbedWireCoil" count="6" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_gate_rail" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="15" />
+                                            <material class="BarbedWireCoil" count="7" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_gate" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="25" />
+                                            <material class="BarbedWireCoil" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_pole" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="1" />
+                                            <material class="BarbedWireCoil" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_swinging_gate_left" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="15" />
+                                            <material class="BarbedWireCoil" count="7" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_swinging_gate_posts" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="10" />
+                                            <material class="BarbedWireCoil" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="barbwire_fence_placeable_swinging_gate_right" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="15" />
+                                            <material class="BarbedWireCoil" count="7" />
+                                        </materials>
+                                    </item>
+                                    <item class="fence_chainlink_placeable_door" time="1">
+                                        <materials>
+                                            <material class="SheetMetal" count="15" />
+                                            <material class="BarbedWireCoil" count="7" />
+                                        </materials>
+                                    </item>
 								</items>
 							</type>
 						</types>
