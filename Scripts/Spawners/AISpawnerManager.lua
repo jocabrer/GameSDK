@@ -67,7 +67,7 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "HumanZombie", percent = 100,
+					class = "HumanZombie", percent = 80,
 					models =
 					{
 						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf", percent = 10.0 },
@@ -84,6 +84,9 @@ AISpawnerManager = {
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 8.0 },
 					},
 				},
+                { 
+                    category = "horde", percent = 20 
+                },
 			},
 		},
 
@@ -293,10 +296,10 @@ AISpawnerManager = {
 			category = "Spiker",
 			classes =
 			{
-				{ category = "CrazySingle", percent = 30 },
+				{ category = "CrazySingle", percent = 20 },
 				{ category = "SpikerSingle", percent = 25 },
 				{ category = "HumanZombieSingle", percent = 20 },
-				{ category = "BruteMutantSingle", percent = 10 },
+				{ category = "BruteMutantSingle", percent = 20 },
 				{ category = "spiker_pack", percent = 15 },
 			},
 		},
@@ -388,8 +391,8 @@ AISpawnerManager = {
 				-- Hack in CAISpawnerManager::SpawnHorde() to spawn at least 1 brute per horde as a psuedo leader
 				{ category = "CrazySingle", percent = 25 },
 				{ category = "SpikerSingle", percent = 25 },
-				{ category = "HumanZombieSingle", percent = 25 },
-				{ category = "BruteMutantSingle", percent = 25 },
+				{ category = "HumanZombieSingle", percent = 20 },
+				{ category = "BruteMutantSingle", percent = 30 },
 			},
 		},
 

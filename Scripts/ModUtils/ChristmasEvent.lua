@@ -16,14 +16,14 @@ end
             local SweaterGreen23 =  { class = "SweaterChristmasGreen2"   , contents="RandomTorsoContents", percent = 2 }
             local SweaterRed3 =     { class = "SweaterChristmasRed"      , contents="RandomTorsoContents", percent = 2 }
             local SweaterRed23 =    { class = "SweaterChristmasRed2"     , contents="RandomTorsoContents", percent = 2 }
-            local Hat2 =            { class = "ChristmasHat"             , percent = 10   }
-            local CommonPresent1 =  { class = "ChristmasPresentCommon1"  , percent = 8    }
-            local CommonPresent2 =  { class = "ChristmasPresentCommon2"  , percent = 9    }
-            local RarePresent =     { class = "ChristmasPresentRare"     , percent = 15   }
-            local RarePresent30 =   { class = "ChristmasPresentRare"     , percent = 10   }
-            local RndPresent3 =     { category = "RandomChristmasPresent", percent = 8    }
+            local Hat2 =            { class = "ChristmasHat"             , percent = 5   }
+            local CommonPresent1 =  { class = "ChristmasPresentCommon1"  , percent = 5    }
+            local CommonPresent2 =  { class = "ChristmasPresentCommon2"  , percent = 5    }
+            local RarePresent =     { class = "ChristmasPresentRare"     , percent = 5   }
+            local RarePresent30 =   { class = "ChristmasPresentRare"     , percent = 5   }
+            local RndPresent3 =     { category = "RandomChristmasPresent", percent = 5    }
             local RndPresent2 =     { category = "RandomChristmasPresent", percent = 5    }
-            local RndPresent1 =     { category = "RandomChristmasPresent", percent = 20   }
+            local RndPresent1 =     { category = "RandomChristmasPresent", percent = 5   }
             local arbol =           { class = "christmas_tree"           , percent = 7.142}
 
 

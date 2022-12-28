@@ -300,8 +300,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{class = "DriveBelt"            , percent = 10 	},
 				{class = "SparkPlugs"           , percent = 10 	},
 				{class = "AmcoinLedger"         , percent = 2	},
-				{class = "Oil"                  , percent = 20  },
-				{class = "JerryCanDiesel"       , percent = 20  },
+				{class = "Oil"                  , percent = 80  },
+				{class = "JerryCanDiesel"       , percent = 50  },
 			},
 		},
 
@@ -309,10 +309,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomFishingBoatContents",
 			classes =
 			{
-				{category = "RandomAlcohol", percent = 25, min = 1, max = 3 },
 				{category = "RandomClothes", percent = 25 },
 				{category = "RandomFlashlight", percent = 25 },
 				{category = "RandomHat", percent = 25 },
+                {class = "CarBattery"       , percent = 15 },
+                {class = "Oil"              , percent = 25 },
 			},
 		},
 
@@ -401,11 +402,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{category = "RandomIncapacition"        , percent = 9  },
 				{category = "RandomMedical"             , percent = 5  },
                 {category = "RandomCargador"            , percent = 2  },
-				{category = "RandomPoliceItems"         , percent = 15 },
+				{category = "RandomPoliceItems"         , percent = 13 },
                 { class ="guide_ammunition"			    , percent = 5  },
 				{class  ="CarBattery"                   , percent = 5  },
 				{class  ="DriveBelt"                    , percent = 5  },
 				{ class ="AmcoinLedger"                 , percent = 6  },
+                {category = "RandomDuffelBag"           , percent = 2  },
+                
 			},
 		},
 
@@ -451,8 +454,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMutantLoot",
 			group =
 			{
-				{ class    = "AmcoinLedger"              , percent = 10  , min = 1, max = 9},
-				{ category = "RandomAmmo"                , percent = 30  , min = 1, max = 1},
+				{ class    = "AmcoinLedger"              , percent = 10  , min = 1, max = 3},
+				{ category = "RandomAmmo"                , percent = 25  , min = 1, max = 1},
 				{ category = "RandomConsumable"          , percent = 85  },
 				{ category = "RandomMedical"             , percent = 85  },
 				{ category = "RandomMelee"               , percent = 15  },
@@ -477,10 +480,10 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBruteLoot",
 			group =
 			{
-				{ category  = "RandomAmmo",               percent = 70   , min = 1, max = 1},
+				{ category  = "RandomAmmo",               percent = 45   , min = 1, max = 1},
                 { category  = "RandomCargador",           percent = 40   , min = 1, max = 1},
 				{ category  = "RandomMushroom",           percent = 50   },
-				{ class     = "AmcoinLedger",             percent = 100  , min = 1, max = 10 },
+				{ class     = "AmcoinLedger",             percent = 50  , min = 1, max = 10 },
 				{ category  = "RandomSpartaGear",         percent = 1    }, 
 				{ category  = "RandomMedical",            percent = 40   },
                 { category  = "SmallHidingPlaceContent",  percent = 5    },
@@ -504,7 +507,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomHumanSpiderLoot",
 			group =
 			{
-				{ class = "AmcoinLedger"                , percent = 15       , min = 1, max = 25 },
+				{ class = "AmcoinLedger"                , percent = 15       , min = 1, max = 10 },
 				{ category = "RandomAccessory"          , percent = 65      },
 				{ category = "RandomConsumable"         , percent = 75      },
                 { category = "RandomMedical"            , percent = 100     },
@@ -800,11 +803,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomHuntingClothing",
 			classes =
 			{
-				{ class = "CargoPantsCamo1" , percent = 25 },
+				{ class = "CargoPantsCamo1" , percent = 20 },
 				{ class = "WoolGlovesCamo1" , percent = 10 },
 				{ class = "CottonShirtBrown", percent = 20 },
 				{ class = "RuggedPackCamo1" , percent = 20 },
-				{ class = "TshirtCamo1"     , percent = 25 },
+				{ class = "TshirtCamo1"     , percent = 20 },
+                { category = "RandomDuffelBag"     , percent = 10 },
+                
 			},
 		},
 
@@ -3317,7 +3322,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "CornCan"                 , percent = 2  },
 				{ class = "DogFoodCan"              , percent = 3  },
 				{ class = "HersheysBar"             , percent = 2  },
-				{ class = "MRE"                     , percent = 30 },
+				{ class = "MRE"                     , percent = 25 },
 				{ class = "NutSpread"               , percent = 1  },
 				{ class = "PeachesCan"              , percent = 3  },
 				{ class = "PearsCan"                , percent = 2  },
@@ -3735,7 +3740,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "propane_heater"                    , percent = 4 },
 				{ category = "RandomLantern"                  , percent = 4 },
 				{ class = "HeatPack"                          , percent = 6 },
-				{ class = "camping_pop_up_canopy"             , percent = 7 },
+				{ class = "camping_pop_up_canopy"             , percent = 6 },
 				{ class = "camping_table"                     , percent = 5 },
 				{ class = "camping_water_jug"                 , percent = 5 },
 				{ category = "RandomHuntingItems"             , percent = 7 },
@@ -3746,7 +3751,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "Map"                            , percent = 1 },
                 { category = "RandomFlashlight"               , percent = 1 },
                 { category = "RandomCraftedTools"             , percent = 1 },
-                
+                { category = "RandomDuffelBag"                , percent = 1 },
                 
                 
                 
@@ -4039,9 +4044,10 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
 				{ class = "PoliceVestBlack", percent = 20 },
-				{ class = "PoliceVestBlue", percent = 20 },
+				{ class = "PoliceVestBlue", percent = 15 },
 				{ class = "SwatHelmet", percent = 20 },
 				{ category = "RandomTron", percent = 10 },
+                { category = "RandomDuffelBag"     , percent = 5 },
 			},
 		},
 
