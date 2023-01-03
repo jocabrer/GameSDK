@@ -137,13 +137,19 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "Deer", percent = 100,
+					class = "Deer", percent = 33.3,
 					models =
 					{
 						{ name = "objects/characters/animals/deer/deer.cdf", percent = 50.0 },
 						{ name = "objects/characters/animals/deer/deer_female.cdf", percent = 50.0 },
 					},
 				},
+                { 
+                    class = "Donkey", percent = 33.3
+                },
+                { 
+                    class = "Ram", percent = 33.3
+                },
 			},
 		},
 
@@ -195,13 +201,13 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "GiantRoach", percent = 100,
+					class = "GiantRoach", percent = 50,
 					models =
 					{
 						{ name = "objects/characters/animals/giant_roach/giant_roach.cdf", percent = 50.0 },
 						{ name = "objects/characters/animals/giant_roach/giant_roach_dark.cdf", percent = 50.0 },
 					},
-				},
+				}
 			},
 		},
 		{
@@ -317,7 +323,7 @@ AISpawnerManager = {
 			pack = true, min = 1, max = 2,
 			classes =
 			{
-				{ category = "DeerSingle", percent = 100 }
+				{ category = "DeerSingle", percent = 100 },
 			},
 		},
 
