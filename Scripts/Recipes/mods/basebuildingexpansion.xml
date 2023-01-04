@@ -2399,7 +2399,7 @@
 									</item>
 								</items>
 							</type>
-							<type name="Car Lift">
+							<type name="Garage">
 								<items>
 									<item class="carliftbase" time="1">
 										<materials>
@@ -2417,6 +2417,20 @@
 											<material class="SheetMetal" count="120" />
 										</materials>
 									</item>
+                                    <item class="carport" time="1">
+										<materials>
+											<material class="ScrapMetal" count="200" />
+											<material class="SheetMetal" count="200" />
+                                            <material class="Nails" count="60" />
+										</materials>
+									</item>
+                                     <item class="Shed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="350" />
+											<material class="SheetMetal" count="500" />
+                                            <material class="Nails" count="80" />
+										</materials>
+									</item>
 								</items>
 							</type>
                             <type name="Bunker">
@@ -2431,6 +2445,18 @@
 									</item>
 								</items>
 							</type>
+                            <type name="Barracks">
+                                <items>
+									<item class="barracks_middle_brick_concrete" time="1">
+										<materials>
+											<material class="Rocks" count="200" />
+											<material class="Lumber" count="1000" />
+											<material class="ConcreteBag" count="125" />
+										</materials>
+									</item>
+								</items>
+                            </type>
+                            
 						</types>
 					</subcat>
                     <subcat name="Titanium">

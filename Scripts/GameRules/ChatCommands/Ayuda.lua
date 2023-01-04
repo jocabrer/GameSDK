@@ -24,7 +24,7 @@ ChatCommands["!ayuda"] = function(playerId, command)
                                                   " !reglas (Mostrar info.) \n " ..
                                                   " !zona  (Viaje rápido a la Zona Segura - Requiere 20 Amcoin ) \n" ..
 	                                              " !say (te permite enviar mensajes globales ejemplo: !say Hola a todos) \n"..
-                                                  " !discord (Enviar mensaje al discord)"..   
+                                                  " !discord (Enviar mensaje al discord) \n "..   
                                                   " !setmarker nombre (Crea un marcador personal) \n " .. 
                                                   " !removemarker nombre (Borrar marcador) \n" );
     
