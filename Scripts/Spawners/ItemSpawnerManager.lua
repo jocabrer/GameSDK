@@ -4796,21 +4796,22 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
                 
-                { category = "RandomLetra"                           , percent = 3       },
-                { category = "RandomPlastered"                       , percent = 12.5    },
-                { category = "RandomConcrete"                        , percent = 12      },
-                { category = "RandomPrefab"	    		             , percent = 1       },
-                { category = "RandomGlassParts"   		             , percent = 12      },
+                { category = "RandomLetra"                           , percent = 1       },
+                { category = "RandomPlastered"                       , percent = 8       },
+                { category = "RandomConcrete"                        , percent = 14      },
+                { category = "RandomPrefab"	    		             , percent = 2       },
+                { category = "RandomGlassParts"   		             , percent = 14      },
                 { category = "RandomTitanium"   		             , percent = 5       },
                 { category = "RandomMarmol"       		             , percent = 12      },
                 { category = "RandomTent"       		             , percent = 5       },
-                { category = "RandomLadrillo"       	             , percent = 12.5    },
+                { category = "RandomLadrillo"       	             , percent = 12      },
                 { category = "RandomRocaPiedra"       	             , percent = 12      },
                 { category = "RandomFence"       	                 , percent = 3       },
-                { category = "RandomLightTower"       	             , percent = 1       },
-                
+                { category = "RandomLightTower"       	             , percent = 6       },
+                { category = "RandomWood"       	                 , percent = 6       },
 			},
 		},
+
 
        {
 			category = "RandomMarmol",
@@ -4906,6 +4907,24 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "door_titanium"                       ,percent = 6.6       },
             },
 		},
+
+        {
+			category = "RandomWood",
+			classes =
+			{
+                { class = "wood_stairs_0m_3m_4m_1m"                 ,percent = 12.5  },  
+                { class = "wood_stairs_0m_3m_4m_1m_end"             ,percent = 12.5  },
+                { class = "wood_stairs_0m_3m_4m_2m"                 ,percent = 12.5  },
+                { class = "wood_stairs_0m_3m_4m_2m_end"             ,percent = 12.5  },
+                { class = "wood_walkstairs_3m_4m_4m_left"           ,percent = 12.5  },
+                { class = "wood_walkstairs_3m_4m_4m_right"          ,percent = 12.5  },
+                { class = "wood_walkstairs_3m_4m_4m_straight_left"  ,percent = 12.5  },
+                { class = "wood_walkstairs_3m_4m_4m_straight_right" ,percent = 12.5  },
+            },
+		},
+        
+
+        
         {
 			category = "RandomGlassParts",
 			classes =

@@ -4,7 +4,7 @@
 		<cats>
 			<cat name="Base Building">
 				<subcats>
-					<subcat name="Prefabs">
+					<subcat name="Other">
 						<types>
 							<type name="Fences">
 								<items>
@@ -102,8 +102,6 @@
                                             <material class="Hammer" count="1" />
                                         </materials>
                                     </item>
-
-
                                     <item class="barbwire_fence_placeable_2m" time="1">
                                         <materials>
                                             <material class="SheetMetal" count="5" />

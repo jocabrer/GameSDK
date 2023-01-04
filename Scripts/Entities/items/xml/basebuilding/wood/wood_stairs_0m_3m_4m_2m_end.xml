@@ -1,0 +1,20 @@
+<item name="wood_stairs_0m_3m_4m_2m_end" class="Placeable" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="4"></param>
+		<param name="stack_size" value="5"></param>
+		<param name="display_name" value="Wood stairs 0-3mx4x2m B"></param>
+		<param name="description" value="A wood stairs 0m-3m high 4m long 2m wide"></param>
+	</params>
+	<base_part class="static" type="7097" name="wood_stairs_0m_3m_4m_2m_end" repair_with="Lumber">
+		<static filename="objects/basebuilding/wood/wood_stairs_0m_3m_4m_2m_end.cgf"></static>
+	</base_part>
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"></thirdperson>
+	</geometry>
+	<storage>
+		<locations>
+			<location category="any"></location>
+		</locations>
+	</storage>
+</item>
