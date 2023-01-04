@@ -5,7 +5,9 @@ ChatCommands["!help"] = function(playerId, command)
                                                     " !rules (Show info) \n" ..
                                                     " !zone  (Teleport you to the safe zone - 20 Amcoin required) \n" ..
                                                     " !say (Send global messages \n example: !say Hi everyone ) \n" ..
-                                                    " !discord (Send discord messages)");
+                                                    " !discord (Send discord messages) \n" ..   
+                                                    " !setmarker namecustom (Set a personal marker) \n " .. 
+                                                    " !removemarker namecustom (Delete marker) \n" );
 end
 
 ChatCommands["!rules"] = function(playerId, command)
@@ -22,7 +24,9 @@ ChatCommands["!ayuda"] = function(playerId, command)
                                                   " !reglas (Mostrar info.) \n " ..
                                                   " !zona  (Viaje rápido a la Zona Segura - Requiere 20 Amcoin ) \n" ..
 	                                              " !say (te permite enviar mensajes globales ejemplo: !say Hola a todos) \n"..
-                                                  " !discord (Enviar mensaje al discord)");
+                                                  " !discord (Enviar mensaje al discord)"..   
+                                                  " !setmarker nombre (Crea un marcador personal) \n " .. 
+                                                  " !removemarker nombre (Borrar marcador) \n" );
     
 end
 

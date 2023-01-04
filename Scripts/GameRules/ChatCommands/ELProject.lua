@@ -308,7 +308,7 @@ end
 
 function PVETop()
     
-    local rnd = random(1, 10);
+    local rnd = random(1, 12);
     
     local mensaje = 'Use Command !help / Usa el comando !Ayuda';
 
@@ -321,17 +321,21 @@ function PVETop()
     elseif rnd == 4 then
         mensaje = 'Deactivate the locations with the "¬" button';
     elseif rnd == 5 then
-        mensaje = 'Deactivate the locations with the "¬" button';
+        mensaje = 'Disable locations with the "¬" key';
     elseif rnd == 6 then
-        mensaje = 'Use Command !help / Usa el comando !Ayuda'
+        mensaje = 'Use Command !help'
     elseif rnd == 7 then
-        mensaje = 'Use Command !help / Usa el comando !Ayuda'
+        mensaje = 'Usa el comando !Ayuda'
     elseif rnd == 8 then
-        mensaje = 'Desactiva las ubicaciones con el botón "¬"'
+        mensaje = 'Desactiva las ubicaciones con la tecla "¬"'
     elseif rnd == 9 then
         mensaje = 'El menú PVE STORE tiene mods de velocidad para comprar'
     elseif rnd == 10 then
         mensaje = 'Comando !zona te permite ir a la zona segura'
+    elseif rnd == 11 then
+        mensaje = 'command !discord [message] send direct to channel'        
+    elseif rnd == 12 then
+        mensaje = 'Comando !discord [mensaje] envía directo al canal'                
     end
 
     g_gameRules.game:SendTextMessage(0, 0, mensaje );
