@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="bparts_wood" MtlFlags="524416" Shader="Illum" GenMask="60400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/wood/textures/bpart_wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/wood/textures/bpart_wood_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/wood/textures/bpart_wood_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail_horizontal.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.67900002" SSSIndex="0.039000001" DetailBumpScale="0.43000001" DetailGlossScale="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bparts_misc" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/misc/textures/bparts_misc_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/misc/textures/bparts_misc_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/misc/textures/bparts_misc_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.039000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bparts_plated" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/plated/textures/bparts_plated_dif.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/plated/textures/bparts_plated_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/plated/textures/bparts_plated_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bpart_rock_1" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/rock/textures/rock_tileable_diffuse.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/rock/textures/rock_tileable_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="bpart_rock_2" MtlFlags="524418" Shader="Illum" GenMask="2040400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal_RayProxy" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/industrial/walkway/textures/grated_steel_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetU="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/industrial/walkway/textures/grated_steel_ddna.tif" IsTileV="0">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" OffsetU="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
