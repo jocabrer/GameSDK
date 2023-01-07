@@ -72,7 +72,7 @@
 			<location category="legs"/>
 		</locations>
 		<types>
-			<type category="any" capacity="10"/>
+			<type category="any" capacity="20"/>
 		</types>
 	</storage>
 

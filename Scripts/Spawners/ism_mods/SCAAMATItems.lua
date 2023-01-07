@@ -40,7 +40,7 @@ end
 -- Floppy disk game
 newItem = {
     class = "SCAAMGameFloppyDisk",
-    percent = 35,
+    percent = 15,
 }
 
 categoryToAdjust = FindInTable(ItemSpawnerManager.itemCategories, "category", "RandomElectronicsContent")

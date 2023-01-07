@@ -2431,6 +2431,47 @@
                                             <material class="Nails" count="80" />
 										</materials>
 									</item>
+
+                                    <item class="DelicateGarage_HMS" time="1">
+										<materials>
+											<material class="ScrapMetal" count="1000" />
+											<material class="SheetMetal" count="1000" />
+                                            <material class="Nails" count="200" />
+                                            <material class="Amalgaduino" count="10" />
+										</materials>
+									</item>
+
+                                    <item class="DelicateGarage_Door_HMS1" time="1">
+										<materials>
+											<material class="SheetMetal" count="200" />
+                                            <material class="Nails" count="50" />
+                                            <material class="ScrapMetal" count="50" />
+										</materials>
+									</item>
+
+                                    <item class="DelicateGarage_Door_HMS2" time="1">
+										<materials>
+											<material class="SheetMetal" count="200" />
+                                            <material class="Nails" count="50" />
+                                            <material class="ScrapMetal" count="50" />
+										</materials>
+									</item>
+
+                                    <item class="DelicateGarage_Door_HMS3" time="1">
+										<materials>
+											<material class="SheetMetal" count="200" />
+                                            <material class="Nails" count="50" />
+                                            <material class="ScrapMetal" count="50" />
+										</materials>
+									</item>
+                                    
+                                    <item class="DelicateGarage_Door_HMS4" time="1">
+										<materials>
+											<material class="SheetMetal" count="200" />
+                                            <material class="Nails" count="50" />
+                                            <material class="ScrapMetal" count="50" />
+										</materials>
+									</item>
 								</items>
 							</type>
                             <type name="Bunker">
