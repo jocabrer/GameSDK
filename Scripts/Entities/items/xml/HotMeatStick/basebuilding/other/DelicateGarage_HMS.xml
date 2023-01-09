@@ -8,7 +8,7 @@
 		<param name="description" value="Health 75000"/>
 	</params>
 
-	<base_part class="static" type="7397" name="DelicateGarage_HMS" max_health="750000" repair_with="Lumber" limit="4">
+	<base_part class="static" type="7397" name="DelicateGarage_HMS" max_health="750000" repair_with="Lumber" limit="1">
 		<static filename="Objects/HotMeatStick/basebuilding/DelicateGarage_HMS/DelicateGarage_HMS.cgf"/>
 		<base_parts>
 			<base_part class="light">

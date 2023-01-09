@@ -10,7 +10,7 @@
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="display_name" value="Daft Punk Helmet 2"/>
 		<param name="description" value="Daft Punk helmet with crosshairs 2 / Daft Punk Casco con punto de mira 2"/>
-        <param name="vendor_cost" value="15"/>
+        <param name="vendor_cost" value="40"/>
 	</params>
 
 	<wearable>
