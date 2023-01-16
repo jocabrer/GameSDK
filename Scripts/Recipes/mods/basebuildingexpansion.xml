@@ -541,6 +541,18 @@
 											<material class="SheetMetal" count="10" />
 										</materials>
 									</item>
+                                    <item class="dws_explosive_barrel" time="3">
+										<materials>
+											<material class="ScrapMetal" count="30" />
+											<material class="SheetMetal" count="10" />
+										</materials>
+									</item>
+                                    <item class="dws_acid_barrel" time="3">
+										<materials>
+											<material class="ScrapMetal" count="30" />
+											<material class="SheetMetal" count="10" />
+										</materials>
+									</item>
 								</items>
 							</type>
                             <type name="Kitchen">
@@ -921,6 +933,13 @@
                                                 <material class="Amalgaduino" count="1" />
                                             </materials>
                                         </item>
+                                        <item class="dws_fire_extinguisher" time="5">
+                                            <materials>
+                                                <material class="ScrapMetal" count="5" />
+                                                <material class="SheetMetal" count="1" />
+                                                <material class="GrenadeSmokeRedPickup" count="1" />
+                                            </materials>
+                                        </item>
                                 </items>
                             </type>
                             <type name="Sign / Carteles">
@@ -1137,105 +1156,141 @@
                         </types>
 					</subcat>
 					<subcat name="Ladrillo">
-						<items>
-							<item class="brick_angled_roof_3x4x4" time="5">
-								<materials>
-									<material class="Lumber" count="9" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="15" />
-								</materials>
-							</item>
-							<item class="brick_ceiling_4m_4m" time="5">
-								<materials>
-									<material class="Lumber" count="12" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="20" />
-								</materials>
-							</item>
-							<item class="brick_ceiling_8m_8m" time="5">
-								<materials>
-									<material class="Lumber" count="16" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="25" />
-								</materials>
-							</item>
-							<item class="brick_ceiling_16m_16m" time="5">
-								<materials>
-									<material class="Lumber" count="20" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="40" />
-								</materials>
-							</item>
-							<item class="brick_column_3m" time="5">
-								<materials>
-									<material class="Lumber" count="5" />
-									<material class="Rocks" count="15" />
-								</materials>
-							</item>
-							<item class="brick_crenelation" time="5">
-								<materials>
-									<material class="Lumber" count="16" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="25" />
-								</materials>
-							</item>
-							<item class="brick_platform_3m_4m_4m" time="5">
-								<materials>
-									<material class="Lumber" count="16" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="25" />
-								</materials>
-							</item>
-							<item class="brick_platform_3m_4m_4m_stairs" time="5">
-								<materials>
-									<material class="Lumber" count="16" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="25" />
-								</materials>
-							</item>
-							<item class="brick_platform_3m_8m_8m" time="5">
-								<materials>
-									<material class="Lumber" count="16" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="25" />
-								</materials>
-							</item>
-							<item class="brick_wall_3m_2m" time="5">
-								<materials>
-									<material class="Lumber" count="9" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="15" />
-								</materials>
-							</item>
-							<item class="brick_wall_3m_2m_window" time="5">
-								<materials>
-									<material class="Lumber" count="9" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="15" />
-								</materials>
-							</item>
-							<item class="brick_wall_3m_4m" time="5">
-								<materials>
-									<material class="Lumber" count="12" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="20" />
-								</materials>
-							</item>
-							<item class="brick_wall_3m_4m_door" time="5">
-								<materials>
-									<material class="Lumber" count="12" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="20" />
-								</materials>
-							</item>
-							<item class="brick_wall_3m_4m_window" time="5">
-								<materials>
-									<material class="Lumber" count="12" />
-									<material class="ConcreteBag" count="1" />
-									<material class="Rocks" count="20" />
-								</materials>
-							</item>
-						</items>
+                        <types>
+                            <type name="Brick">
+                                <items>
+                                    <item class="brick_angled_roof_3x4x4" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_ceiling_4m_4m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="12" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="20" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_ceiling_8m_8m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="25" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_ceiling_16m_16m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="20" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="40" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_column_3m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="5" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_crenelation" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="25" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_platform_3m_4m_4m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="25" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_platform_3m_4m_4m_stairs" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="25" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_platform_3m_8m_8m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="16" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="25" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_wall_3m_2m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_wall_3m_2m_window" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_wall_3m_4m" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="12" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="20" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_wall_3m_4m_door" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="12" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="20" />
+                                        </materials>
+                                    </item>
+                                    <item class="brick_wall_3m_4m_window" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="12" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="20" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Big Fence">
+                            <items>
+                                <item class="bigfence" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                </item>
+                                <item class="bigfencecorner" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                </item>
+                                <item class="bigfencecorner2" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                </item>
+                                <item class="bigfencegate" time="5">
+                                        <materials>
+                                            <material class="Lumber" count="9" />
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="Rocks" count="15" />
+                                        </materials>
+                                </item>
+                            </items>
+                            </type>
+                        </types>
 					</subcat>
 					<subcat name="Roca Piedra">
 						<items>

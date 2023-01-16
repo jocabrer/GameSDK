@@ -1,0 +1,67 @@
+<item name="dws_fire_extinguisher" class="Placeable" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="2.0"></param>
+		<param name="place_dws" value="1"></param>
+		<param name="no_icon" value="1"></param>
+		<param name="display_name" value="Fire Extinguisher"></param>
+		<param name="description" value="Fire extinguisher"></param>
+	</params>
+	<base_part class="static" type="239" name="dws_fire_extinguisher" max_health="20">
+		<static filename="objects/props/fireex/fireex.cgf"></static>
+		<damage_multipliers>
+			<damage_multiplier damage_type="default" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="collision" multiplier="0.1"></damage_multiplier>
+			<damage_multiplier damage_type="explosion" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="frag" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="fire" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="melee" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="repair" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_10mm" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_12_gauge_beanbag" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_12_gauge_pellet" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_12_gauge_slug" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_22" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_223" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_308" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_357" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_5_56x45" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_7_62x39" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_7_62x51" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_9mm" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_acp_45" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_rock_lge" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_rock_sml" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="ammo_tranquilizer_dart" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="arrow" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="blunt" multiplier="0.0"></damage_multiplier>
+			<damage_multiplier damage_type="flare" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="hammer" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="hatchet" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="knife" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="pickaxe" multiplier="1.0"></damage_multiplier>
+			<damage_multiplier damage_type="torch" multiplier="1.0"></damage_multiplier>
+		</damage_multipliers>
+	</base_part>
+	<geometry>
+		<thirdperson name="objects/props/fireex/fireex.cgf"></thirdperson>
+	</geometry>
+	<explosion>
+		<param name="damage" value="1"></param>
+		<param name="pressure" value="100"></param>
+		<param name="min_radius" value="1"></param>
+		<param name="max_radius" value="2"></param>
+		<param name="min_phys_radius" value="1"></param>
+		<param name="max_phys_radius" value="3"></param>
+		<param name="sound_radius" value="50"></param>
+		<param name="hole_size" value="3"></param>
+		<param name="effect" value="explosions.fire_extinguisher.burst"></param>
+		<param name="radial_blur_dist" value="10"></param>
+		<param name="hit_type" value="frag"></param>
+	</explosion>
+	<storage>
+		<locations>
+			<location category="any"></location>
+		</locations>
+	</storage>
+</item>

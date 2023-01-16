@@ -226,8 +226,8 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 8,
-			abandonedTimer = 172800,  -- two days
+			initialMinVehicles = 12,
+			abandonedTimer = 345600,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
 			destroyedRespawnTimer = 7200, -- two hours
