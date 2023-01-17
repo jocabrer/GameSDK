@@ -8,7 +8,7 @@
 		<param name="description" value="FlowerPotC"/>
 	</params>
 
-	<base_part class="static" type="7377" name="FlowerPotC_HMS" max_health="20000" repair_with="Lumber">
+	<base_part class="static" type="1102" name="FlowerPotC_HMS" max_health="20000" repair_with="Lumber">
 		<static filename="Objects/HotMeatStick/basebuilding/FlowerPot_HMS/FlowerPotC_HMS.cgf"/>
 		<damage_multipliers>
 			<damage_multiplier damage_type="collision" multiplier="0.1"/>

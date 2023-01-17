@@ -23,7 +23,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "placeholder9", contents = "RandomPoliceSedanContents" },
 			},
-			initialMinVehicles    = 5,
+			initialMinVehicles    = 10,
 			abandonedTimer        = 172800,  -- two days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer        = 120,
@@ -49,7 +49,7 @@ VehicleSpawnerManager = {
                     },
                 },
             },
-            initialMinVehicles = 5,
+            initialMinVehicles = 10,
             abandonedTimer = 172800,  -- two days
             abandonedRespawnTimer = 3600, -- one hour
             destroyedTimer = 120,
@@ -178,7 +178,7 @@ VehicleSpawnerManager = {
                     },
                 },
             },
-            initialMinVehicles = 5,
+            initialMinVehicles = 8,
             abandonedTimer = 172800,  -- 5 days
             abandonedRespawnTimer = 3600, -- one hour
             destroyedTimer = 120,
@@ -196,7 +196,7 @@ VehicleSpawnerManager = {
             
                 },
 			},
-			initialMinVehicles = 5,
+			initialMinVehicles = 12,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -449,7 +449,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "tractor", contents = "RandomTractorContents" },
 			},
-			initialMinVehicles = 8,
+			initialMinVehicles = 15,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
