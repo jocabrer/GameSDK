@@ -347,7 +347,7 @@ VehicleSpawnerManager = {
 			{
 				{ class = "placeholder11", contents = "RandomF100TruckContents" },
 			},
-			initialMinVehicles = 6,
+			initialMinVehicles = 10,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -434,7 +434,7 @@ VehicleSpawnerManager = {
 					
 				},
 			},
-			initialMinVehicles = 6,
+			initialMinVehicles = 12,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -480,7 +480,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 4,
+			initialMinVehicles = 8,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,
@@ -505,7 +505,7 @@ VehicleSpawnerManager = {
 					},
 				},
 			},
-			initialMinVehicles = 8,
+			initialMinVehicles = 12,
 			abandonedTimer = 172800,  -- 2 days
 			abandonedRespawnTimer = 3600, -- one hour
 			destroyedTimer = 120,

@@ -1,0 +1,27 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="pole" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/wood/textures/bpart_wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/wood/textures/bpart_wood_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/wood/textures/bpart_wood_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.039000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="flag" MtlFlags="524450" Shader="Vegetation" GenMask="2400200000" StringGenMask="%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="20" AlphaTest="0.13" vertModifType="2" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/custom/flags/donators/textures/flag_sheet1_custom_diff.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" OffsetU="0.25" TileV="0.25" OffsetV="0.5"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="2" DividerX="0.89999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.12" Level="0" Phase="1" Freq="5"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="1" bendDetailFrequency="10" bendDetailBranchAmplitude="10" BlendTerrainCol="0" VertexAlphaBlendFactor="0" NormalViewDependency="0.565" TransmittanceColor="1,1,0.60000002" BackDiffuseMultiplier="0.361" BlendTerrainColDist="0.0099999998" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.58407855,0.58407855,0.58407855" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

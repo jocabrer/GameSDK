@@ -35,7 +35,7 @@ end
             local classtoilet = FindInTable(metalcat.classes, "class", "toilet_tow_packed")
             classtoilet.percent = classtoilet.percent - 7.142
             
-            dump(PartSpawnerManager)
+            -- dump(PartSpawnerManager)
 
             Log('>> SeasonalEvents : ItemSpawnerManager')
 			-- 1 / RandomBruteLoot 		
