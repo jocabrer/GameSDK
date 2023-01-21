@@ -333,9 +333,9 @@ function PVETop()
     elseif rnd == 10 then
         mensaje = 'Comando !zona te permite ir a la zona segura'
     elseif rnd == 11 then
-        mensaje = 'command !discord [message] send direct to channel'        
+        mensaje = 'command !discord [message] send discord message'        
     elseif rnd == 12 then
-        mensaje = 'Comando !discord [mensaje] envía directo al canal'                
+        mensaje = 'Comando !discord [mensaje] envíar mensaje en Discord'                
     end
 
     g_gameRules.game:SendTextMessage(0, 0, mensaje );
