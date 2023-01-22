@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Wall 3m x 16m " />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Wall 3m x 16m" />
   </params>
-  <base_part class="static" type="8844" name="steel_wall_3m_16m" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7259" name="steel_wall_3m_16m" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_wall_3x16.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

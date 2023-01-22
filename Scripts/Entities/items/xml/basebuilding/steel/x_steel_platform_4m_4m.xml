@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Platform 4x4" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Platform 4x4" />
   </params>
-  <base_part class="static" type="8830" name="x_steel_platform_4m_4m" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7264" name="x_steel_platform_4m_4m" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_platform_4x4.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

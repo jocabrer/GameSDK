@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Slide Door" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Slide Door" />
   </params>
-  <base_part class="door" type="8831" name="vault_slidedoor" max_health="65000" repair_with="SheetMetal">
+  <base_part class="door" type="7262" name="vault_slidedoor" max_health="65000" repair_with="SheetMetal">
     <door filename="objects/steel/vaultdoor.cgf" rotate_base="0" move_range="0.92" move_speed="1" move_axis="x" move_axis_dir="+" sound_open="Play_industrial_garage_door_open" sound_opened="Play_door_metal_opened" sound_close="Play_industrial_garage_door_close" sound_closed="Play_door_metal_closed" />
     <base_actions>
       <base_action class="toggle_door">

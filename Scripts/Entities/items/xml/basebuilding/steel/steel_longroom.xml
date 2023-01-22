@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Safe Room" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Safe Room" />
   </params>
-  <base_part class="static" type="8827" name="steel_longroom" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7242" name="steel_longroom" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steellongroom.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

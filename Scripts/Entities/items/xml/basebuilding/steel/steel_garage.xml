@@ -4,11 +4,11 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Garage" />
-    <param name="description" value="Health 99000" />
+    <param name="description" value="Steel Garage" />
     <param name="place_force_lower" value="1" />
     <param name="place_offset" value="-1.4" />
   </params>
-  <base_part class="static" type="8818" name="steel_garage" max_health="99000" repair_with="SheetMetal">
+  <base_part class="static" type="7232" name="steel_garage" max_health="99000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_garage.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

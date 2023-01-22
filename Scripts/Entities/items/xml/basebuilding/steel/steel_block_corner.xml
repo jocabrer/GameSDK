@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Block Corner" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Steel Block Corner" />
   </params>
-  <base_part class="static" type="8807" name="steel_block_corner" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7221" name="steel_block_corner" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_block_corner.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

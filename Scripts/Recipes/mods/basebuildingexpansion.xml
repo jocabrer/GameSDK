@@ -4001,18 +4001,18 @@
                                             <material class="ScrapMetal" count="10" />
                                         </materials>
                                     </item>
-                                    <item class="vaultroom" time="1">
-                                        <materials>
-                                            <material class="ConcreteBag" count="15" />
-                                            <material class="IronIngot" count="55" />
-                                            <material class="ScrapMetal" count="100" />
-                                        </materials>
-                                    </item>
                                     <item class="steel_garage_door" time="1">
                                         <materials>
                                             <material class="ConcreteBag" count="1" />
                                             <material class="IronIngot" count="10" />
                                             <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="vaultroom" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="15" />
+                                            <material class="IronIngot" count="55" />
+                                            <material class="ScrapMetal" count="100" />
                                         </materials>
                                     </item>
                                     <item class="steel_garage" time="1">

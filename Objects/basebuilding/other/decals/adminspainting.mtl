@@ -1,0 +1,75 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="painting_map_orca" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/decals/textures/adminspainting.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="1.14" OffsetU="-0.07" TileV="1.115" OffsetV="-0.050000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="_free" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="40" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_base_pbr_diff.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="canvas" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/painting/canva_tileable_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/props/painting/canva_tileable_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="painting_bunker_promo" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="painting_capitalmunch" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="framing" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.94730669,0.75294232,0.70110202" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/goldleaf_wood/gold_leaf_wood_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/wood/goldleaf_wood/gold_leaf_wood_ddna.tif"/>
+    <Texture Map="Specular" File="textures/wood/goldleaf_wood/gold_leaf_wood_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl9" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.68668544,0.45078582,0.1441285" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/black_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/wood/goldleaf_wood/gold_leaf_wood_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="painting_slobberface" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/painting/textures/painting_square_1_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" OffsetU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/other/painting/textures/painting_square_1_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="painting_map_canyonlands" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.03189604,0.03189604,0.03189604" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/painting/textures/painting_square_1_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TileV="0.5" OffsetV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/basebuilding/other/painting/textures/painting_square_1_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

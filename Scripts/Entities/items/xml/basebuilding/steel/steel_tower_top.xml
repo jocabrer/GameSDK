@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Tower - Top" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Tower - Top" />
   </params>
-  <base_part class="static" type="8841" name="steel_tower_top" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7256" name="steel_tower_top" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_tower_top.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

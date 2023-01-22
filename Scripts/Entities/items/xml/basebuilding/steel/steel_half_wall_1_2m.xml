@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Low Wall 1 2m" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Low Wall 1 2m" />
   </params>
-  <base_part class="static" type="8824" name="steel_half_wall_1_2m" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7239" name="steel_half_wall_1_2m" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_half_wall_1_2m.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />

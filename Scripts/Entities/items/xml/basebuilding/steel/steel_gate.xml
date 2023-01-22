@@ -4,9 +4,9 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Gate" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="gate" />
   </params>
-  <base_part class="door" type="8822" name="steel_gate" max_health="65000" repair_with="SheetMetal">
+  <base_part class="door" type="7237" name="steel_gate" max_health="65000" repair_with="SheetMetal">
     <door filename="objects/steel/steel_gate.cgf" rotate_base="0" move_range="3.92" move_speed="1" move_axis="x" move_axis_dir="+" sound_open="Play_industrial_garage_door_open" sound_opened="Play_door_metal_opened" sound_close="Play_industrial_garage_door_close" sound_closed="Play_door_metal_closed" />
     <base_actions>
       <base_action class="toggle_door">

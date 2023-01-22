@@ -4,12 +4,12 @@
     <param name="mass" value="1" />
     <param name="stack_size" value="5" />
     <param name="display_name" value="Steel Foundation 16m 16m" />
-    <param name="description" value="Health 65000" />
+    <param name="description" value="Foundation 16m 16m" />
     <param name="place_terrain_only" value="1" />
     <param name="place_force_lower" value="1" />
     <param name="place_offset" value="-4.7" />
   </params>
-  <base_part class="static" type="8816" name="steel_foundation_16m_16m" max_health="65000" repair_with="SheetMetal">
+  <base_part class="static" type="7230" name="steel_foundation_16m_16m" max_health="65000" repair_with="SheetMetal">
     <static filename="objects/steel/steel_foundation_16x16.cgf" />
     <damage_multipliers>
       <damage_multiplier damage_type="collision" multiplier="0.1" />
