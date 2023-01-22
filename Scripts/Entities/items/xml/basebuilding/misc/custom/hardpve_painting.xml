@@ -1,0 +1,23 @@
+<item name="hardpve_painting" class="Placeable" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="0.5"></param>
+		<param name="display_name" value="Pve server Painting"></param>
+		<param name="description" value="Hard Pve Server painting"></param>
+		<param name="stack_size" value="1"></param>
+        <param name="vendor_cost" value="25"/>
+		<param name="place_restrict_snap" value="sticky"></param>
+	</params>
+	<base_part class="static" type="7193" name="hardpve_painting" max_health="10000" repair_with="PaintCan_Black">
+		<static filename="objects/basebuilding/other/decals/hardpve_painting.cgf" 
+        material="objects/basebuilding/other/decals/hardpve_painting.mtl"></static>
+	</base_part>
+	<geometry>
+		<thirdperson name="Objects/basebuilding/wood/wood_part.cgf"></thirdperson>
+	</geometry>
+	<storage>
+		<locations>
+			<location category="any"></location>
+		</locations>
+	</storage>
+</item>

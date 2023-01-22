@@ -7,7 +7,7 @@
     <param name="description" value="Garage Door" />
   </params>
   <base_part class="door" type="7231" name="steel_garage_door" max_health="65000" repair_sound="" repair_with="SheetMetal">
-    <door filename="objects/steel/custom/steel_garage_door.cgf" rotate_base="0" move_range="3.97" move_speed="1" move_axis="z" move_axis_dir="-" sound_open="Play_industrial_garage_door_open" sound_opened="Play_door_metal_opened" sound_close="Play_industrial_garage_door_close" sound_closed="Play_door_metal_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock" />
+    <door filename="objects/steel/steel_garage_door.cgf" rotate_base="0" move_range="3.97" move_speed="1" move_axis="z" move_axis_dir="-" sound_open="Play_industrial_garage_door_open" sound_opened="Play_door_metal_opened" sound_close="Play_industrial_garage_door_close" sound_closed="Play_door_metal_closed" sound_lock="Play_door_lock" sound_unlock="Play_door_unlock" />
     <base_actions>
       <base_action class="toggle_door">
         <toggle_door sound_knock="Play_door_metal_knock" />
