@@ -42,11 +42,11 @@ SpawnWorldEvent = function(self)
 	local eventName
 	local rnd = random(1, 10)
 
-	if rnd <= 4 then
+	if rnd <= 5 then
 		eventName = "AirDropPlane"
 		g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
         Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
-	elseif rnd <= 7 then
+	elseif rnd <= 9 then
 		eventName = "AirPlaneCrash"
 		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash" )
         Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")

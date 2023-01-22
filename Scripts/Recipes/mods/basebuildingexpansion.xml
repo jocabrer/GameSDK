@@ -3683,6 +3683,430 @@
                             </type>
                         </types>
 					</subcat>
+                    <subcat name="Classic">
+                    <items>
+                        <item class="classic_ceiling_4m_4m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="1" />
+                                <material class="Rocks" count="10" />
+                                
+                            </materials>
+                        </item>
+                        <item class="classic_ceiling_8m_8m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="2" />
+                                <material class="Rocks" count="20" />
+                            </materials>
+                        </item>
+                        <item class="classic_ceiling_16m_16m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_wall_3m_2m_window" time="1">
+                                    <materials>
+                                        <material class="ConcreteBag" count="1" />
+                                        <material class="Rocks" count="10" />
+                                    </materials>
+                        </item>
+                        <item class="classic_wall_3m_2m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="2" />
+                                <material class="Rocks" count="20" />
+                            </materials>
+                        </item>
+                        <item class="classic_wall_3m_4m_door" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_wall_3m_4m_window" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_wall_3m_4m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_crenelation" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_platform_3m_4m_4m_stairs" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="1" />
+                                <material class="Rocks" count="10" />
+                            </materials>
+                        </item>
+                        <item class="classic_platform_3m_4m_4m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="2" />
+                                <material class="Rocks" count="20" />
+                            </materials>
+                        </item>
+                        <item class="classic_platform_3m_8m_8m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="4" />
+                                <material class="Rocks" count="40" />
+                            </materials>
+                        </item>
+                        <item class="classic_column_3m" time="1">
+                            <materials>
+                                <material class="ConcreteBag" count="1" />
+                                <material class="Rocks" count="10" />
+                            </materials>
+                        </item>
+                    </items>
+                    </subcat>
+                    <subcat name="Steel">
+                        <types>
+                            <type name="Roof">
+                                <items>
+                                    <item class="steel_roof" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_ramp_3x4" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Wall">
+                                <items>
+                                    <item class="steel_wall_3m_2m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_wall_3m_4m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_wall_3m_16m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="3" />
+                                            <material class="IronIngot" count="20" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_wall_door_3m_4m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_wall_window_3m_4m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_half_wall_1_2m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_half_wall_1_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_half_wall_1_3x3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Platform">
+                                <items>
+                                    <item class="steel_platform_4m_4m" time="1">
+                                       <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_platform_4x3" time="1">
+                                       <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_platform_16m_16m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="3" />
+                                            <material class="IronIngot" count="20" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="x_steel_platform_4m_4m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Tower">
+                                <items>
+                                    <item class="steel_tower_base" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_tower_mid" time="1">
+                                       <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_tower_top" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Stairs">
+                                <items>
+                                    <item class="steel_block_stairs_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_stairs_2m_1_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="5" />
+                                            <material class="ScrapMetal" count="5" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_spiralstairs" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_block_stairs_3x4" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_block_stairs2_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="15" />
+                                            <material class="ScrapMetal" count="20" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_stairs_1m_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Foundation">
+                                <items>
+                                    <item class="steel_foundation_3m_16m_16m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="5" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_foundation_4m_4m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="5" />
+                                            <material class="ScrapMetal" count="5" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_foundation_16m_16m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="5" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Drawbridge">
+                                <items>
+                                    <item class="steel_drawbridge_8m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="5" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_es_drawbridge_gate" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="5" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Other">
+                                <items>
+                                    <item class="vault_slidedoor" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="vaultroom" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="15" />
+                                            <material class="IronIngot" count="55" />
+                                            <material class="ScrapMetal" count="100" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_garage_door" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_garage" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="25" />
+                                            <material class="IronIngot" count="120" />
+                                            <material class="ScrapMetal" count="75" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_gate_down" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_gatehouse_gate" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="20" />
+                                            <material class="IronIngot" count="50" />
+                                            <material class="ScrapMetal" count="20" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_gate_z" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_gate" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="15" />
+                                            <material class="IronIngot" count="80" />
+                                            <material class="ScrapMetal" count="50" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_gate_house" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="15" />
+                                            <material class="IronIngot" count="80" />
+                                            <material class="ScrapMetal" count="50" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_column_3m" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="5" />
+                                            <material class="ScrapMetal" count="5" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                            <type name="Room">
+                                <items>
+                                    <item class="steel_room_c_shape" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="3" />
+                                            <material class="Rocks" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_room_column" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="3" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_room_corner" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="3" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_longroom" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="5" />
+                                            <material class="IronIngot" count="20" />
+                                            <material class="ScrapMetal" count="15" />
+                                        </materials>
+                                    </item>
+                                    <item class="steel_block_corner" time="1">
+                                        <materials>
+                                            <material class="ConcreteBag" count="1" />
+                                            <material class="IronIngot" count="10" />
+                                            <material class="ScrapMetal" count="10" />
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>
+                        </types>
+                    </subcat>
                 </subcats>
             </cat>
         </cats>
