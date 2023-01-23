@@ -706,14 +706,16 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMilitaryClothing",
 			classes =
 			{
-				{ category = "RandomMilitaryBodyArmor"  , percent = 14.2 },
+				{ category = "RandomMilitaryBodyArmor"  , percent = 12.2 },
 				{ category = "RandomCamoClothes"        , percent = 14.2 },
 				{ category = "RandomMilitaryGloves"     , percent = 13.2 },
 				{ category = "RandomMilitaryHelmet"     , percent = 13.2 },
 				{ category = "RandomMilitaryJacket"     , percent = 13.2 },
 				{ category = "RandomMilitaryShoes"      , percent = 13.2 },
                 { category = "RandomIronSuite"          , percent = 13.2 },
-				{ category = "RandomSpartaGear"         , percent = 5    },
+				{ category = "RandomSpartaGear"         , percent = 2.5  },
+                { category = "RandomSkullGear"          , percent = 2.5  },
+                { category = "RandomSkullCamuflaje"     , percent = 2    },
 			},
 		},
 
@@ -968,13 +970,14 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ class = "SpaceHelmet"              , percent = 10 },
 				{ class = "ScavengerHelmet"          , percent = 10 },
-                { class = "SpartanHelmet"            , percent = 10 },
+                { class = "SpartanHelmet"            , percent = 5  },
                 { class = "IronsuitPinkHelmet"       , percent = 10 },
                 { class = "IronsuitWarMachineHelmet" , percent = 10 },
                 { class = "daftpunkhelmet2"          , percent = 10 },
                 { class = "daftpunkhelmet"           , percent = 10 },
                 { class = "ethahelmetgreen"          , percent = 10 },
                 { class = "ethahelmet"               , percent = 10 },
+                { class = "SkullSpaceHelmet"	     , percent = 5  },
                 { category = "RandomCivilianHelmet"  , percent = 10 },
 			},
 		},
@@ -5421,6 +5424,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "EventHelmets"            , percent = 45  },
                 { category = "RandomBalaclava"         , percent = 45  },
                 { category = "RandomMilitaryHelmet"    , percent = 45  },
+                { category = "RandomSkullCamuflaje"    , percent = 45  },
                 
 			},
 		},
@@ -5448,7 +5452,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAmmo"                     , percent = 100 , min = 1, max = 1 },
                 { category = "RandomAmmo"                     , percent = 100 , min = 1, max = 1 },
                 { category = "EventHelmets"                   , percent = 80 },
-                { category = "RandomSkullGear"    			  , percent = 10 },
+                { category = "RandomSkullGear"    			  , percent = 25 },
                 { category = "RandomRangedPure"    			  , percent = 10 },
 				{ category = "RandomMetalParts"               , percent = 15 },
 				{ category = "RandomMetalParts"               , percent = 30 },
@@ -5465,6 +5469,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomPoliceItems"    		  , percent = 55 },
                 { category = "RandomBinoculars"       		  , percent = 55 },
                 { category = "EventHelmets"       		      , percent = 25 },
+                { category = "RandomSkullCamuflaje"           , percent = 15  },
 			},
 		},
 		
@@ -5577,6 +5582,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "SCAAMAmalgarmin"			   , percent = 5   }, 
                 { category = "RandomTron"              , percent = 50  },
                 { category = "RandomGhillieSuit"       , percent = 80  },
+                { category = "RandomSkullCamuflaje"    , percent = 30  },
 				
 			},
 		},
@@ -5631,6 +5637,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { class = "SCAAMShovel"                      , percent = 50  },    
                 { category = "RandomMedical"	             , percent = 100  , min = 1, max = 10    },      
                 { category = "RandomHoodie"         		 , percent = 75  },      
+                { category = "RandomSkullCamuflaje"          , percent = 25  },
 			},
 		},
 		
@@ -5765,6 +5772,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomTron"     			  , percent = 15 },
 				{ category = "RandomMXCloth"    		  , percent = 25 },
                 { class = "SCAAMAmalgarmin"               , percent = 5}, 
+                { category = "RandomSkullCamuflaje"       , percent = 45  },
 			},
 		},
 
@@ -5808,7 +5816,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomAccessory"	          , percent = 100  }, 
 				{ category = "RandomRangedMilitaryPure"   , percent = 100  },
                 { category = "RandomCargador"             , percent = 100  },
-                { category = "RandomFace"                 , percent = 100  }
+                { category = "RandomFace"                 , percent = 100  },
+                { category = "RandomSkullCamuflaje"       , percent = 45  },
 			},            
 		},
 		
@@ -5856,8 +5865,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomAmmo"                       , percent = 100  , min = 1, max = 1  },
 				{ class = "RocketLauncherNew"			        , percent = 15 	 },
                 { class = "SAPOCBriefcaseClosed"                , percent = 40   , min = 1, max = 1  },
+                { class = "SAPOCBriefcaseClosed"                , percent = 40   , min = 1, max = 1  },
                 { category = "EventHelmets"                     , percent = 5    },
-                { category = "RandomSkullGear"    			    , percent = 10 	 },
+                { category = "RandomSkullGear"    			    , percent = 25 	 },
                 { class = "SalazarSkull"                        , percent = 30   },
                 { class = "wood_coffin"                         , percent = 6.5  },
                 { category = "RandomEpicAttachmentTrader"       , percent = 7    },
@@ -5869,6 +5879,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomMonumento"                  , percent = 0.5  },
                 { category = "RandomFace"                       , percent = 100  },
                 { category = "RandomGnome"                      , percent = 50   },
+                { category = "RandomSkullCamuflaje"             , percent = 15  },
                 
             },
         },
@@ -5925,6 +5936,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomIronSuite", percent = 80 },
 				{ category = "RandomMXCloth", percent = 100 },
 				{ category = "RandomSpartaGear", percent = 100 },
+                { category = "RandomSkullCamuflaje"    , percent = 45  },
 			},
 		},
 		
@@ -5972,6 +5984,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomAllHazmatSuit", percent = 60 },
 				{ category = "RandomIronSuite", percent = 60 },
 				{ category = "RandomMXCloth", percent = 100 },
+                { category = "RandomSkullCamuflaje"    , percent = 45  },
 				
 			},
 		},
@@ -6716,18 +6729,35 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "SpartanHelmet"	, percent  = 5  },
 			},
 		},
+
+        
         {
 			category = "RandomSkullGear",
 			classes =
 			{
-                { class = "SkeletonChest"	, percent  = 30 },
-				{ class = "SkeletonFeet"	, percent  = 15 },
-				{ class = "SkeletonHands"	, percent  = 15  },
-                { class = "SkeletonLegs"	, percent  = 30  },
-                { class = "SkullHead"	    , percent  = 10  },
+                { class = "SkeletonChest"	    , percent  = 20 },
+				{ class = "SkeletonFeet"	    , percent  = 20 },
+				{ class = "SkeletonHands"	    , percent  = 20 },
+                { class = "SkeletonLegs"	    , percent  = 20 },
+                { class = "SkullHead"	        , percent  = 20 },
 			},  
 		},
 
+        {
+			category = "RandomSkullCamuflaje",
+			classes =
+			{
+                { class = "SkullCargoPants"	    , percent  = 12.5 },
+                { class = "SkullCombatBoots"	, percent  = 12.5 },
+                { class = "SkullDuffelBag"	    , percent  = 12.5 },
+                { class = "Skullheavyshoulder"	, percent  = 12.5 },
+                { class = "SkullMilitaryGloves"	, percent  = 12.5 },
+                { class = "SkullMilitaryJacket"	, percent  = 12.5 },
+                { class = "SkullScarf"	        , percent  = 12.5 },
+                { class = "SkullSpaceHelmet"	, percent  = 12.5 },
+			},  
+		},
+        
 		{
 			category = "RandomEpicWeaponTrader",
 			classes =
