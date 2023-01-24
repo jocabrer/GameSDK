@@ -75,7 +75,7 @@ function UFOCrash:OnCrashed()
 
     -- spawn the loot after 1 second, so the explosion doesn't damage it
     Script.SetTimerForFunction(1000, "SpawnUFOCrashLoot", self)
-    Script.SetTimerForFunction(5000, "SpawnAI", self)
+    Script.SetTimerForFunction(6000, "SpawnAI", self)
 end
 
 -- Spawn the loot
@@ -131,7 +131,12 @@ SpawnAI = function(self)
 
 	AISM.SpawnCategory(vSpawnPos1, "HumanSpider", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos1, "HumanSpider", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos2, "HumanSpider", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos2, "HumanSpider", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos1, "HumanSpider", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos1, "HumanSpider", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos2, "BruteMutantArmored", true, 2.0, 5.0, 2.0)
+    AISM.SpawnCategory(vSpawnPos2, "BruteMutantArmored", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos3, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos1, "CrazySingle", true, 2.0, 5.0, 2.0)
 	AISM.SpawnCategory(vSpawnPos1, "CrazySingle", true, 2.0, 5.0, 2.0)
