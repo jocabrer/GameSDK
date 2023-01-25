@@ -308,34 +308,42 @@ end
 
 function PVETop()
     
-    local rnd = random(1, 12);
+    local rnd = random(1, 16);
     
     local mensaje = 'Use Command !help / Usa el comando !Ayuda';
 
     if rnd == 1 then
-        mensaje = 'Remember Survivors must set a name on the server';
+        mensaje = 'Remember Survivors must set a name on the server or be Kicked';
     elseif rnd == 2 then
         mensaje = '!zone command allows you to go to the safe zone';
     elseif rnd == 3 then
         mensaje = 'PVE STORE menu has speed mods to buy';
     elseif rnd == 4 then
-        mensaje = 'Deactivate the locations with the "¬" button';
+        mensaje = 'Deactivate the locations with the "¬" keyboard key ';
     elseif rnd == 5 then
         mensaje = 'Disable locations with the "¬" key';
     elseif rnd == 6 then
-        mensaje = 'Use Command !help'
+        mensaje = 'Command !help for more info'
     elseif rnd == 7 then
-        mensaje = 'Usa el comando !Ayuda'
+        mensaje = 'Comando !Ayuda para más información'
     elseif rnd == 8 then
         mensaje = 'Desactiva las ubicaciones con la tecla "¬"'
     elseif rnd == 9 then
-        mensaje = 'El menú PVE STORE tiene mods de velocidad para comprar'
+        mensaje = 'El menú PVE STORE tiene mods con velocidad extra para comprar'
     elseif rnd == 10 then
         mensaje = 'Comando !zona te permite ir a la zona segura'
     elseif rnd == 11 then
         mensaje = 'command !discord [message] send discord message'        
     elseif rnd == 12 then
-        mensaje = 'Comando !discord [mensaje] envíar mensaje en Discord'                
+        mensaje = 'Comando !discord [mensaje] envíar mensaje en Discord'           
+    elseif rnd == 13 then
+        mensaje = 'Leave stuff at community base, dont take everything'    
+    elseif rnd == 14 then
+        mensaje = 'Deja cosas para otras jugadores, no te lleves todo'
+    elseif rnd == 15 then
+        mensaje = 'Survivor named players are not allowed, identify yourself'
+    elseif rnd == 16 then
+        mensaje = 'Survivor named players are not allowed, identify yourself'
     end
 
     g_gameRules.game:SendTextMessage(0, 0, mensaje );
