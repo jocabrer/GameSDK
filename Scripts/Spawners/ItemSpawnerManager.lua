@@ -4826,8 +4826,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
                 { category = "RandomTent"       		             , percent = 6       },
                 { category = "RandomLadrillo"       	             , percent = 12      },
                 { category = "RandomRocaPiedra"       	             , percent = 12      },
-                { category = "RandomFence"       	                 , percent = 0.5       },
-                { category = "RandomLightTower"       	             , percent = 0.5       },
+                { category = "RandomFence"       	                 , percent = 0.1     },
+                { category = "RandomLightTower"       	             , percent = 0.1     },
                 { category = "RandomWood"       	                 , percent = 6       },
                 { category = "RandomSteel"       	                 , percent = 6       },
                 

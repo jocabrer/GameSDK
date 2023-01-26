@@ -13,7 +13,11 @@ end
 ChatCommands["!rules"] = function(playerId, command)
 	Log(">> !rules - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Forbidden to steal, do not kill other players, do not be rude, do not raid bases, do not run over, we check the logs to see these misconduct");
+	g_gameRules.game:SendTextMessage(4, playerId, "It is expected that all players respect the server's rules of coexistence, \n " ..
+                                                  "this includes being respectful and considerate of other players, \n " ..
+                                                  "not using offensive or discriminatory language, \n " .. 
+                                                  "and not promoting inappropriate or illegal behavior. \n " .. 
+                                                  "Full rules in discord atw.cl/mis");
 	
 end
 
@@ -33,7 +37,11 @@ end
 ChatCommands["!reglas"] = function(playerId, command)
 	Log(">> !reglas - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Prohibido robar, matar a otros jugadores, no ser grosero, no incursionar en bases, atropellar, nosotros revisamos los logs para ver si se incumplen las reglas");
+	g_gameRules.game:SendTextMessage(4, playerId, "Se espera que todos los jugadores respeten las reglas de convivencia en el servidor,\n " ..
+                                                  "esto incluye ser respetuoso y considerado con los demás jugadores, \n " ..
+                                                  "no utilizar lenguaje ofensivo o discriminatorio, \n " ..
+                                                  "y no promover conductas inapropiadas o ilegales. \n " .. 
+                                                  "Reglas completas en discord atw.cl/mis");
 	
 end
 
