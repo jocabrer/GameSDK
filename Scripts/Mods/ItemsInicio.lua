@@ -1,12 +1,8 @@
 function itemPlace()
-    local spawnPos = {x=4912, y=4717, z=142} -- replace with the position you want your item to appear
+    local spawnPos = {x=1714, y=2195, z=32} -- replace with the position you want your item to appear
     ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPos);
 
-
-    SCAAMATAttemptSendMessage({terminalId = 1 , messageTitle='testtitle', messageContent= 'testmessage'})
 end
-  
-
 
 
 function itemSpawn()

@@ -33,28 +33,18 @@ ChatCommands['!zona'] = function(playerId)
 
     if (cobrarAmcoin(playerId, 20)) then
     
-        local rnd = random(1, 10)
+        local rnd = random(1, 5)
 
         if rnd <= 1 then
-            player.player:TeleportTo('4937 4715 142.8');
+            player.player:TeleportTo('1713 2195 31');
         elseif rnd <= 2 then
-            player.player:TeleportTo('4928 4721 142.8');
+            player.player:TeleportTo('1711 2149 28');
         elseif rnd <= 3 then
-            player.player:TeleportTo('4950 4705 142.8');
+            player.player:TeleportTo('1740 2128 32');
         elseif rnd <= 4 then
-            player.player:TeleportTo('4915 4663 142.8');
+            player.player:TeleportTo('1753 2175 31');
         elseif rnd <= 5 then
-            player.player:TeleportTo('4910 4685 142.8');
-        elseif rnd <= 6 then
-            player.player:TeleportTo('4892 4683 141.8');
-        elseif rnd <= 7 then
-            player.player:TeleportTo('4907 4712 142.8');
-        elseif rnd <= 8 then
-            player.player:TeleportTo('4895 4737 142.8');
-        elseif rnd <= 9 then
-            player.player:TeleportTo('4912 4718 142.8');
-        elseif rnd <= 10 then
-            player.player:TeleportTo('4960 4727 142.8');
+            player.player:TeleportTo('1763 2198  31');
         end
 
     end
@@ -67,29 +57,20 @@ ChatCommands['!zone'] = function(playerId, command)
 
     if (cobrarAmcoin(playerId, 20)) then
     
-        local rnd = random(1, 10)
+        local rnd = random(1, 5)
 
         if rnd <= 1 then
-            player.player:TeleportTo('4937 4715 142.8');
+            player.player:TeleportTo('1713 2195 31');
         elseif rnd <= 2 then
-            player.player:TeleportTo('4928 4721 142.8');
+            player.player:TeleportTo('1711 2149 28');
         elseif rnd <= 3 then
-            player.player:TeleportTo('4950 4705 142.8');
+            player.player:TeleportTo('1740 2128 32');
         elseif rnd <= 4 then
-            player.player:TeleportTo('4915 4663 142.8');
+            player.player:TeleportTo('1753 2175 31');
         elseif rnd <= 5 then
-            player.player:TeleportTo('4910 4685 142.8');
-        elseif rnd <= 6 then
-            player.player:TeleportTo('4892 4683 141.8');
-        elseif rnd <= 7 then
-            player.player:TeleportTo('4907 4712 142.8');
-        elseif rnd <= 8 then
-            player.player:TeleportTo('4895 4737 142.8');
-        elseif rnd <= 9 then
-            player.player:TeleportTo('4912 4718 142.8');
-        elseif rnd <= 10 then
-            player.player:TeleportTo('4960 4727 142.8');
+            player.player:TeleportTo('1763 2198  31');
         end
+        
     end
 
     
