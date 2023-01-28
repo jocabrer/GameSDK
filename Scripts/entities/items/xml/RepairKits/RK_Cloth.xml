@@ -568,6 +568,10 @@
 		<item name="DuffelBagYellow" percentage="100"/>
 
 		<item name="SpartanBackpack" percentage="100"/>
+        <item name="SkullCargoPants" percentage="100"/>
+        <item name="SkullDuffelBag" percentage="100"/>
+        <item name="SkullMilitaryJacket" percentage="100"/>
+        
 
         <item name="SunglassesABlack" percentage="100"/>
         <item name="SunglassesAGold" percentage="100"/>

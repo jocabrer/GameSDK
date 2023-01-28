@@ -386,7 +386,7 @@ ChatCommands["!tplayer"] = function(playerId, command)
                 return;
             end
         end
-	g_gameRules.game:SendTextMessage(3, playerId, "A player with the SteamId does not exist on the server.");
+	g_gameRules.game:SendTextMessage(4, playerId, "A player with the SteamId does not exist on the server.");
     end
 end
 
@@ -555,6 +555,90 @@ ChatCommands['!airdrop'] = function(playerId, command)
     end
 end
 
+
+-- Teleport to a position
+ChatCommands["!tele"] = function(playerId, command)
+    Log(">> !tele - %s", command);
+    local airfield = "2400 725 35" 
+    local brightmoore = "5375 2250 25" 
+    local bunkerbig = "1686 5369 370" 
+    local bunkersmall = "5142 3297 30" 
+    local capebay = "7322 4877 47" 
+    local clydehill = "4742 4746 140" 
+    local dam = "5855 4600 195" 
+    local hayward = "3806 6075 25" 
+    local horseshoe = "1053 2217 38" 
+    local hospital = "1653 7058 29" 
+    local paint = "1800 6530 43" 
+    local pinecrest = "3845 1575 30" 
+    local podunk = "2747 6999 28" 
+    local rockyripple = "1411 1560 35" 
+	local safezone = "4913 4717 142" 
+    local suburbs = "3950 5350 19" 
+    local sultan = "2155 2000 38" 
+    local turtlebay = "425 4156 25" 
+    local woodhaven = "1770 3470 39" 
+    local player = System.GetEntity(playerId);
+    local steamid = player.player:GetSteam64Id()
+	
+
+    if IsAdminPlayer(steamid) then
+        local steamid = player.player:GetSteam64Id();
+
+        if command == "base" then
+            local bases = BaseBuildingSystem.GetPlotSigns();
+
+            for i,b in pairs(bases) do 
+                if b.plotsign:GetOwnerSteam64Id() == steamId then
+                    player.player:TeleportTo(b:GetWorldPos());
+                    return;
+                end
+            end
+            g_gameRules.game:SendTextMessage(4, playerId, "You do not have a base on this server.");
+
+        elseif command == "aeropuerto" then
+            player.player:TeleportTo(airfield);
+        elseif command == "brightmoore" then
+            player.player:TeleportTo(brightmoore);
+        elseif command == "bunkerbig" then
+            player.player:TeleportTo(bunkerbig);
+        elseif command == "bunkersmall" then
+            player.player:TeleportTo(bunkersmall);
+        elseif command == "capebay" then
+            player.player:TeleportTo(capebay);
+        elseif command == "clydehill" then
+            player.player:TeleportTo(clydehill);
+        elseif command == "dam" then
+            player.player:TeleportTo(dam);
+        elseif command == "hayward" then
+            player.player:TeleportTo(hayward);
+        elseif command == "horseshoe" then
+            player.player:TeleportTo(horseshoe);
+        elseif command == "hospital" then
+            player.player:TeleportTo(hospital);
+        elseif command == "paint" then
+            player.player:TeleportTo(paint);
+        elseif command == "pinecrest" then
+            player.player:TeleportTo(pinecrest);
+        elseif command == "podunk" then
+            player.player:TeleportTo(podunk);
+        elseif command == "rockyripple" then
+            player.player:TeleportTo(rockyripple);
+		elseif command == "safezone" then
+            player.player:TeleportTo(safezone);
+        elseif command == "suburbs" then
+            player.player:TeleportTo(suburbs);
+        elseif command == "sultan" then
+            player.player:TeleportTo(sultan);
+        elseif command == "turtlebay" then
+            player.player:TeleportTo(turtlebay);
+        elseif command == "woodhaven" then
+            player.player:TeleportTo(woodhaven);
+        else
+            player.player:TeleportTo(command);
+        end
+    end
+end
 --[[
     ! Updated: 27/01/2021 12:19:57 [Theros]
     ? Implemented SpawnVehical Command [based on Cuartas method, updated to handle skin name not crc32str]
