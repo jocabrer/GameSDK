@@ -3537,24 +3537,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			},
 		},
 
-        {
-			category = "RandomLightTower",
-			classes =
-			{
-				{ class = "light_tower_tall"                , percent = 11.1111 },
-				{ class = "light_tower_tall_blue"                 , percent = 11.1111 },
-				{ class = "light_tower_tall_green"         , percent = 11.1111 },
-				{ class = "light_tower_tall_red"       , percent = 11.1111 },
-				{ class = "light_tower_tall_yellow"      , percent = 11.1111 },
-				{ class = "light_tower_tall_purple"    , percent = 11.1111 },
-				{ class = "light_tower_tall_pink"   , percent = 11.1111 },
-                { class = "light_tower_tall_orange"          , percent = 11.1111 },
-                { class = "light_tower_tall_aqua"  , percent = 11.1111 },
-                
-			},
-		},
-
-
 		-- Incapacitation
 		{
 			category = "HandcuffsWithKey",
