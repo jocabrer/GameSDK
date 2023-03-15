@@ -1,0 +1,25 @@
+<item name="wood_gatehouse_double" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Tall Wood Gatehouse"/>
+		<param name="description" value="A 6m high x 8m long wooden gatehouse"/>
+	</params>
+
+	<base_part class="static" type="8097" name="wood_gatehouse_double" max_health="50000">
+		<static filename="objects/basebuilding/wood/wood_gateway_double.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

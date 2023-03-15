@@ -1,0 +1,24 @@
+<item name="wood_wall_3m_4m_90" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="mass" value="15"/>
+		<param name="display_name" value="3x4 Corner Wall"/>
+		<param name="description" value="Wood 3m high x 4m long wall corner wall"/>
+	</params>
+
+	<base_part class="static" max_health="65000" type="8152" name="wood_wall_3m_4m_90">
+		<static filename="objects/basebuilding/wood/wall_3m_4m_90.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

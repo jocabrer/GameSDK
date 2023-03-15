@@ -1,0 +1,24 @@
+<item name="wood_walkstairs_3m_4m_4m_blue" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="3m x 4m x 4m Blue Stairs"/>
+		<param name="description" value="A 3m high x 4m wide x 4m long blue wooden stairs."/>
+	</params>
+
+	<base_part class="static" type="6782" name="wood_walkstairs_3m_4m_4m_blue" max_health="10000">
+		<static filename="objects/basebuilding/wood/walkstairs_3m_4m_4m.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_blue"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf" material="objects/mnewrath/basebuilding/wood/bparts_wood_blue"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>
