@@ -1,0 +1,13 @@
+<skin name="placeholder10_grey">
+
+	<params>
+		<param name="display_name" value="Hyundai Genesis"/>
+		<param name="description" value="grey Skin for the Hyundai Genesis"/>
+		<param name="material" value="Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/hyundai_genesis_grey"/>
+	</params>
+
+	<items>
+		<item name="placeholder10_grey"/>
+	</items>
+
+</skin>

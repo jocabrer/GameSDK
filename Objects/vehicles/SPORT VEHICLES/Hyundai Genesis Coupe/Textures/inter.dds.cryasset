@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b2668902-72e7-089c-c8be-1e4e6b7a82a6" source="inter.tif">
+ <Files>
+  <File path="inter.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

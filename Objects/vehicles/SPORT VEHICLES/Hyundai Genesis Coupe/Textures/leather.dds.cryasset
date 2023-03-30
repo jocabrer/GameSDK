@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="6f3ba794-0109-e8f0-c78e-e976e234c334" source="leather.tif">
+ <Files>
+  <File path="leather.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

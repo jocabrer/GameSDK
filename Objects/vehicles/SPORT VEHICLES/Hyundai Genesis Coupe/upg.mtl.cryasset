@@ -1,0 +1,39 @@
+<AssetMetadata version="0" type="Material" guid="ef851c56-bfac-ff9b-b127-14d77a9d064d">
+ <Files>
+  <File path="upg.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">27</Detail>
+  <Detail name="textureCount">28</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/inter.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/leather.dds</Path>
+  <Path>./Textures/leather_ddna.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>
