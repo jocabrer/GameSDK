@@ -7,7 +7,7 @@
 		<param name="damage_scale" value="0.2"/>
 		<param name="display_name" value="Colo Colo Tshirt"/>
 		<param name="description" value="Colo Colo Tshirt"/>
-        <param name="vendor_cost" value="25"/>
+        <param name="vendor_cost" value="45"/>
 	</params>
 
 	<wearable>

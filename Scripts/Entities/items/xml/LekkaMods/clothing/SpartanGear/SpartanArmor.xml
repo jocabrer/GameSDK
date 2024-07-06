@@ -66,7 +66,7 @@
 			<location category="vest"/>
 		</locations>
 		<types>
-			<type category="any" capacity="10"/>
+			<type category="any" capacity="5"/>
 		</types>
 	</storage>
 
