@@ -5,7 +5,7 @@
 		<param name="itemClass" value="small_throwable"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="0.5"/>
-		<param name="stack_size" value="5"/>
+		<param name="stack_size" value="1"/>
 		<param name="damage_scale" value="0.5"/>
 		<param name="destroyWhenDegraded" value="1"/>
 		<param name="selectable" value="1"/>
@@ -15,7 +15,7 @@
 		<param name="sprintToRunBlendTime" value="0.15"/>
 		<param name="nonHostileUse" value="1"/>
 		<param name="dontRotateOnSpawn" value="1"/>
-		<param name="vendor_cost" value="40"/>
+		<param name="vendor_cost" value="15"/>
 		<param name="tag" value="throwable"/>
 		<animPrecache name="Throwable">
 			<precache DBAFile="animations/human/male/weapons/throw/throw.dba" thirdperson="1"/>
