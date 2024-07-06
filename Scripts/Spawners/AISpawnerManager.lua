@@ -391,7 +391,7 @@ AISpawnerManager = {
 
 		{
 			category = "horde",
-			min = 10, max = 20,
+			min = 15, max = 20,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnHorde() to spawn at least 1 brute per horde as a psuedo leader
@@ -405,7 +405,7 @@ AISpawnerManager = {
 		{
 			-- Essentially the same as a horde, but no brutes
 			category = "mutant_invasion",
-			min = 10, max = 20,
+			min = 15, max = 20,
 			classes =
 			{
 				{ category = "CrazySingle", percent = 40 },
