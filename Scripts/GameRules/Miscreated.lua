@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 1800, -- min time to spawn an event (in seconds)
-			fMaxTime = 2700, -- max time to spawn an event (in seconds)
+			fMinTime = 2200, -- min time to spawn an event (in seconds)
+			fMaxTime = 6000, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -25,56 +25,62 @@ function Miscreated:CreateWorldEventTimer()
 end
 
 SpawnWorldEvent = function(self)
-	--Log("Miscreated:SpawnWorldEvent")
+    local CurrentMonth = os.date('%m')
+    local isChristmasSeason = (CurrentMonth == '12' or CurrentMonth == '11')
 
+    local rnd = math.random(1, 20)
 
-    CurrentMonth = os.date('%m')
-    local top = 0;
-    -- Christmas lasts from december 
-    if CurrentMonth == '12' or CurrentMonth == '11' then
-            -- deploy Christmas
-        top = 9;
-        Log('>> SeasonalEvents : Christmas Event')
-    else 
-        top = 10;
+    local eventName
+    if rnd <= 10 then
+        eventName = "AirDropPlane"
+        g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
+        Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
+    elseif rnd <= 17 then
+        eventName = "AirPlaneCrash"
+        g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash")
+        Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")
+    elseif rnd <= 19 then
+        eventName = "UFOCrash"
+        g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected")
+        Log("Miscreated:SpawnWorldEvent - UFO detectado / UFO detected")
+    else -- rnd == 20
+        if isChristmasSeason then
+            eventName = "AirDropChristmas"
+            g_gameRules.game:SendTextMessage(0, 0, "jojojo Santa detected!")
+            Log("Miscreated:SpawnWorldEvent - Santa detected!")
+        else
+            -- Si no es temporada navideña, volvemos a tirar para los otros eventos
+            local fallbackRnd = math.random(1, 19)
+            if fallbackRnd <= 10 then
+                eventName = "AirDropPlane"
+                g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
+                Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
+            elseif fallbackRnd <= 17 then
+                eventName = "AirPlaneCrash"
+                g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash")
+                Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")
+            else
+                eventName = "UFOCrash"
+                g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected")
+                Log("Miscreated:SpawnWorldEvent - UFO detectado / UFO detected")
+            end
+        end
     end
 
-	local eventName
-	local rnd = random(1, 10)
+    local spawnParams = {}
+    spawnParams.class = eventName
+    spawnParams.name = spawnParams.class
 
-	if rnd <= 5 then
-		eventName = "AirDropPlane"
-		g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
-        Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
-	elseif rnd <= 9 then
-		eventName = "AirPlaneCrash"
-		g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash" )
-        Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")
-    elseif rnd <= top then
-        eventName = "UFOCrash"	 
-		g_gameRules.game:SendTextMessage(0, 0, "UFO detectado / UFO detected"  )
-        Log("Miscreated:SpawnWorldEvent - UFO detectado / UFO detected")
-    else
-		eventName = "AirDropChristmas"	
-		g_gameRules.game:SendTextMessage(0, 0, "jojojo Santa detected!"  )
-        Log("Miscreated:SpawnWorldEvent - Santa detected! ")
-	end
+    local spawnedEntity = System.SpawnEntity(spawnParams)
 
-	local spawnParams = {}
-	spawnParams.class = eventName
-	spawnParams.name = spawnParams.class
+    if not spawnedEntity then
+        Log("Miscreated:SpawnWorldEvent - entity could not be spawned")
+    end
 
-	--Log("Miscreated:SpawnWorldEvent - Spawning Event")
-	local spawnedEntity = System.SpawnEntity(spawnParams)
-	
-
-	if not spawnedEntity then
-		Log("Miscreated:SpawnWorldEvent - entity could not be spawned")
-	end
-
-	-- set timer up for the next world event
-	self:CreateWorldEventTimer()
+    -- set timer up for the next world event
+    self:CreateWorldEventTimer()
 end
+
 
 ----------------------------------------------------------------------------------------------------
 -- Support for custom chat command mods
