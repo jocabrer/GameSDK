@@ -1,3 +1,4 @@
+<!-- BMW-F420 PATRIOT -->
 <Vehicle name="placeholder1">
  <Physics pushable="0" shove_force="0.5">
   <Buoyancy waterDensity="50" waterResistance="2000" waterDamping="100"/>
