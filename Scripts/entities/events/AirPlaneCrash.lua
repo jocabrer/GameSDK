@@ -105,6 +105,8 @@ SpawnAirPlaneCrashLoot = function(self)
 		ISM.SpawnItem("AirDropCrate", spawnPositions[2])
 		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[3])
 		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[4])
+		ISM.SpawnCategory("AirPlaneCrashCrateCivilian", spawnPositions[5])
+		ISM.SpawnCategory("AirPlaneCrashCrateCivilian", spawnPositions[6])
 
         SpawnAI = function(self)
 

@@ -278,10 +278,11 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomTowcarContents",
 			classes =
 			{
-				{category = "Map"    , percent = 15  },
-				{class = "CarBattery", percent = 35  },
-				{class = "DriveBelt" , percent = 25  },
-				{class = "SparkPlugs", percent = 25  },
+				{category = "RandomAmmo"    , percent = 5   },
+				{class = "CarBattery"		, percent = 25  },
+				{class = "DriveBelt" 		, percent = 25  },
+				{class = "SparkPlugs"		, percent = 25  },
+				{class = "Oil"       		, percent = 10  },
 			},
 		},
 
@@ -514,7 +515,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AnimalGut" 					        },
 				{ class = "WolfMeatSteakRaw", min = 2, max = 3  },
 				{ class = "WolfPelt" 						    },
-                { category = "RandomConsumable" , percent = 50 },
 			},
 		},
 		
@@ -555,7 +555,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBackpackContents",
 			classes =
 			{
-				{ category             = "Map"                   , percent = 3   },
 				{ category             = "RandomCraftingGuide"   , percent = 10  },
 				{ category             = "RandomClothes"         , percent = 10  },
 				{ category             = "RandomCrafting"        , percent = 4   },
@@ -3934,7 +3933,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "P350"                , percent = 1 		},
 				{ class = "PX4"                 , percent = 1 		},
 				{ class = "R90"                 , percent = 1.6 	},
-				{ class = "RecurveBow"          , percent = 4 		},
+				{ class = "RecurveBow"          , percent = 1 		},
 				{ class = "Rem700"              , percent = 4.5 	},
 				{ class = "Rem870"              , percent = 6 		},
 				{ class = "ruger22"             , percent = 5 		},
@@ -4177,7 +4176,6 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			classes =
 			{
                 { class = "Arrowx8"              , percent = 6.4666 ,  min = 1, max = 5 },
-                { class = "Boltx5_0000"          , percent = 6.4666 ,  min = 1, max = 5 },
                 { class = "Pile_10mm"            , percent = 6.4666 ,  min = 1, max = 5 },
                 { class = "Pile_22"              , percent = 6.4666 ,  min = 1, max = 5 },
                 { class = "Pile_545x39"          , percent = 6.4666 ,  min = 1, max = 5 },

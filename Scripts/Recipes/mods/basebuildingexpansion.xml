@@ -2344,7 +2344,7 @@
         <cats>
 			<cat name="Base Building">
                 <subcats>
-                    <subcat name="Prefabs">
+                    <!--<subcat name="Prefabs">
 						<types>
 							<type name="Cabin">
 								<items>
@@ -2554,7 +2554,7 @@
                             </type>
 
 						</types>
-					</subcat>
+					</subcat>-->
                     <subcat name="Titanium">
 						<types>
 							<type name="Wall">
@@ -3208,17 +3208,17 @@
 								<items>
 									<item class="wood_walkway_0m_4m_8m" time="5">
 										<materials>
-											<material class="Lumber" count="6" />
+											<material class="Lumber" count="15" />
 										</materials>
 									</item>
 									<item class="wood_walkway_0m_4m_12m" time="7">
 										<materials>
-											<material class="Lumber" count="9" />
+											<material class="Lumber" count="15" />
 										</materials>
 									</item>
 									<item class="wood_walkway_0m_4m_16m" time="7">
 										<materials>
-											<material class="Lumber" count="12" />
+											<material class="Lumber" count="19" />
 										</materials>
 									</item>
 									<item class="wood_walkway_0m_8m_8m" time="10">
@@ -3248,12 +3248,12 @@
 									</item>
 									<item class="wood_walkway_1_3m_4m_8m" time="10">
 										<materials>
-											<material class="Lumber" count="6" />
+											<material class="Lumber" count="12" />
 										</materials>
 									</item>
 									<item class="wood_walkway_1_3m_4m_12m" time="10">
 										<materials>
-											<material class="Lumber" count="9" />
+											<material class="Lumber" count="12" />
 										</materials>
 									</item>
 									<item class="wood_walkway_1_3m_4m_16m" time="10">
@@ -3566,120 +3566,120 @@
                                 </items>
 							</type>
                             <type name="Foundation">
-							<items>
-                                <item class="plated_foundation_2m_2m_4m_metal" time="5">
-                                    <materials>
-                                        <material class="SheetMetal"        count="20" />
-                                        <material class="ScrapMetal"        count="5" />
-                                        <material class="Rocks"             count="10" />
-                                    </materials>
-									</item>
-                                    <item class="plated_foundation_2m_2m_4m_wood" time="5">
+								<items>
+									<item class="plated_foundation_2m_2m_4m_metal" time="5">
 										<materials>
-											<material class="Lumber"        count="20" />
-                                            <material class="ScrapMetal"    count="5" />
-                                            <material class="Rocks"         count="10" />
+											<material class="SheetMetal"        count="20" />
+											<material class="ScrapMetal"        count="5" />
+											<material class="Rocks"             count="10" />
 										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_12m_4m_metal" time="5">
-										<materials>
-											<material class="SheetMetal"    count="40" />
-											<material class="ScrapMetal"    count="25" />
-											<material class="Rocks"         count="20" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_12m_4m_metal_v2" time="5">
-										<materials>
-											<material class="SheetMetal"    count="40" />
-											<material class="ScrapMetal"    count="25" />
-											<material class="Rocks"         count="20" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_12m_4m_wood" time="5">
-										<materials>
-											<material class="Lumber"        count="40" />
-                                            <material class="ScrapMetal"    count="15" />
-                                            <material class="Rocks"         count="20" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_12m_4m_wood_v2" time="5">
-										<materials>
-											<material class="Lumber"        count="40" />
-                                            <material class="ScrapMetal"    count="15" />
-                                            <material class="Rocks"         count="20" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_16m_4m_metal" time="5">
-										<materials>
-											<material class="SheetMetal"    count="45" />
-											<material class="ScrapMetal"    count="30" />
-											<material class="Rocks"         count="25" />
-										</materials>
-									</item>
-                                     <item class="plated_foundation_4m_16m_4m_metal_v2" time="5">
-										<materials>
-											<material class="SheetMetal"    count="45" />
-											<material class="ScrapMetal"    count="30" />
-											<material class="Rocks"         count="25" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_16m_4m_wood" time="5">
-										<materials>
-											<material class="Lumber"        count="45" />
-                                            <material class="ScrapMetal"    count="20" />
-                                            <material class="Rocks"         count="25" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_16m_4m_wood_v2" time="5">
-										<materials>
-											<material class="Lumber"        count="45" />
-                                            <material class="ScrapMetal"    count="20" />
-                                            <material class="Rocks"         count="25" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_4m_4m_metal" time="5">
-										<materials>
-											<material class="SheetMetal"    count="20" />
-											<material class="ScrapMetal"    count="10" />
-											<material class="Rocks"         count="10" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_4m_4m_wood" time="5">
-										<materials>
-											<material class="Lumber"        count="20" />
-                                            <material class="ScrapMetal"    count="10" />
-                                            <material class="Rocks"         count="10" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_8m_4m_metal" time="5">
-										<materials>
-											<material class="SheetMetal"    count="25" />
-											<material class="ScrapMetal"    count="15" />
-											<material class="Rocks"         count="15" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_8m_4m_metal_v2" time="5">
-										<materials>
-											<material class="SheetMetal"    count="25" />
-											<material class="ScrapMetal"    count="15" />
-											<material class="Rocks"         count="15" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_8m_4m_wood" time="5">
-										<materials>
-											<material class="Lumber"        count="20" />
-                                            <material class="ScrapMetal"    count="10" />
-                                            <material class="Rocks"         count="10" />
-										</materials>
-									</item>
-                                    <item class="plated_foundation_4m_8m_4m_wood_v2" time="5">
-										<materials>
-											<material class="Lumber"        count="20" />
-                                            <material class="ScrapMetal"    count="10" />
-                                            <material class="Rocks"         count="10" />
-										</materials>
-									</item>
-                            </items>
+										</item>
+										<item class="plated_foundation_2m_2m_4m_wood" time="5">
+											<materials>
+												<material class="Lumber"        count="20" />
+												<material class="ScrapMetal"    count="5" />
+												<material class="Rocks"         count="10" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_12m_4m_metal" time="5">
+											<materials>
+												<material class="SheetMetal"    count="40" />
+												<material class="ScrapMetal"    count="25" />
+												<material class="Rocks"         count="20" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_12m_4m_metal_v2" time="5">
+											<materials>
+												<material class="SheetMetal"    count="40" />
+												<material class="ScrapMetal"    count="25" />
+												<material class="Rocks"         count="20" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_12m_4m_wood" time="5">
+											<materials>
+												<material class="Lumber"        count="40" />
+												<material class="ScrapMetal"    count="15" />
+												<material class="Rocks"         count="20" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_12m_4m_wood_v2" time="5">
+											<materials>
+												<material class="Lumber"        count="40" />
+												<material class="ScrapMetal"    count="15" />
+												<material class="Rocks"         count="20" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_16m_4m_metal" time="5">
+											<materials>
+												<material class="SheetMetal"    count="45" />
+												<material class="ScrapMetal"    count="30" />
+												<material class="Rocks"         count="25" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_16m_4m_metal_v2" time="5">
+											<materials>
+												<material class="SheetMetal"    count="45" />
+												<material class="ScrapMetal"    count="30" />
+												<material class="Rocks"         count="25" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_16m_4m_wood" time="5">
+											<materials>
+												<material class="Lumber"        count="45" />
+												<material class="ScrapMetal"    count="20" />
+												<material class="Rocks"         count="25" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_16m_4m_wood_v2" time="5">
+											<materials>
+												<material class="Lumber"        count="45" />
+												<material class="ScrapMetal"    count="20" />
+												<material class="Rocks"         count="25" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_4m_4m_metal" time="5">
+											<materials>
+												<material class="SheetMetal"    count="20" />
+												<material class="ScrapMetal"    count="10" />
+												<material class="Rocks"         count="10" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_4m_4m_wood" time="5">
+											<materials>
+												<material class="Lumber"        count="20" />
+												<material class="ScrapMetal"    count="10" />
+												<material class="Rocks"         count="10" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_8m_4m_metal" time="5">
+											<materials>
+												<material class="SheetMetal"    count="25" />
+												<material class="ScrapMetal"    count="15" />
+												<material class="Rocks"         count="15" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_8m_4m_metal_v2" time="5">
+											<materials>
+												<material class="SheetMetal"    count="25" />
+												<material class="ScrapMetal"    count="15" />
+												<material class="Rocks"         count="15" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_8m_4m_wood" time="5">
+											<materials>
+												<material class="Lumber"        count="20" />
+												<material class="ScrapMetal"    count="10" />
+												<material class="Rocks"         count="10" />
+											</materials>
+										</item>
+										<item class="plated_foundation_4m_8m_4m_wood_v2" time="5">
+											<materials>
+												<material class="Lumber"        count="20" />
+												<material class="ScrapMetal"    count="10" />
+												<material class="Rocks"         count="10" />
+											</materials>
+										</item>
+								</items>
                             </type>
                         </types>
 					</subcat>
