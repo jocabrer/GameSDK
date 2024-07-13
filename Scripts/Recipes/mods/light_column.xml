@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+		    <cat name="Base Building">
+				<subcats>
+				    <subcat name="Decorations">
+						<types>
+							<type name="Light column">
+								<items>
+									<item class="light_column_blue" time="5">
+										<materials>
+										    <material class="ElectricalParts" count="1" />
+											<material class="WorkLight" count="1" />
+										</materials>
+									</item>
+									<item class="light_column_green" time="5">
+										<materials>
+											<material class="ElectricalParts" count="1" />
+											<material class="WorkLight" count="1" />
+										</materials>
+									</item>
+									<item class="light_column_red" time="5">
+										<materials>
+											<material class="ElectricalParts" count="1" />
+											<material class="WorkLight" count="1" />
+										</materials>
+									</item>
+									<item class="light_column_white" time="5">
+										<materials>
+											<material class="ElectricalParts" count="1" />
+											<material class="WorkLight" count="1" />
+									 </materials>
+									</item>
+									<item class="light_column_yellow" time="5">
+										<materials>
+											<material class="ScrapMetal" />
+											<material class="WorkLight" count="1" />
+									 </materials>
+									</item>
+									<item class="light_column_purple" time="5">
+										<materials>
+											<material class="WorkLight" count="1" />
+											<material class="ElectricalParts" count="1" />
+										</materials>
+									</item>
+									<item class="light_column_aqua" time="5">
+										<materials>
+											<material class="WorkLight" count="1" />
+											<material class="ElectricalParts" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+                </subcats>
+			</cat>
+        </cats>
+	</guide>
+</recipes>
