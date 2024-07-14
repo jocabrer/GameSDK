@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="64a374ce-debe-905a-dc14-ad8104210d59" source="rubber.tif">
+ <Files>
+  <File path="rubber.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">256</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<skin name="audi_rs2_avant_green">
+
+	<params>
+		<param name="display_name" value="audi rs2 avant"/>
+		<param name="description" value="green Skin for audi rs2 avant"/>
+		<param name="material" value="Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/1995_audi_rs2_avant_green"/>
+	</params>
+
+	<items>
+		<item name="placeholder3"/>
+	</items>
+
+</skin>

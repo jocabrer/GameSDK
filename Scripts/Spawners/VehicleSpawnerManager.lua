@@ -390,21 +390,20 @@ VehicleSpawnerManager = {
 							{ name = "SUVBasic_Yellow", percent = 11.0 },
 						},
 					},
-					--{ 
-						-- Shelby gt500
-					--	class = "placeholder3", contents = "RandomF100TruckContents",
-					--	skins =
-					--	{
-							-- If the total doesn't equal 100% then the remainder will spawn with the default skin
-					--		{ name = "placeholder3_black", percent = 14 },
-					--		{ name = "placeholder3_green", percent = 14 },
-					--		{ name = "placeholder3_yellow", percent = 15 },
-					--		{ name = "placeholder3_white", percent = 14 },
-					--		{ name = "placeholder3_red", percent = 15 },
-					--		{ name = "placeholder3_grey", percent = 14 },
-					--		{ name = "placeholder3_blue", percent = 14 },
-					--	},
-					--},
+					{ 
+						-- Audi Avant
+						class = "placeholder3", contents = "RandomTruck5TonContents",
+						skins =
+						{
+							{ name = "audi_rs2_avant_black", percent = 14 },
+							{ name = "audi_rs2_avant_blue", percent = 14 },
+							{ name = "audi_rs2_avant_green", percent = 15 },
+							{ name = "audi_rs2_avant_red", percent = 14 },
+							{ name = "audi_rs2_avant_chrome", percent = 14 },
+							{ name = "audi_rs2_avant_brown", percent = 14 },
+							{ name = "audi_rs2_avant_gray", percent = 15 },
+						},
+					},
 				},
 				initialMinVehicles = 10,
 				abandonedTimer = 172800,  -- 2 days

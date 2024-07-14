@@ -1,7 +1,7 @@
 <item name="BaseballBatHerMajesty" class="Weapon" category="primary" priority="1" weaponParams="1">
 	<params>
 		<param name="display_name" value="@BaseballBatHerMajesty"/>
-		<param name="description" value="@BaseballBatHerMajestyDescription"/>
+		<param name="description" value="put it on and run fast"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="2.0"/>

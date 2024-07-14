@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="fb1fbe95-b7de-3107-69c7-a60ae8429870">
+ <Files>
+  <File path="lights.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">15</Detail>
+  <Detail name="textureCount">16</Detail>
+ </Details>
+ <Dependencies>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/paint.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/paint_ddna.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/paint_w.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/lights.dds</Path>
+  <Path>./Textures/grila.dds</Path>
+ </Dependencies>
+</AssetMetadata>

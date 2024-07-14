@@ -2,7 +2,7 @@
 	<!-- Named Weapon -->
 	<params>
 		<param name="display_name" value="@KatanaBlackWidow"/>
-		<param name="description" value="@KatanaBlackWidowDescription"/>
+		<param name="description" value="put it on and run fast"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="1.2"/>
