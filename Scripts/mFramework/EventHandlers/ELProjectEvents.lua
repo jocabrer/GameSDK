@@ -49,5 +49,9 @@ g_mEventHandlers['ELPUpdateKills'] = function(playerId, data, source_id, target_
     player.ELPKills = data.playerKills;
 end
 
+g_mEventHandlers['APOCCIInitUI'] = function(playerId, data, source_id, target_id)
+    Log('initializing car info');
+    Script.SetTimerForFunction(5000, 'APOCCIShowCarInfoAfterDelay', {});
+end
 
 -- SERVER EVENTS

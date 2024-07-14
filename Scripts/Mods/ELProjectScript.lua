@@ -4,7 +4,7 @@ RegisterCallback(_G,
     nil,
     function ()
         ELPPreInitModules();
-  
+        APOCCIPreInitModules();
     end
 );
 
@@ -15,6 +15,8 @@ RegisterCallback(_G,
     function ()
         Log("ELProject >> Loading hidden code");
         ELPInitModules();
-  
+        APOCCIInitModules();
     end
 );
+
+
