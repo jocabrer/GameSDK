@@ -440,12 +440,12 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomMutantLoot",
 			group =
 			{
-				{ class    = "AmcoinLedger"              , percent = 10   , min = 1, max = 3},
-				{ category = "RandomAmmo"                , percent = 25   , min = 1, max = 1 },
-				{ category = "RandomMedical"             , percent = 20  },
+				{ class    = "AmcoinLedger"              , percent = 10   , min = 1, max = 9},
+				{ category = "RandomAmmo"                , percent = 30   , min = 1, max = 1},
+				{ category = "RandomMedical"             , percent = 21  },
                 { category  = "SmallHidingPlaceContent"  , percent = 3   },
                 { category  = "RandomConsumable"         , percent = 20  },
-                { category  = "RandomClothes"            , percent = 25  },
+                { category  = "RandomClothes"            , percent = 21  },
 			},
 		},
 
@@ -457,7 +457,9 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ class = "AnimalFat"           , min = 4, max = 5  },
 				{ class = "BearMeatRaw"         , min = 5, max = 6, },
 				{ class = "BearPelt"                                },
-				{ class = "AmcoinLedger"        , min = 1, max = 7, },
+				{ class = "BearPelt"                                },
+				{ category  = "HalloweenBagCommonLoot"   , percent = 5  },
+
 			},
 		},
 
@@ -467,8 +469,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			{
 				{ category  = "RandomAmmo",               percent = 35    , min = 1, max = 1 },
                 { category  = "RandomCargador",           percent = 40   },
-				{ category  = "RandomMushroom",           percent = 25   },
-				{ class     = "AmcoinLedger",             percent = 20    , min = 1, max = 15 },
+				{ category  = "RandomMushroom",           percent = 25    , min = 1, max = 5 },
+				{ class     = "AmcoinLedger",             percent = 18    , min = 3, max = 15 },
 				{ category  = "RandomSpartaGear",         percent = 1    }, 
 				{ category  = "RandomMedical",            percent = 20   },
                 { category  = "SmallHidingPlaceContent",  percent = 5    },
@@ -884,12 +886,13 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "RandomBpartPresent",
 			classes =
 			{
-				{ class = "glass_doorway_3m_2m"         , percent = 20 },
-				{ class = "glass_doorway_3m_4m"         , percent = 20 },
-				{ class = "glass_doorway_3m_4m_v2"      , percent = 10 },
-				{ class = "glass_door_2m_1m"            , percent = 20 },
-				{ class = "glass_door_3m_2m"            , percent = 20 },
-                { class = "door_glass_white"            , percent = 10 },
+				{ class = "glass_doorway_3m_2m"         , percent = 20  },
+				{ class = "glass_doorway_3m_4m"         , percent = 20  },
+				{ class = "glass_doorway_3m_4m_v2"      , percent = 10  },
+				{ class = "glass_door_2m_1m"            , percent = 20  },
+				{ class = "glass_door_3m_2m"            , percent = 20  },
+                { class = "door_glass_white"            , percent = 10  },
+				{ category = "RandomPrefab"	    		, percent = 0.2 },
 			},
 		},
 
