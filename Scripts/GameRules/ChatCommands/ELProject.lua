@@ -346,7 +346,7 @@ function PVETop()
         mensaje = 'Survivor named players are not allowed, identify yourself'
     end
 
-    g_gameRules.game:SendTextMessage(0, 0, mensaje );
+    -- g_gameRules.game:SendTextMessage(0, 0, mensaje );
     g_gameRules.game:SendTextMessage(4, 0, mensaje );
 
     Script.SetTimerForFunction(1200000, 'PVETopAfterDelay');

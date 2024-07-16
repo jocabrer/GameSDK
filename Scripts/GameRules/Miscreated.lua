@@ -3,8 +3,8 @@ Script.ReloadScript("scripts/gamerules/GameRulesUtils.lua");
 Miscreated = {
 	Properties = {
 		WorldEvent = {
-			fMinTime = 500, -- min time to spawn an event (in seconds)
-			fMaxTime = 1800, -- max time to spawn an event (in seconds)
+			fMinTime = 1080, -- min time to spawn an event (in seconds)
+			fMaxTime = 3600, -- max time to spawn an event (in seconds)
 		}
 	}
 }
@@ -51,11 +51,11 @@ SpawnWorldEvent = function(self)
         else
             -- Si no es temporada navideña, volvemos a tirar para los otros eventos
             local fallbackRnd = math.random(1, 19)
-            if fallbackRnd <= 10 then
+            if fallbackRnd <= 11 then
                 eventName = "AirDropPlane"
                 g_gameRules.game:SendTextMessage(0, 0, "Entrega de Airdrop / Airdrop delivery")
                 Log("Miscreated:SpawnWorldEvent - Entrega de Airdrop / Airdrop delivery")
-            elseif fallbackRnd <= 17 then
+            elseif fallbackRnd <= 18 then
                 eventName = "AirPlaneCrash"
                 g_gameRules.game:SendTextMessage(0, 0, "Accidente de Avión / Plane crash")
                 Log("Miscreated:SpawnWorldEvent - Accidente de Avión / Plane crash")

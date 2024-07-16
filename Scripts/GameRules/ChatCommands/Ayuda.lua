@@ -24,7 +24,7 @@ end
 ChatCommands["!ayuda"] = function(playerId, command)
 	Log(">> !ayuda - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Puede usar los siguientes comandos para obtener ayuda/información: \n" ..
+	g_gameRules.game:SendTextMessage(4, playerId, "Puede usar los siguientes comandos \n para obtener ayuda/información: \n" ..
                                                   "!reglas (Mostrar info.) \n" ..
                                                   "!zona  (Viaje rápido a la Zona Segura - Requiere 20 Amcoin ) \n" ..
 	                                              "!say (te permite enviar mensajes globales ejemplo: !say Hola a todos) \n"..
@@ -37,8 +37,8 @@ end
 ChatCommands["!reglas"] = function(playerId, command)
 	Log(">> !reglas - %s", command);
 	
-	g_gameRules.game:SendTextMessage(4, playerId, "Se espera que todos los jugadores respeten las reglas de convivencia en el servidor,\n" ..
-                                                  "esto incluye ser respetuoso y considerado con los demás jugadores, \n" ..
+	g_gameRules.game:SendTextMessage(4, playerId, "Se espera que todos los jugadores respeten \n las reglas de convivencia en el servidor,\n" ..
+                                                  "esto incluye ser respetuoso y \n considerado con los demás jugadores, \n" ..
                                                   "no utilizar lenguaje ofensivo o discriminatorio, \n" ..
                                                   "y no promover conductas inapropiadas o ilegales. \n" .. 
                                                   "Reglas completas en discord atw.cl/mis");

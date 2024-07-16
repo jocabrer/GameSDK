@@ -129,10 +129,11 @@ function cobrarAmcoin(playerId, costo)
         end
 
         Log('Todo saldado');
+        g_gameRules.game:SendTextMessage(4, playerId, " Thx! u paid " .. costo ..  " amcoins." );
         return true;
     else
         Log('NO tiene crédito')
-        g_gameRules.game:SendTextMessage(4, playerId, "Se necesitan " .. costo ..  " AmcoinLedger." );
+        g_gameRules.game:SendTextMessage(4, playerId, "U need have" .. costo ..  " amcoins." );
         return false;
     end    
 end

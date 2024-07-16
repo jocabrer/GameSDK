@@ -71,16 +71,16 @@ end
 
 -- Called when the crash happens on the server
 function UFOCrash:OnCrashed()
-    --Log("UFOCrash - OnCrashed")
+    Log("UFOCrash - OnCrashed")
 
     -- spawn the loot after 1 second, so the explosion doesn't damage it
     Script.SetTimerForFunction(1000, "SpawnUFOCrashLoot", self)
-    Script.SetTimerForFunction(6000, "SpawnAI", self)
+    Script.SetTimerForFunction(4000, "SpawnAI", self)
 end
 
 -- Spawn the loot
 SpawnUFOCrashLoot = function(self)
-    --Log("UFOCrash - SpawnUFOCrashLoot")
+    Log("UFOCrash - SpawnUFOCrashLoot")
 
     -- Two meters behind the direction vector
     local vForwardOffset = {x=0,y=0,z=0}
