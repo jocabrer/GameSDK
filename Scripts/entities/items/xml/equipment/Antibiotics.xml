@@ -2,7 +2,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.2"/>
-		<param name="stack_size" value="20"/>
+		<param name="stack_size" value="10"/>
 		<param name="display_name" value="Antibiotics"/>
 		<param name="description" value="Cures poisonous and bacterial infections"/>
 		<param name="vendor_cost" value="50"/>

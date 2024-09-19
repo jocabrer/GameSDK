@@ -962,8 +962,8 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 				{ category = "RandomEpicAttachmentTrader", percent = 7   },
 				{ class = "AK5D"                         , percent = 7   },
 				{ category = "RandomEpicWeaponTrader"    , percent = 3   },
-				{ class = "SpaceHelmet"                  , percent = 3   },
-				{ class = "wood_coffin"                  , percent = 3   },
+				{ class = "SpaceHelmet"                  , percent = 1   },
+				{ class = "wood_coffin"                  , percent = 2.5   },
 			},
 		},
 		
@@ -971,7 +971,7 @@ If fred_islands does not exist, then it will use fred_default instead. This allo
 			category = "EventHelmets",
 			classes =
 			{
-				{ class = "SpaceHelmet"              , percent = 10 },
+				{ class = "SpaceHelmet"              , percent = 2 },
 				{ class = "ScavengerHelmet"          , percent = 10 },
                 { class = "SpartanHelmet"            , percent = 5  },
                 { class = "IronsuitPinkHelmet"       , percent = 10 },

@@ -8,8 +8,8 @@
 		<param name="healthMax" value="9000.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Skeleton Feet"/>
-		<param name="description" value="Hides the Feet / Esconde los pies"/>
-        <param name="vendor_cost" value="15"/>
+		<param name="description" value="Hides the Feet"/>
+        <param name="vendor_cost" value="8"/>
 	</params>
 	
 	<wearable>

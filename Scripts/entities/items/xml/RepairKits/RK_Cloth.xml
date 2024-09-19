@@ -566,7 +566,10 @@
 		<item name="DuffelBagRed" percentage="100"/>
 		<item name="DuffelBagWhite" percentage="100"/>
 		<item name="DuffelBagYellow" percentage="100"/>
-
+		
+		<item name="EyepatchRight" percentage="100"/>
+		<item name="EyepatchLeft" percentage="100"/>
+		
 		<item name="SpartanBackpack" percentage="100"/>
         <item name="SkullCargoPants" percentage="100"/>
         <item name="SkullDuffelBag" percentage="100"/>

@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="1.0"/>
-		<param name="stack_size" value="25" />
+		<param name="stack_size" value="10" />
 		<param name="display_name" value="Electrical Parts"/>
 		<param name="description" value="Various electrical parts that can be used with crafting"/>
-		<param name="vendor_cost" value="25"/>
+		<param name="vendor_cost" value="30"/>
 	</params>
 
 	<geometry>

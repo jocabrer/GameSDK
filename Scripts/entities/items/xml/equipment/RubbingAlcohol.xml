@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.25"/>
-		<param name="stack_size" value="25"/>
+		<param name="stack_size" value="10"/>
 		<param name="display_name" value="Rubbing Alcohol"/>
 		<param name="description" value="An old bottle of rubbing alcohol."/>
-		<param name="vendor_cost" value="75"/>
+		<param name="vendor_cost" value="20"/>
 	</params>
 
 	<geometry>

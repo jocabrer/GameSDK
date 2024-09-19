@@ -6,7 +6,7 @@
 		<param name="stack_size" value="5"/>
 		<param name="display_name" value="Camping Lantern Green"/>
 		<param name="description" value="Camping Lantern that shines with green light"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<base_part class="static" type="8138" name="camping_lantern_green" max_health="1000" repair_with="DuctTape">

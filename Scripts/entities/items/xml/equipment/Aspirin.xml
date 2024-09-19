@@ -2,7 +2,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.2"/>
-		<param name="stack_size" value="15"/>
+		<param name="stack_size" value="10"/>
 		<param name="display_name" value="Aspirin"/>
 		<param name="description" value="Helps to relieve a headache."/>
 		<param name="vendor_cost" value="75"/>

@@ -98,6 +98,7 @@ end
 
 
 function cobrarAmcoin(playerId, costo)
+    local cobro  = costo
     local itemsIds = g_gameRules.game:GetStorageContent(playerId,"AmcoinLedger")
 
     -- Recorro los itemIds para ver si todos los stack suman la cantidad requerida
@@ -129,11 +130,11 @@ function cobrarAmcoin(playerId, costo)
         end
 
         Log('Todo saldado');
-        g_gameRules.game:SendTextMessage(4, playerId, " Thx! u paid " .. costo ..  " amcoins." );
+        g_gameRules.game:SendTextMessage(4, playerId, " Thx! u paid " .. cobro ..  " amcoins." );
         return true;
     else
         Log('NO tiene crédito')
-        g_gameRules.game:SendTextMessage(4, playerId, "U need have" .. costo ..  " amcoins." );
+        g_gameRules.game:SendTextMessage(4, playerId, "U need have" .. cobro ..  " amcoins." );
         return false;
     end    
 end

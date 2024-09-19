@@ -8,7 +8,7 @@
 		<param name="damage_scale" value="0.5"/>
 		<param name="display_name" value="@SparkPlugs"/>
 		<param name="description" value="@SparkPlugsDescription"/>
-        <param name="vendor_cost" value="8"/>
+        <param name="vendor_cost" value="20"/>
 	</params>
 
 	<geometry>

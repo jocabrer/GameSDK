@@ -9,7 +9,7 @@
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Skeleton Hands"/>
 		<param name="description" value="Hides the Hands/Oculta las manos"/>
-        <param name="vendor_cost" value="15"/>
+        <param name="vendor_cost" value="8"/>
 	</params>
 
 	<wearable>

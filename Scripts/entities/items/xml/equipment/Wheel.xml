@@ -6,7 +6,7 @@
 		<param name="stack_size" value="1"/>
 		<param name="display_name" value="@Wheel"/>
 		<param name="description" value="Rueda para armar autos"/>
-        <param name="vendor_cost" value="20"/>
+        <param name="vendor_cost" value="5"/>
 	</params>
 
 	<geometry>

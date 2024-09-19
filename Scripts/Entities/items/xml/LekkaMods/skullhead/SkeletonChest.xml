@@ -8,8 +8,8 @@
 		<param name="healthMax" value="275.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="display_name" value="Skeleton Chest"/>
-		<param name="description" value="Skeleton Chest / Ropa tipo torso de esqueleto"/>
-        <param name="vendor_cost" value="40"/>
+		<param name="description" value="Skeleton Chest"/>
+        <param name="vendor_cost" value="20"/>
 	</params>
 	
 	<wearable>
