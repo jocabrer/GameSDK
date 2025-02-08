@@ -1,7 +1,7 @@
 <item name="BaseballBatHerMajesty" class="Weapon" category="primary" priority="1" weaponParams="1">
 	<params>
 		<param name="display_name" value="@BaseballBatHerMajesty"/>
-		<param name="description" value="@BaseballBatHerMajestyDescription"/>
+		<param name="description" value="put it on and run fast"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="2.0"/>
@@ -19,14 +19,14 @@
 		<param name="sprintToRunBlendTime" value="0.15"/>
 		<param name="relaxedToTacticalBlendTime" value="0.4"/>
 		<param name="tag" value="baseballbat"/>
-		<param name="vendor_cost" value="25"/>
+		<param name="vendor_cost" value="100"/>
 		<animPrecache name="baseballbat">
 			<precache DBAFile="animations/human/male/weapons/baseballbat/baseballbat_3p.dba" thirdperson="1"/>
 		</animPrecache>
 		<aimAnims/>
 	</params>
 
-	<MovementModifiers speedScaleTactical="0.85" speedScale="1.0" rotationScale="1.0" firingSpeedScale="0.65"/>
+	<MovementModifiers speedScaleTactical="1.2" speedScale="1.5" rotationScale="1.0" firingSpeedScale="0.65"/>
 
 	<geometry>
 		<thirdperson name="objects/weapons/baseballbat/baseballbat_her_majesty.cgf"/>

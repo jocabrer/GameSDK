@@ -1,0 +1,40 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/residential_assets/gadgets/gadget_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/residential_assets/gadgets/gadget_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/residential_assets/gadgets/gadget_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="screen" MtlFlags="526496" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.019382363,0.019382363,0.019382363" Emittance="0.20507877,0.73791051,0.97344542,159" Opacity="1" AlphaTest="0.63" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/decals/branding/bunkers_posters_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" TileV="0.25" TexMod_VOscillatorType="3"/>
+    </Texture>
+   </Textures>
+   <PublicParams GrainAmount="1" DeformAmount="0" DeformTillingY="1" GrainTilling="16" ResolutionX="512" ResolutionY="512" InterlacingTilling="7.3000002" Contrast="1" Saturation="1" DeformTillingX="1" GrainSaturation="0" FresnelScale="0" InterlacingAmount="0.074000001" VSyncFreq="1" PixelVisibility="0.081" FresnelBias="0" ChromaShift="0.082999997" ViewAngle="163.10001" DeformFreq="0"/>
+  </Material>
+  <Material Name="screen_overlay" MtlFlags="524416" Shader="Illum" GenMask="60400800" StringGenMask="%DECAL%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.21586053,0.21586053,0.21586053" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/residential_assets/gadgets/gadget_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/residential_assets/gadgets/gadget_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/residential_assets/gadgets/gadget_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalAlphaMult="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="noise_screen" MtlFlags="526496" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.019382363,0.019382363,0.019382363" Specular="0.019382363,0.019382363,0.019382363" Emittance="1,1,1,65" Opacity="1" AlphaTest="0.63" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.40000001" TileV="0.5" TexMod_VOscillatorType="3"/>
+    </Texture>
+   </Textures>
+   <PublicParams GrainAmount="0.69800001" DeformAmount="0.329" DeformTillingY="0.40000001" GrainTilling="16" ResolutionX="512" ResolutionY="512" InterlacingTilling="7" Contrast="1" Saturation="1" DeformTillingX="7" GrainSaturation="1" FresnelScale="0" InterlacingAmount="0.19499999" VSyncFreq="1" PixelVisibility="0" FresnelBias="0" ChromaShift="0" ViewAngle="180" DeformFreq="1.61"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

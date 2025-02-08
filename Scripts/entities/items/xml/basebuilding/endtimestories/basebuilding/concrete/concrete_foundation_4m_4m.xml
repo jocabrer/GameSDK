@@ -11,7 +11,7 @@
 		<param name="place_offset" value="-2.7"/>
 	</params>
 
-	<base_part class="static" type="7521" name="concrete_foundation_4m_4m" max_health="60000" repair_with="ConcreteBag">&gt;
+	<base_part class="static" type="7521" name="concrete_foundation_4m_4m" max_health="60000" repair_with="ConcreteBag">
 		<static filename="objects/endtimestories/basebuilding/concrete/concrete_foundation_4m_4m.cgf"/>
 		<damage_multipliers>
 			<damage_multiplier damage_type="collision" multiplier="0.1"/>

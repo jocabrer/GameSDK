@@ -1,0 +1,19 @@
+<item name="toolbox1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Toolbox 1"/>
+		<param name="description" value="A large toolbox to put your shit in!"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/tool_box_large/toolbox_large_closed.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="50"/>
+		</types>
+	</storage>
+</item>

@@ -1,0 +1,20 @@
+<item name="wood_walkstairs_3m_4m_4m_straight_right" class="Placeable" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="5"></param>
+		<param name="stack_size" value="5"></param>
+		<param name="display_name" value="Wood walkstairs 3x4x4 straight right"></param>
+		<param name="description" value="Wood walkstairs 3m high 4m wide 4m long straight right stairs"></param>
+	</params>
+	<base_part class="static" type="7027" name="wood_walkstairs_3m_4m_4m_straight_right" max_health="15000" repair_with="Lumber">
+		<static filename="objects/basebuilding/wood/walkstairs_3m_4m_4m_straight_right.cgf"></static>
+	</base_part>
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"></thirdperson>
+	</geometry>
+	<storage>
+		<locations>
+			<location category="any"></location>
+		</locations>
+	</storage>
+</item>

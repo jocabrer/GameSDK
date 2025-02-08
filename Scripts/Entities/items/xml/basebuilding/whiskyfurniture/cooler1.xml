@@ -1,0 +1,19 @@
+<item name="cooler1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Plastic Cooler"/>
+		<param name="description" value="Plastic Cooler"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/campGround/plastic_cooler.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="30"/>
+		</types>
+	</storage>
+</item>

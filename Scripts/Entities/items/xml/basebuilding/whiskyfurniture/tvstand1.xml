@@ -1,0 +1,19 @@
+<item name="tvstand1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="TV Stand 1"/>
+		<param name="description" value="Stand for your TV."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/lakewood/lakewood_dresser_a.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="20"/>
+		</types>
+	</storage>
+</item>

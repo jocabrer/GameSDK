@@ -1,0 +1,25 @@
+<item name="TrapMolotovPacked" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="display_name" value="@TrapMolotovPacked"/>
+		<param name="description" value="@TrapMolotovPackedDescription"/>
+	</params>
+
+	<placeable>
+		<param name="placed_class" value="TrapMolotov"/>
+		<param name="placed_sound" value="Play_pickup_metal"/>
+	</placeable>
+
+	<geometry>
+		<thirdperson name="Objects/traps/molotov/trap_molotov_onground.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

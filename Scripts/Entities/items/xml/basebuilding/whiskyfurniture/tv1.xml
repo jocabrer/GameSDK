@@ -1,0 +1,25 @@
+<item name="tv1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="TV"/>
+		<param name="description" value="A Broken TV"/>
+		<param name="place_restrict_snap" value="sticky"/>
+	</params>
+
+	<base_part class="static" type="7358" name="tv1" max_health="1500" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/gadgets/tv_hanging_on.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

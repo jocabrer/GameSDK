@@ -1,0 +1,24 @@
+<UIElements name="mod_ELMinimapUI">
+  <UIElement name="mod_ELMinimapUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="ELMinimap/ELMinimap.gfx" layer="1">
+      <Constraints>
+        <Align mode="dynamic" valign="top" halign="right" scale="1" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="InitMinimap" funcname="InitMinimap">
+        <param name="mapScale" desc="" type="Int" />
+        <param name="mapName" desc="" type="String" />
+      </function>
+      <function name="UpdatePlayerPosAndRotation" funcname="UpdatePlayerPosAndRotation">
+        <param name="playerData" desc="" type="String" />
+        <param name="players" desc="" type="String" />
+        <param name="kills" desc="" type="String" />
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

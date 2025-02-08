@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <recipes>
 	<guide name="guide_structures_wood_walkways_1" id="13">
 		<cats>
@@ -1058,7 +1058,7 @@
     </cats>
 	</guide>
 	
-	<guide name="default" id="0">
+	<guide  name="guide_buildextra" id="100">
     <cats>
 			<cat name="Base Building Color">
 				<subcats>

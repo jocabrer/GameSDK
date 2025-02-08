@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="2B_HMS_X" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="2B_HMS_X" />
+    <param name="description" value="2B_HMS_X" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/HotMeatStick/basebuilding/2B_HMS/2B_HMS.cgf" scale="1.5"/>
+  </geometry>
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

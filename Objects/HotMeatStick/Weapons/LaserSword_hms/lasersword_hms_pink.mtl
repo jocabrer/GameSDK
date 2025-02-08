@@ -1,0 +1,14 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="LaserSword_hms" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.072271854,0.072271854,0.072271854" Specular="1,1,1" Emittance="0.98225069,0.034339812,0.63075727,150" Opacity="1" Shininess="188" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/weapons/lasersword_hms/texture/lasersword_hms_base_pink.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/weapons/lasersword_hms/texture/lasersword_hms_ddna.dds"/>
+    <Texture Map="Specular" File="objects/hotmeatstick/weapons/lasersword_hms/texture/lasersword_hms_occlusion.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/weapons/lasersword_hms/texture/lasersword_hms_pink.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,19 @@
+<item name="dresser2" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Dresser 2"/>
+		<param name="description" value="A Dresser."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/bedset/commode2.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="25"/>
+		</types>
+	</storage>
+</item>

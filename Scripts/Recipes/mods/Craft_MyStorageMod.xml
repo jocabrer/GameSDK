@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <recipes>
-	<guide name="default" id="0">
+	<guide  name="guide_buildextra" id="100">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -8,13 +8,13 @@
 						<types>
 							<type name="Storage">
 								<items>
-									<item class="Wood_BigBox_Crate_packed" time="1" amount="1">
+									<!--<item class="Wood_BigBox_Crate_packed" time="1" amount="1">
 										<materials>
 											<material class="Lumber" count="10" />
 											<material class="Nails" count="10" />
                                             <material class="Rope" count="10" />
 										</materials>
-									</item>
+									</item>-->
 									<item class="UFOStorage_Crate_packed" time="1" amount="1">
 										<materials>
 											<material class="SheetMetal" count="50" />
@@ -29,18 +29,128 @@
 											<material class="Lumber" count="500" />
 										</materials>
 									</item>
-									<item class="epic_gold_crate_packed" time="1">
+									<!--<item class="epic_gold_crate_packed" time="1">
 										<materials>
 											<material class="ScrapMetal" count="500" />
 											<material class="SheetMetal" count="500" />
 											<material class="Lumber" count="500" />
 										</materials>
-									</item>
-									<item class="metal_safe" time="1" amount="1">
+									</item>-->
+
+                                    <item class="blackwood_crate_large_packed" time="1">
 										<materials>
-											<material class="ScrapMetal" count="125" />
-											<material class="SheetMetal" count="80" />
-											<material class="Nails" count="25" />
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Black" count="2" />
+										</materials>
+									</item>
+                                    <item class="blauwood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Blue" count="2" />
+										</materials>
+									</item>
+                                     <item class="gelbwood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Yellow" count="2" />
+										</materials>
+									</item>
+                                    <item class="grunwood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+                                    <item class="orangewood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Orange" count="2" />
+										</materials>
+									</item>
+                                    <item class="pinkwood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Pink" count="2" />
+										</materials>
+									</item>
+                                    <item class="redwood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_Red" count="2" />
+										</materials>
+									</item>
+                                    <item class="weisswood_crate_large_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="10" />
+                                            <material class="PaintCan_White" count="2" />
+										</materials>
+									</item>
+
+
+
+
+                                    <item class="blackwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+                                    <item class="blauwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+                                     <item class="gelbwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+                                    <item class="grunwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Green" count="1" />
+										</materials>
+									</item>
+                                    <item class="orangewood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Orange" count="1" />
+										</materials>
+									</item>
+                                    <item class="pinkwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Pink" count="1" />
+										</materials>
+									</item>
+                                    <item class="redwood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_Red" count="1" />
+										</materials>
+									</item>
+                                    <item class="weisswood_crate_small_packed" time="1">
+										<materials>
+											<material class="ScrapMetal" count="4" />
+											<material class="Lumber" count="6" />
+                                            <material class="PaintCan_White" count="1" />
 										</materials>
 									</item>
 								</items>

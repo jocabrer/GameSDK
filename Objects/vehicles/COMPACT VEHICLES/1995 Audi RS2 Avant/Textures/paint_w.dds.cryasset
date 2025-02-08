@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="58bff34c-b03f-6ebf-3765-1095f83a1fd2" source="paint_w.tif">
+ <Files>
+  <File path="paint_w.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

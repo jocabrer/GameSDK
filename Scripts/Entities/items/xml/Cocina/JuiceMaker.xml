@@ -1,0 +1,24 @@
+<item name="JuiceMaker" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="4.0"/>
+		<param name="display_name" value="JuiceMaker"/>
+		<param name="description" value="Makes some fresh juice with fruits or vegetables."/>
+	</params>
+
+	<base_part class="static" type="7706" name="JuiceMaker" max_health="500" repair_with="SheetMetal" limit="1">
+		<static filename="Objects\props\diner_assets\coffee_machine_hotplate\KitchenProp_CoffeeMachineB.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+	
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

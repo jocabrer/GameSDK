@@ -1,0 +1,66 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Pot" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.39157251,0.39157251,0.39157251" Specular="0.39157251,0.39157251,0.39157251" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/pot_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/pot_ddna.dds"/>
+    <Texture Map="Specular" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/pot_diff.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="A_Blue" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29613829,0.29613829,0.29613829" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0035000001" Level="0.001" Phase="1" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.95597333,0.9911021,0.65837485" CapOpacityFalloff="1" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="B_Red" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29613829,0.29613829,0.29613829" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0035000001" Level="0.001" Phase="1" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.95597333,0.9911021,0.65837485" CapOpacityFalloff="1" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="C_Yellow" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29613829,0.29613829,0.29613829" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0035000001" Level="0.001" Phase="1" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.95597333,0.9911021,0.65837485" CapOpacityFalloff="1" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="D_Purple" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29613829,0.29613829,0.29613829" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0035000001" Level="0.001" Phase="1" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.95597333,0.9911021,0.65837485" CapOpacityFalloff="1" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="E_White" MtlFlags="524416" Shader="Vegetation" GenMask="2400C00000" StringGenMask="%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.41254264,0.41254264,0.41254264" Specular="0,0,0" Opacity="1" Shininess="255" AlphaTest="0.40000001" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/flowerpot_hms/tietu/flower_ddna.tif"/>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0035000001" Level="0.001" Phase="1" Freq="1"/>
+   </VertexDeform>
+   <PublicParams bendDetailLeafAmplitude="0.2" bendDetailFrequency="1" bendDetailBranchAmplitude="-0.5" BlendTerrainCol="0.5" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="0.95597333,0.9911021,0.65837485" CapOpacityFalloff="1" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.30000001" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

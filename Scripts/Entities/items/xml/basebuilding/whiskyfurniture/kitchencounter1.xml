@@ -1,0 +1,24 @@
+<item name="kitchencounter1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Kitchen Counter 2 Small"/>
+		<param name="description" value="Small Counter"/>
+	</params>
+
+	<base_part class="static" type="7362" name="kitchencounter1" max_health="3000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/Cabinet/with_countertops/18_lower_b.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" capacity="15"/>
+		</locations>
+	</storage>
+</item>

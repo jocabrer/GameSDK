@@ -6,7 +6,7 @@
 		<param name="display_name" value="AKM Extended Magazine"/>
 		<param name="description" value="A 7.62x39 round magazine with a 40 round capacity."/>
 		<param name="tag" value="762x40"/>
-		<param name="vendor_cost" value="7"/>
+		<param name="vendor_cost" value="15"/>
 	</params>
 
 	<magazine>

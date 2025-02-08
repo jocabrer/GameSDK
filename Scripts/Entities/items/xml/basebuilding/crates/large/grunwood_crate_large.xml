@@ -1,0 +1,19 @@
+<item name="grunwood_crate_large" class="BaseBuildingItem" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="-1"></param>
+		<param name="display_name" value="Green large crate"></param>
+		<param name="description" value="Green large crate"></param>
+	</params>
+	<geometry>
+		<thirdperson name="objects/NationZ/basebuilding/wood/locked_crate_large.cgf" material="objects/basebuilding/colour/locked_crate_green"></thirdperson>
+	</geometry>
+	<storage>
+		<params>
+			<param name="has_lock" value="1"></param>
+		</params>
+		<types>
+			<type category="any" capacity="60"></type>
+		</types>
+	</storage>
+</item>

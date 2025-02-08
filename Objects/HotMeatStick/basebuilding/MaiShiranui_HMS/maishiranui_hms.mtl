@@ -1,0 +1,96 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Hair 1" MtlFlags="526466" Shader="Hair" GenMask="480008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%NORMAL_MAP" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.042311415,0.042311415,0.042311415" Opacity="1" Shininess="66" AlphaTest="0.050000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_1_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_1_ddna.dds"/>
+   </Textures>
+   <PublicParams SecondaryHighlightShiftAmount="0.1" SoftIntersection="0" ShiftVariation="0" DiffuseWrap="0.5" SecondaryHighlightColor="0.69999999,0.69999999,0.69999999" SecondaryHighlightWidth="1.5" AlphaBlendMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Hair 2" MtlFlags="526466" Shader="Hair" GenMask="480008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%NORMAL_MAP" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.042311415,0.042311415,0.042311415" Opacity="1" Shininess="66" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_2_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_2_ddna.dds"/>
+   </Textures>
+   <PublicParams SecondaryHighlightShiftAmount="0.1" SoftIntersection="0" ShiftVariation="0" DiffuseWrap="0.5" SecondaryHighlightColor="0.69999999,0.69999999,0.69999999" SecondaryHighlightWidth="1.5" AlphaBlendMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Hair 3" MtlFlags="526466" Shader="Hair" GenMask="480008" StringGenMask="%ANISO_SPECULAR%HAIR_PASS%NORMAL_MAP" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.2383976,0.13286835,0.090841718" Specular="0.042311415,0.042311415,0.042311415" Opacity="1" Shininess="66" AlphaTest="0.02" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_3_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/hair_3_ddna.dds"/>
+   </Textures>
+   <PublicParams SecondaryHighlightShiftAmount="0.1" SoftIntersection="0" ShiftVariation="0" DiffuseWrap="0.5" SecondaryHighlightColor="0.69999999,0.69999999,0.69999999" SecondaryHighlightWidth="1.5" AlphaBlendMultiplier="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Love" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,0.1301365,0.5332765" Specular="1,0.1301365,0.5332765" Emittance="1,0.1301365,0.5332765,33" Opacity="0.07" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Head" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_ddna.dds"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eyelash" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/black.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="eye" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_ddna.dds"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mouth" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,0.55834049,0.55834049" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/head_face_ddna.dds"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Headband" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.30054381,0.30054381,0.30054381" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/headband_diff.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fan" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/fan_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/fan_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Tail/belt" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/tail-belt_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/tail-belt_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="clothes" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/cloth_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/cloth_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Body" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Opacity="1" Shininess="150" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/body_diff.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/maishiranui_hms/tietu/body_ddna.dds"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="0.30000001" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

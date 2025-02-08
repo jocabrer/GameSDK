@@ -4,7 +4,7 @@
 		<param name="droppable" value="1"/>
 		<param name="selectable" value="0"/>
 		<param name="auto_wear" value="1"/>
-		<param name="mass" value="1"/>
+		<param name="mass" value="-1000"/>
 		<param name="healthMax" value="9000.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="destroyWhenDegraded" value="1"/>

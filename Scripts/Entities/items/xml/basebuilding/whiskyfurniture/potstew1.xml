@@ -1,0 +1,24 @@
+<item name="potstew1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Empty Stew Pot"/>
+		<param name="description" value="Empty Stew Pot"/>
+	</params>
+
+	<base_part class="static" type="7391" name="potstew1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/stewpot/stewpot_steaks.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/stewpot/stewpot_steaks.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

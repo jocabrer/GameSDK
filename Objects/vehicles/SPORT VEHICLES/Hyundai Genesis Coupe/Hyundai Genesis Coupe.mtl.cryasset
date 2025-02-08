@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="ff312c65-03c5-438f-1930-e5c45a99ddea">
+ <Files>
+  <File path="Hyundai Genesis Coupe.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">1</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/paint_w.dds</Path>
+ </Dependencies>
+</AssetMetadata>

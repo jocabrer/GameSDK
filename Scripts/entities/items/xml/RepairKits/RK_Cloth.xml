@@ -526,6 +526,9 @@
 		<item name="GhillieHood5" percentage="100"/>
 		<item name="ScavangerPants" percentage="100"/>
 		<item name="ScavangerShirt" percentage="100"/>
+        <item name="PoleraCC" percentage="100"/>
+        <item name="PoleronWU" percentage="100"/>
+        <item name="PoleronMetallica" percentage="100"/>
 
         <item name="MxShirtsBlue" percentage="100"/>
         <item name="MxPantsBlue" percentage="100"/>
@@ -563,9 +566,23 @@
 		<item name="DuffelBagRed" percentage="100"/>
 		<item name="DuffelBagWhite" percentage="100"/>
 		<item name="DuffelBagYellow" percentage="100"/>
-
-		<item name="SpartanBackpack" percentage="100"/>
 		
+		<item name="EyepatchRight" percentage="100"/>
+		<item name="EyepatchLeft" percentage="100"/>
+		
+		<item name="SpartanBackpack" percentage="100"/>
+        <item name="SkullCargoPants" percentage="100"/>
+        <item name="SkullDuffelBag" percentage="100"/>
+        <item name="SkullMilitaryJacket" percentage="100"/>
+        
+
+        <item name="SunglassesABlack" percentage="100"/>
+        <item name="SunglassesAGold" percentage="100"/>
+        <item name="SunglassesASilver" percentage="100"/>
+        <item name="SunglassesBBlack" percentage="100"/>
+        <item name="SunglassesBMaroon" percentage="100"/>
+        <item name="SunglassesBSilver" percentage="100"/>
+
 	</repair>
 
 	<storage>

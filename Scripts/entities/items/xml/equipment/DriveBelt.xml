@@ -3,12 +3,12 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.5"/>
-		<param name="stack_size" value="10"/>
+		<param name="stack_size" value="5"/>
 		<param name="healthMax" value="25.0"/>
 		<param name="damage_scale" value="0.5"/>
 		<param name="display_name" value="@DriveBelt"/>
 		<param name="description" value="@DriveBeltDescription"/>
-		<param name="vendor_cost" value="18"/>
+		<param name="vendor_cost" value="30"/>
 	</params>
 
 	<geometry>

@@ -8,8 +8,9 @@
 		<param name="healthMax" value="275.0"/>
 		<param name="damage_scale" value="0.1"/>
 		<param name="destroyWhenDegraded" value="1"/>
-		<param name="display_name" value="Skeleton Head/Cabeza de esqueleto"/>
-		<param name="description" value="Skeleton Head/ Cabeza de esqueleto"/>
+		<param name="display_name" value="Skeleton Head"/>
+		<param name="description" value="Skeleton Head"/>
+		<param name="vendor_cost" value="50"/>
 		<param name="tag" value="torch"/>
 		<animPrecache name="torch">
 			<precache DBAFile="animations/human/male/weapons/torch/torch_3p.dba" thirdperson="1"/>

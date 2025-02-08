@@ -12,9 +12,16 @@
 	</geometry>
 
 	<storage>
+		<params>
+			<param name="crate" value="1"/>
+			<param name="has_lock" value="1"/>
+		</params>
 		<types>
 			<type category="any" capacity="40"/>
 		</types>
+		<locations>
+			<location category="any"/>
+		</locations>
 	</storage>	
 
 </item>

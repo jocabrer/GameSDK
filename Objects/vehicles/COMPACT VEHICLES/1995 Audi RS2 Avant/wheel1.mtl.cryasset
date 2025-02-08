@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="ea056d9b-a1c6-bfbf-75cb-feef9d988e06">
+ <Files>
+  <File path="wheel1.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">5</Detail>
+  <Detail name="textureCount">5</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/Textures/rubber.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/Textures/eagle_tire_ddna.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/Textures/rubber.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/Textures/brd1.dds</Path>
+  <Path>Objects/vehicles/COMPACT VEHICLES/1995 Audi RS2 Avant/Textures/rims.dds</Path>
+ </Dependencies>
+</AssetMetadata>

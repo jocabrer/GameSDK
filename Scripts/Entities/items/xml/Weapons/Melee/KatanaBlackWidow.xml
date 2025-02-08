@@ -2,7 +2,7 @@
 	<!-- Named Weapon -->
 	<params>
 		<param name="display_name" value="@KatanaBlackWidow"/>
-		<param name="description" value="@KatanaBlackWidowDescription"/>
+		<param name="description" value="put it on and run fast"/>
 		<param name="itemClass" value="1hmelee"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="1.2"/>
@@ -20,14 +20,14 @@
 		<param name="sprintToRunBlendTime" value="0.15"/>
 		<param name="relaxedToTacticalBlendTime" value="0.45"/>
 		<param name="tag" value="katana"/>
-		<param name="vendor_cost" value="11"/>
+		<param name="vendor_cost" value="50"/>
 		<animPrecache name="katana">
 			<precache DBAFile="animations/human/male/weapons/katana/katana.dba" thirdperson="1"/>
 		</animPrecache>
 		<aimAnims/>
 	</params>
 
-	<MovementModifiers speedScaleTactical="0.85" speedScale="1.0" rotationScale="1.0" firingSpeedScale="0.65"/>
+	<MovementModifiers speedScaleTactical="1.1" speedScale="1.3" rotationScale="1.0" firingSpeedScale="0.65"/>
 
 	<geometry>
 		<thirdperson name="objects/weapons/katana/katana_black_widow.cgf"/>
@@ -47,7 +47,7 @@
 				<param name="helper" value="collision"/>
 				<param name="hit_type" value="hatchet"/>
 				<param name="range" value="2.0"/>
-				<param name="damage" value="45"/>
+				<param name="damage" value="75"/>
 				<param name="impulse" value="15"/>
 				<param name="impulse_actor" value="40"/>
 				<param name="impulse_ai_to_player" value="0"/> <!-- < -1 uses impulse actor instead -->

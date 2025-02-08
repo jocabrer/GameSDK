@@ -1,0 +1,24 @@
+<item name="sleepingbag1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Sleeping Bag 1"/>
+		<param name="description" value="A Sleeping Bag"/>
+	</params>
+
+	<base_part class="static" type="7331" name="sleepingbag1" max_health="3000" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/campGround/sleepingbag_a.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" capacity="5"/>
+		</locations>
+	</storage>
+</item>

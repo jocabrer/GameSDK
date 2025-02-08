@@ -1,0 +1,16 @@
+<item name="orangewood_crate_small" class="BaseBuildingItem" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="-1"></param>
+		<param name="display_name" value="Orange small crate"></param>
+		<param name="description" value="Orange small crate"></param>
+	</params>
+	<geometry>
+		<thirdperson name="objects/NationZ/basebuilding/wood/locked_crate_small.cgf" material="objects/basebuilding/colour/locked_crate_orange"></thirdperson>
+	</geometry>
+	<storage>
+		<types>
+			<type category="any" capacity="50"></type>
+		</types>
+	</storage>
+</item>

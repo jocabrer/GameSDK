@@ -32,7 +32,7 @@
 			<protection_amount type="feet_sharp" percentage="100.0"/>
 			<protection_amount type="feet_blunt" percentage="100.0"/>
 			<protection_amount type="electricity" percentage="100.0"/>
-			<protection_amount type="cold" percentage="15"/>
+			<protection_amount type="cold" percentage="35"/>
 			<protection_amount type="heat" percentage="-50"/>
 		</environmental>
 	</protection>
@@ -43,7 +43,7 @@
 			<location category="vest"/>
 		</locations>
 		<types>
-			<type category="any" capacity="15"/>
+			<type category="any" capacity="10"/>
 		</types>
 	</storage>
 

@@ -1,0 +1,54 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Shed_MAT" MtlFlags="524418" Shader="Illum" GenMask="2060400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/grey_64_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_wall_ddna.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_wall_spec.tif"/>
+    <Texture Map="Custom" File="textures/generic/metal/metal_plate_a_diff.dds"/>
+    <Texture Map="[1] Custom" File="textures/generic/dust/dust_brown_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/residential/shed/metal_wall_blend.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Roof_MAT" MtlFlags="524418" Shader="Illum" GenMask="2060400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/grey_64_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_wall_ddna.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_wall_spec.tif"/>
+    <Texture Map="Custom" File="textures/generic/metal/metal_plate_a_diff.dds"/>
+    <Texture Map="[1] Custom" File="textures/generic/dust/dust_brown_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/residential/shed/metal_wall_blend.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Concrete_MAT" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.099898733,0.099898733,0.099898733" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="120" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/concreteold_floor_dif.tif"/>
+    <Texture Map="Bumpmap" File="textures/concrete/concreteold_floor_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/concrete/concrete_ground_b_diff.dds"/>
+    <Texture Map="[1] Custom" File="textures/generic/concrete/concrete_ground_b_ddna.dds"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/concrete_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.4" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="0.43000001" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Door_MAT" MtlFlags="524416" Shader="Illum" GenMask="2060400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="0,0,0" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/base_colors/grey_64_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_wall_ddna.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_wall_spec.tif"/>
+    <Texture Map="Custom" File="textures/generic/metal/metal_plate_a_diff.dds"/>
+    <Texture Map="[1] Custom" File="textures/generic/dust/dust_brown_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/residential/shed/metal_wall_blend.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal_shell" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.5,0.5,0.5" Specular="0.5,0.5,0.5" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

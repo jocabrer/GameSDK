@@ -365,8 +365,7 @@ SCAAMStashContents = {
             {Item = 'PoliceBaton', Spawner = 'NormalGuns'},
             {Item = 'SurvivalKnife', Spawner = 'NormalGuns'},
             {Item = 'Icepickaxe', Spawner = 'NormalGuns'},
-            {Item = 'GoldenCudgel2', Spawner = 'NormalGuns'},
-            {Item = 'GoldenCudgel', Spawner = 'NormalGuns'}
+            {Item = 'Icepickaxeplus', Spawner = 'NormalGuns'},
         }
     },
     RandomUtilitary = {

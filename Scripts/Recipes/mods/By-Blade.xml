@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
-	<guide name="default" id="0">
+	<guide name="guide_buildextra" id="100">
 		<cats>
 			<cat name="Base Building">
 				<subcats>
@@ -14,30 +14,6 @@
 											<material class="Hammer" count="1" />
 										</materials>
 									</item>
-									<!--
-									<item class="dws_outpost_gate" time="1">
-									<materials>
-									<material class="SheetMetal" count="10" />
-									<material class="Hammer" count="1" />
-									</materials>
-									</item>
-									-->
-									<!--
-									<item class="outpost_container" time="1">
-									<materials>
-									<material class="SheetMetal" count="20" />
-									<material class="Hammer" count="1" />
-									<material class="WoodPile" count="9" />
-									</materials>
-									</item>
-									<item class="outpost_container_gate" time="1">
-									<materials>
-									<material class="SheetMetal" count="20" />
-									<material class="Hammer" count="1" />
-									<material class="WoodPile" count="9" />
-									</materials>
-									</item>
-									-->
 									<item class="4mx6m_chainlink_01" time="1">
 										<materials>
 											<material class="SheetMetal" count="20" />

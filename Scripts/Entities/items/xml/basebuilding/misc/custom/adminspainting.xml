@@ -1,0 +1,22 @@
+<item name="adminspainting" class="Placeable" category="any">
+	<params>
+		<param name="selectable" value="0"></param>
+		<param name="mass" value="0.5"></param>
+		<param name="display_name" value="Novios"></param>
+		<param name="description" value="Novios..."></param>
+		<param name="stack_size" value="1"></param>
+		<param name="place_restrict_snap" value="sticky"></param>
+	</params>
+	<base_part class="static" type="7192" name="adminspainting" max_health="10000" repair_with="PaintCan_Black">
+		<static filename="objects/basebuilding/other/decals/adminspainting.cgf" 
+        material="objects/basebuilding/other/decals/adminspainting.mtl"></static>
+	</base_part>
+	<geometry>
+		<thirdperson name="Objects/basebuilding/wood/wood_part.cgf"></thirdperson>
+	</geometry>
+	<storage>
+		<locations>
+			<location category="any"></location>
+		</locations>
+	</storage>
+</item>

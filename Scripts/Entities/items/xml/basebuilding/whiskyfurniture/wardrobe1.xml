@@ -1,0 +1,19 @@
+<item name="wardrobe1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Wardrobe 1"/>
+		<param name="description" value="A Wardrobe."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/bedset/wardrobe.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="50"/>
+		</types>
+	</storage>
+</item>

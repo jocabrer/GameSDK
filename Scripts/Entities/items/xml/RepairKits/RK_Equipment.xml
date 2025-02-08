@@ -25,6 +25,16 @@
 		<item name="Maglite" percentage="100"/>
 		<item name="MagliteSmall" percentage="100"/>
 		<item name="Megaphone" percentage="100"/>
+        <item name="SCAAMAmalgarmin" percentage="100"/>
+        <item name="Aviators" percentage="100"/>
+        <item name="SunglassesABlack" percentage="100"/>
+        <item name="SunglassesAGold" percentage="100"/>
+        <item name="SunglassesASilver" percentage="100"/>
+        <item name="SunglassesBBlack" percentage="100"/>
+        <item name="SunglassesBMaroon" percentage="100"/>
+        <item name="SunglassesBSilver" percentage="100"/>
+        <item name="binoculars_arctic" percentage="100"/>
+		<item name="binoculars_vision" percentage="100"/>
 	</repair>
 
 	<storage>

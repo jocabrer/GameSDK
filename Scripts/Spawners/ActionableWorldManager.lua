@@ -50,7 +50,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			surface = { "mat_wood_harvest" },
 			sound = "Play_pickup_wood",
 			minUses = 6, -- this is a quarter of largest wall
-			uses = 66, -- two walls + a few/ one 3x4 wall is 24 wood logs
+			uses = 50, -- two walls + a few/ one 3x4 wall is 24 wood logs
 			minRefDiameter = 1.5, -- smallest tree
 			maxRefDiameter = 26, -- biggest trees are around 34/32/30, most are around 15-22
 			regenerate = 60,
@@ -72,7 +72,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			surface = { "mat_metal_harvest" },
 			sound = "Play_pickup_metal",
 			minUses = 10, -- this is one basepart upgrade
-			uses = 40, -- this is 5 basepart upgrades
+			uses = 10, -- this is 5 basepart upgrades
 			minRefDiameter = 2, -- smallest (bike is 2, f100/sedan about 6, bus is 13)
 			maxRefDiameter = 13, -- 
 			regenerate = 90,
@@ -92,7 +92,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			surface = { "mat_rock_harvest" },
 			sound = "Play_pickup_plastic",
 			minUses = 2,
-			uses = 80,
+			uses = 60,
 			minRefDiameter = 0.5, 
 			maxRefDiameter = 5,
 			regenerate = 2,
@@ -783,7 +783,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			uses = 1,
 			regenerate = 200,
-			percentage = 30,
+			percentage = 20,
 			spawn = "SmallHidingPlaceContent",
 			precheck = true,
 			safezone = true,
@@ -842,7 +842,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			uses = 1,
 			regenerate = 200,
-			percentage = 30,
+			percentage = 20,
 			spawn = "MediumHidingPlaceContent",
 			precheck = true,
 			safezone = true,
@@ -860,7 +860,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_sandbag_fill",
 			uses = 3,
 			regenerate = 120,
-			percentage = 50,
+			percentage = 30,
 			spawn = "RandomSeeds",
 		},
 
@@ -878,7 +878,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			uses = 3,
 			regenerate = 240,
-			percentage = 50,
+			percentage = 70,
 			spawn = "Wheel",
 		},
 
@@ -944,7 +944,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/sidewalk/mud_stone2.cgf",
 			},
 			sound = "Play_pickup_plastic",
-			uses = 2,
+			uses = 9,
 			regenerate = 240,
 			percentage = 33,
 			spawn = "Rocks",
@@ -972,7 +972,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"objects/architecture/buildings/loghouse/loghouse_pile.cgf",
 			},
 			sound = "Play_pickup_wood",
-			uses = 8,
+			uses = 5,
 			regenerate = 240,
 			percentage = 95,
 			spawn = "WoodPile",
@@ -1002,7 +1002,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/junkyard/junkyard_fence_uneven_missingplanks3.cgf",
 			},
 			sound = "Play_pickup_wood",
-			uses = 8,
+			uses = 3,
 			regenerate = 240,
 			percentage = 95,
 			spawn = "Lumber",
@@ -1048,7 +1048,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"objects/props/furniture/standardbed/cloth4",
 			},
 			sound = "Play_fabric_tear",
-			uses = 2,
+			uses = 5,
 			regenerate = 240,
 			percentage = 70,
 			spawn = "Rags",
@@ -1903,7 +1903,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"objects/props/junkpile/junkpile.cgf",
 			},
 			sound = "Play_pickup_metal",
-			uses = 1,
+			uses = 3,
 			regenerate = 240,
 			percentage = 100,
 			spawn = "SheetMetal",
@@ -1942,7 +1942,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/hospital/hospital_Walker.cgf",
 			},
 			sound = "Play_pickup_metal",
-			uses = 3,
+			uses = 5,
 			regenerate = 240,
 			percentage = 100,
 			spawn = "ScrapMetal",

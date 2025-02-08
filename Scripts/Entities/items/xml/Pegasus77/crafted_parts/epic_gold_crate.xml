@@ -4,7 +4,7 @@
 		<param name="selectable" value="0"/>
 		<param name="mass" value="-1"/> <!-- infinite mass so can't be moved -->
 		<param name="display_name" value="Caja de Almacenamiento Dorada"/>
-		<param name="description" value="Una caja de almacenamiento dorada que tarda mucho en construirse, pero que te proporciona 50 espacios. Tiene un candado."/>
+		<param name="description" value="Una caja de almacenamiento dorada que tarda mucho en construirse, pero que te proporciona 60 espacios."/>
 	</params>
 
 	<geometry>
@@ -16,7 +16,7 @@
 			<param name="has_lock" value="1"/>
 		</params>
 		<types>
-			<type category="any" capacity="60"/>
+			<type category="any" capacity="45"/>
 		</types>
 	</storage>	
 

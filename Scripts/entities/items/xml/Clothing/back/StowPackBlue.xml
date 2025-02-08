@@ -33,7 +33,7 @@
 			<location category="backpack"/>
 		</locations>
 		<types>
-			<type category="any" capacity="50"/>
+			<type category="any" capacity="30"/>
 		</types>
 	</storage>
 

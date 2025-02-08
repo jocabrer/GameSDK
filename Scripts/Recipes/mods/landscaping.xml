@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <recipes>
-    <guide name="default" id="0">
+    <guide name="guide_buildextra" id="100">
         <cats>
             <cat name="Base Building">
                 <subcats>
@@ -308,6 +308,40 @@
                                             <material class="Rocks" count="10" />
                                         </materials>
                                     </item>
+                                </items>
+                            </type>
+                            <type name="Flower pots">
+                                <items>
+                                        <item class="FlowerPotA_HMS" time="2">
+                                            <materials>
+                                                <material class="Rocks" count="10" />
+                                                <material class="SeedsBeets" count="1" />
+                                            </materials>
+                                        </item>
+                                        <item class="FlowerPotB_HMS" time="2">
+                                            <materials>
+                                                <material class="Rocks" count="10" />
+                                                <material class="SeedsBeets" count="1" />
+                                            </materials>
+                                        </item>
+                                        <item class="FlowerPotC_HMS" time="2">
+                                            <materials>
+                                                <material class="Rocks" count="10" />
+                                                <material class="SeedsBeets" count="1" />
+                                            </materials>
+                                        </item>
+                                        <item class="FlowerPotD_HMS" time="2">
+                                            <materials>
+                                                <material class="Rocks" count="10" />
+                                                <material class="SeedsBeets" count="1" />
+                                            </materials>
+                                        </item>
+                                        <item class="FlowerPotE_HMS" time="2">
+                                            <materials>
+                                                <material class="Rocks" count="10" />
+                                                <material class="SeedsBeets" count="1" />
+                                            </materials>
+                                        </item>
                                 </items>
                             </type>
                         </types>

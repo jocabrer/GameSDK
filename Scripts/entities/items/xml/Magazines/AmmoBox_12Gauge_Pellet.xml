@@ -5,7 +5,7 @@
 		<param name="mass" value="8.0"/>
 		<param name="display_name" value="Ammo Box 12ga Buckshot"/>
 		<param name="description" value="@AmmoBox_12Gauge_PelletDescription"/>
-		<param name="vendor_cost" value="4"/>
+		<param name="vendor_cost" value="10"/>
 	</params>
 
 	<magazine>

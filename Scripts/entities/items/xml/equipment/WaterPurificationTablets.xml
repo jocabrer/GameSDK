@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.1"/>
-		<param name="stack_size" value="25"/>
+		<param name="stack_size" value="10"/>
 		<param name="display_name" value="WaterPure Tablets"/>
 		<param name="description" value="Water purification para purificar el agua."/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<geometry>

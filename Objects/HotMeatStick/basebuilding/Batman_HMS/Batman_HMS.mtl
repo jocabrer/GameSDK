@@ -1,0 +1,237 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="Material" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.038204376,0.038204376,0.038204376" Specular="0.19461785,0.19461785,0.19461785" Emittance="0,0.14995982,0.14995982,200" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.030" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.029" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.028" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.027" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.026" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="240" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.025" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.024" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="1,0.81484669,0.3467041" Emittance="1,0.81484669,0.3467041,10" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.023" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.022" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.021" MtlFlags="524416" Shader="Illum" GenMask="40000000" StringGenMask="%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="0.19" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_eye.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.020" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.70110202,0.70110202,0.70110202" Specular="0.07618539,0.07618539,0.07618539" Opacity="1" Shininess="160" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.019" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.30946895,0.30946895,0.30946895" Specular="0.1221388,0.1221388,0.1221388" Emittance="1,1,1,15" Opacity="1" Shininess="230" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_dizuo.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_dizuo_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_dizuo_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.018" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.017" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.016" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="160" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.015" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.014" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.013" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.012" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.21952623,0.21952623,0.21952623" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.011" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.010" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.009" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.008" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.35153264,0.35153264,0.35153264" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.007" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.11443538,0.11443538,0.11443538" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.006" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0,0,0" Specular="1,0.81484669,0.3467041" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.005" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.41788509,0.41788509,0.41788509" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.004" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.003" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.002" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.26225069,0.26225069,0.26225069" Specular="0.19461785,0.19461785,0.19461785" Emittance="1,1,1,15" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+    <Texture Map="Emittance" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_light.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Material.001" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.19461785,0.19461785,0.19461785" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base.dds"/>
+    <Texture Map="Bumpmap" File="objects/hotmeatstick/basebuilding/batman_hms/tietu/batman_hms_base_ddna.dds"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_flesh" MatTemplate="" Diffuse="0.80000001,0.80000001,0.80000001" Specular="1,1,1" Opacity="1" Shininess="50" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

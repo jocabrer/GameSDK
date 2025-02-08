@@ -52,7 +52,7 @@
 			<location category="backpack"/>
 		</locations>
 		<types>
-			<type category="any" capacity="60"/>
+			<type category="any" capacity="50"/>
 		</types>
 	</storage>
 

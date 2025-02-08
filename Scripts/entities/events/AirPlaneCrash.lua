@@ -11,7 +11,7 @@ AirPlaneCrash = {
 		fileModelCrashed = "Objects/props/crashed_plane/small_plane_crashed.cgf",
 
 		fTravelHeight = 1800, -- meters
-		fTravelSpeed= 45, -- m/s
+		fTravelSpeed= 40, -- m/s
 
 		fStartPercentRange = 0.8, -- middle percent of map plane can start in
 		fFinishPercentRange = 0.8, -- middle percent of map plane can finish at
@@ -79,75 +79,21 @@ end
 
 -- Spawn the loot
 SpawnAirPlaneCrashLoot = function(self)
-	--Log("AirPlaneCrash - SpawnAirPlaneCrashLoot")
 
-	local vForwardOffset = {x=0,y=0,z=0}
-	FastScaleVector(vForwardOffset, self:GetDirectionVector(), -2.0)
+	local direction = self:GetDirectionVector()
+	local worldPos = self:GetWorldPos()
 
-	local vForwardOffset1 = {x=10,y=10,z=0}
-	FastScaleVector(vForwardOffset1, self:GetDirectionVector(), -10.0)
+	local offsets = {-10.0, -20.0, -30.0, -40.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0}
+	local spawnPositions = {}
 
-	local vForwardOffset2 = {x=-10,y=-10,z=0}
-	FastScaleVector(vForwardOffset2, self:GetDirectionVector(), -2.0)
-
-	local vForwardOffset3 = {x=0,y=0,z=0}
-	FastScaleVector(vForwardOffset3, self:GetDirectionVector(), -2.0)
-
-	local vForwardOffset4 = {x=10,y=-20,z=0}
-	FastScaleVector(vForwardOffset4, self:GetDirectionVector(), 10.0)
-
-	local vForwardOffset5 = {x=-10,y=-20,z=0}
-	FastScaleVector(vForwardOffset5, self:GetDirectionVector(), 10.0)
-
-	local vForwardOffset6 = {x=-15,y=-15,z=0}
-	FastScaleVector(vForwardOffset6, self:GetDirectionVector(), 5.0)
-
-	local vForwardOffset7 = {x=-5,y=-5,z=0}
-	FastScaleVector(vForwardOffset7, self:GetDirectionVector(), -5.0)
-
-	local vForwardOffset8 = {x=10,y=-10,z=0}
-	FastScaleVector(vForwardOffset8, self:GetDirectionVector(), -15.0)
-
-	local vForwardOffset9 = {x=12,y=-15,z=0}
-	FastScaleVector(vForwardOffset9, self:GetDirectionVector(), -7.0)
-
-	local vForwardOffset10 = {x=12,y=-17,z=0}
-	FastScaleVector(vForwardOffset10, self:GetDirectionVector(), -18.0)
-
-	local vSpawnPos = {x=0,y=0,z=0}
-	FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
-	-- FastSumVectors(vSpawnPos, vSpawnPos, {x=0,y=0,z=2})
-	
-	local vSpawnPos1 = {x=10,y=0,z=0}
-	FastSumVectors(vSpawnPos1, vForwardOffset1, self:GetWorldPos())
-
-	local vSpawnPos2 = {x=-10,y=0,z=0}
-	FastSumVectors(vSpawnPos2, vForwardOffset2, self:GetWorldPos())
-
-	local vSpawnPos3 = {x=10,y=-10,z=0}
-	FastSumVectors(vSpawnPos3, vForwardOffset3, self:GetWorldPos())
-	-- FastSumVectors(vSpawnPos3, vSpawnPos3, {x=0,y=0,z=-5})
-
-	local vSpawnPos4 = {x=-10,y=-20,z=0}
-	FastSumVectors(vSpawnPos4, vForwardOffset4, self:GetWorldPos())
-
-	local vSpawnPos5 = {x=10,y=-20,z=0}
-	FastSumVectors(vSpawnPos5, vForwardOffset5, self:GetWorldPos())
-
-	local vSpawnPos6 = {x=15,y=-15,z=0}
-	FastSumVectors(vSpawnPos6, vForwardOffset6, self:GetWorldPos())
-
-	local vSpawnPos7 = {x=5,y=-5,z=0}
-	FastSumVectors(vSpawnPos7, vForwardOffset7, self:GetWorldPos())
-
-	local vSpawnPos8 = {x=-20,y=15,z=0}
-	FastSumVectors(vSpawnPos8, vForwardOffset8, self:GetWorldPos())
-
-	local vSpawnPos9 = {x=-20,y=15,z=0}
-	FastSumVectors(vSpawnPos9, vForwardOffset9, self:GetWorldPos())
-
-	local vSpawnPos10 = {x=-20,y=15,z=0}
-	FastSumVectors(vSpawnPos10, vForwardOffset10, self:GetWorldPos())
+	-- Calculate spawn positions
+	for i, offset in ipairs(offsets) do
+		local vForwardOffset = {x=0, y=0, z=0}
+		FastScaleVector(vForwardOffset, direction, offset)
+		local vSpawnPos = {x=0, y=0, z=0}
+		FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
+		table.insert(spawnPositions, vSpawnPos)
+	end
 
 
 
@@ -155,23 +101,19 @@ SpawnAirPlaneCrashLoot = function(self)
 
 	local rnd = random(1,30)	
 	if rnd <= 12 then
-        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos2)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
-        ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos4)
+        ISM.SpawnItem("PlaneCrashCrate", spawnPositions[1])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[2])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[3])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[4])
+		ISM.SpawnCategory("AirPlaneCrashCrateCivilian", spawnPositions[5])
+		ISM.SpawnCategory("AirPlaneCrashCrateCivilian", spawnPositions[6])
 
-		ISM.SpawnItem("debris_01"                , vSpawnPos5)
-        ISM.SpawnItem("debris_01"                , vSpawnPos6)
-        ISM.SpawnItem("planecrash_engine"        , vSpawnPos7)
-        ISM.SpawnItem("planecrash_gear"          , vSpawnPos8)
-        
-		ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
-		SpawnAI = function(self)
+        SpawnAI = function(self)
 
-			local vForwardOffset = {x=0,y=0,z=0}
-			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-			local vSpawnPos = {x=0,y=0,z=0}
-			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
+			local vForwardOffset = {x=0, y=0, z=0}
+			FastScaleVector(vForwardOffset, direction, 0)
+			local vSpawnPos = {x=0, y=0, z=0}
+			FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
 
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
@@ -190,25 +132,19 @@ SpawnAirPlaneCrashLoot = function(self)
             AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 20 then
-        ISM.SpawnItem("AirDropCrate"          , vSpawnPos1)
-		ISM.SpawnItem("AirDropCrate"          , vSpawnPos2)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos3)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos4)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
+        ISM.SpawnItem("AirDropCrate", spawnPositions[1])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[2])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[3])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[4])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[5])
 
-        ISM.SpawnItem("debris_01"                , vSpawnPos6)
-        ISM.SpawnItem("debris_01"                , vSpawnPos7)
-        ISM.SpawnItem("planecrash_engine"        , vSpawnPos8)
-        ISM.SpawnItem("planecrash_engine"        , vSpawnPos9)
-        ISM.SpawnItem("planecrash_gear"          , vSpawnPos10)
         
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos5)
 		SpawnAI = function(self)
 
-			local vForwardOffset = {x=0,y=0,z=0}
-			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-			local vSpawnPos = {x=0,y=0,z=0}
-			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
+			local vForwardOffset = {x=0, y=0, z=0}
+			FastScaleVector(vForwardOffset, direction, 0)
+			local vSpawnPos = {x=0, y=0, z=0}
+			FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
 
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantArmored", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
@@ -231,29 +167,21 @@ SpawnAirPlaneCrashLoot = function(self)
             AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
 	elseif rnd <= 25 then
-        ISM.SpawnItem("PlaneCrashCrate", vSpawnPos1)
-		ISM.SpawnItem("AirDropCrate", vSpawnPos2)
-        ISM.SpawnItem("AirDropCrate", vSpawnPos3)
-		ISM.SpawnItem("AirDropCrate", vSpawnPos4)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos5)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos6)
-        ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos7)
-        ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos8)
+        ISM.SpawnItem("PlaneCrashCrate", spawnPositions[1])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[2])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[3])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[4])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[5])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[6])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[7])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[8])
 
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos9)
-
-        ISM.SpawnItem("debris_01", vSpawnPos9)
-        ISM.SpawnItem("debris_01", vSpawnPos10)
-        ISM.SpawnItem("planecrash_engine", vSpawnPos7)
-        ISM.SpawnItem("planecrash_engine", vSpawnPos8)
-        ISM.SpawnItem("planecrash_gear", vSpawnPos6)
-        
 		SpawnAI = function(self)
 
-			local vForwardOffset = {x=0,y=0,z=0}
-			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-			local vSpawnPos = {x=0,y=0,z=0}
-			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
+			local vForwardOffset = {x=0, y=0, z=0}
+			FastScaleVector(vForwardOffset, direction, 0)
+			local vSpawnPos = {x=0, y=0, z=0}
+			FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
 
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantArmored", true, 2.0, 5.0, 2.0)
@@ -306,31 +234,24 @@ SpawnAirPlaneCrashLoot = function(self)
             AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
 		end	
     elseif rnd <= 28 then
-        ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
-        ISM.SpawnItem("AirDropCrate"             , vSpawnPos3)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos4)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos5)
-		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos6)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos7)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos8)
-        ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos9)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
-        
-		ISM.SpawnItem("debris_01"			, vSpawnPos)
-        ISM.SpawnItem("debris_01"			, vSpawnPos8)
-        ISM.SpawnItem("planecrash_engine"	, vSpawnPos9)
-        ISM.SpawnItem("planecrash_engine"	, vSpawnPos10)
-        ISM.SpawnItem("planecrash_gear"		, vSpawnPos7)
-                
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
+        ISM.SpawnItem("PlaneCrashCrate", spawnPositions[1])
+		ISM.SpawnItem("PlaneCrashCrate", spawnPositions[2])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[3])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[4])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[5])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[6])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[7])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[8])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[9])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[10])
+		ISM.SpawnCategory("RandomTowableParts", spawnPositions[10])
 
 		SpawnAI = function(self)
 
-			local vForwardOffset = {x=0,y=0,z=0}
-			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-			local vSpawnPos = {x=0,y=0,z=0}
-			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
+			local vForwardOffset = {x=0, y=0, z=0}
+			FastScaleVector(vForwardOffset, direction, 0)
+			local vSpawnPos = {x=0, y=0, z=0}
+			FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
 
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
@@ -376,33 +297,27 @@ SpawnAirPlaneCrashLoot = function(self)
 		end	
     elseif rnd <= 30 then 
 
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos1)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos2)
-		ISM.SpawnItem("PlaneCrashCrate"          , vSpawnPos3)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos4)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos5)
-		ISM.SpawnItem("AirDropCrate"             , vSpawnPos6)
-		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos7)
-		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos8)
-		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", vSpawnPos9)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos10)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos)
-		ISM.SpawnCategory("AirPlaneCrashBackpack", vSpawnPos1)
-        ISM.SpawnCategory("RandomTowableParts"           , vSpawnPos)
-
-		ISM.SpawnItem("debris_01", vSpawnPos9)
-		ISM.SpawnItem("debris_01", vSpawnPos10)
-		ISM.SpawnItem("planecrash_engine", vSpawnPos7)
-		ISM.SpawnItem("planecrash_engine", vSpawnPos8)
-		ISM.SpawnItem("planecrash_gear", vSpawnPos10)
+		ISM.SpawnItem("PlaneCrashCrate", spawnPositions[1])
+		ISM.SpawnItem("PlaneCrashCrate", spawnPositions[2])
+		ISM.SpawnItem("PlaneCrashCrate", spawnPositions[3])
+		ISM.SpawnItem("PlaneCrashCrate", spawnPositions[4])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[5])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[6])
+		ISM.SpawnItem("AirDropCrate", spawnPositions[7])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[8])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[9])
+		ISM.SpawnCategory("AirPlaneCrashCrateMilitary", spawnPositions[10])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[10])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[1])
+		ISM.SpawnCategory("AirPlaneCrashBackpack", spawnPositions[2])
+		ISM.SpawnCategory("RandomTowableParts", spawnPositions[10])
 	
         SpawnAI = function(self)
 
-			local vForwardOffset = {x=0,y=0,z=0}
-			FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-			local vSpawnPos = {x=0,y=0,z=0}
-			FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
+			local vForwardOffset = {x=0, y=0, z=0}
+			FastScaleVector(vForwardOffset, direction, 0)
+			local vSpawnPos = {x=0, y=0, z=0}
+			FastSumVectors(vSpawnPos, vForwardOffset, worldPos)
 
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
 			AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
@@ -488,47 +403,3 @@ SpawnAirPlaneCrashLoot = function(self)
 	end
 end
 
---SpawnAI = function(self)
-	--local vForwardOffset = {x=0,y=0,z=0}
-	--FastScaleVector(vForwardOffset, self:GetDirectionVector(), 0)
-	--local vSpawnPos = {x=0,y=0,z=0}
-	--FastSumVectors(vSpawnPos, vForwardOffset, self:GetWorldPos())
-	--AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "BruteMutantSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "twoheaddog_invasion", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanSpider", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "CrazySingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "SpikerSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnCategory(vSpawnPos, "HumanZombieSingle", true, 2.0, 5.0, 2.0)
-	--AISM.SpawnHorde(vSpawnPos, "horde")
-	--AISM.SpawnHorde(vSpawnPos, "mutant_invasion")
-	--AISM.SpawnHorde(vSpawnPos, "horde")
-	--AISM.SpawnHorde(vSpawnPos, "mutant_invasion")
---end

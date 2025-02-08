@@ -277,7 +277,7 @@ ChatCommands["!setmarker"] = function(playerId, command)
 
         -- Checks if the player has donator state
         if (string.match(System.GetCVar('g_gameRules_faction6_steamids'), steamId)) then
-            maxMarkers = 3;
+            maxMarkers = 5;
         end
 
         local playerMarkers = BIOHZMKDatabase:GetPage(steamId);

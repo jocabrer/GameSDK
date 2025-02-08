@@ -11,7 +11,7 @@
 		<param name="place_offset" value="-2.7"/>
 	</params>
 
-	<base_part class="static" type="6266" name="marble_foundation_black_4m_4m_4m" max_health="70000" repair_with="SheetMetal">&gt;
+	<base_part class="static" type="6266" name="marble_foundation_black_4m_4m_4m" max_health="70000" repair_with="SheetMetal">
 		<static filename="Objects/Pegasus77/basebuilding/walls/marble/marble_foundation_black_4m_4m_4m.cgf"/>
 		
 		<damage_multipliers>

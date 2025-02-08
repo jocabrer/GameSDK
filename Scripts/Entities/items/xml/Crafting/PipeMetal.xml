@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.3"/>
-		<param name="stack_size" value="10"/>
+		<param name="stack_size" value="5"/>
 		<param name="display_name" value="@PipeMetal"/>
 		<param name="description" value="@PipeMetalDescription"/>
-		<param name="vendor_cost" value="50"/>
+		<param name="vendor_cost" value="20"/>
 	</params>
 
 	<geometry>

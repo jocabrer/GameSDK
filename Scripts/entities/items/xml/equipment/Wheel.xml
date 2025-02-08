@@ -3,9 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="4"/>
-		<param name="stack_size" value="4"/>
+		<param name="stack_size" value="1"/>
 		<param name="display_name" value="@Wheel"/>
 		<param name="description" value="Rueda para armar autos"/>
+        <param name="vendor_cost" value="5"/>
 	</params>
 
 	<geometry>
@@ -13,9 +14,9 @@
 	</geometry>
 
 	<usable>
-		<param name="title" value="Transformar en 1 Sheet Metal"/>
+		<param name="title" value="Transform a DuctTape"/>
 		<param name="action" value="craft"/>
-		<param name="param" value="SheetMetal"/>
+		<param name="param" value="DuctTape"/>
 		<param name="soundUsed" value="Play_chemlight_use"/>
 	</usable>
 

@@ -1,0 +1,24 @@
+<item name="railwood1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="2M Wood Rail"/>
+		<param name="description" value="2M Wood Railing"/>
+	</params>
+
+	<base_part class="static" type="7353" name="railwood1" max_health="100" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/wooden_pathway/woodpath_rail_2m.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any" />
+		</locations>
+	</storage>
+</item>

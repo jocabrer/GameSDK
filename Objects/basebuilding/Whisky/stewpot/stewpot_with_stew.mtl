@@ -1,0 +1,77 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy1" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="ham_mat" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/consumables/ham/ham_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/consumables/ham/ham_ddna.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.2" TranslucencyMultiplier="0.18799999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="carrot" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="255" AlphaTest="0.60000002" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/consumables/carrot/carrot_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/consumables/carrot/carrot_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="base" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/stewpot/pot_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/stewpot/pot_ddna.tif"/>
+    <Texture Map="Specular" File="objects/props/stewpot/pot_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="526500" Shader="Glass" GenMask="40020000010" StringGenMask="%BILINEAR_FP16%SPECULAR_MAP%TINT_MAP" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="0.99000001" Shininess="238" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Specular" File="textures/glass/glass_lessdirty_highspec_tint.tif"/>
+   </Textures>
+   <PublicParams BumpMapTile="1" TintColor="0,0,0" CloudinessReducesGloss="0.5" TintCloudiness="0" BackLightScale="0.5" BumpScale="0.1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="potato" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/consumables/potato/potato_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/consumables/potato/potato_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="stew" MtlFlags="526464" Shader="Glass" GenMask="10" StringGenMask="%BILINEAR_FP16" SurfaceType="mat_water" MatTemplate="" Diffuse="1,1,1" Specular="0.038204376,0.038204376,0.038204376" Emittance="0,0,0,0" Opacity="0.44" Shininess="125" VoxelCoverage="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Bumpmap" File="textures/decals/mud/mud_wet_7_ddna.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="-1"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="0.80000001" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.001" Level="0" Phase="0" Freq="0.80000001"/>
+   </VertexDeform>
+   <PublicParams BumpMapTile="1" TintColor="0.056128494,0.048171829,0.013702084" TintCloudiness="1" BackLightScale="0" BumpScale="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chicken" MtlFlags="524416" Shader="HumanSkin" GenMask="800400000" StringGenMask="%NORMAL_MAP%TEMP_SKIN" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.03954624,0.03954624,0.03954624" Opacity="1" Shininess="222" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/consumables/chicken/chicken_cooked_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/consumables/chicken/chicken_ddna.tif"/>
+   </Textures>
+   <PublicParams Melanin="0" SSSIndex="1.027" TranslucencyMultiplier="0.493" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="steaks" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_flesh" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/consumables/meat_steaks/textures/meat_steaks_diff.tif"/>
+    <Texture Map="Bumpmap" File="Objects/consumables/meat_steaks/textures/meat_steaks_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="SubMtl10" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.043735035,0.043735035,0.043735035" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/consumables/brush_peas/brush_peas_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/consumables/brush_peas/brush_peas_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

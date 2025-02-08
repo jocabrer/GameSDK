@@ -1,0 +1,15 @@
+<Material MtlFlags="524292" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.10946172,0.10946172,0.10946172" Specular="0.17464744,0.17464744,0.17464744" Emittance="0.046665091,0.046665091,0.046665091,0" Opacity="1" Shininess="75" CloakAmount="0" vertModifType="12" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/sci_fi_textures/scifi_basecolor.dds">
+   <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.25" TileV="0.25" OffsetV="0.02"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/sci_fi_textures/scifi_normal.dds"/>
+  <Texture Map="Specular" File="objects/sci_fi_textures/scifi_basecolor.dds"/>
+  <Texture Map="Heightmap" File="objects/sci_fi_textures/scifi_height.dds"/>
+  <Texture Map="Custom" File="objects/sci_fi_textures/scifi_metallic.dds"/>
+ </Textures>
+ <VertexDeform Type="12" DividerX="9.9999997e-006" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="0.001" Level="1e-006" Phase="0.001" Freq="0.001"/>
+ </VertexDeform>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

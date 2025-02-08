@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <recipes>
 	<guide name="guide_concrete" id="52">
 		<cats>
@@ -10,386 +10,386 @@
 								<items>
 									<item class="Concrete_wall_3x12_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x12_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x12_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x12_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="14" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x8_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x8_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x8_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_wall_3x8_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_2m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_16m_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_wall_door_3m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_window_3m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_2m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3x3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_2m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_16m" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_wall_door_3m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_window_3m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_2m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3x3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_2m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_16m_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_wall_door_3m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_window_3m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_2m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3x3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_2m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_3m_16m_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_wall_door_3m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_wall_window_3m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_2m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_halfwall1_3x3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_1_5x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_1_5x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_1_5x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_1_5x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_02_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_02_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_02_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_02_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_stairs_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_02_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_02_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_02_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_02_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_wall_window_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -403,265 +403,265 @@
 									<item class="concrete_platform_3m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_4m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_16m_16m_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_platform_3m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_4m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_16m_16m_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_platform_3m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_4m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_16m_16m" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="concrete_platform_3m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_4m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_platform_16m_16m_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_platform_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_platform_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_platform_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_platform_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x12x12_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x12x12_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x12x12_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x12x12_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x8x8_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x8x8_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x8x8_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_0x8x8_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x12x12_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="3" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x12x12_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="3" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x12x12_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="3" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x12x12_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="3" />
+											<material class="Rocks" count="15" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x16x16_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x16x16_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x16x16_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x16x16_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="4" />
+											<material class="Rocks" count="20" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x8x8_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x8x8_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x8x8_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_platform_3x8x8_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="round_platform_conctete_0x8_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="round_platform_conctete_0x8_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="round_platform_conctete_0x8_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="round_platform_conctete_0x8_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -675,25 +675,25 @@
 									<item class="concrete_foundation_4m_4m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_foundation_4m_4m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_foundation_4m_4m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_foundation_4m_4m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -707,49 +707,49 @@
 									<item class="concrete_column_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="concrete_column_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="concrete_column_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="concrete_column_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="Concrete_round_column_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="Concrete_round_column_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="Concrete_round_column_3m_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 									<item class="Concrete_round_column_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="1" />
 										</materials>
 									</item>
 								</items>
@@ -763,97 +763,97 @@
 									<item class="concrete_stairs_1m_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_1m_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_1m_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_1m_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_2m_1_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_2m_1_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_2m_1_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_stairs_2m_1_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs2_3m" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs2_3m_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs2_3m_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_block_stairs2_3m_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -867,25 +867,25 @@
 									<item class="concrete_ramp_3x4" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_ramp_3x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_ramp_3x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_ramp_3x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -899,121 +899,121 @@
 									<item class="concrete_roof" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_roof_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_roof_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_roof_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x8x8_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x8x8_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x8x8_grey" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_conical_roof_3x8x8_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_02_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_02_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_02_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_02_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_triangle_roof_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -1026,74 +1026,74 @@
 								<items>
 									<item class="concrete_room_c_shape_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_corner_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_column_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_c_shape_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_corner_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_column_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_c_shape" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_corner" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_column" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_c_shape_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_corner_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_room_column_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 								</items>
@@ -1107,73 +1107,73 @@
 									<item class="concrete_gatehouse_gate" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gatehouse_gate_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gatehouse_gate_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gatehouse_gate_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_z" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_z_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_z_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_z_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_down" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_down_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_down_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_gate_down_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -1183,49 +1183,49 @@
 									<item class="concrete_es_drawbridge_gate" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_gate_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_gate_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_gate_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_8m" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_8m_gold" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_8m_white" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 									<item class="concrete_es_drawbridge_8m_black" time="1">
 										<materials>
-											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="ConcreteBag" count="2" />
+											<material class="Rocks" count="10" />
 										</materials>
 									</item>
 								</items>
@@ -1235,49 +1235,49 @@
 									<item class="concrete_slideplatform_4x4" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_slidewall_x_3x4" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_slidewall_y_3x4" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="concrete_spinwall_3x4" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_door_3x4x4_black" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_door_3x4x4_gold" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_door_3x4x4_grey" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 									<item class="Concrete_curve_door_3x4x4_white" time="1">
 										<materials>
 											<material class="ConcreteBag" count="1" />
-											<material class="IronOre" count="5" />
+											<material class="Rocks" count="5" />
 										</materials>
 									</item>
 								</items>
@@ -1290,10 +1290,10 @@
 				<subcats>
 					<subcat name="Components">
 						<items>
-							<item class="ConcreteBag" time="1">
+							<item class="ConcreteBag" time="3">
 								<materials>
-									<material class="Rocks" count="5" />
 									<material class="Charcoal" count="5" />
+									<material class="IronIngot" count="5" />
 								</materials>
 							</item>
 						</items>

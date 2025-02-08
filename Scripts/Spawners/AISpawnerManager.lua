@@ -67,7 +67,7 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "HumanZombie", percent = 100,
+					class = "HumanZombie", percent = 80,
 					models =
 					{
 						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf", percent = 10.0 },
@@ -84,6 +84,9 @@ AISpawnerManager = {
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 8.0 },
 					},
 				},
+                { 
+                    category = "horde", percent = 20 
+                },
 			},
 		},
 
@@ -134,13 +137,19 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "Deer", percent = 100,
+					class = "Deer", percent = 33.3,
 					models =
 					{
 						{ name = "objects/characters/animals/deer/deer.cdf", percent = 50.0 },
 						{ name = "objects/characters/animals/deer/deer_female.cdf", percent = 50.0 },
 					},
 				},
+                { 
+                    class = "Donkey", percent = 33.3
+                },
+                { 
+                    class = "Ram", percent = 33.3
+                },
 			},
 		},
 
@@ -192,13 +201,13 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "GiantRoach", percent = 100,
+					class = "GiantRoach", percent = 50,
 					models =
 					{
 						{ name = "objects/characters/animals/giant_roach/giant_roach.cdf", percent = 50.0 },
 						{ name = "objects/characters/animals/giant_roach/giant_roach_dark.cdf", percent = 50.0 },
 					},
-				},
+				}
 			},
 		},
 		{
@@ -269,7 +278,7 @@ AISpawnerManager = {
 
 		{
 			category = "wolf_pack_large",
-			pack = true, min = 4, max = 7,
+			pack = true, min = 3, max = 6,
 			classes =
 			{
 				{ 
@@ -293,10 +302,10 @@ AISpawnerManager = {
 			category = "Spiker",
 			classes =
 			{
-				{ category = "CrazySingle", percent = 30 },
+				{ category = "CrazySingle", percent = 20 },
 				{ category = "SpikerSingle", percent = 25 },
 				{ category = "HumanZombieSingle", percent = 20 },
-				{ category = "BruteMutantSingle", percent = 10 },
+				{ category = "BruteMutantSingle", percent = 20 },
 				{ category = "spiker_pack", percent = 15 },
 			},
 		},
@@ -314,7 +323,7 @@ AISpawnerManager = {
 			pack = true, min = 1, max = 2,
 			classes =
 			{
-				{ category = "DeerSingle", percent = 100 }
+				{ category = "DeerSingle", percent = 100 },
 			},
 		},
 
@@ -382,21 +391,21 @@ AISpawnerManager = {
 
 		{
 			category = "horde",
-			min = 10, max = 20,
+			min = 15, max = 20,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnHorde() to spawn at least 1 brute per horde as a psuedo leader
 				{ category = "CrazySingle", percent = 25 },
 				{ category = "SpikerSingle", percent = 25 },
-				{ category = "HumanZombieSingle", percent = 25 },
-				{ category = "BruteMutantSingle", percent = 25 },
+				{ category = "HumanZombieSingle", percent = 20 },
+				{ category = "BruteMutantSingle", percent = 30 },
 			},
 		},
 
 		{
 			-- Essentially the same as a horde, but no brutes
 			category = "mutant_invasion",
-			min = 10, max = 20,
+			min = 15, max = 20,
 			classes =
 			{
 				{ category = "CrazySingle", percent = 40 },

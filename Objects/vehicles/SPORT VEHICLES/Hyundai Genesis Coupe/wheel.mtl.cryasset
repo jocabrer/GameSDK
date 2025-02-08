@@ -1,0 +1,21 @@
+<AssetMetadata version="0" type="Material" guid="fb2a3bcf-f2cb-5305-2e71-14754cf7e5b0">
+ <Files>
+  <File path="wheel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">8</Detail>
+  <Detail name="textureCount">10</Detail>
+ </Details>
+ <Dependencies>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/disk.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/disk_ddna.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/paint_w.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/tire2.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/tire_ddna.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/tire.dds</Path>
+  <Path>Objects/vehicles/SPORT VEHICLES/Hyundai Genesis Coupe/Textures/tire2_ddna.dds</Path>
+ </Dependencies>
+</AssetMetadata>

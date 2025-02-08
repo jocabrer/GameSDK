@@ -1,0 +1,24 @@
+<item name="bathroommirror1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Bathroom Mirror 1"/>
+		<param name="description" value="A mirror for your bathroom."/>
+	</params>
+
+	<base_part class="static" type="7309" name="bathroommirror1" max_health="1500" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/bathroomMirror/bathroomMirror.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

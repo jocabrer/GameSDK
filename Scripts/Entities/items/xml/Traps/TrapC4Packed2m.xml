@@ -1,0 +1,25 @@
+<item name="TrapC4Packed2m" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2.3"/>
+		<param name="display_name" value="@TrapC4Packed2m"/>
+		<param name="description" value="@TrapC4Packed2mDescription"/>
+	</params>
+
+	<placeable>
+		<param name="placed_class" value="TrapC42m"/>
+		<param name="placed_sound" value="Play_pickup_metal"/>
+	</placeable>
+
+	<geometry>
+		<thirdperson name="Objects/traps/c4/trap_c4_onground.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

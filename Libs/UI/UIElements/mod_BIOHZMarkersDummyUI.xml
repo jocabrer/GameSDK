@@ -3,7 +3,7 @@
     <GFx file="BIOHZMarkers/BIOHZMarkersDummy.gfx" layer="1">
       <Constraints>
         <Align mode="fixed" />
-        <Position top="0" left="0" width="200" height="65" />
+        <Position top="0" left="0" width="100" height="35" />
       </Constraints>
     </GFx>
     <functions />

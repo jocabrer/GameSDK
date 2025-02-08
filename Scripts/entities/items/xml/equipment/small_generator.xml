@@ -6,20 +6,13 @@
 		<param name="stack_size" value="5"/>
 		<param name="display_name" value="@small_generator"/>
 		<param name="description" value="@small_generatorDescription"/>
-		<param name="vendor_cost" value="5"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<geometry>
 		<thirdperson name="Objects/basebuilding/other/small_generator/small_generator.cgf"/>
 	</geometry>
 	
-	<usable>
-		<param name="title" value="Transformar en Linterna de Camping"/>
-		<param name="action" value="convert"/>
-		<param name="param" value="camping_lantern"/>
-		<param name="soundUsed" value=""/>
-	</usable>
-
 	<storage>
 		<locations>
 			<location category="any"/>

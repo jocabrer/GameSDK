@@ -1,3 +1,4 @@
+
 -- EL Project v1.0.2
 -- Created by Cuartas, property of End of Living | RobocopHD community PvP
 
@@ -81,11 +82,12 @@ ELPAmmoTable = {
     ['Wasteland22'] = {'Pile_22'},
     ['m14ebr'] = {'mag_m14', 'Pile_762x51'},
     ['m14'] = {'mag_m14', 'Pile_762x51'},
-    ['G36C'] = {'g36c_mag', 'Pile_556x45'},
+    ['G36C'] = {'g36c_mag', 'g36cx50', 'Pile_556x45'},
     ['SCAR-H'] = {'STANAGx30', 'STANAGx50', 'ext_556x75', 'Pile_556x45'},
     ['Subjugator'] = {'mag_m14', 'Pile_762x51'},
     ['PlasmaRifle'] = {'Pile_Plasma', 'Pile_Plasma_yellow', 'Pile_Plasma_green', 'Pile_Plasma_red'},
-    ['RocketLauncherNew'] = {'Pile_Rocket', 'Pile_Rocket_AP', 'Pile_Rocket_HE'}
+    ['RocketLauncherNew'] = {'Pile_Rocket', 'Pile_Rocket_AP', 'Pile_Rocket_HE'},
+    ['mutantsilencer'] = {'Pile_357'}
 };
 
 -- Validating if Miscreated:RevivePlayer is set
@@ -105,20 +107,62 @@ function ELPPreInitModules()
     end
 end
 
--- ELPInitModules
 -- Initializes some server stuff
 function ELPInitModules()
-    ELPJSON = require('JSON');
+
+    -- Calling the Miscreated Revive player function to initialize the player names script
+    RegisterCallbackReturnAware(
+        Miscreated,
+        'RevivePlayer',
+        function (self, ret, playerId)
+            mSendEvent(
+                playerId,
+                {
+                    Type = 'ELPInitUI',
+                    Data = {}
+                },
+                false,
+                false
+            );
+            return ret;
+        end,
+        nil
+    );
+
+   
+    Script.SetTimerForFunction(3600, 'PVETopAfterDelay');
+
+    -- Calling the Miscreated Revive player function to initialize the player names script
+    RegisterCallbackReturnAware(
+        Miscreated,
+        'RevivePlayer',
+        function (self, ret, playerId)
+            if (ELPPlayerCounterStarted == false) then
+                ELPPlayerCounterStarted = true;
+                Script.SetTimerForFunction(1000, 'PVECountPlayersAfterDelay', {});
+            end
+            mSendEvent(
+                playerId,
+                {
+                    Type = 'PVEInitUI',
+                    Data = {}
+                },
+                false,
+                false
+            );
+            return ret;
+        end,
+        nil
+    );
 end
 
 
--- ELPPlayerGeneralUpdate
+
 -- Updates the player's data in a regular basis
 function ELPPlayerGeneralUpdate()
     local player = System.GetEntity(g_localActorId);
 
     if (not player:IsDead()) then
-
         -- Ammo data
         local currentGun = player.inventory:GetCurrentItem();
 
@@ -151,40 +195,164 @@ function ELPPlayerGeneralUpdate()
             UIAction.CallFunction('mod_ELAmmoCounterUI', 1, 'SetAmmo', 'undefined', '', '');
         end
 
-
         Script.SetTimerForFunction(10, 'ELPPlayerGeneralUpdateAfterDelay', {});
     else
         UIAction.UnloadElement('mod_ELAmmoCounterUI', 1);
     end
+
+    
 end
 
--- ELPPlayerGeneralUpdateAfterDelay
 -- Updates the player data after a delay
 function ELPPlayerGeneralUpdateAfterDelay(dummyData)
     ELPPlayerGeneralUpdate();
 end
 
+-- Counts the number of players connected to the server
+function PVECountPlayers()
+    
+    
+    local listOfPlayers = CryAction.GetPlayerList();
+    local playersConnected = table.getn(listOfPlayers);
+    local playerKills = 0;
+    
+    if (ELPPlayerCounter ~= playersConnected) then
+        ELPPlayerCounter = playersConnected;
 
--- Calling the Miscreated Revive player function to initialize the player names script
-RegisterCallbackReturnAware(
-    Miscreated,
-    'RevivePlayer',
-    function (self, ret, playerId)
+        for key, player in pairs(listOfPlayers) do
+            mSendEvent(
+                player.id,
+                {
+                    Type = 'PVEUpdatePlayerCount',
+                    Data = {
+                        playerCount = playersConnected
+                    }
+                },
+                false,
+                false
+            );
+        end
+    end
+    
+    Script.SetTimerForFunction(10000, 'PVECountPlayersAfterDelay', {});
+    
+end
 
-        mSendEvent(
-            playerId,
-            {
-                Type = 'ELPInitUI',
-                Data = {
-                    playerCount = 0,
-                    playerTotal = 0
-                }
-            },
-            false,
-            false
-        );
+-- Counts the number of players connected to the server after a delay
+function PVECountPlayersAfterDelay(dummy)
+    PVECountPlayers();
+end
 
-        return ret;
-    end,
-    nil
-);
+
+function UpdateMiniMapCounters()
+
+    local player = System.GetEntity(g_localActorId);
+
+    if (not player:IsDead()) then
+
+        Script.SetTimerForFunction(30, 'UpdateMiniMapCountersAfterDelay', {});
+
+        -- Position data
+        local position = {};
+        local playerAngles = {};
+        local vehicleId = player.actor:GetLinkedVehicleId();
+        if (vehicleId) then
+            local vehicle = System.GetEntity(vehicleId);
+            position = vehicle:GetWorldPos();
+            playerAngles = vehicle:GetAngles();
+        else
+            position = player:GetWorldPos();
+            playerAngles = player:GetAngles();
+        end
+        local playerData = {
+            Position = position,
+            Rotation = playerAngles.z * 180/g_Pi
+        };
+        if (not ELPJSON) then
+            ELPJSON = require('JSON');
+        end
+
+        --local steamId = player.player:GetSteam64Id();
+        --local killerPersistentData = DBCollection:GetPage(steamId);
+        local playerKills = 0 ;
+
+        --if (killerPersistentData and killerPersistentData['mkills']) then
+        --    playerKills = killerPersistentData['mkills'];
+        --end
+
+        --mSendEvent(
+        --    player.id,
+        --    {
+        --        Type = 'ELPUpdateKills',
+        --        Data = {
+        --           playerKills = playerKills
+        --        }
+        --    },
+        --    false,
+        --    false
+        --);
+
+        UIAction.CallFunction('mod_ELMinimapUI', 1, 'UpdatePlayerPosAndRotation', ELPJSON.stringify(playerData), tostring(player.ELPPlayerCount), tostring(playerKills));
+
+    else
+        UIAction.UnloadElement('mod_ELMinimapUI', 1);
+    end
+    
+    
+end
+
+function UpdateMiniMapCountersAfterDelay(dummy)
+    UpdateMiniMapCounters();
+end
+
+
+function PVETop()
+    
+    local rnd = random(1, 16);
+    
+    local mensaje = 'Use Command !help / Usa el comando !Ayuda';
+
+    if rnd == 1 then
+        mensaje = 'Remember Survivors must set a name on the server or be Kicked';
+    elseif rnd == 2 then
+        mensaje = '!zone command allows you to go to the safe zone';
+    elseif rnd == 3 then
+        mensaje = 'PVE STORE menu has speed mods to buy';
+    elseif rnd == 4 then
+        mensaje = 'Deactivate the locations with the "¬" keyboard key ';
+    elseif rnd == 5 then
+        mensaje = 'Disable locations with the "¬" key';
+    elseif rnd == 6 then
+        mensaje = 'Command !help for more info'
+    elseif rnd == 7 then
+        mensaje = 'Comando !Ayuda para más información'
+    elseif rnd == 8 then
+        mensaje = 'Desactiva las ubicaciones con la tecla "¬"'
+    elseif rnd == 9 then
+        mensaje = 'El menú PVE STORE tiene mods con velocidad extra para comprar'
+    elseif rnd == 10 then
+        mensaje = 'Comando !zona te permite ir a la zona segura'
+    elseif rnd == 11 then
+        mensaje = 'command !discord [message] send discord message'        
+    elseif rnd == 12 then
+        mensaje = 'Comando !discord [mensaje] envíar mensaje en Discord'           
+    elseif rnd == 13 then
+        mensaje = 'Leave stuff at community base, dont take everything'    
+    elseif rnd == 14 then
+        mensaje = 'Deja cosas para otras jugadores, no te lleves todo'
+    elseif rnd == 15 then
+        mensaje = 'Survivor named players are not allowed, identify yourself'
+    elseif rnd == 16 then
+        mensaje = 'Survivor named players are not allowed, identify yourself'
+    end
+
+    -- g_gameRules.game:SendTextMessage(0, 0, mensaje );
+    g_gameRules.game:SendTextMessage(4, 0, mensaje );
+
+    Script.SetTimerForFunction(1200000, 'PVETopAfterDelay');
+end 
+
+
+function PVETopAfterDelay()
+    PVETop();
+end

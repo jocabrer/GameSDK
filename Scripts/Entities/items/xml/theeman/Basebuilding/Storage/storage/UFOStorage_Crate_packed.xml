@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="5" />
-		<param name="stack_size" value="25"/>
+		<param name="stack_size" value="1"/>
 		<param name="display_name" value="UFO Storage Crate Packed"/>
 		<param name="description" value="UFO Storage Crate para colgar en paredes. Máx.3 x base" />
-		
+		<param name="vendor_cost" value="100"/>
 		<param name="place_restrict_snap" value="sticky"/>
 	</params>
 

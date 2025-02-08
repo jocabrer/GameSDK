@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a48b78ae-3305-c30e-e46b-6baca1142a09" source="grila_ddna.tif">
+ <Files>
+  <File path="grila_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">128</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

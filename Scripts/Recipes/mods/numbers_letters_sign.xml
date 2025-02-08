@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <recipes>
 	<guide name="default" id="0">
 		<cats>
@@ -10,252 +10,252 @@
 								<items>
 									<item class="a" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="b" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="c" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="d" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="e" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="f" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>	
 									<item class="g" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="h" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="i" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="j" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="k" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="l" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="m" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="n" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="o" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="p" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="q" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="r" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="s" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="t" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="u" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="v" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="w" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="x" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="y" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="z" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="zero" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="one" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="two" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="three" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="four" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="five" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="six" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="seven" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="eight" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>
 									</item>
 									<item class="nine" time="1">
 										<materials>
-											<material class="Lumber" count="8" />
+											<material class="Hammer" count="1" />
 											<material class="ScrapMetal" count="1" />
 											<material class="SheetMetal" count="8" />
 										</materials>

@@ -1,0 +1,18 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="tube" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.30946895,0.30946895,0.30946895" Specular="0.038204376,0.038204376,0.038204376" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/props/toilet/textures/toilet_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/props/toilet/textures/blank_ddna.tif"/>
+    <Texture Map="Custom" File="textures/generic/dust/dust_grey_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/dust/dust_brown_ddna.dds"/>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/dirty_blend.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.69999999" EmittanceMapGamma="1" BlendLayer2Tiling="4" SSSIndex="0.69999999" BlendMaskTiling="3" BlendFactor="1.4" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

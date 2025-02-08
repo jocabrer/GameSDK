@@ -1,0 +1,24 @@
+<item name="laundrysink1" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="stack_size" value="1"/>
+		<param name="display_name" value="Laundry Room Sink 1"/>
+		<param name="description" value="A sink for your laundry room."/>
+	</params>
+
+	<base_part class="static" type="7384" name="laundrysink1" max_health="1500" repair_with="Lumber">
+		<static filename="Objects/basebuilding/Whisky/sink_dishwasher/under_bar_sink.cgf"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

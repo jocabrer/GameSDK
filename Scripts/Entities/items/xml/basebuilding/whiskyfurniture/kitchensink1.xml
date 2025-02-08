@@ -1,0 +1,19 @@
+<item name="kitchensink1" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="-1"/>
+		<param name="display_name" value="Kitchen Sink 2"/>
+		<param name="description" value="A kitchen sink."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/basebuilding/Whisky/Cabinet/with_countertops/46_lowersink_a.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="15"/>
+		</types>
+	</storage>
+</item>

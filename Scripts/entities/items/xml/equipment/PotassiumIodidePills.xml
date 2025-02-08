@@ -3,10 +3,10 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.2"/>
-		<param name="stack_size" value="25"/>
+		<param name="stack_size" value="10"/>
 		<param name="display_name" value="Potassium Iodide Pills"/>
 		<param name="description" value="Protects slightly against radiation for a time"/>
-		<param name="vendor_cost" value="70"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<geometry>

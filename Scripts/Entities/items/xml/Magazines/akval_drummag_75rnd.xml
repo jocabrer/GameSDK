@@ -6,7 +6,7 @@
 		<param name="display_name" value="AkVal / VSS 7.62x39 Drum Magazine"/>
 		<param name="description" value="A 7.62x39 Drum Magazine with a 75 round capacity."/>
 		<param name="tag" value="akval_drummag_75rnd"/>
-		<param name="vendor_cost" value="10"/>
+		<param name="vendor_cost" value="25"/>
 	</params>
 
 	<magazine>

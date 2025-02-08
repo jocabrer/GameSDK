@@ -3,7 +3,7 @@
 	<params>
 		<param name="selectable" value="0"/>
 		<param name="mass" value="0.3"/>
-		<param name="stack_size" value="1"/>
+		<param name="stack_size" value="3"/>
 		<param name="stack_size_spawned" value="1"/>
 		<param name="display_name" value="@FireDrill"/>
 		<param name="description" value="@FireDrillDescription"/>

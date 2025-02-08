@@ -5,7 +5,7 @@
 		<param name="itemClass" value="small_throwable"/>
 		<param name="suffix" value="shoulder"/>
 		<param name="mass" value="0.3"/>
-		<param name="stack_size" value="25"/>
+		<param name="stack_size" value="1"/>
 		<param name="healthMax" value="25.0"/>
 		<param name="damage_scale" value="0.5"/>
 		<param name="destroyWhenDegraded" value="1"/>
@@ -19,6 +19,7 @@
 			<precache DBAFile="animations/human/male/weapons/throw/throw.dba" thirdperson="1"/>
 		</animPrecache>
 		<aimAnims/>
+        <param name="vendor_cost" value="3"/>
 	</params>
 
 	<ammos>

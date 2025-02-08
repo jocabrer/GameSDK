@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Decorations">
+						<types>
+							<type name="Flags">
+								<items>
+									<item class="FlagChile" time="3">
+										<materials>
+											<material class="PaintCan_Red" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagVenezuela" time="3">
+										<materials>
+											<material class="PaintCan_Blue" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagArgentina" time="3">
+										<materials>
+											<material class="PaintCan_Aqua" count="1" />
+											<material class="PaintCan_Gold" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagWu" time="3">
+										<materials>
+											<material class="PaintCan_Black" count="1" />
+											<material class="PaintCan_Gold" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagCC" time="3">
+										<materials>
+											<material class="PaintCan_Black" count="1" />
+											<material class="PaintCan_White" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagRiver" time="3">
+										<materials>
+											<material class="PaintCan_Red" count="1" />
+											<material class="PaintCan_White" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagBreton" time="3">
+										<materials>
+											<material class="PaintCan_Black" count="1" />
+											<material class="PaintCan_White" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+									<item class="FlagNC" time="3">
+										<materials>
+											<material class="PaintCan_Red" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+                                    <item class="FlagPVE" time="3">
+										<materials>
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Green" count="1" />
+											<material class="Lumber" count="5" />
+											<material class="Rags" count="10" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+            <cat name="PVE Store">
+                <subcats>
+                    <subcat name="Speed Mod">
+                            <items>
+                                <item class="Icepickaxe" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="200" />
+                                    </materials>
+                                </item>
+                                <item class="Icepickaxeplus" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="250" />
+                                        <material class="Icepickaxe"   count="1" />
+                                    </materials>
+                                </item>
+                                <item class="PoliceBaton" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="200" />
+                                    </materials>
+                                </item>
+                                <item class="StunBaton" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="250" />
+                                        <material class="PoliceBaton"   count="1" />
+                                    </materials>
+                                </item>
+                                <item class="FuYan_sword2" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="450" />
+                                    </materials>
+                                </item>
+                                <item class="Ken_sword" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                                <item class="LaserSword_hms_pink" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                                <item class="LaserSword_hms_white" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                                <item class="LaserSword_hms_yellow" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="500" />
+                                </materials>
+                                </item>
+                            </items>
+					</subcat>		
+                    <subcat name="Monumentos">
+                            <items>
+                                <item class="statue_mai" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="statue_batman" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="statue_ironman" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="statue_escorts" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                <item class="statue" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                 <item class="statue_lion_x" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                                 <item class="statue_lion" time="3">
+                                <materials>
+                                    <material class="AmcoinLedger" count="1020" />
+                                </materials>
+                                </item>
+                            </items>
+                    </subcat>
+                    <subcat name="Personal Airdrop">
+                            <items>
+                                <item class="SAPOCBriefcaseClosed" time="3">
+                                    <materials>
+                                        <material class="AmcoinLedger" count="1020" />
+                                    </materials>
+                                </item>
+                            </items>
+                    </subcat>
+                </subcats>
+            </cat>
+		</cats>
+	</guide>
+</recipes>

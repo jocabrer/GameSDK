@@ -1,0 +1,107 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy_concrete" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_wood" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_glass" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_glass_unbreakable" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="roof_tiles" MtlFlags="524418" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_rubber" MatTemplate="" Diffuse="0.57758057,0.57758057,0.57758057" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/the_last_house/textures/tlh/rooftiles_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/the_last_house/textures/tlh/rooftiles_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="plaster" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.26225069,0.21586053,0.16826943" Specular="0.040915202,0.040915202,0.040915202" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/plaster/whiteplaster2_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wallpaper/barewall_stripped_ddna.tif"/>
+    <Texture Map="Custom" File="objects/structures/hardware_shop/plaster_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/generic/wallpaper/barewall_stripped_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/generic/wallpaper/barewall_stripped_paper_dif.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="13" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="16" BlendLayer2Specular="0.050000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="wood_floor" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/wood/wood_floor_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/wood/wood_floor_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="brick" MtlFlags="524418" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/whiteconcrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/brick/brick_wall_carl/brick_ddna.tif"/>
+    <Texture Map="Custom" File="textures/brick/brick_wall_carl/brick_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/brick/brick_wall_carl/brick_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/brick/brick_wall_carl/brick_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="1.12" BlendLayer2Specular="0.02" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="concrete" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/concrete_1_pbr_dif.tif"/>
+    <Texture Map="Bumpmap" File="textures/concrete/concrete_1_pbr_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="carpet" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.61049569,0.63075727,0.5332765" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/carpet/carpet_diamond_red_dif.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/carpet/carpet_diamond_red_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="Inside_WhiteWoodWork" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/generic/wood/inside_whitewoodwork_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/generic/wood/inside_whitewoodwork_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+  <Material Name="Outside_Window" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.64447981,0.56471163,0.4793202" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/structures/residential/the_last_house/textures/tlh_white/windows_white_new_diffuse.tif"/>
+    <Texture Map="Bumpmap" File="objects/structures/residential/the_last_house/textures/tlh/windows_worn_ddna.tif"/>
+    <Texture Map="Custom" File="objects/structures/residential/the_last_house/textures/tlh_white/windows_white_veryold_a_diffuse.tif"/>
+    <Texture Map="[1] Custom" File="objects/structures/residential/the_last_house/textures/tlh/windows_worn_ddna.tif"/>
+    <Texture Map="Opacity" File="objects/structures/residential/the_last_house/textures/tlh_red/windows_blending.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="0.1" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="1.6" BlendLayer2Specular="0.02" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="fireplace" MtlFlags="524416" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/brick/capitalbrick/capitalbrick_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/brick/capitalbrick/capitalbrick_ddna.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="metal" MtlFlags="524418" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_metal" MatTemplate="" Diffuse="0.46207702,0.52711523,0.52099562" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/metal/ibeam_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/metal/metal_1_pbr_ddna.tif"/>
+    <Texture Map="Specular" File="textures/metal/metal_1_pbr_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_carpet" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="brick_concrete" MtlFlags="524416" Shader="Illum" GenMask="40400002" StringGenMask="%BLENDLAYER%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.49693301,0.49693301,0.49693301" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/concrete/concrete_diff.tif"/>
+    <Texture Map="Bumpmap" File="textures/brick/brick_wall_carl/brick_ddna.tif"/>
+    <Texture Map="Custom" File="textures/brick/brick_wall_carl/brick_diff.tif"/>
+    <Texture Map="[1] Custom" File="textures/brick/brick_wall_carl/brick_ddna.tif"/>
+    <Texture Map="Opacity" File="textures/brick/brick_wall_carl/brick_blend.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="5.4000001" EmittanceMapGamma="1" BlendLayer2Tiling="1" SSSIndex="0" BlendMaskTiling="1" BlendFactor="2.0599999" BlendLayer2Specular="0.02" IndirectColor="0.24620135,0.24620135,0.24620135"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -12,7 +12,7 @@
 		<type category="sparkplugs" capacity="1" />
 		<type category="towcable" capacity="1" visible="1" />
 		<type category="wheel" capacity="4" visible="1" /> <!-- Visible=1 forces item to render at parent relevance distance (500m for vehicle) -->
-		<type category="any" capacity="5" />
+		<type category="any" capacity="10" />
     </types>
   </storage>  
 </inventory>

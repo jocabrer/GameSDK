@@ -7,8 +7,8 @@
 		<param name="healthMax" value="100.0"/>
 		<param name="damage_scale" value="0.25"/>
 		<param name="destroyWhenDegraded" value="1"/>		
-		<param name="display_name" value="Icepickaxe Repair Kit"/>
-		<param name="description" value="Repair Kit para Icepickaxe."/>
+		<param name="display_name" value="Repair Kit Speed Mod tools"/>
+		<param name="description" value="Repair Kit Speed Mod tools"/>
 		<param name="vendor_cost" value="30"/>
         <param name="stack_size" value="10" />
 	</params>
@@ -20,6 +20,14 @@
 	<repair>
 		<item name="RK_Icepickaxe" percentage="100"/>
 		<item name="Icepickaxe" percentage="100"/>
+        <item name="Icepickaxeplus" percentage="100"/>
+        <item name="PoliceBaton" percentage="100"/>
+        <item name="StunBaton" percentage="100"/>
+        <item name="FuYan_sword2" percentage="100"/>
+        <item name="Ken_sword" percentage="100"/>
+        <item name="LaserSword_hms_pink" percentage="100"/>
+        <item name="LaserSword_hms_white" percentage="100"/>
+        <item name="LaserSword_hms_yellow" percentage="100"/>
 	</repair>
 
 	<storage>
