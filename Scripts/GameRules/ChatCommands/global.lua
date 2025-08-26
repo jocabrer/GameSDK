@@ -1,140 +1,95 @@
-ChatCommands["!say"] = function(playerId, command)
-    Log(">> !say- %s", command)
+ChatCommands = ChatCommands or {}
 
+-- ============ SAY (broadcast compacto) ============
+local function _say(playerId, command)
+    Log(string.format(">> !say - %s", tostring(command)))
     local player = System.GetEntity(playerId)
-    local playerName = player:GetName()
-    g_gameRules.game:SendTextMessage(4, 0, playerName.." "..command);
-
-end
-
---ChatCommands["!DumpStorage"] = function(playerId)
---    local player = System.GetEntity(playerId)
---    -- the second param in GetStorageContent is required and acts to filter by item class set it to "" for all items
---    local PlayerInventory = g_gameRules.game:GetStorageContent(playerId,"AmcoinLedger")
---    -- check we dont have an empty storage
---    if PlayerInventory == (nil or {}) then
---        g_gameRules.game:SendTextMessage(4,playerId,"player has no Items")
---        return
---    end
---    -- Storage is Returned as a list of entityId, fetch the entity and display the Item
---    for idx,itemId in ipairs(PlayerInventory) do
---        local item = System.GetEntity(itemId)   
---        Log(item.item:GetStackCount());
---        Log("Item: " .. tostring(idx) .. " - "..tostring(item:GetName() or item.class))
---    end
---end
-
-
-
--- Teleport to safe zone 4850 4787 
-ChatCommands['!zona'] = function(playerId)
-    Log('>> !zona ');
-    local player = System.GetEntity(playerId);
-
-    if (cobrarAmcoin(playerId, 20)) then
-    
-        local rnd = random(1, 10)
-
-        if rnd <= 1 then
-            player.player:TeleportTo('4937 4715 142.8');
-        elseif rnd <= 2 then
-            player.player:TeleportTo('4928 4721 142.8');
-        elseif rnd <= 3 then
-            player.player:TeleportTo('4950 4705 142.8');
-        elseif rnd <= 4 then
-            player.player:TeleportTo('4915 4663 142.8');
-        elseif rnd <= 5 then
-            player.player:TeleportTo('4910 4685 142.8');
-        elseif rnd <= 6 then
-            player.player:TeleportTo('4892 4683 141.8');
-        elseif rnd <= 7 then
-            player.player:TeleportTo('4907 4712 142.8');
-        elseif rnd <= 8 then
-            player.player:TeleportTo('4895 4737 142.8');
-        elseif rnd <= 9 then
-            player.player:TeleportTo('4912 4718 142.8');
-        elseif rnd <= 10 then
-            player.player:TeleportTo('4960 4727 142.8');
-        end
-
+    local name = (player and player.GetName and player:GetName()) or "Player"
+    local msg = tostring(command or ""):gsub("^%s+", "")
+    if msg == "" then
+        g_gameRules.game:SendTextMessage(4, playerId, "Uso: !say <texto>")
+        return
     end
+    if #msg > 120 then msg = msg:sub(1, 120) .. "…" end
+    g_gameRules.game:SendTextMessage(4, 0, "[ALL] " .. name .. ": " .. msg)
 end
---
----- Teleport to safe zone 
-ChatCommands['!zone'] = function(playerId, command)
-    Log('>> !zone - %s', command);
-    local player = System.GetEntity(playerId);
 
-    if (cobrarAmcoin(playerId, 20)) then
-    
-        local rnd = random(1, 10)
+ChatCommands["!say"] = _say
+ChatCommands["/say"] = _say
+ChatCommands["say"]  = _say
 
-        if rnd <= 1 then
-            player.player:TeleportTo('4937 4715 142.8');
-        elseif rnd <= 2 then
-            player.player:TeleportTo('4928 4721 142.8');
-        elseif rnd <= 3 then
-            player.player:TeleportTo('4950 4705 142.8');
-        elseif rnd <= 4 then
-            player.player:TeleportTo('4915 4663 142.8');
-        elseif rnd <= 5 then
-            player.player:TeleportTo('4910 4685 142.8');
-        elseif rnd <= 6 then
-            player.player:TeleportTo('4892 4683 141.8');
-        elseif rnd <= 7 then
-            player.player:TeleportTo('4907 4712 142.8');
-        elseif rnd <= 8 then
-            player.player:TeleportTo('4895 4737 142.8');
-        elseif rnd <= 9 then
-            player.player:TeleportTo('4912 4718 142.8');
-        elseif rnd <= 10 then
-            player.player:TeleportTo('4960 4727 142.8');
-        end
+-- ============ ZONA / ZONE (TP aleatorio, -20 AMC) ============
+local SAFEZONE       = {
+    '4937 4715 142.8', '4928 4721 142.8', '4950 4705 142.8', '4915 4663 142.8', '4910 4685 142.8',
+    '4892 4683 141.8', '4907 4712 142.8', '4895 4737 142.8', '4912 4718 142.8', '4960 4727 142.8'
+}
+
+local function _zone(playerId, command)
+    Log(string.format(">> !zone - %s", tostring(command)))
+    local player = System.GetEntity(playerId)
+    if not player or not player.player then
+        g_gameRules.game:SendTextMessage(4, playerId, "No disponible ahora")
+        return
     end
 
-    
+    if not cobrarAmcoin(playerId, 20) then
+        -- cobrarAmcoin ya envía mensaje; aquí solo reforzamos breve
+        g_gameRules.game:SendTextMessage(4, playerId, "Necesitas 20 AMC")
+        return
+    end
+
+    local idx = math.random(1, #SAFEZONE)
+    player.player:TeleportTo(SAFEZONE[idx])
+    g_gameRules.game:SendTextMessage(4, playerId, "TP Zona Segura OK (-20 AMC)")
 end
 
+ChatCommands['!zona'] = _zone
+ChatCommands['/zona'] = _zone
+ChatCommands['zona']  = _zone
+ChatCommands['!zone'] = _zone
+ChatCommands['/zone'] = _zone
+ChatCommands['zone']  = _zone
 
-
+-- ============ Cobro de Amcoin (robusto + mensajes cortos) ============
 function cobrarAmcoin(playerId, costo)
-    local cobro  = costo
-    local itemsIds = g_gameRules.game:GetStorageContent(playerId,"AmcoinLedger")
+    local cobro = tonumber(costo) or 0
+    if cobro <= 0 then return true end
 
-    -- Recorro los itemIds para ver si todos los stack suman la cantidad requerida
-    local total = 0;
-    for idx,itemId in pairs(itemsIds) do 
-        local item = System.GetEntity(itemId);
-        Log(item.item:GetStackCount());
-        total = total + item.item:GetStackCount();
+    local itemsIds = g_gameRules.game:GetStorageContent(playerId, "AmcoinLedger") or {}
+    local total = 0
+
+    -- suma de stacks (tolerante a nil)
+    for i = 1, #itemsIds do
+        local item = System.GetEntity(itemsIds[i])
+        local stack = (item and item.item and item.item.GetStackCount and item.item:GetStackCount()) or 0
+        total = total + stack
     end
-    -- Si tiene crédito para saldar
-    if (total >= costo ) then
-        Log('Tiene saldo');
-        -- a descontar
-        for key,itemId in pairs(itemsIds) do
-            local item = System.GetEntity(itemId);
 
-            if (item.item:GetStackCount() - costo > 0) then
-                Log('Se descuenta de 1 montón');
-                item.item:SetStackCount(item.item:GetStackCount() - costo);
-                break;
-            else
-                costo = costo - item.item:GetStackCount();
-                System.RemoveEntity(itemId);
+    if total < cobro then
+        Log(string.format("Amcoin: saldo insuficiente total=%d requerido=%d", total, cobro))
+        g_gameRules.game:SendTextMessage(4, playerId, "Saldo insuficiente: " .. total .. "/" .. cobro .. " AMC")
+        return false
+    end
 
-                if (costo <= 0) then
-                    break;
-                end
-            end
+    -- descuento
+    local restante = cobro
+    for i = 1, #itemsIds do
+        local id = itemsIds[i]
+        local it = System.GetEntity(id)
+        local stack = (it and it.item and it.item:GetStackCount()) or 0
+
+        if stack > restante then
+            it.item:SetStackCount(stack - restante)
+            restante = 0
+            break
+        else
+            restante = restante - stack
+            if id then System.RemoveEntity(id) end
+            if restante <= 0 then break end
         end
+    end
 
-        Log('Todo saldado');
-        g_gameRules.game:SendTextMessage(4, playerId, " Thx! u paid " .. cobro ..  " amcoins." );
-        return true;
-    else
-        Log('NO tiene crédito')
-        g_gameRules.game:SendTextMessage(4, playerId, "U need have" .. cobro ..  " amcoins." );
-        return false;
-    end    
+    Log(string.format("Amcoin: cobro OK %d AMC", cobro))
+    g_gameRules.game:SendTextMessage(4, playerId, "Pago OK: " .. cobro .. " AMC")
+    return true
 end

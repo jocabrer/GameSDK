@@ -1,48 +1,65 @@
-ChatCommands["!help"] = function(playerId, command)
-	Log(">> !help - %s", command);
-	
-	g_gameRules.game:SendTextMessage(4, playerId,   "You can use the following commands for help/information: \n" ..
-                                                    "!rules (Show info) \n" ..
-                                                    "!zone  (Teleport you to the safe zone - 20 Amcoin required) \n" ..
-                                                    "!say (Send global messages \n example: !say Hi everyone ) \n" ..
-                                                    "!discord (Send discord messages) \n" ..   
-                                                    "!setmarker namecustom (Set a personal marker) \n " .. 
-                                                    "!removemarker namecustom (Delete marker) \n" );
+ChatCommands = ChatCommands or {}
+
+-- ==== EN ====
+local function _help_en(playerId, command)
+    Log(string.format(">> !help - %s", tostring(command)))
+    g_gameRules.game:SendTextMessage(4, playerId,
+        "Cmds:\n" ..
+        "!rules\n" ..
+        "!zone (20 AMC)\n" ..
+        "!say <msg>\n" ..
+        "!discord\n" ..
+        "!setmarker <n>\n" ..
+        "!removemarker <n>"
+    )
 end
 
-ChatCommands["!rules"] = function(playerId, command)
-	Log(">> !rules - %s", command);
-	
-	g_gameRules.game:SendTextMessage(4, playerId, "It is expected that all players respect the server's rules of coexistence, \n" ..
-                                                  "this includes being respectful and considerate of other players, \n" ..
-                                                  "not using offensive or discriminatory language,\n" .. 
-                                                  "and not promoting inappropriate or illegal behavior.\n" .. 
-                                                  "Full rules in discord atw.cl/mis");
-	
+local function _rules_en(playerId, command)
+    Log(string.format(">> !rules - %s", tostring(command)))
+    g_gameRules.game:SendTextMessage(4, playerId,
+        "Rules:\n" ..
+        "- Respect others\n" ..
+        "- No insults/discrim.\n" ..
+        "- No illegal acts\n" ..
+        "Full: atw.cl/mis"
+    )
 end
 
-ChatCommands["!ayuda"] = function(playerId, command)
-	Log(">> !ayuda - %s", command);
-	
-	g_gameRules.game:SendTextMessage(4, playerId, "Puede usar los siguientes comandos \n para obtener ayuda/información: \n" ..
-                                                  "!reglas (Mostrar info.) \n" ..
-                                                  "!zona  (Viaje rápido a la Zona Segura - Requiere 20 Amcoin ) \n" ..
-	                                              "!say (te permite enviar mensajes globales ejemplo: !say Hola a todos) \n"..
-                                                  "!discord (Enviar mensaje al discord) \n "..   
-                                                  "!setmarker nombre (Crea un marcador personal) \n" .. 
-                                                  "!removemarker nombre (Borrar marcador) \n" );
-    
+ChatCommands["!help"]  = _help_en
+ChatCommands["/help"]  = _help_en
+ChatCommands["help"]   = _help_en
+ChatCommands["!rules"] = _rules_en
+ChatCommands["/rules"] = _rules_en
+ChatCommands["rules"]  = _rules_en
+
+-- ==== ES ====
+local function _help_es(playerId, command)
+    Log(string.format(">> !ayuda - %s", tostring(command)))
+    g_gameRules.game:SendTextMessage(4, playerId,
+        "Comandos:\n" ..
+        "!reglas\n" ..
+        "!zona (20 AMC)\n" ..
+        "!say <texto>\n" ..
+        "!discord\n" ..
+        "!setmarker <nombre>\n" ..
+        "!removemarker <nombre>"
+    )
 end
 
-ChatCommands["!reglas"] = function(playerId, command)
-	Log(">> !reglas - %s", command);
-	
-	g_gameRules.game:SendTextMessage(4, playerId, "Se espera que todos los jugadores respeten \n las reglas de convivencia en el servidor,\n" ..
-                                                  "esto incluye ser respetuoso y \n considerado con los demás jugadores, \n" ..
-                                                  "no utilizar lenguaje ofensivo o discriminatorio, \n" ..
-                                                  "y no promover conductas inapropiadas o ilegales. \n" .. 
-                                                  "Reglas completas en discord atw.cl/mis");
-	
+local function _rules_es(playerId, command)
+    Log(string.format(">> !reglas - %s", tostring(command)))
+    g_gameRules.game:SendTextMessage(4, playerId,
+        "Reglas:\n" ..
+        "- Respeta a otros\n" ..
+        "- Sin insultos/discrim.\n" ..
+        "- No actos ilegales\n" ..
+        "Completo: atw.cl/mis"
+    )
 end
 
-
+ChatCommands["!ayuda"]  = _help_es
+ChatCommands["/ayuda"]  = _help_es
+ChatCommands["ayuda"]   = _help_es
+ChatCommands["!reglas"] = _rules_es
+ChatCommands["/reglas"] = _rules_es
+ChatCommands["reglas"]  = _rules_es
