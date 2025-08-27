@@ -1,7 +1,7 @@
 ActionableWorldManager =
 {
 
---[[
+	--[[
 
 Selection prio is model, material and lastly surface
 
@@ -37,7 +37,7 @@ staminaAmount:
 geigercounter:			consumable type - used for geiger counter markup
 safezone:				true if usable in safezones as well (defaults to false) - damagescale=1 in waterpuddle entity gamevolume
 --]]
-	
+
 	actionables =
 	{
 
@@ -49,19 +49,20 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			fail = "@harvest_wood_failed",
 			surface = { "mat_wood_harvest" },
 			sound = "Play_pickup_wood",
-			minUses = 6, -- this is a quarter of largest wall
-			uses = 50, -- two walls + a few/ one 3x4 wall is 24 wood logs
-			minRefDiameter = 1.5, -- smallest tree
-			maxRefDiameter = 26, -- biggest trees are around 34/32/30, most are around 15-22
-			regenerate = 60,
-			percentage = 100,
+			minUses = 3, -- antes 6
+			uses = 15,   -- antes 50
+			minRefDiameter = 1.5, -- igual
+			maxRefDiameter = 20, -- menos que 26
+			regenerate = 180, -- antes 60 → 3 horas
+			percentage = 90, -- chance de que spawnee
 			spawn = "WoodsAndStick",
 			gridsize = 2,
-			tactical = true,
 			toolrequired = true,
-			AIResponseChance = 0.5, -- this is the tool harvest chance should be relatively low (5 in 1000 now)
+			AIResponseChance = 1.0, -- antes 0.5 → un poquito más de riesgo
 			AIResponseStrCategory = "ai_actionable_critter",
 		},
+
+
 
 		--------------------------------------------------
 		-- Harvest ScrapMetal
@@ -72,9 +73,9 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			surface = { "mat_metal_harvest" },
 			sound = "Play_pickup_metal",
 			minUses = 10, -- this is one basepart upgrade
-			uses = 10, -- this is 5 basepart upgrades
+			uses = 10,  -- this is 5 basepart upgrades
 			minRefDiameter = 2, -- smallest (bike is 2, f100/sedan about 6, bus is 13)
-			maxRefDiameter = 13, -- 
+			maxRefDiameter = 13, --
 			regenerate = 90,
 			percentage = 100,
 			spawn = "ScrapMetal",
@@ -93,7 +94,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			minUses = 2,
 			uses = 60,
-			minRefDiameter = 0.5, 
+			minRefDiameter = 0.5,
 			maxRefDiameter = 5,
 			regenerate = 2,
 			percentage = 100,
@@ -109,7 +110,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			minUses = 2,
 			uses = 45,
-			minRefDiameter = 0.5, 
+			minRefDiameter = 0.5,
 			maxRefDiameter = 5,
 			regenerate = 2,
 			percentage = 100,
@@ -125,7 +126,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			minUses = 2,
 			uses = 50,
-			minRefDiameter = 0.5, 
+			minRefDiameter = 0.5,
 			maxRefDiameter = 5,
 			regenerate = 2,
 			percentage = 100,
@@ -141,7 +142,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			sound = "Play_pickup_plastic",
 			minUses = 2,
 			uses = 40,
-			minRefDiameter = 0.5, 
+			minRefDiameter = 0.5,
 			maxRefDiameter = 5,
 			regenerate = 2,
 			percentage = 100,
@@ -150,167 +151,202 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			tactical = true,
 			toolrequired = true,
 		},
-		
+
 		--------------------------------------------------
 		-- Water sources
 		--------------------------------------------------
+		-- Agua de río / lago
 		{
 			text = "@drink_dirty_water",
 			fail = "@drink_water_contaminated",
 			surface = { "mat_water" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = -1,
-			consumableType = 5,
+			uses = -1,   -- siempre puedes beber
+			consumableType = 5, -- dirty
 			useWithAction = "refill_item",
-			drinkAmount = 300,
-			geigercounter = 1,
-			poisonChance = 100,
-			radiationAmount = 100,
+			drinkAmount = 150, -- antes 300, ahora 50% de sed
+			geigercounter = 0.5, -- menos radiación al beber
+			poisonChance = 80, -- antes 100% → 80% (pequeña chance de “salvarse”)
+			radiationAmount = 50, -- antes 100
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua de charcos
 		{
 			text = "@drink_dirty_water",
 			fail = "@drink_water_empty",
 			surface = { "mat_puddle_water" },
 			sound = "Play_drinkStream_drink",
-			uses = 2,
-			regenerate = 120,
+			uses = 1, -- antes 2
+			regenerate = 180, -- antes 120 → más lento (3h)
 			consumableType = 5,
 			useWithAction = "refill_item",
-			drinkAmount = 100,
-			geigercounter = 1,
-			poisonChance = 100,
-			radiationAmount = 100,
+			drinkAmount = 80, -- menos cantidad
+			geigercounter = 0.8, -- un poco más de radiación que río
+			poisonChance = 90, -- casi siempre enferma
+			radiationAmount = 70,
 			gridsize = 4,
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua contaminada
 		{
 			text = "@drink_dirty_water",
 			fail = "@drink_water_contaminated",
 			surface = { "mat_contaminated_water" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = -1,
-			consumableType = 4,
+			uses = -1,   -- siempre accesible
+			consumableType = 4, -- poisoned
 			useWithAction = "refill_item",
-			drinkAmount = 300,
-			poisonChance = 100,
+			drinkAmount = 120, -- antes 300 → apenas calma un poco la sed
+			poisonChance = 95, -- antes 100 → casi siempre te envenena
+			radiationAmount = 60, -- añade radiación ligera
+			geigercounter = 1.2,
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua limpia/prístina
 		{
 			text = "@drink_clean_water",
 			fail = "@drink_water_contaminated",
-			surface = { "mat_pristine_water", "mat_clean_water", "clean_water", },
-			material = { "Materials/water/waterVolumes/water_cave_inside_flow_clean", "Materials/water/waterVolumes/water_cave_inside_clean", "Materials/water/waterVolumes/water_creek_clean", "Materials/water/waterVolumes/water_forest_a_clean", },
+			surface = { "mat_pristine_water", "mat_clean_water", "clean_water" },
+			material = {
+				"Materials/water/waterVolumes/water_cave_inside_flow_clean",
+				"Materials/water/waterVolumes/water_cave_inside_clean",
+				"Materials/water/waterVolumes/water_creek_clean",
+				"Materials/water/waterVolumes/water_forest_a_clean",
+			},
 			sound = "Play_drinkStream_waterScoop",
-			uses = -1,
-			consumableType = 2,
+			uses = -1, -- sigue siendo fuente estable
+			consumableType = 2, -- clean
 			useWithAction = "refill_item",
-			drinkAmount = 300,
+			drinkAmount = 200, -- antes 300 → balanceado
+			percentage = 90, -- chance de fallar un 10% (agua no accesible)
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua de mar
 		{
 			text = "@drink_sea_water",
 			fail = "@drink_water_contaminated",
 			surface = { "mat_ocean_water" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = -1,
-			consumableType = 6,
+			uses = -1,   -- infinito, pero solo emergencia
+			consumableType = 6, -- sea water
 			useWithAction = "refill_item",
-			drinkAmount = 300,
-			poisonChance = 100,
-			radiationAmount = 100,
-			geigercounter = 1.5,
+			drinkAmount = 80, -- antes 300 → apenas calma la sed
+			poisonChance = 95, -- casi siempre enferma
+			radiationAmount = 40, -- efecto ligero de radiación por sal/contaminantes
+			geigercounter = 1.0,
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua irradiada
 		{
-			text = "drink_dirty_water",
+			text = "@drink_dirty_water",
 			fail = "@drink_water_contaminated",
 			surface = { "mat_irradiated_water" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = -1,
-			consumableType = 5,
+			uses = -1,    -- siempre accesible
+			consumableType = 5, -- dirty
 			useWithAction = "refill_item",
-			drinkAmount = 300,
-			radiationAmount = 100,
-			poisonChance = 100,
-			geigercounter = 3.5,
+			drinkAmount = 60, -- antes 300 → apenas quita un poco de sed
+			poisonChance = 100, -- siempre enferma
+			radiationAmount = 150, -- mucho más letal que vanilla
+			geigercounter = 3.5, -- alto contador Geiger
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua de toilet (casi siempre sucia, poca utilidad)
 		{
 			text = "@drink_from_toilet",
 			fail = "@drink_water_empty",
-			material = { "Objects/props/bathroom/toilet_parts", "Objects/props/toilet/waterbox", "Objects/props/toilet/toilet" },
+			material = {
+				"Objects/props/bathroom/toilet_parts",
+				"Objects/props/toilet/waterbox",
+				"Objects/props/toilet/toilet"
+			},
 			model = { "objects/props/furniture/appliances/bathroom/abandoned_toilet_a.cgf" },
 			sound = "Play_drinkStream_drink",
-			uses = 2,
-			consumableType = 2,
+			uses = 1,  -- antes 2
+			consumableType = 5, -- dirty, no clean
 			useWithAction = "refill_item",
-			regenerate = 120,
-			percentage = 33,
-			drinkAmount = 150,
-			poisonChance = 100,
+			regenerate = 240, -- antes 120 → 4h
+			percentage = 20, -- antes 33%
+			drinkAmount = 80, -- antes 150
+			poisonChance = 95, -- casi siempre enferma
 			tactical = 0,
 			swim = 0,
-			AIResponseChance = 3,
+			AIResponseChance = 5, -- subimos un poco el “riesgo” de ruido IA
 			AIResponseStrCategory = "ai_actionable_critter",
 		},
+
+		-- Agua de pump (principal fuente potable pero no infinita)
 		{
 			text = "@drink_from_pump",
 			fail = "@drink_water_empty",
 			model = { "Objects/props/water_pump/water_pump.cgf" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = 4,
-			consumableType = 2,
+			uses = 2,  -- antes 4
+			consumableType = 2, -- clean
 			useWithAction = "refill_item",
-			regenerate = 20,
-			percentage = 95,
-			drinkAmount = 400,
+			regenerate = 180, -- antes 20 → 3h respawn
+			percentage = 85, -- antes 95
+			drinkAmount = 200, -- antes 400
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Agua de hidrante (urbana, dudosa, castiga al usar)
 		{
 			text = "@drink_from_hydrant",
 			fail = "@drink_water_empty",
 			model = { "Objects/props/firehydrant/firehydrant.cgf" },
 			sound = "Play_drinkStream_waterScoop",
 			uses = 1,
-			consumableType = 3,
+			consumableType = 3, -- dirty/contaminated
 			useWithAction = "refill_item",
-			regenerate = 60,
-			percentage = 25,
-			drinkAmount = 300,
-			staminaAmount = -30,
+			regenerate = 240, -- antes 60 → ahora 4h
+			percentage = 20, -- antes 25 → más raro
+			drinkAmount = 120, -- antes 300 → apenas calma la sed
+			staminaAmount = -40, -- antes -30 → más castigo
+			poisonChance = 70, -- añadimos chance de enfermedad
+			radiationAmount = 20, -- leve radiación urbana
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Brazo de maniquí (curioso, más atmosférico que útil)
 		{
 			text = "@grab_arm",
 			fail = "@grab_arm_failed",
 			model = {
 				"Objects/props/shop_mannequin/male_arm_right.cgf",
 				"Objects/props/shop_mannequin/female_arm_right.cgf",
-				},
+			},
 			sound = "Play_pickup_plastic",
 			uses = 1,
-			regenerate = 120,
-			percentage = 35,
+			regenerate = 240, -- antes 120 → ahora menos frecuente
+			percentage = 20, -- antes 35% → más raro
 			spawn = "MannequinArm",
 			forceinteraction = true,
 		},
+
+		-- Agua de sink (urbana sucia, muy limitado)
 		{
 			text = "@drink_dirty_water",
 			fail = "@drink_water_empty",
@@ -332,18 +368,21 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			},
 			sound = "Play_drinkStream_drink",
 			uses = 1,
-			regenerate = 120,
-			percentage = 33,
-			consumableType = 5,
+			regenerate = 240, -- antes 120 → ahora más raro (4h)
+			percentage = 20, -- antes 33% → menos chance
+			consumableType = 5, -- dirty
 			useWithAction = "refill_item",
-			drinkAmount = 100,
-			geigercounter = 1,
-			radiationAmount = 100,
+			drinkAmount = 80, -- antes 100 → calma menos
+			geigercounter = 0.8, -- antes 1 → menos radiación
+			radiationAmount = 60, -- antes 100
+			poisonChance = 90, -- casi siempre enferma
 			tactical = 0,
 			swim = 0,
-			AIResponseChance = 3,
+			AIResponseChance = 5, -- chance de ruido IA más alto
 			AIResponseStrCategory = "ai_actionable_critter",
 		},
+
+		-- Agua de dispensador hospitalario (fuente potable confiable pero limitada)
 		{
 			text = "@drink_from_dispenser",
 			fail = "@drink_water_empty",
@@ -353,80 +392,92 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/hospital/hospital_water_dispenser_with_bottle.cgf",
 			},
 			sound = "Play_drinkStream_waterScoop",
-			uses = 1,
-			regenerate = 120,
-			percentage = 50,
-			consumableType = 2,
+			uses = 2,  -- antes 1 → puedes beber 2 veces
+			regenerate = 240, -- antes 120 → más tiempo de respawn
+			percentage = 70, -- antes 50 → más confiable
+			consumableType = 2, -- clean
 			useWithAction = "refill_item",
-			drinkAmount = 150,
+			drinkAmount = 150, -- estable, buen refill
 			tactical = 0,
 			swim = 0,
 			safezone = true,
 		},
+
+		-- Contenedor IBC (agua limpia, pero no debe ser farmeable fácil)
 		{
 			text = "@drink_from_container",
 			fail = "@drink_water_empty",
 			model = { "Objects/props/ibc_container/ibc_container.cgf" },
 			sound = "Play_drinkStream_waterScoop",
-			uses = 5,
-			regenerate = 120,
-			percentage = 66,
-			consumableType = 2,
+			uses = 3,  -- antes 5 → ahora solo 3 usos
+			regenerate = 300, -- antes 120 → ahora 5h
+			percentage = 75, -- antes 66 → más confiable
+			consumableType = 2, -- clean
 			useWithAction = "refill_item",
-			drinkAmount = 150,
+			drinkAmount = 120, -- antes 150 → rellena menos
 			tactical = 0,
 			swim = 0,
 		},
+
+		-- Bar pump (alcohol, rol divertido pero debe castigar)
 		{
 			text = "@drink_from_pump",
 			fail = "@drink_water_empty",
 			model = { "objects/props/restaurant_props/bar_pump/bar_pump.cgf" },
 			sound = "Play_drinkStream_drink",
-			uses = 2,
-			regenerate = 90,
-			percentage = 90,
-			consumableType = 7,
+			uses = 1,    -- antes 2 → un solo trago
+			regenerate = 240, -- antes 90 → ahora 4h
+			percentage = 80, -- antes 90
+			consumableType = 7, -- alcohol
 			useWithAction = "refill_item",
-			drinkAmount = 200,
-			torpidityAmount = 25,
+			drinkAmount = 100, -- antes 200 → apenas calma sed
+			torpidityAmount = 35, -- antes 25 → más mareo
+			staminaAmount = -20, -- castigo extra: baja energía
 			safezone = true,
 		},
+
+		-- Gas pump (combustible, muy tóxico si lo intentas beber)
 		{
 			text = "@drink_from_pump",
 			fail = "@drink_water_empty",
-			model = { 
+			model = {
 				"Objects/props/gasPump/gasPump.cgf",
 				"Objects/props/misc/old_gas_pump/old_gas_pump_01.cgf",
 			},
 			sound = "Play_drinkStream_waterScoop",
-			uses = 2,
-			regenerate = 90,
-			percentage = 90,
-			consumableType = 0,
+			uses = 1,    -- antes 2 → menos accesible
+			regenerate = 240, -- antes 90 → ahora 4h
+			percentage = 80, -- antes 90 → chance menor
+			consumableType = 0, -- diesel/fuel
 			useWithAction = "refill_item",
-			drinkAmount = 1,
-			torpidityAmount = 25,
-			staminaAmount = -25,
-			poisonChance = 50,
+			drinkAmount = 0, -- no calma sed
+			torpidityAmount = 40, -- antes 25 → más mareo
+			staminaAmount = -40, -- antes -25 → mayor castigo
+			poisonChance = 100, -- antes 50% → siempre tóxico
+			radiationAmount = 10, -- añadimos radiación leve
 		},
+
+		-- Oil tank (combustible industrial, más acceso que el pump, pero dañino igual)
 		{
 			text = "@siphon_fuel",
 			fail = "@siphon_fuel_failed",
-			model = { 
+			model = {
 				"Objects/props/industrial/tanks/oil_tank/oil_tank_a.cgf",
 				"Objects/props/industrial/tanks/oil_tank/oil_tank_b.cgf",
 			},
 			sound = "Play_drinkStream_waterScoop",
 			uses = 2,
-			regenerate = 90,
-			percentage = 90,
-			consumableType = 0,
+			regenerate = 180, -- antes 90 → ahora 3h
+			percentage = 70, -- antes 90
+			consumableType = 0, -- diesel/fuel
 			useWithAction = "refill_item",
-			drinkAmount = 1,
-			torpidityAmount = 10,
-			staminaAmount = -10,
-			poisonChance = 10,
+			drinkAmount = 0, -- no aporta sed
+			torpidityAmount = 20, -- antes 10 → más mareo
+			staminaAmount = -20, -- antes -10
+			poisonChance = 80, -- antes 10% → mucho más alto
+			radiationAmount = 5, -- toque leve de radiación
 		},
+
 
 		--------------------------------------------------
 		-- Stick sources
@@ -435,12 +486,12 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			text = "@search_bush",
 			fail = "@nothing_was_found",
 			material = {
-				"objects/natural/bushes/cliffbush/cliff_bush_green", 
-				"objects/natural/bushes/cliffbush/cliff_bush_yellow" 
+				"objects/natural/bushes/cliffbush/cliff_bush_green",
+				"objects/natural/bushes/cliffbush/cliff_bush_yellow"
 			},
 			model = {
-				"objects/natural/bushes/cliffbush/cliff_bush_green_mini.cgf", 
-				"objects/natural/bushes/cliffbush/cliff_bush_yellow_mini.cgf", 
+				"objects/natural/bushes/cliffbush/cliff_bush_green_mini.cgf",
+				"objects/natural/bushes/cliffbush/cliff_bush_yellow_mini.cgf",
 			},
 			sound = "Play_bush_movement_dry_large",
 			uses = 1,
@@ -468,14 +519,15 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"objects/props/industrial/vending_machines/vendingmachine_01.cgf",
 				"objects/props/industrial/vending_machines/vendingmachine_02.cgf",
 				"objects/props/industrial/vending_machines/vendingmachine_03.cgf",
-				},
+			},
 			sound = "Play_pickup_plastic",
-			uses = 2,
-			regenerate = 120,
-			percentage = 40,
+			uses = 1, -- antes 2 → un solo intento por máquina
+			regenerate = 300, -- antes 120 → ahora 5h de respawn
+			percentage = 20, -- antes 40% → más raro encontrar algo
 			spawn = "RandomDrinkVendingMachineContent",
 			safezone = true,
 		},
+
 
 		--------------------------------------------------
 		-- Electrical parts
@@ -524,14 +576,15 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/hospital/hospital_electrical/hospital_vital_signs_monitor_01b.cgf",
 				"Objects/props/hospital/hospital_electrical/hospital_xray_machine.cgf",
 				"Objects/props/hospital/hospital_electrical/ultrasound_machine.cgf",
-				},
+			},
 			sound = "Play_pickup_metal",
 			uses = 1,
-			regenerate = 300,
-			percentage = 45,
+			regenerate = 420, -- antes 300 → ahora 7h
+			percentage = 25, -- antes 45% → más raro
 			spawn = "RandomElectronicsContent",
 			forceinteraction = true,
 		},
+
 
 		--------------------------------------------------
 		-- Registers
@@ -539,7 +592,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		{
 			text = "@search_amcoins",
 			fail = "@nothing_was_found",
-			model = { 
+			model = {
 				"Objects/props/diner_assets/cash_register/cash_register.cgf",
 				"Objects/props/cash_register/cash_register.cgf",
 				"Objects/props/atm/atm.cgf",
@@ -547,12 +600,13 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			},
 			sound = "Play_pickup_metal",
 			uses = 1,
-			regenerate = 40,
-			percentage = 8, -- that is about one amcoin per town per hour.
+			regenerate = 180, -- antes 40 → ahora 3h (más especial)
+			percentage = 5, -- antes 8 → aún más raro
 			spawn = "CheckoutContent",
-			AIResponseChance = 3,
+			AIResponseChance = 5, -- chance mayor de atraer IA si lo usas
 			AIResponseStrCategory = "ai_actionable_critter",
 		},
+
 
 		--------------------------------------------------
 		-- Hiding Place (Small)
@@ -560,7 +614,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		{
 			text = "@search_hiding_spot",
 			fail = "@nothing_was_found",
-			model = { 
+			model = {
 				"Objects/props/residential_assets/toys/toy_bunny.cgf",
 				"Objects/props/clock/wallclock_2.cgf",
 				"Objects/props/residential_assets/deskware/notebook_stack_a.cgf",
@@ -795,7 +849,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		{
 			text = "@search_hiding_spot",
 			fail = "@nothing_was_found",
-			model = { 
+			model = {
 				"Objects/props/residential_assets/books/book_set_a.cgf",
 				"Objects/props/residential_assets/books/book_set_b.cgf",
 				"Objects/props/furniture/PictureFrame_3_pack/metal_landscape_fancy_pic2.cgf",
@@ -856,7 +910,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			fail = "@nothing_was_found",
 			model = {
 				"Objects/props/city_planter/plant_tray.cgf",
-				},
+			},
 			sound = "Play_sandbag_fill",
 			uses = 3,
 			regenerate = 120,
@@ -874,7 +928,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/tire/tire_pile/tire_pile001.cgf",
 				"Objects/props/tire/tire_pile/tire_pile002.cgf",
 				"Objects/props/tire/tire_pile/tire_pile003.cgf",
-				},
+			},
 			sound = "Play_pickup_plastic",
 			uses = 3,
 			regenerate = 240,
@@ -894,7 +948,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/structures/dock/rope_bollard.cgf",
 				"Objects/structures/dock/rope_bollard_01.cgf",
 				"Objects/structures/dock/rope_ground.cgf",
-				},
+			},
 			sound = "Play_pickup_fabric",
 			uses = 1,
 			regenerate = 120,
@@ -915,7 +969,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"objects/props/furniture/workbenches/workbench_a.cgf",
 				"objects/props/furniture/workbenches/workbench_b.cgf",
 				"Objects/basebuilding/other/workbench/workbench.cgf", -- someone started using basebuilding items in prefabs... so give it an action as well
-				},
+			},
 			sound = "Play_toolbox_search",
 			uses = 1,
 			regenerate = 120,
@@ -1129,7 +1183,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		--------------------------------------------------
 		-- Solar
 		--------------------------------------------------
---[[
+		--[[
 		{
 			text = "Tear off solar panel",
 			fail = "No usable solar panel left",
@@ -1208,7 +1262,6 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/Trash/city_trash/trash_box8.cgf",
 				"Objects/props/Trash/city_trash/trash_box9.cgf",
 				"Objects/props/Trash/city_trash/trash_box11.cgf",
-
 				"Objects/props/industrial/boxes/cardboard_box/cardboard_box100x60cm.cgf",
 				"Objects/props/industrial/boxes/cardboard_box/cardboard_box60cm.cgf",
 				"Objects/props/industrial/boxes/cardboard_box/cardboard_box60cm_b.cgf",
@@ -1241,12 +1294,10 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 				"Objects/props/industrial/junk/garbage/garbage_b.cgf",
 				"Objects/props/industrial/junk/garbage/garbage_c.cgf",
 				"Objects/props/industrial/junk/garbage/garbage_d.cgf",
-
 				"Objects/props/industrial/junk/trash_combine/trash_combine_a.cgf",
 				"Objects/props/industrial/junk/trash_combine/trash_combine_b.cgf",
 				"Objects/props/industrial/junk/trash_combine/trash_combine_c.cgf",
 				"Objects/props/industrial/junk/trash_combine/trash_combine_d.cgf",
-
 				"Objects/props/Trash/TrashPile/prefab_trashpile_large.cgf",
 				"Objects/props/Trash/TrashPile/prefab_trashpile_medium01.cgf",
 				"Objects/props/Trash/TrashPile/Trash_GarbagePile1.cgf",
@@ -2019,7 +2070,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			text = "@pick_apples",
 			fail = "@nothing_usable_was_found",
 			material = { "objects/props/apple_tree/apple_tree", },
-			model = { 
+			model = {
 				"objects/props/apple_tree/apple_tree_1.cgf",
 				"objects/props/apple_tree/apple_tree_2.cgf",
 				"objects/props/apple_tree/apple_tree_3.cgf",
@@ -2039,17 +2090,17 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		{
 			text = "@harvest_seaweed",
 			fail = "@nothing_usable_was_found",
-			model = { 
+			model = {
 				"objects/props/seaweed/seaweed_1.cgf",
 				"objects/props/seaweed/seaweed_2.cgf",
 				"objects/props/seaweed/seaweed_3.cgf",
 				"objects/props/seaweed/seaweed_underwater.cgf",
 				"objects/natural/water/aquatic_plants/seaweed.cgf",
 			},
-			material = { 
+			material = {
 				"objects/props/seaweed/seaweed_water",
 				"objects/props/seaweed/seaweed",
-			 },
+			},
 			sound = "Play_bush_movement_dry_large",
 			uses = 4,
 			regenerate = 250,
@@ -2060,12 +2111,12 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 			forceinteraction = true,
 			safezone = true,
 		},
-		
+
 		-- clams (on beaches)
 		{
 			text = "@harvest_clams",
 			fail = "@nothing_usable_was_found",
-			model = { 
+			model = {
 				"objects/consumables/clams/clam_bunch.cgf",
 			},
 			material = { "objects/consumables/clams/clam", },
@@ -2083,7 +2134,7 @@ safezone:				true if usable in safezones as well (defaults to false) - damagesca
 		{
 			text = "Harvest Cactus",
 			fail = "@nothing_usable_was_found",
-			model = { 
+			model = {
 				"objects/natural/vegetation/desert_plants/opuntia/OpuntiaFl02.cgf",
 				"objects/natural/vegetation/desert_plants/opuntia/OpuntiaFl03.cgf",
 				"objects/natural/vegetation/desert_plants/opuntia/OpuntiaFl04.cgf",
