@@ -15,25 +15,26 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "BruteMutant", percent = 100,
+					class = "BruteMutant",
+					percent = 100,
 					models =
-                    {
-                      
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf"     , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf"     , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf"           , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant.cdf"                , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf"        , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf"   , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_es_armored_dark.cdf", percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es1.cdf"    , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es2.cdf"    , percent = 5 },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf"              , percent = 15 },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid1.cdf"             , percent = 15 },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid2.cdf"             , percent = 15 },
-                    },
+					{
+
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf",      percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf",      percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf",            percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant.cdf",                 percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf",         percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf",    percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_es_armored_dark.cdf", percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es1.cdf",     percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_es2.cdf",     percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf",               percent = 15 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid1.cdf",              percent = 15 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid2.cdf",              percent = 15 },
+					},
 				},
 			},
 		},
@@ -43,20 +44,46 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "BruteMutant", percent = 100,
+					class = "BruteMutant",
+					percent = 100,
 					models =
 					{
-                        { name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf"     , percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf"     , percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf"           , percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant.cdf"                , percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf"        , percent = 5    },
-						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf"   , percent = 5    },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf"              , percent = 20   },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid1.cdf"             , percent = 20   },
-                        { name = "objects/characters/mutants/brutemutant/brute_humanoid2.cdf"             , percent = 20   },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01.cdf",      percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02.cdf",      percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_dark.cdf",            percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_01_dark.cdf", percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_clothed_02_dark.cdf", percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant.cdf",                 percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored.cdf",         percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_mutant_armored_dark.cdf",    percent = 5 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid.cdf",               percent = 20 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid1.cdf",              percent = 20 },
+						{ name = "objects/characters/mutants/brutemutant/brute_humanoid2.cdf",              percent = 20 },
+					},
+				},
+			},
+		},
+		{
+			category = "HumanZombieSolo",
+			classes =
+			{
+				{
+					class = "HumanZombie",
+					percent = 100,
+					models =
+					{
+						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf",                 percent = 10.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_dark.cdf",            percent = 10.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01_dark.cdf", percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02_dark.cdf", percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03_dark.cdf", percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04_dark.cdf", percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 8.0 },
 					},
 				},
 			},
@@ -67,16 +94,17 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "HumanZombie", percent = 80,
+					class = "HumanZombie",
+					percent = 80,
 					models =
 					{
-						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf", percent = 10.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05.cdf", percent = 8.0 },
-						{ name = "objects/characters/mutants/humanzombie/humanzombie_dark.cdf", percent = 10.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie.cdf",                 percent = 10.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_04.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05.cdf",      percent = 8.0 },
+						{ name = "objects/characters/mutants/humanzombie/humanzombie_dark.cdf",            percent = 10.0 },
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_01_dark.cdf", percent = 8.0 },
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_02_dark.cdf", percent = 8.0 },
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_03_dark.cdf", percent = 8.0 },
@@ -84,9 +112,9 @@ AISpawnerManager = {
 						{ name = "objects/characters/mutants/humanzombie/humanzombie_clothed_05_dark.cdf", percent = 8.0 },
 					},
 				},
-                { 
-                    category = "horde", percent = 20 
-                },
+				{
+					category = "horde", percent = 20
+				},
 			},
 		},
 
@@ -95,16 +123,17 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "Spiker", percent = 100,
+					class = "Spiker",
+					percent = 100,
 					models =
 					{
-						{ name = "objects/characters/bandits/spiker/spiker.cdf", percent = 10.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_01.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_02.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_03.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_04.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_clothed_05.cdf", percent = 8.0 },
-						{ name = "objects/characters/bandits/spiker/spiker_dark.cdf", percent = 10.0 },
+						{ name = "objects/characters/bandits/spiker/spiker.cdf",                 percent = 10.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_01.cdf",      percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_02.cdf",      percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_03.cdf",      percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_04.cdf",      percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_clothed_05.cdf",      percent = 8.0 },
+						{ name = "objects/characters/bandits/spiker/spiker_dark.cdf",            percent = 10.0 },
 						{ name = "objects/characters/bandits/spiker/spiker_clothed_01_dark.cdf", percent = 8.0 },
 						{ name = "objects/characters/bandits/spiker/spiker_clothed_02_dark.cdf", percent = 8.0 },
 						{ name = "objects/characters/bandits/spiker/spiker_clothed_03_dark.cdf", percent = 8.0 },
@@ -120,12 +149,14 @@ AISpawnerManager = {
 			classes =
 			{
 				-- add model variations
-				{ class = "Crazy", percent = 100,
+				{
+					class = "Crazy",
+					percent = 100,
 					models =
 					{
-						{ name = "objects/characters/bandits/crazy/crazy.cdf", percent = 25.0 },
-						{ name = "objects/characters/bandits/crazy/crazy_prison.cdf", percent = 25.0 },
-						{ name = "objects/characters/bandits/crazy/crazy_dark.cdf", percent = 25.0 },
+						{ name = "objects/characters/bandits/crazy/crazy.cdf",             percent = 25.0 },
+						{ name = "objects/characters/bandits/crazy/crazy_prison.cdf",      percent = 25.0 },
+						{ name = "objects/characters/bandits/crazy/crazy_dark.cdf",        percent = 25.0 },
 						{ name = "objects/characters/bandits/crazy/crazy_prison_dark.cdf", percent = 25.0 },
 					},
 				},
@@ -137,19 +168,20 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "Deer", percent = 33.3,
+					class = "Deer",
+					percent = 33.3,
 					models =
 					{
-						{ name = "objects/characters/animals/deer/deer.cdf", percent = 50.0 },
+						{ name = "objects/characters/animals/deer/deer.cdf",        percent = 50.0 },
 						{ name = "objects/characters/animals/deer/deer_female.cdf", percent = 50.0 },
 					},
 				},
-                { 
-                    class = "Donkey", percent = 33.3
-                },
-                { 
-                    class = "Ram", percent = 33.3
-                },
+				{
+					class = "Donkey", percent = 33.3
+				},
+				{
+					class = "Ram", percent = 33.3
+				},
 			},
 		},
 
@@ -158,21 +190,22 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "HumanSpider", percent = 100,
+					class = "HumanSpider",
+					percent = 100,
 					models =
-                    {
-                        { name = "objects/characters/mutants/human_spider/human_spider.cdf", percent = 10.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_dark.cdf", percent = 10.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_es1.cdf", percent = 20.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_es2.cdf", percent = 10.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_alien1.cdf", percent = 15.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_alien2.cdf", percent = 15.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_space.cdf", percent = 20.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_halloween.cdf", percent = 0.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_halloween2.cdf", percent = 0.0 },
-                        { name = "objects/characters/mutants/human_spider/human_spider_etha.cdf", percent = 0.0 },
-                                
-                    },
+					{
+						{ name = "objects/characters/mutants/human_spider/human_spider.cdf",            percent = 10.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_dark.cdf",       percent = 10.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_es1.cdf",        percent = 20.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_es2.cdf",        percent = 10.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_alien1.cdf",     percent = 15.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_alien2.cdf",     percent = 15.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_space.cdf",      percent = 20.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_halloween.cdf",  percent = 0.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_halloween2.cdf", percent = 0.0 },
+						{ name = "objects/characters/mutants/human_spider/human_spider_etha.cdf",       percent = 0.0 },
+
+					},
 				},
 			},
 		},
@@ -186,10 +219,11 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "BabySpider", percent = 100,
+					class = "BabySpider",
+					percent = 100,
 					models =
 					{
-						{ name = "objects/characters/animals/spider_large/spider_large.cdf"     , percent = 50.0 },
+						{ name = "objects/characters/animals/spider_large/spider_large.cdf",      percent = 50.0 },
 						{ name = "objects/characters/animals/spider_large/spider_large_dark.cdf", percent = 50.0 },
 					},
 				},
@@ -201,10 +235,11 @@ AISpawnerManager = {
 			classes =
 			{
 				{
-					class = "GiantRoach", percent = 50,
+					class = "GiantRoach",
+					percent = 50,
 					models =
 					{
-						{ name = "objects/characters/animals/giant_roach/giant_roach.cdf", percent = 50.0 },
+						{ name = "objects/characters/animals/giant_roach/giant_roach.cdf",      percent = 50.0 },
 						{ name = "objects/characters/animals/giant_roach/giant_roach_dark.cdf", percent = 50.0 },
 					},
 				}
@@ -212,20 +247,21 @@ AISpawnerManager = {
 		},
 		{
 			category = "Bear",
-            classes =
-            {
-                {
-                    class = "Bear", percent = 100,
-                    models =
-                    {
-                                { name = "objects/characters/animals/Bear/Bear.cdf", percent = 25.0 },
-                                { name = "objects/characters/animals/Bear/Bear1.cdf", percent = 25.0 },
-                                { name = "objects/characters/animals/Bear/Bear2.cdf", percent = 25.0 },
-                                { name = "objects/characters/animals/Bear/Bear3.cdf", percent = 25.0 },	
-                    },
-                },
-            },
-        },
+			classes =
+			{
+				{
+					class = "Bear",
+					percent = 100,
+					models =
+					{
+						{ name = "objects/characters/animals/Bear/Bear.cdf",  percent = 25.0 },
+						{ name = "objects/characters/animals/Bear/Bear1.cdf", percent = 25.0 },
+						{ name = "objects/characters/animals/Bear/Bear2.cdf", percent = 25.0 },
+						{ name = "objects/characters/animals/Bear/Bear3.cdf", percent = 25.0 },
+					},
+				},
+			},
+		},
 		{
 			category = "Donkey",
 			classes =
@@ -252,7 +288,7 @@ AISpawnerManager = {
 
 		{
 			category = "lone_wolf",
-			classes = 
+			classes =
 			{
 				{ class = "GreyWolf", percent = 100 },
 			},
@@ -260,36 +296,44 @@ AISpawnerManager = {
 
 		{
 			category = "wolf_pack",
-			pack = true, min = 2, max = 5,
+			pack = true,
+			min = 2,
+			max = 5,
 			classes =
 			{
-				{ 
-					class = "GreyWolf", percent = 100,
+				{
+					class = "GreyWolf",
+					percent = 100,
 					models =
 					{
-						{ 
+						{
 							-- Hack in SpawnAIInSector to spawn the rest of the pack as regular wolves models
-							name = "objects/characters/animals/greywolf/alphawolf.cdf", percent = 100.0 
+							name = "objects/characters/animals/greywolf/alphawolf.cdf",
+							percent = 100.0
 						},
-					},					
+					},
 				},
 			},
 		},
 
 		{
 			category = "wolf_pack_large",
-			pack = true, min = 3, max = 6,
+			pack = true,
+			min = 3,
+			max = 6,
 			classes =
 			{
-				{ 
-					class = "GreyWolf", percent = 100,
+				{
+					class = "GreyWolf",
+					percent = 100,
 					models =
 					{
-						{ 
+						{
 							-- Hack in SpawnAIInSector to spawn the rest of the pack as regular wolves models
-							name = "objects/characters/animals/greywolf/alphawolf.cdf", percent = 100.0 
+							name = "objects/characters/animals/greywolf/alphawolf.cdf",
+							percent = 100.0
 						},
-					},					
+					},
 				},
 			},
 		},
@@ -302,11 +346,11 @@ AISpawnerManager = {
 			category = "Spiker",
 			classes =
 			{
-				{ category = "CrazySingle", percent = 20 },
-				{ category = "SpikerSingle", percent = 25 },
+				{ category = "CrazySingle",       percent = 20 },
+				{ category = "SpikerSingle",      percent = 25 },
 				{ category = "HumanZombieSingle", percent = 20 },
 				{ category = "BruteMutantSingle", percent = 20 },
-				{ category = "spiker_pack", percent = 15 },
+				{ category = "spiker_pack",       percent = 15 },
 			},
 		},
 
@@ -320,7 +364,9 @@ AISpawnerManager = {
 
 		{
 			category = "RandomDeer",
-			pack = true, min = 1, max = 2,
+			pack = true,
+			min = 1,
+			max = 2,
 			classes =
 			{
 				{ category = "DeerSingle", percent = 100 },
@@ -334,7 +380,7 @@ AISpawnerManager = {
 				{ category = "BruteMutantSingle", percent = 100 },
 			},
 		},
-		
+
 		{
 			category = "brute_armored",
 			classes =
@@ -342,7 +388,7 @@ AISpawnerManager = {
 				{ category = "BruteMutantArmored", percent = 100 },
 			},
 		},
-		
+
 		{
 			category = "twoheaddog",
 			classes =
@@ -353,7 +399,9 @@ AISpawnerManager = {
 
 		{
 			category = "spiker_pack",
-			pack = true, min = 3, max = 7,
+			pack = true,
+			min = 3,
+			max = 7,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnAIInSector() will make first ai be a Spiker,
@@ -364,7 +412,9 @@ AISpawnerManager = {
 
 		{
 			category = "brute_pack",
-			pack = true, min = 5, max = 10,
+			pack = true,
+			min = 5,
+			max = 10,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnAIInSector() will make first ai be a brute,
@@ -375,7 +425,9 @@ AISpawnerManager = {
 
 		{
 			category = "brute_hunting_pack",
-			pack = true, min = 5, max = 10,
+			pack = true,
+			min = 5,
+			max = 10,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnAIInSector() will make first ai be a brute,
@@ -391,12 +443,13 @@ AISpawnerManager = {
 
 		{
 			category = "horde",
-			min = 15, max = 20,
+			min = 15,
+			max = 20,
 			classes =
 			{
 				-- Hack in CAISpawnerManager::SpawnHorde() to spawn at least 1 brute per horde as a psuedo leader
-				{ category = "CrazySingle", percent = 25 },
-				{ category = "SpikerSingle", percent = 25 },
+				{ category = "CrazySingle",       percent = 25 },
+				{ category = "SpikerSingle",      percent = 25 },
 				{ category = "HumanZombieSingle", percent = 20 },
 				{ category = "BruteMutantSingle", percent = 30 },
 			},
@@ -405,11 +458,12 @@ AISpawnerManager = {
 		{
 			-- Essentially the same as a horde, but no brutes
 			category = "mutant_invasion",
-			min = 15, max = 20,
+			min = 15,
+			max = 20,
 			classes =
 			{
-				{ category = "CrazySingle", percent = 40 },
-				{ category = "SpikerSingle", percent = 30 },
+				{ category = "CrazySingle",       percent = 40 },
+				{ category = "SpikerSingle",      percent = 30 },
 				{ category = "HumanZombieSingle", percent = 30 },
 			},
 		},
@@ -417,8 +471,9 @@ AISpawnerManager = {
 		{
 			-- Doesn't work yet, need a no timed explosion variant'
 			category = "babyspider_invasion",
-			min = 10, max = 15,
-			classes = 
+			min = 10,
+			max = 15,
+			classes =
 			{
 				{ category = "BabySpider", percent = 100 },
 			},
@@ -426,8 +481,9 @@ AISpawnerManager = {
 
 		{
 			category = "bear_invasion",
-			min = 3, max = 5,
-			classes = 
+			min = 3,
+			max = 5,
+			classes =
 			{
 				{ class = "Bear", percent = 100 },
 			},
@@ -435,8 +491,9 @@ AISpawnerManager = {
 
 		{
 			category = "giantroach_invasion",
-			min = 10, max = 15,
-			classes = 
+			min = 10,
+			max = 15,
+			classes =
 			{
 				{ category = "GiantRoachSingle", percent = 100 },
 			},
@@ -444,8 +501,9 @@ AISpawnerManager = {
 
 		{
 			category = "twoheaddog_invasion",
-			min = 1, max = 5,
-			classes = 
+			min = 1,
+			max = 5,
+			classes =
 			{
 				{ class = "TwoHeadDog", percent = 100 },
 			},
@@ -458,21 +516,21 @@ AISpawnerManager = {
 
 		{
 			category = "ai_actionable_roach",
-			classes = 
+			classes =
 			{
 				{ category = "GiantRoachSingle", percent = 100 },
 			},
 		},
 		{
 			category = "ai_actionable_spider",
-			classes = 
+			classes =
 			{
 				{ category = "BabySpiderSingle", percent = 100 },
 			},
 		},
 		{
 			category = "ai_actionable_critter",
-			classes = 
+			classes =
 			{
 				{ category = "BabySpiderSingle", percent = 50 },
 				{ category = "GiantRoachSingle", percent = 50 },
@@ -485,11 +543,12 @@ AISpawnerManager = {
 
 		{
 			category = "test_group",
-			min = 5, max = 10,
-			classes = 
+			min = 5,
+			max = 10,
+			classes =
 			{
-				{ category = "CrazySingle", percent = 45 },
-				{ category = "SpikerSingle", percent = 30 },
+				{ category = "CrazySingle",       percent = 45 },
+				{ category = "SpikerSingle",      percent = 30 },
 				{ category = "HumanZombieSingle", percent = 20 },
 				{ category = "BruteMutantSingle", percent = 5 },
 			},
@@ -523,7 +582,9 @@ AISpawnerManager = {
 		{
 			-- This should create a pack of one alpha only
 			category = "test_wolf",
-			pack = true, min = 1, max = 1,
+			pack = true,
+			min = 1,
+			max = 1,
 			classes =
 			{
 				{ class = "GreyWolf", percent = 100 },
@@ -577,19 +638,18 @@ end
 function AISpawnerManager:SpawnHorde(targetPos)
 	--Log("AISpawnerManager:SpawnHorde");
 
-	local vSpawnPos = {x=0,y=0,z=0}
+	local vSpawnPos = { x = 0, y = 0, z = 0 }
 
 
 	local rnd = random(1, 100);
 
 	if rnd <= 100 then
 		AISM.SpawnHorde(targetPos, "horde")
-	--elseif rnd < 90 then
+		--elseif rnd < 90 then
 		--AISM.SpawnInvasion(vSpawnPos, targetPos, "mutant_invasion", true)
-	--else
+		--else
 		--AISM.SpawnInvasion(vSpawnPos, targetPos, "twoheaddog_invasion", true)
 	end
-
 end
 
 -- Load mods
